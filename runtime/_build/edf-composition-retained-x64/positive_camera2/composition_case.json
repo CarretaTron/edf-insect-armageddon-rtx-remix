@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "case": "positive_camera2",
+  "architecture": "x64",
+  "status": "prepared_not_executed",
+  "notGpuEvidence": true,
+  "notEdfGameplay": true,
+  "directory": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x64\\positive_camera2",
+  "profile": "D:\\EDF IA RTX REMIX\\profiles\\edf-composition-preview\\rtx.conf",
+  "profileSha256": "b11c8368244fe53e860515bcd0748919df03b9f27fb10556d9df27af6f78c88b",
+  "arguments": [
+    "--frames",
+    "4",
+    "--no-control",
+    "--presentation-pattern",
+    "--source-camera",
+    "1"
+  ],
+  "executableSha1": "056b71ecce1130a9647062c1129988ee8aa228ba",
+  "runtimeBinary": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x64\\positive_camera2\\d3d9.dll",
+  "runtimeSha256Before": "b051fe14b0965c7a45d3a2370d8dc68fc7a18e6ae8ba43ef4a5c4e0d7d745f9e",
+  "expected": {
+    "sourceCamera": 1,
+    "expectedFrame": 1,
+    "expectedComposition": true
+  },
+  "activeGameInstallTouched": false
+}

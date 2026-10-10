@@ -1,0 +1,814 @@
+{
+  "schema": 1,
+  "passed": true,
+  "inputDirectory": "D:\\EDF IA RTX REMIX\\captures\\edf-pt-probe\\session_1791490947848472_12776",
+  "outputDirectory": "D:\\EDF IA RTX REMIX\\analysis\\edf\\visualization\\images",
+  "compositionPerformed": false,
+  "originalFilesPreserved": true,
+  "exposureEV": 0.0,
+  "directRadianceTransform": "max(0,RGB)*2^EV; Reinhard x/(1+x); exact IEC sRGB transfer",
+  "albedoTransform": "linear UNORM RGB; exact IEC sRGB transfer; alpha ignored",
+  "finalEncoding": "display",
+  "finalEncodingEvidence": {
+    "method": "explicit CLI",
+    "encoding": "display"
+  },
+  "depthTransform": "positive view-space distance (-z for camera flags & 1); shared blue/green/red scale; black misses",
+  "depthRange": [
+    965.7193603515625,
+    1332.4019775390625
+  ],
+  "commonCropBoxExclusive": [
+    1127,
+    546,
+    1920,
+    703
+  ],
+  "checksumCacheEvidence": {
+    "path": "analysis\\edf\\visualization\\actual_edf_verification.json",
+    "sha256": "08329255375ca94e10a397e18c23ce6fe0213c0c5c5e89474bd303a03c77f7e4",
+    "method": "Recompute raw SHA256 against passed verifier's metadata-bound SHA256/FNV evidence."
+  },
+  "metadata": [
+    {
+      "file": "edf_pt_request_1_frame_1043.json",
+      "sha256": "4205e5874645ad823320066042c3e86f5645729d00c0660ff56e3c20c585d709"
+    },
+    {
+      "file": "edf_pt_request_2_frame_1112.json",
+      "sha256": "a850675a194803486eb2870d62161ba5cd3a16a128538d453d3d757e28cfb5ac"
+    },
+    {
+      "file": "edf_pt_request_3_frame_1171.json",
+      "sha256": "0050ac232bae0b3476dfb774ed72c2dcf931c76dee21e9d8cc4d5708ce4dfebc"
+    }
+  ],
+  "samples": [
+    {
+      "requestId": 1,
+      "frameId": 1043,
+      "width": 1920,
+      "height": 1080,
+      "hitCount": 8705,
+      "hitBoundsInclusive": [
+        1352,
+        562,
+        1916,
+        616
+      ],
+      "cropBoxExclusive": [
+        1336,
+        546,
+        1920,
+        633
+      ],
+      "distanceRange": [
+        965.7193603515625,
+        1301.545166015625
+      ],
+      "sourceImages": [
+        {
+          "file": "edf_pt_request_1_frame_1043_linear_z.bin",
+          "sha256": "a063d2a76befb55298e53a4e02563efc4e1b4e642126d7d313973b2e5362ad8f",
+          "fnv1a64": "0x9f9c45beda41934d",
+          "byteCount": 8294400,
+          "checksumValidation": "recomputed SHA256 + metadata-bound verified FNV",
+          "name": "linear_z",
+          "format": 100,
+          "bytesPerPixel": 4,
+          "nonfiniteValues": 0
+        },
+        {
+          "file": "edf_pt_request_1_frame_1043_albedo.bin",
+          "sha256": "8a46c3848f7d966899c1a9c85cb1f8edab6d8bb63ae1f7b2c8369992dd4e917b",
+          "fnv1a64": "0xbf2842520f4e594a",
+          "byteCount": 8294400,
+          "checksumValidation": "recomputed SHA256 + metadata-bound verified FNV",
+          "name": "albedo",
+          "format": 64,
+          "bytesPerPixel": 4,
+          "nonfiniteValues": 0,
+          "rgbMinimum": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rgbMaximum": [
+            0.30498533724340177,
+            0.31378299120234604,
+            0.3479960899315738
+          ],
+          "negativeRgbValues": 0,
+          "rgbValuesAboveOne": 0,
+          "alphaMinimum": 0.0,
+          "alphaMaximum": 1.0,
+          "alphaUsedForCoverage": false,
+          "displayEncoding": "linear",
+          "displayExposureEV": null,
+          "negativeDisplayClampRequired": false,
+          "upperDisplayClampRequired": false,
+          "reinhardApplied": false,
+          "srgbTransferApplied": true
+        },
+        {
+          "file": "edf_pt_request_1_frame_1043_direct_diffuse_radiance.bin",
+          "sha256": "e3308eb193ddc19ab33a2c06a018d89626a16db319c3f061e09ec48d854c6b87",
+          "fnv1a64": "0x831e5b4697ebeb99",
+          "byteCount": 16588800,
+          "checksumValidation": "recomputed SHA256 + metadata-bound verified FNV",
+          "name": "direct_diffuse_radiance",
+          "format": 97,
+          "bytesPerPixel": 8,
+          "nonfiniteValues": 0,
+          "rgbMinimum": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rgbMaximum": [
+            1.4013671875,
+            1.6123046875,
+            1.7626953125
+          ],
+          "negativeRgbValues": 0,
+          "rgbValuesAboveOne": 5373,
+          "alphaMinimum": 0.0,
+          "alphaMaximum": 65504.0,
+          "alphaUsedForCoverage": false,
+          "displayEncoding": "hdr",
+          "displayExposureEV": 0.0,
+          "negativeDisplayClampRequired": false,
+          "upperDisplayClampRequired": false,
+          "reinhardApplied": true,
+          "srgbTransferApplied": true
+        },
+        {
+          "file": "edf_pt_request_1_frame_1043_final_offscreen.bin",
+          "sha256": "52b4e40620ad394b1c3f57245bdc61c89a9d9361d9a6669db6f65b16075971c7",
+          "fnv1a64": "0xca13fa3578933da9",
+          "byteCount": 16588800,
+          "checksumValidation": "recomputed SHA256 + metadata-bound verified FNV",
+          "name": "final_offscreen",
+          "format": 97,
+          "bytesPerPixel": 8,
+          "nonfiniteValues": 0,
+          "rgbMinimum": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rgbMaximum": [
+            0.8046875,
+            0.83642578125,
+            0.86376953125
+          ],
+          "negativeRgbValues": 0,
+          "rgbValuesAboveOne": 0,
+          "alphaMinimum": 1.0,
+          "alphaMaximum": 1.0,
+          "alphaUsedForCoverage": false,
+          "displayEncoding": "display",
+          "displayExposureEV": null,
+          "negativeDisplayClampRequired": false,
+          "upperDisplayClampRequired": false,
+          "reinhardApplied": false,
+          "srgbTransferApplied": false
+        }
+      ],
+      "originalBackbuffer": {
+        "slot": 0,
+        "format": 44,
+        "before": {
+          "file": "edf_pt_request_1_frame_1043_original_target_0_before.bin",
+          "sha256": "c397e7759770c46be60022e1636ed27320e05aba5ecc96c296c5c05816f6639c",
+          "fnv1a64": "0x2035b7d373dc5ad2",
+          "byteCount": 8294400,
+          "checksumValidation": "recomputed SHA256 + metadata-bound verified FNV"
+        },
+        "after": {
+          "file": "edf_pt_request_1_frame_1043_original_target_0_after.bin",
+          "sha256": "c397e7759770c46be60022e1636ed27320e05aba5ecc96c296c5c05816f6639c",
+          "fnv1a64": "0x2035b7d373dc5ad2",
+          "byteCount": 8294400,
+          "checksumValidation": "recomputed SHA256 + metadata-bound verified FNV"
+        },
+        "fullMemcmpEqual": true
+      },
+      "gpuCompleted": true,
+      "alphaUsedForCoverage": false
+    },
+    {
+      "requestId": 2,
+      "frameId": 1112,
+      "width": 1920,
+      "height": 1080,
+      "hitCount": 8602,
+      "hitBoundsInclusive": [
+        1335,
+        562,
+        1894,
+        616
+      ],
+      "cropBoxExclusive": [
+        1319,
+        546,
+        1911,
+        633
+      ],
+      "distanceRange": [
+        970.7799072265625,
+        1305.1990966796875
+      ],
+      "sourceImages": [
+        {
+          "file": "edf_pt_request_2_frame_1112_linear_z.bin",
+          "sha256": "9941b7850c9875d735817cef50ee17a7f88bcd7c106ad8ca45c620076c3430b2",
+          "fnv1a64": "0x208d834484b72c0f",
+          "byteCount": 8294400,
+          "checksumValidation": "recomputed SHA256 + metadata-bound verified FNV",
+          "name": "linear_z",
+          "format": 100,
+          "bytesPerPixel": 4,
+          "nonfiniteValues": 0
+        },
+        {
+          "file": "edf_pt_request_2_frame_1112_albedo.bin",
+          "sha256": "caa31d39986664f516f450a5582562747d24703794a063e37761369054a96540",
+          "fnv1a64": "0x24d54892a74d66bd",
+          "byteCount": 8294400,
+          "checksumValidation": "recomputed SHA256 + metadata-bound verified FNV",
+          "name": "albedo",
+          "format": 64,
+          "bytesPerPixel": 4,
+          "nonfiniteValues": 0,
+          "rgbMinimum": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rgbMaximum": [
+            0.30498533724340177,
+            0.31378299120234604,
+            0.3479960899315738
+          ],
+          "negativeRgbValues": 0,
+          "rgbValuesAboveOne": 0,
+          "alphaMinimum": 0.0,
+          "alphaMaximum": 1.0,
+          "alphaUsedForCoverage": false,
+          "displayEncoding": "linear",
+          "displayExposureEV": null,
+          "negativeDisplayClampRequired": false,
+          "upperDisplayClampRequired": false,
+          "reinhardApplied": false,
+          "srgbTransferApplied": true
+        },
+        {
+          "file": "edf_pt_request_2_frame_1112_direct_diffuse_radiance.bin",
+          "sha256": "003e4d8950601c5f881562689c239d50a7ef9ea13494d32417581cff78284fb5",
+          "fnv1a64": "0x62e8e12d4fda7e92",
+          "byteCount": 16588800,
+          "checksumValidation": "recomputed SHA256 + metadata-bound verified FNV",
+          "name": "direct_diffuse_radiance",
+          "format": 97,
+          "bytesPerPixel": 8,
+          "nonfiniteValues": 0,
+          "rgbMinimum": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rgbMaximum": [
+            1.396484375,
+            1.611328125,
+            1.755859375
+          ],
+          "negativeRgbValues": 0,
+          "rgbValuesAboveOne": 5347,
+          "alphaMinimum": 0.0,
+          "alphaMaximum": 65504.0,
+          "alphaUsedForCoverage": false,
+          "displayEncoding": "hdr",
+          "displayExposureEV": 0.0,
+          "negativeDisplayClampRequired": false,
+          "upperDisplayClampRequired": false,
+          "reinhardApplied": true,
+          "srgbTransferApplied": true
+        },
+        {
+          "file": "edf_pt_request_2_frame_1112_final_offscreen.bin",
+          "sha256": "530916a226e5fb4f8ae0dd0da1a993fa5fbc31b2c6091a1dc44006b23deaf0c5",
+          "fnv1a64": "0x7f3ccfc9893757ba",
+          "byteCount": 16588800,
+          "checksumValidation": "recomputed SHA256 + metadata-bound verified FNV",
+          "name": "final_offscreen",
+          "format": 97,
+          "bytesPerPixel": 8,
+          "nonfiniteValues": 0,
+          "rgbMinimum": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rgbMaximum": [
+            0.85009765625,
+            0.875,
+            0.89892578125
+          ],
+          "negativeRgbValues": 0,
+          "rgbValuesAboveOne": 0,
+          "alphaMinimum": 1.0,
+          "alphaMaximum": 1.0,
+          "alphaUsedForCoverage": false,
+          "displayEncoding": "display",
+          "displayExposureEV": null,
+          "negativeDisplayClampRequired": false,
+          "upperDisplayClampRequired": false,
+          "reinhardApplied": false,
+          "srgbTransferApplied": false
+        }
+      ],
+      "originalBackbuffer": {
+        "slot": 0,
+        "format": 44,
+        "before": {
+          "file": "edf_pt_request_2_frame_1112_original_target_0_before.bin",
+          "sha256": "722c9a12eda7a0c6b406b8d8b7eaf05732af10af60492126153a64b346c9fe19",
+          "fnv1a64": "0x827c787e70eae58f",
+          "byteCount": 8294400,
+          "checksumValidation": "recomputed SHA256 + metadata-bound verified FNV"
+        },
+        "after": {
+          "file": "edf_pt_request_2_frame_1112_original_target_0_after.bin",
+          "sha256": "722c9a12eda7a0c6b406b8d8b7eaf05732af10af60492126153a64b346c9fe19",
+          "fnv1a64": "0x827c787e70eae58f",
+          "byteCount": 8294400,
+          "checksumValidation": "recomputed SHA256 + metadata-bound verified FNV"
+        },
+        "fullMemcmpEqual": true
+      },
+      "gpuCompleted": true,
+      "alphaUsedForCoverage": false
+    },
+    {
+      "requestId": 3,
+      "frameId": 1171,
+      "width": 1920,
+      "height": 1080,
+      "hitCount": 7581,
+      "hitBoundsInclusive": [
+        1143,
+        635,
+        1663,
+        686
+      ],
+      "cropBoxExclusive": [
+        1127,
+        619,
+        1680,
+        703
+      ],
+      "distanceRange": [
+        1019.783203125,
+        1332.4019775390625
+      ],
+      "sourceImages": [
+        {
+          "file": "edf_pt_request_3_frame_1171_linear_z.bin",
+          "sha256": "bd6dff05d6c3f23faaadc18d07b3adfefd1b427867fdbf6a3849e328ecfb1981",
+          "fnv1a64": "0xa02960a29f13b489",
+          "byteCount": 8294400,
+          "checksumValidation": "recomputed SHA256 + metadata-bound verified FNV",
+          "name": "linear_z",
+          "format": 100,
+          "bytesPerPixel": 4,
+          "nonfiniteValues": 0
+        },
+        {
+          "file": "edf_pt_request_3_frame_1171_albedo.bin",
+          "sha256": "c693f15101a6653bcf4492761a4c11d62dc4c6ba6d6780ff6db88736b3f56c47",
+          "fnv1a64": "0x4abe887c63d55e2f",
+          "byteCount": 8294400,
+          "checksumValidation": "recomputed SHA256 + metadata-bound verified FNV",
+          "name": "albedo",
+          "format": 64,
+          "bytesPerPixel": 4,
+          "nonfiniteValues": 0,
+          "rgbMinimum": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rgbMaximum": [
+            0.3235581622678397,
+            0.31378299120234604,
+            0.3460410557184751
+          ],
+          "negativeRgbValues": 0,
+          "rgbValuesAboveOne": 0,
+          "alphaMinimum": 0.0,
+          "alphaMaximum": 1.0,
+          "alphaUsedForCoverage": false,
+          "displayEncoding": "linear",
+          "displayExposureEV": null,
+          "negativeDisplayClampRequired": false,
+          "upperDisplayClampRequired": false,
+          "reinhardApplied": false,
+          "srgbTransferApplied": true
+        },
+        {
+          "file": "edf_pt_request_3_frame_1171_direct_diffuse_radiance.bin",
+          "sha256": "8d60e796c4077f5a2f1db1ea3f7294596dd1436cc357a6cac8b553da4857cb22",
+          "fnv1a64": "0xe80be3d37f1d5cbd",
+          "byteCount": 16588800,
+          "checksumValidation": "recomputed SHA256 + metadata-bound verified FNV",
+          "name": "direct_diffuse_radiance",
+          "format": 97,
+          "bytesPerPixel": 8,
+          "nonfiniteValues": 0,
+          "rgbMinimum": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rgbMaximum": [
+            1.40234375,
+            1.611328125,
+            1.7626953125
+          ],
+          "negativeRgbValues": 0,
+          "rgbValuesAboveOne": 4709,
+          "alphaMinimum": 0.0,
+          "alphaMaximum": 65504.0,
+          "alphaUsedForCoverage": false,
+          "displayEncoding": "hdr",
+          "displayExposureEV": 0.0,
+          "negativeDisplayClampRequired": false,
+          "upperDisplayClampRequired": false,
+          "reinhardApplied": true,
+          "srgbTransferApplied": true
+        },
+        {
+          "file": "edf_pt_request_3_frame_1171_final_offscreen.bin",
+          "sha256": "0a482ab63a93fe566f07a29b61f87478fa6d2dbb8b10abaa585715994ae0e515",
+          "fnv1a64": "0xee5f728e5bfd5244",
+          "byteCount": 16588800,
+          "checksumValidation": "recomputed SHA256 + metadata-bound verified FNV",
+          "name": "final_offscreen",
+          "format": 97,
+          "bytesPerPixel": 8,
+          "nonfiniteValues": 0,
+          "rgbMinimum": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rgbMaximum": [
+            0.88671875,
+            0.89892578125,
+            0.919921875
+          ],
+          "negativeRgbValues": 0,
+          "rgbValuesAboveOne": 0,
+          "alphaMinimum": 1.0,
+          "alphaMaximum": 1.0,
+          "alphaUsedForCoverage": false,
+          "displayEncoding": "display",
+          "displayExposureEV": null,
+          "negativeDisplayClampRequired": false,
+          "upperDisplayClampRequired": false,
+          "reinhardApplied": false,
+          "srgbTransferApplied": false
+        }
+      ],
+      "originalBackbuffer": {
+        "slot": 0,
+        "format": 44,
+        "before": {
+          "file": "edf_pt_request_3_frame_1171_original_target_0_before.bin",
+          "sha256": "b397a0dbc78454a61e57930a60b6ac3e6e09d3cc2ccb2d39331092fc079cb069",
+          "fnv1a64": "0x1e83f2df430056ab",
+          "byteCount": 8294400,
+          "checksumValidation": "recomputed SHA256 + metadata-bound verified FNV"
+        },
+        "after": {
+          "file": "edf_pt_request_3_frame_1171_original_target_0_after.bin",
+          "sha256": "b397a0dbc78454a61e57930a60b6ac3e6e09d3cc2ccb2d39331092fc079cb069",
+          "fnv1a64": "0x1e83f2df430056ab",
+          "byteCount": 8294400,
+          "checksumValidation": "recomputed SHA256 + metadata-bound verified FNV"
+        },
+        "fullMemcmpEqual": true
+      },
+      "gpuCompleted": true,
+      "alphaUsedForCoverage": false
+    }
+  ],
+  "outputs": [
+    {
+      "file": "request_1_frame_1043_linear_z.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "973333be786d31ad0a04336e899785715d2c177f2bcbabd4ff33f9b56c148d86"
+    },
+    {
+      "file": "request_1_frame_1043_linear_z_crop.png",
+      "width": 584,
+      "height": 87,
+      "sha256": "ebade21a22a97f488e3fcb3178362457c8cb1de27c020e40c0ea44f010ae442c"
+    },
+    {
+      "file": "request_1_frame_1043_hit_mask.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "6cceb3f46a0a75ecaf654165762221fac0fa9f5826407f1086accb9bb13066c1"
+    },
+    {
+      "file": "request_1_frame_1043_hit_mask_crop.png",
+      "width": 584,
+      "height": 87,
+      "sha256": "4b5e1a1c91544cae31743a27c2c9bb7a191d2e112441deabe0e8bb4a75a90a8d"
+    },
+    {
+      "file": "request_1_frame_1043_albedo.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "fd1368d34bfd52c5b080944095a3e067eb0e7e4f6b2593a57c4d5bc730e251bc"
+    },
+    {
+      "file": "request_1_frame_1043_albedo_crop.png",
+      "width": 584,
+      "height": 87,
+      "sha256": "58c4bdf802372cc21dd221b33c78a9a6396efd6447274f3e4a32c04c625a3e7a"
+    },
+    {
+      "file": "request_1_frame_1043_direct_diffuse_radiance.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "3916957683f2e39c41cda97a47f9033044e5c87a795cf82e03478966dd3f3bd1"
+    },
+    {
+      "file": "request_1_frame_1043_direct_diffuse_radiance_crop.png",
+      "width": 584,
+      "height": 87,
+      "sha256": "e8f666b695d1f502261ebd256988b34ed59d1acae2163612f43972ab55450162"
+    },
+    {
+      "file": "request_1_frame_1043_final_offscreen.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "8dbf95c75ac1a3b96f46ab53067cc9b7ca267c18a130cb169a2f9c6f8e898446"
+    },
+    {
+      "file": "request_1_frame_1043_final_offscreen_crop.png",
+      "width": 584,
+      "height": 87,
+      "sha256": "6c5895e2cd814694591962a7dd78f6b1c90183c2a28994071e8326b839213543"
+    },
+    {
+      "file": "request_1_frame_1043_original_backbuffer.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "98f3cd1f5a6fc92cbe6756177db5509384e960c9abdab6b2260e06595093b3f0"
+    },
+    {
+      "file": "request_1_frame_1043_original_backbuffer_crop.png",
+      "width": 584,
+      "height": 87,
+      "sha256": "606d60ba6ecb2b4a07c272fd336cde5d672ed1dccfd80f6fb18014a8bd677167"
+    },
+    {
+      "file": "request_2_frame_1112_linear_z.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "0de0e184f8605f0ba62ff6b73e467c987c02346832d5d6f95039f910811d433e"
+    },
+    {
+      "file": "request_2_frame_1112_linear_z_crop.png",
+      "width": 592,
+      "height": 87,
+      "sha256": "23e7b1563f0be4f6551f6b845ad1ca7b0bf49668d7bf633ff584f2b00feb1cca"
+    },
+    {
+      "file": "request_2_frame_1112_hit_mask.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "37364880cab6c39df02633c6a11932a359490d631e43388ff62e289811e67cab"
+    },
+    {
+      "file": "request_2_frame_1112_hit_mask_crop.png",
+      "width": 592,
+      "height": 87,
+      "sha256": "7977f92b019223678af71963f99881d59ef89bb1af52e024b4dd050a1952dfd4"
+    },
+    {
+      "file": "request_2_frame_1112_albedo.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "ef87d5443fda88fde9b5bb5761180c70f730a6b35dcd01a4d69426f5a45c997c"
+    },
+    {
+      "file": "request_2_frame_1112_albedo_crop.png",
+      "width": 592,
+      "height": 87,
+      "sha256": "0ed7e6b12fd85d7eb2ef2931c551da6ee90a2c9e2e658a816e6a7332d0c39b10"
+    },
+    {
+      "file": "request_2_frame_1112_direct_diffuse_radiance.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "9b60e98feca400a51f0e2b91d8c5e16d04dfbdc5a9cdd8cc67c3689a6476ddde"
+    },
+    {
+      "file": "request_2_frame_1112_direct_diffuse_radiance_crop.png",
+      "width": 592,
+      "height": 87,
+      "sha256": "bdee639016969db6bf4b3f2bc1553227c96b8575d6bbf1a0e91ad318832af0ef"
+    },
+    {
+      "file": "request_2_frame_1112_final_offscreen.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "9b690a322c46f3d4c6a3b246b47ffb1cac11c18b51f46227095924016e141fdf"
+    },
+    {
+      "file": "request_2_frame_1112_final_offscreen_crop.png",
+      "width": 592,
+      "height": 87,
+      "sha256": "8564ed579411fa284218ecccc66384150a6a26422a63915ee5367b88da5d0f39"
+    },
+    {
+      "file": "request_2_frame_1112_original_backbuffer.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "640a443da21b4af8b2e15df4abfeb7dd94ea6b25ae33fcf2b731bb244ffcb669"
+    },
+    {
+      "file": "request_2_frame_1112_original_backbuffer_crop.png",
+      "width": 592,
+      "height": 87,
+      "sha256": "71eb76f4ae411fa8b0f14d1bb4b24c18a0c473f434ea0acf55ef5d68658f3410"
+    },
+    {
+      "file": "request_3_frame_1171_linear_z.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "b9df3a688f444849b6abd667cec10db3df1a01ea82d307103fb54163e45fc813"
+    },
+    {
+      "file": "request_3_frame_1171_linear_z_crop.png",
+      "width": 553,
+      "height": 84,
+      "sha256": "910d68ea7c2f927ae6bea8805ebdc4c97c6541cb58ad2df72fcd60d2c254935b"
+    },
+    {
+      "file": "request_3_frame_1171_hit_mask.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "f91f8ad4f63e1d778c44d26beaa58a0ad96e5cae6fd85350a73424f16e1f80f8"
+    },
+    {
+      "file": "request_3_frame_1171_hit_mask_crop.png",
+      "width": 553,
+      "height": 84,
+      "sha256": "15d93b963759d65fd7dbf0429f52f1d0fe9abc33dfdeade0718e8cc1b1c0c2a8"
+    },
+    {
+      "file": "request_3_frame_1171_albedo.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "fa4b0ca9e499ad7f59bf7f6488d82fe19302846d5a627a608aafa55e0d8e605a"
+    },
+    {
+      "file": "request_3_frame_1171_albedo_crop.png",
+      "width": 553,
+      "height": 84,
+      "sha256": "5f6859e2d7bcab7dd1eb34245fd382e5a0ba240ee093d864e13284b27b3c9d7b"
+    },
+    {
+      "file": "request_3_frame_1171_direct_diffuse_radiance.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "8c9015575c36d674cba855e6081753465c25a65785fcdf745b5fd8bbc9ed04bf"
+    },
+    {
+      "file": "request_3_frame_1171_direct_diffuse_radiance_crop.png",
+      "width": 553,
+      "height": 84,
+      "sha256": "99fb63a7e7b663b7758bb8497cb0a26deebdc6439ed72480a55a728ce1ed8d68"
+    },
+    {
+      "file": "request_3_frame_1171_final_offscreen.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "1ae4e0bc983baa6782f245004c4fed2d6ed9ae0c2bdab971965c26e68d724e1e"
+    },
+    {
+      "file": "request_3_frame_1171_final_offscreen_crop.png",
+      "width": 553,
+      "height": 84,
+      "sha256": "95c55dc2054b953783f35c405fc2cb1e77aeb84d729917b16092d026df0be730"
+    },
+    {
+      "file": "request_3_frame_1171_original_backbuffer.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "059c39b30899eef2298dfad61c6c1ed531fd51f03baa366e2a662040d5038035"
+    },
+    {
+      "file": "request_3_frame_1171_original_backbuffer_crop.png",
+      "width": 553,
+      "height": 84,
+      "sha256": "c5f67be331e313825778f93e54fae17d4e1d57e3e9993bfe706a23903a62d19a"
+    },
+    {
+      "file": "comparison_linear_z.png",
+      "width": 2379,
+      "height": 185,
+      "sha256": "d534da6362aaf139dc06c96b8a1ab03285fdaf5722b5cb6830b160bb2d5b8c41"
+    },
+    {
+      "file": "comparison_albedo.png",
+      "width": 2379,
+      "height": 185,
+      "sha256": "a67f41fe60f12559f75afb3deecfbc6fd05092dc3b4fb9cb131b4ee7c7733827"
+    },
+    {
+      "file": "comparison_direct_diffuse_radiance.png",
+      "width": 2379,
+      "height": 185,
+      "sha256": "cbab105178dad0fbf290398de674e40a9695521fc365be64dec548a1c59e155f"
+    },
+    {
+      "file": "comparison_final_offscreen.png",
+      "width": 2379,
+      "height": 185,
+      "sha256": "3b5b18af2c93c8cfc73b8e3555f4b4c717345964a64474856ab5cf75b65d5d20"
+    },
+    {
+      "file": "comparison_hit_mask.png",
+      "width": 2379,
+      "height": 185,
+      "sha256": "7fa14c46440b63e569d8399e658a562feccf56eebea509ee1484e4dae2100704"
+    },
+    {
+      "file": "comparison_original_backbuffer.png",
+      "width": 2379,
+      "height": 185,
+      "sha256": "09c137a94888ab88a1e97c38944c49f97c56b929961bc5d3aa217291e752aa40"
+    }
+  ],
+  "protectedInputSha256": {
+    "edf_pt_request_1_frame_1043.json": "4205e5874645ad823320066042c3e86f5645729d00c0660ff56e3c20c585d709",
+    "edf_pt_request_1_frame_1043_albedo.bin": "8a46c3848f7d966899c1a9c85cb1f8edab6d8bb63ae1f7b2c8369992dd4e917b",
+    "edf_pt_request_1_frame_1043_albedo.ppm": "a82f201a6eb002bd9c99567f255b000b0ab356bad34b1922e39aed50753fbd5b",
+    "edf_pt_request_1_frame_1043_direct_diffuse_radiance.bin": "e3308eb193ddc19ab33a2c06a018d89626a16db319c3f061e09ec48d854c6b87",
+    "edf_pt_request_1_frame_1043_direct_diffuse_radiance.ppm": "cda5491b4a50ffd5256a25ab8ba8bda0f76fa2a4337d8339350fabf10a30ffac",
+    "edf_pt_request_1_frame_1043_final_offscreen.bin": "52b4e40620ad394b1c3f57245bdc61c89a9d9361d9a6669db6f65b16075971c7",
+    "edf_pt_request_1_frame_1043_final_offscreen.ppm": "86958102d7c6933fd2d4056fd52b6ed9d10c0cb126d3c7b0427edaf531871e42",
+    "edf_pt_request_1_frame_1043_linear_z.bin": "a063d2a76befb55298e53a4e02563efc4e1b4e642126d7d313973b2e5362ad8f",
+    "edf_pt_request_1_frame_1043_original_target_0_after.bin": "c397e7759770c46be60022e1636ed27320e05aba5ecc96c296c5c05816f6639c",
+    "edf_pt_request_1_frame_1043_original_target_0_before.bin": "c397e7759770c46be60022e1636ed27320e05aba5ecc96c296c5c05816f6639c",
+    "edf_pt_request_1_frame_1043_original_target_1_after.bin": "b07d92418fc71768c27bf5b4640fe50440e107a93d724b4cd3facca1803cccaa",
+    "edf_pt_request_1_frame_1043_original_target_1_before.bin": "b07d92418fc71768c27bf5b4640fe50440e107a93d724b4cd3facca1803cccaa",
+    "edf_pt_request_1_frame_1043_original_target_2_after.bin": "771b4f94fe83c99b50b257168a90802328df2dc6cffc07175b70af7b7e329727",
+    "edf_pt_request_1_frame_1043_original_target_2_before.bin": "771b4f94fe83c99b50b257168a90802328df2dc6cffc07175b70af7b7e329727",
+    "edf_pt_request_1_frame_1043_original_target_3_after.bin": "bffd058b658d51cb677fec6c78ae1f16018bebe6fec6819384056c6167318026",
+    "edf_pt_request_1_frame_1043_original_target_3_before.bin": "bffd058b658d51cb677fec6c78ae1f16018bebe6fec6819384056c6167318026",
+    "edf_pt_request_2_frame_1112.json": "a850675a194803486eb2870d62161ba5cd3a16a128538d453d3d757e28cfb5ac",
+    "edf_pt_request_2_frame_1112_albedo.bin": "caa31d39986664f516f450a5582562747d24703794a063e37761369054a96540",
+    "edf_pt_request_2_frame_1112_albedo.ppm": "15b5b4326ef8d1fd0c474549424540df6f7f4e78a8ee82ea3573108f4833e9cc",
+    "edf_pt_request_2_frame_1112_direct_diffuse_radiance.bin": "003e4d8950601c5f881562689c239d50a7ef9ea13494d32417581cff78284fb5",
+    "edf_pt_request_2_frame_1112_direct_diffuse_radiance.ppm": "48d50289df16ec87640f20479b800a3d6ea596ebde050f7b26b5ca5c2d899c97",
+    "edf_pt_request_2_frame_1112_final_offscreen.bin": "530916a226e5fb4f8ae0dd0da1a993fa5fbc31b2c6091a1dc44006b23deaf0c5",
+    "edf_pt_request_2_frame_1112_final_offscreen.ppm": "0cbe704cd7cc2f435f28b94eeeb3482002c3c331e609b82a83b211324c4ff859",
+    "edf_pt_request_2_frame_1112_linear_z.bin": "9941b7850c9875d735817cef50ee17a7f88bcd7c106ad8ca45c620076c3430b2",
+    "edf_pt_request_2_frame_1112_original_target_0_after.bin": "722c9a12eda7a0c6b406b8d8b7eaf05732af10af60492126153a64b346c9fe19",
+    "edf_pt_request_2_frame_1112_original_target_0_before.bin": "722c9a12eda7a0c6b406b8d8b7eaf05732af10af60492126153a64b346c9fe19",
+    "edf_pt_request_2_frame_1112_original_target_1_after.bin": "e29239b82bece942b1a1013972fba5104e7fede3cf906fe52238da526d7f48ae",
+    "edf_pt_request_2_frame_1112_original_target_1_before.bin": "e29239b82bece942b1a1013972fba5104e7fede3cf906fe52238da526d7f48ae",
+    "edf_pt_request_2_frame_1112_original_target_2_after.bin": "ee675d1a73c4ecb8befc5394fa955f9a7579a2d8af111c4874de9ac6ab0c3cf4",
+    "edf_pt_request_2_frame_1112_original_target_2_before.bin": "ee675d1a73c4ecb8befc5394fa955f9a7579a2d8af111c4874de9ac6ab0c3cf4",
+    "edf_pt_request_2_frame_1112_original_target_3_after.bin": "dcece283d00cc60b2c283f3a88ee6016539e23f9a1a4d20588ad4722befe2e4f",
+    "edf_pt_request_2_frame_1112_original_target_3_before.bin": "dcece283d00cc60b2c283f3a88ee6016539e23f9a1a4d20588ad4722befe2e4f",
+    "edf_pt_request_3_frame_1171.json": "0050ac232bae0b3476dfb774ed72c2dcf931c76dee21e9d8cc4d5708ce4dfebc",
+    "edf_pt_request_3_frame_1171_albedo.bin": "c693f15101a6653bcf4492761a4c11d62dc4c6ba6d6780ff6db88736b3f56c47",
+    "edf_pt_request_3_frame_1171_albedo.ppm": "18f4886728459765eb46646c2fe69ba897a293bb6d869836b24d12d0cef7871f",
+    "edf_pt_request_3_frame_1171_direct_diffuse_radiance.bin": "8d60e796c4077f5a2f1db1ea3f7294596dd1436cc357a6cac8b553da4857cb22",
+    "edf_pt_request_3_frame_1171_direct_diffuse_radiance.ppm": "6c8a0116f68c9d238d3a79076eca90c5909c974630c7f7dc2954333ef1fcd0d7",
+    "edf_pt_request_3_frame_1171_final_offscreen.bin": "0a482ab63a93fe566f07a29b61f87478fa6d2dbb8b10abaa585715994ae0e515",
+    "edf_pt_request_3_frame_1171_final_offscreen.ppm": "3397e64e9837a9080edea9a75e897d2c212f0575a09eba289403b657676468e9",
+    "edf_pt_request_3_frame_1171_linear_z.bin": "bd6dff05d6c3f23faaadc18d07b3adfefd1b427867fdbf6a3849e328ecfb1981",
+    "edf_pt_request_3_frame_1171_original_target_0_after.bin": "b397a0dbc78454a61e57930a60b6ac3e6e09d3cc2ccb2d39331092fc079cb069",
+    "edf_pt_request_3_frame_1171_original_target_0_before.bin": "b397a0dbc78454a61e57930a60b6ac3e6e09d3cc2ccb2d39331092fc079cb069",
+    "edf_pt_request_3_frame_1171_original_target_1_after.bin": "5698232a5d7c4e39b253a5a971b1764b9161e4972a05aa318e5ceb36790d494a",
+    "edf_pt_request_3_frame_1171_original_target_1_before.bin": "5698232a5d7c4e39b253a5a971b1764b9161e4972a05aa318e5ceb36790d494a",
+    "edf_pt_request_3_frame_1171_original_target_2_after.bin": "4989763774f27c86cfbddce1e101f429c380f922f09bb5abce7bb4723deb8f39",
+    "edf_pt_request_3_frame_1171_original_target_2_before.bin": "4989763774f27c86cfbddce1e101f429c380f922f09bb5abce7bb4723deb8f39",
+    "edf_pt_request_3_frame_1171_original_target_3_after.bin": "af387f71603b1fb1f33e726e1d8c06286abf1bcee309ad77e8e98803ce7d4327",
+    "edf_pt_request_3_frame_1171_original_target_3_before.bin": "af387f71603b1fb1f33e726e1d8c06286abf1bcee309ad77e8e98803ce7d4327",
+    "probe_verification.json": "08329255375ca94e10a397e18c23ce6fe0213c0c5c5e89474bd303a03c77f7e4",
+    "remix-dxvk.log": "5bb9098241bf185ef13d1f75e34115db67a983939b2b5f2c61ccf0115b676f89"
+  },
+  "protectedInputFileCount": 50
+}

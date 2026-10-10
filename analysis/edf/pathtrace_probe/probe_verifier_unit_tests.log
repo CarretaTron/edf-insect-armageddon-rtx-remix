@@ -1,0 +1,35 @@
+test_additional_surface_fails (test_probe.ProbeVerifierTests.test_additional_surface_fails) ... ok
+test_camera_missing_frame_and_recovery (test_probe.ProbeVerifierTests.test_camera_missing_frame_and_recovery) ... ok
+test_claimed_equal_original_target_mutation_fails (test_probe.ProbeVerifierTests.test_claimed_equal_original_target_mutation_fails) ... ok
+test_column_major_matrix_known_translation (test_probe.ProbeVerifierTests.test_column_major_matrix_known_translation) ... ok
+test_completion_without_matching_request_fails (test_probe.ProbeVerifierTests.test_completion_without_matching_request_fails) ... ok
+test_composition_fails (test_probe.ProbeVerifierTests.test_composition_fails) ... ok
+test_duplicate_target_identity_fails (test_probe.ProbeVerifierTests.test_duplicate_target_identity_fails) ... ok
+test_gpu_uncompleted_fails (test_probe.ProbeVerifierTests.test_gpu_uncompleted_fails) ... ok
+test_independent_reference_analytic_triangle (test_probe.ProbeVerifierTests.test_independent_reference_analytic_triangle) ... ok
+test_jitter_fails (test_probe.ProbeVerifierTests.test_jitter_fails) ... ok
+test_known_fnv_vectors (test_probe.ProbeVerifierTests.test_known_fnv_vectors) ... ok
+test_missing_completed_log_fails (test_probe.ProbeVerifierTests.test_missing_completed_log_fails) ... ok
+test_missing_original_target_fails (test_probe.ProbeVerifierTests.test_missing_original_target_fails) ... ok
+test_multiple_selected_draws_fails (test_probe.ProbeVerifierTests.test_multiple_selected_draws_fails) ... ok
+test_nonfinite_depth_fails (test_probe.ProbeVerifierTests.test_nonfinite_depth_fails) ... ok
+test_nonfinite_matrix_fails (test_probe.ProbeVerifierTests.test_nonfinite_matrix_fails) ... ok
+test_positive_is_explicitly_synthetic (test_probe.ProbeVerifierTests.test_positive_is_explicitly_synthetic) ... ok
+test_raw_checksum_fails (test_probe.ProbeVerifierTests.test_raw_checksum_fails) ... ok
+test_readback_path_escape_fails (test_probe.ProbeVerifierTests.test_readback_path_escape_fails) ... ok
+test_renderer_camera_differs_fails (test_probe.ProbeVerifierTests.test_renderer_camera_differs_fails) ... ok
+test_replaced_mesh_hash_fails (test_probe.ProbeVerifierTests.test_replaced_mesh_hash_fails) ... ok
+test_stale_camera_on_missing_frame_fails (test_probe.ProbeVerifierTests.test_stale_camera_on_missing_frame_fails) ... ok
+test_stale_probe_camera_fails (test_probe.ProbeVerifierTests.test_stale_probe_camera_fails) ... ok
+test_transposed_matrix_fails (test_probe.ProbeVerifierTests.test_transposed_matrix_fails) ... ok
+test_wrong_composed_matrix_fails (test_probe.ProbeVerifierTests.test_wrong_composed_matrix_fails) ... ok
+test_wrong_log_whitelist_fails (test_probe.ProbeVerifierTests.test_wrong_log_whitelist_fails) ... ok
+test_wrong_nearest_depth_fails (test_probe.ProbeVerifierTests.test_wrong_nearest_depth_fails) ... ok
+test_wrong_raw_size_fails (test_probe.ProbeVerifierTests.test_wrong_raw_size_fails) ... ok
+test_wrong_shader_fails (test_probe.ProbeVerifierTests.test_wrong_shader_fails) ... ok
+test_wrong_vertical_orientation_fails (test_probe.ProbeVerifierTests.test_wrong_vertical_orientation_fails) ... ok
+
+----------------------------------------------------------------------
+Ran 30 tests in 2.912s
+
+OK

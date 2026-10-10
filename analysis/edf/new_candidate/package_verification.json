@@ -1,0 +1,21 @@
+{
+  "result": "passed",
+  "bundles": [
+    {
+      "architecture": "x64",
+      "result": "passed",
+      "verifiedFiles": 187,
+      "totalBytes": 551087171,
+      "runtimeSha256": "7b8ab28eee0838ee2e9e018663e7f911df6d311d7b25437587fb5cffc7cdb98d",
+      "errors": []
+    },
+    {
+      "architecture": "x86",
+      "result": "passed",
+      "verifiedFiles": 189,
+      "totalBytes": 555617859,
+      "runtimeSha256": "7b8ab28eee0838ee2e9e018663e7f911df6d311d7b25437587fb5cffc7cdb98d",
+      "errors": []
+    }
+  ]
+}

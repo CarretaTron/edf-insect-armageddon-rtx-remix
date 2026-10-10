@@ -1,0 +1,833 @@
+{
+  "schema": 2,
+  "evidenceKind": "read_only_analysis_of_controlled_gpu_readbacks",
+  "originalEdfLightingRecovered": false,
+  "gpuShadingNormalsReadBack": false,
+  "shaderNormalModel": "Each CPU vertex normal oriented to Remix flippedTriangleNormal before interpolation; excludes optional getBentNormal perturbation and GPU floating-point/half precision.",
+  "mesh": "925aa18481228b01392a574dbe28ba4e21aa1616",
+  "vertices": 252,
+  "triangles": 144,
+  "sourceVertexShader": "f098f457d9ae603bea5f84ec985d473c29cfb0c9",
+  "sourcePixelShader": "44b92a29eb3e5f2ee6d53f02e14fb11a01511da8",
+  "configuredDistantTravelDirection": [
+    -0.2,
+    -1.0,
+    0.4
+  ],
+  "centralSurfaceToLightDirection": [
+    0.18257418583505539,
+    0.9128709291752769,
+    -0.36514837167011077
+  ],
+  "configuredFullLightAngleDegrees": 5,
+  "coneHalfAngleDegrees": 2.5,
+  "testedDiagnosticTravelDirection": [
+    0.2,
+    1.0,
+    -0.4
+  ],
+  "probeConfig": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-pt-x64-probe\\rtx.conf",
+  "probeConfigSha256": "6b1953eadad2e1c05af7187280e15f2f7449415fe23227a3bac9517779309179",
+  "inputs": [
+    {
+      "path": "D:\\EDF IA RTX REMIX\\analysis\\edf\\new_candidate\\selected_object.obj",
+      "sha256": "def5923e99c1c3c864c330432210639b232dca75de6c3ea7ff560266379e2579"
+    },
+    {
+      "path": "D:\\EDF IA RTX REMIX\\analysis\\edf\\new_candidate\\replay\\stream1_used.bin",
+      "sha256": "0e025035b79495beaf67d7f386c121a4b7d6470078371f7393521ebc1558ec64"
+    },
+    {
+      "path": "D:\\EDF IA RTX REMIX\\analysis\\edf\\new_candidate\\replay\\stream2_used.bin",
+      "sha256": "168768b4970031def3b42b6869ad436c695af304d38f50bd747d9f56a8b5c2e5"
+    },
+    {
+      "path": "D:\\EDF IA RTX REMIX\\analysis\\edf\\new_candidate\\replay\\indices_original_used.bin",
+      "sha256": "ae660f17237f032f2b6b9ee6ba0b37345fc68991a78f24acb6cd807766df3b3e"
+    }
+  ],
+  "codeEvidence": [
+    {
+      "file": "src/dxvk/rtx_render/rtx_light_manager.cpp",
+      "function": "LightManager::prepareSceneData",
+      "line": 269,
+      "meaning": "Configured travel direction is normalized when constructing RtDistantLight; full angle is divided by two."
+    },
+    {
+      "file": "src/dxvk/shaders/rtx/concept/light/distant_light.slangh",
+      "function": "distantLightSampleArea",
+      "line": 78,
+      "meaning": "Sample position = surface position - sampled travel direction * 100000; incoming L has the opposite sign."
+    },
+    {
+      "file": "src/dxvk/shaders/rtx/concept/surface/surface_interaction.slangh",
+      "line": 361,
+      "meaning": "Triangle normal is oriented against incoming camera ray using viewDirection=-ray.direction."
+    },
+    {
+      "file": "src/dxvk/shaders/rtx/concept/surface/surface_interaction.slangh",
+      "line": 425,
+      "meaning": "Vertex normals align to that flipped triangle normal before interpolation."
+    },
+    {
+      "file": "src/dxvk/shaders/rtx/algorithm/integrator_direct.slangh",
+      "function": "integrateDirectPath",
+      "line": 429,
+      "meaning": "Direct sampling is gated by enableDirectLighting and opaque material; RTXDI false uses RIS, not a disabled light pass."
+    }
+  ],
+  "samples": [
+    {
+      "cpuNearestTrianglesFound": 6435,
+      "normalOrientationFlipCount": 12,
+      "triangleNormalHistogram": [
+        {
+          "normal": [
+            -1.0,
+            0.0,
+            -0.0
+          ],
+          "pixels": 4980
+        },
+        {
+          "normal": [
+            -0.91915,
+            0.0,
+            0.39392
+          ],
+          "pixels": 34
+        },
+        {
+          "normal": [
+            -0.22162,
+            0.0,
+            0.97513
+          ],
+          "pixels": 85
+        },
+        {
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "pixels": 1320
+        },
+        {
+          "normal": [
+            0.0,
+            -0.22162,
+            0.97513
+          ],
+          "pixels": 4
+        },
+        {
+          "normal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "pixels": 4
+        },
+        {
+          "normal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "pixels": 8
+        }
+      ],
+      "cameraPosition": [
+        -299.2760397705156,
+        -358.4554867095308,
+        -7.736949913436421
+      ],
+      "frameId": 0,
+      "metadata": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-pt-x64-probe\\probe-output\\session_1791488375451875_25904\\edf_pt_request_1_frame_0.json",
+      "metadataSha256": "fb234be63a490f9a99f8e0384a7395f9f68c6eeeba15e6c0d6c539f8f4c39372",
+      "cameraLastUpdateFrame": 0,
+      "surfaceCount": 1,
+      "lightCount": 1,
+      "gpuDepthHitCount": 6435,
+      "rawInterpolatedNormalDotIncomingRange": [
+        -0.9128709291752769,
+        0.9128709291752769
+      ],
+      "rawPositiveCentralDotCount": 12,
+      "orientedNormalDotIncomingRange": [
+        -0.9128709291752769,
+        -0.18257418583505539
+      ],
+      "orientedPositiveCentralDotCount": 0,
+      "oldLightConeMaximumDotRange": [
+        -0.894194538003359,
+        -0.13951417946230477
+      ],
+      "oldLightConeCanIlluminatePixelCount": 0,
+      "reversedLightConeMinimumDotRange": [
+        0.13951417946230477,
+        0.894194538003359
+      ],
+      "reversedLightConeMinimumPositivePixelCount": 6435,
+      "slots": [
+        {
+          "name": "direct_diffuse_radiance",
+          "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-pt-x64-probe\\probe-output\\session_1791488375451875_25904\\edf_pt_request_1_frame_0_direct_diffuse_radiance.bin",
+          "sha256": "0c3b31bf3c9f4adec11e2b736e84b254cf3c5b4a89b9bc96f72987c48d27c7fa",
+          "nonzeroRgbPixelCount": 0,
+          "nonzeroHitRgbPixelCount": 0,
+          "rgbaAllZero": true,
+          "finite": true,
+          "rgbMinimum": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rgbMaximum": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "final_offscreen",
+          "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-pt-x64-probe\\probe-output\\session_1791488375451875_25904\\edf_pt_request_1_frame_0_final_offscreen.bin",
+          "sha256": "79a722e325806120a9c08ebad6c3a951dab115696f4e5b923fe9d0a667383d22",
+          "nonzeroRgbPixelCount": 1037389,
+          "nonzeroHitRgbPixelCount": 3339,
+          "rgbaAllZero": false,
+          "finite": true,
+          "rgbMinimum": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rgbMaximum": [
+            0.92529296875,
+            0.93701171875,
+            0.9833984375
+          ]
+        }
+      ],
+      "lightDirectionAbComparison": {
+        "metadata": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-pt-x64-lit\\probe-output\\session_1791488778002148_33280\\edf_pt_request_1_frame_0.json",
+        "metadataSha256": "a60ebe7f6b2e0a1f52bd8c6cdd16590dd4ee7c43d2513e4019df1cf43997ed8a",
+        "gpuCompleted": true,
+        "depthHitCount": 6435,
+        "radianceNonzeroCount": 6435,
+        "radianceNonfiniteCount": 0,
+        "cameraLastUpdateFrame": 0,
+        "surfaceCount": 1,
+        "lightCount": 1,
+        "whitelist": {
+          "orderedInstances": 1,
+          "instanceId": 1,
+          "vertices": 252,
+          "indices": 432,
+          "sourceMeshKey": "925aa18481228b01392a574dbe28ba4e21aa1616",
+          "decoderVertexShader": "f098f457d9ae603bea5f84ec985d473c29cfb0c9",
+          "decoderPixelShader": "44b92a29eb3e5f2ee6d53f02e14fb11a01511da8",
+          "geometryHash": "0x32aeb7bb7e772c13",
+          "materialHash": "0x42a663d7392780d4"
+        },
+        "compositionPerformed": false,
+        "sourceAndRendererCameraEqualToDarkCase": true,
+        "slots": [
+          {
+            "name": "direct_diffuse_radiance",
+            "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-pt-x64-lit\\probe-output\\session_1791488778002148_33280\\edf_pt_request_1_frame_0_direct_diffuse_radiance.bin",
+            "sha256": "d436fbe8791e7464b9d6d8ff0dbdbf056a73252f4317ae03b8222492ad0f74db",
+            "nonzeroRgbPixelCount": 6435,
+            "nonzeroHitRgbPixelCount": 6435,
+            "rgbaAllZero": false,
+            "finite": true,
+            "rgbMinimum": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rgbMaximum": [
+              1.55859375,
+              1.79296875,
+              1.947265625
+            ]
+          },
+          {
+            "name": "final_offscreen",
+            "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-pt-x64-lit\\probe-output\\session_1791488778002148_33280\\edf_pt_request_1_frame_0_final_offscreen.bin",
+            "sha256": "ffc82eb79a357bf5ca87c851116c667a7a46d3962172bd73a8746e07b4fd1b3d",
+            "nonzeroRgbPixelCount": 1040567,
+            "nonzeroHitRgbPixelCount": 6435,
+            "rgbaAllZero": false,
+            "finite": true,
+            "rgbMinimum": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rgbMaximum": [
+              0.96923828125,
+              0.97509765625,
+              0.98681640625
+            ]
+          }
+        ],
+        "identicalGeometryOutputs": [
+          {
+            "name": "linear_z",
+            "darkSha256": "c67b9e8bec98e5202b9d520e8d07e48f565135c92a24ca7eea126408c0fca148",
+            "litSha256": "c67b9e8bec98e5202b9d520e8d07e48f565135c92a24ca7eea126408c0fca148",
+            "fullByteEqual": true
+          },
+          {
+            "name": "albedo",
+            "darkSha256": "b6548180cc657ff63a5f2cd6f583f0fcfe5f1b9ce83d8cb54258731a238ab40e",
+            "litSha256": "b6548180cc657ff63a5f2cd6f583f0fcfe5f1b9ce83d8cb54258731a238ab40e",
+            "fullByteEqual": true
+          }
+        ],
+        "preservedTargets": [
+          {
+            "slot": 0,
+            "beforeSha256": "7947f38be92ea549155569e96adc4d818ddfa73ead053349cd776d44f78263c6",
+            "afterSha256": "7947f38be92ea549155569e96adc4d818ddfa73ead053349cd776d44f78263c6",
+            "fullByteEqual": true
+          },
+          {
+            "slot": 1,
+            "beforeSha256": "7947f38be92ea549155569e96adc4d818ddfa73ead053349cd776d44f78263c6",
+            "afterSha256": "7947f38be92ea549155569e96adc4d818ddfa73ead053349cd776d44f78263c6",
+            "fullByteEqual": true
+          },
+          {
+            "slot": 2,
+            "beforeSha256": "a92504ff2ae3ae8487b398f4b26f1653d06eaf1c4ceb55fdf46669da19c11d6e",
+            "afterSha256": "a92504ff2ae3ae8487b398f4b26f1653d06eaf1c4ceb55fdf46669da19c11d6e",
+            "fullByteEqual": true
+          },
+          {
+            "slot": 3,
+            "beforeSha256": "8b398755b4a2423f5e854d8ac42d40b23b3e60bb338e2f547e36ac8215d460d3",
+            "afterSha256": "8b398755b4a2423f5e854d8ac42d40b23b3e60bb338e2f547e36ac8215d460d3",
+            "fullByteEqual": true
+          }
+        ]
+      }
+    },
+    {
+      "cpuNearestTrianglesFound": 6438,
+      "normalOrientationFlipCount": 11,
+      "triangleNormalHistogram": [
+        {
+          "normal": [
+            -1.0,
+            0.0,
+            -0.0
+          ],
+          "pixels": 4984
+        },
+        {
+          "normal": [
+            -0.91915,
+            0.0,
+            0.39392
+          ],
+          "pixels": 34
+        },
+        {
+          "normal": [
+            -0.22162,
+            0.0,
+            0.97513
+          ],
+          "pixels": 85
+        },
+        {
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "pixels": 1320
+        },
+        {
+          "normal": [
+            0.0,
+            -0.22162,
+            0.97513
+          ],
+          "pixels": 4
+        },
+        {
+          "normal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "pixels": 3
+        },
+        {
+          "normal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "pixels": 8
+        }
+      ],
+      "cameraPosition": [
+        -299.27606787224005,
+        -358.4554375745319,
+        -7.736923342287236
+      ],
+      "frameId": 1,
+      "metadata": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-pt-x64-probe\\probe-output\\session_1791488375451875_25904\\edf_pt_request_1_frame_1.json",
+      "metadataSha256": "f4bf707883d63f32d4422224824c0093e0d5ff0b5461ddf36662c9ac705ffc7e",
+      "cameraLastUpdateFrame": 1,
+      "surfaceCount": 1,
+      "lightCount": 1,
+      "gpuDepthHitCount": 6438,
+      "rawInterpolatedNormalDotIncomingRange": [
+        -0.9128709291752769,
+        0.9128709291752769
+      ],
+      "rawPositiveCentralDotCount": 11,
+      "orientedNormalDotIncomingRange": [
+        -0.9128709291752769,
+        -0.18257418583505539
+      ],
+      "orientedPositiveCentralDotCount": 0,
+      "oldLightConeMaximumDotRange": [
+        -0.894194538003359,
+        -0.13951417946230477
+      ],
+      "oldLightConeCanIlluminatePixelCount": 0,
+      "reversedLightConeMinimumDotRange": [
+        0.13951417946230477,
+        0.894194538003359
+      ],
+      "reversedLightConeMinimumPositivePixelCount": 6438,
+      "slots": [
+        {
+          "name": "direct_diffuse_radiance",
+          "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-pt-x64-probe\\probe-output\\session_1791488375451875_25904\\edf_pt_request_1_frame_1_direct_diffuse_radiance.bin",
+          "sha256": "0c3b31bf3c9f4adec11e2b736e84b254cf3c5b4a89b9bc96f72987c48d27c7fa",
+          "nonzeroRgbPixelCount": 0,
+          "nonzeroHitRgbPixelCount": 0,
+          "rgbaAllZero": true,
+          "finite": true,
+          "rgbMinimum": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rgbMaximum": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "final_offscreen",
+          "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-pt-x64-probe\\probe-output\\session_1791488375451875_25904\\edf_pt_request_1_frame_1_final_offscreen.bin",
+          "sha256": "18b34f0de4c821d53d8a763bbae08669c34df88edcc3cd1c74edeb599692d578",
+          "nonzeroRgbPixelCount": 1037391,
+          "nonzeroHitRgbPixelCount": 3320,
+          "rgbaAllZero": false,
+          "finite": true,
+          "rgbMinimum": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rgbMaximum": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "lightDirectionAbComparison": {
+        "metadata": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-pt-x64-lit\\probe-output\\session_1791488778002148_33280\\edf_pt_request_1_frame_1.json",
+        "metadataSha256": "44b8ec8c5b9c4c290d06444619ee51b722055b5c41f4f443add8cf5dfd60e1d9",
+        "gpuCompleted": true,
+        "depthHitCount": 6438,
+        "radianceNonzeroCount": 6438,
+        "radianceNonfiniteCount": 0,
+        "cameraLastUpdateFrame": 1,
+        "surfaceCount": 1,
+        "lightCount": 1,
+        "whitelist": {
+          "orderedInstances": 1,
+          "instanceId": 1,
+          "vertices": 252,
+          "indices": 432,
+          "sourceMeshKey": "925aa18481228b01392a574dbe28ba4e21aa1616",
+          "decoderVertexShader": "f098f457d9ae603bea5f84ec985d473c29cfb0c9",
+          "decoderPixelShader": "44b92a29eb3e5f2ee6d53f02e14fb11a01511da8",
+          "geometryHash": "0x32aeb7bb7e772c13",
+          "materialHash": "0x42a663d7392780d4"
+        },
+        "compositionPerformed": false,
+        "sourceAndRendererCameraEqualToDarkCase": true,
+        "slots": [
+          {
+            "name": "direct_diffuse_radiance",
+            "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-pt-x64-lit\\probe-output\\session_1791488778002148_33280\\edf_pt_request_1_frame_1_direct_diffuse_radiance.bin",
+            "sha256": "ee0e421257d0c5b555be7dbd7a5acd9f85a8a59b04be82417894ffb22fd5bf2d",
+            "nonzeroRgbPixelCount": 6438,
+            "nonzeroHitRgbPixelCount": 6438,
+            "rgbaAllZero": false,
+            "finite": true,
+            "rgbMinimum": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rgbMaximum": [
+              1.55859375,
+              1.7939453125,
+              1.9462890625
+            ]
+          },
+          {
+            "name": "final_offscreen",
+            "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-pt-x64-lit\\probe-output\\session_1791488778002148_33280\\edf_pt_request_1_frame_1_final_offscreen.bin",
+            "sha256": "72a4a88f93593afbb2f6e2e980d9f2459605fef522983a1d2b55947accd894c2",
+            "nonzeroRgbPixelCount": 1040587,
+            "nonzeroHitRgbPixelCount": 6438,
+            "rgbaAllZero": false,
+            "finite": true,
+            "rgbMinimum": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rgbMaximum": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        ],
+        "identicalGeometryOutputs": [
+          {
+            "name": "linear_z",
+            "darkSha256": "d80d251c6e6b9c7b9c9479be79e662427f224a4b7dc9cc33de1b05ec93057e4d",
+            "litSha256": "d80d251c6e6b9c7b9c9479be79e662427f224a4b7dc9cc33de1b05ec93057e4d",
+            "fullByteEqual": true
+          },
+          {
+            "name": "albedo",
+            "darkSha256": "de4e986446cd7df4312284759614a78e80560ff8d3a6a17e74d4bf6c13e95e86",
+            "litSha256": "de4e986446cd7df4312284759614a78e80560ff8d3a6a17e74d4bf6c13e95e86",
+            "fullByteEqual": true
+          }
+        ],
+        "preservedTargets": [
+          {
+            "slot": 0,
+            "beforeSha256": "fa3ac80ed178e062b435585a45e7bfafd2048fc797de6c128182255b5de4ff78",
+            "afterSha256": "fa3ac80ed178e062b435585a45e7bfafd2048fc797de6c128182255b5de4ff78",
+            "fullByteEqual": true
+          },
+          {
+            "slot": 1,
+            "beforeSha256": "fa3ac80ed178e062b435585a45e7bfafd2048fc797de6c128182255b5de4ff78",
+            "afterSha256": "fa3ac80ed178e062b435585a45e7bfafd2048fc797de6c128182255b5de4ff78",
+            "fullByteEqual": true
+          },
+          {
+            "slot": 2,
+            "beforeSha256": "3dc70f11a6c92892dfc06db7ed6e1dba385c086d037badfd8d74c8764cec3613",
+            "afterSha256": "3dc70f11a6c92892dfc06db7ed6e1dba385c086d037badfd8d74c8764cec3613",
+            "fullByteEqual": true
+          },
+          {
+            "slot": 3,
+            "beforeSha256": "fdb31a8a6d0ed8800c1892861160e3897aa41b2e0eb59f4205e86d51fa919d86",
+            "afterSha256": "fdb31a8a6d0ed8800c1892861160e3897aa41b2e0eb59f4205e86d51fa919d86",
+            "fullByteEqual": true
+          }
+        ]
+      }
+    },
+    {
+      "cpuNearestTrianglesFound": 6895,
+      "normalOrientationFlipCount": 0,
+      "triangleNormalHistogram": [
+        {
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "pixels": 5271
+        },
+        {
+          "normal": [
+            -0.91915,
+            0.0,
+            0.39392
+          ],
+          "pixels": 53
+        },
+        {
+          "normal": [
+            -0.22162,
+            0.0,
+            0.97513
+          ],
+          "pixels": 103
+        },
+        {
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "pixels": 1464
+        },
+        {
+          "normal": [
+            0.0,
+            -0.22162,
+            0.97513
+          ],
+          "pixels": 4
+        }
+      ],
+      "cameraPosition": [
+        -299.6777655687141,
+        -357.40838620794335,
+        -8.049952125322923
+      ],
+      "frameId": 2,
+      "metadata": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-pt-x64-probe\\probe-output\\session_1791488375451875_25904\\edf_pt_request_1_frame_2.json",
+      "metadataSha256": "10818f7cccc38d646384d28cd641623b3bd2b27b466062ed4b7e17bf935b8c84",
+      "cameraLastUpdateFrame": 2,
+      "surfaceCount": 1,
+      "lightCount": 1,
+      "gpuDepthHitCount": 6895,
+      "rawInterpolatedNormalDotIncomingRange": [
+        -0.9128709291752769,
+        -0.18257418583505539
+      ],
+      "rawPositiveCentralDotCount": 0,
+      "orientedNormalDotIncomingRange": [
+        -0.9128709291752769,
+        -0.18257418583505539
+      ],
+      "orientedPositiveCentralDotCount": 0,
+      "oldLightConeMaximumDotRange": [
+        -0.894194538003359,
+        -0.13951417946230477
+      ],
+      "oldLightConeCanIlluminatePixelCount": 0,
+      "reversedLightConeMinimumDotRange": [
+        0.13951417946230477,
+        0.894194538003359
+      ],
+      "reversedLightConeMinimumPositivePixelCount": 6895,
+      "slots": [
+        {
+          "name": "direct_diffuse_radiance",
+          "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-pt-x64-probe\\probe-output\\session_1791488375451875_25904\\edf_pt_request_1_frame_2_direct_diffuse_radiance.bin",
+          "sha256": "0c3b31bf3c9f4adec11e2b736e84b254cf3c5b4a89b9bc96f72987c48d27c7fa",
+          "nonzeroRgbPixelCount": 0,
+          "nonzeroHitRgbPixelCount": 0,
+          "rgbaAllZero": true,
+          "finite": true,
+          "rgbMinimum": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rgbMaximum": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "final_offscreen",
+          "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-pt-x64-probe\\probe-output\\session_1791488375451875_25904\\edf_pt_request_1_frame_2_final_offscreen.bin",
+          "sha256": "dc6954ccd7f689477a1b3cf6a0fd6bcef202e8a6837371b52aca19005899621c",
+          "nonzeroRgbPixelCount": 1038784,
+          "nonzeroHitRgbPixelCount": 4321,
+          "rgbaAllZero": false,
+          "finite": true,
+          "rgbMinimum": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rgbMaximum": [
+            0.95654296875,
+            0.9638671875,
+            0.974609375
+          ]
+        }
+      ],
+      "lightDirectionAbComparison": {
+        "metadata": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-pt-x64-lit\\probe-output\\session_1791488778002148_33280\\edf_pt_request_1_frame_2.json",
+        "metadataSha256": "c374f4b12b1b4b26092c2f3fe9bfa3f92c0660a60f6d5c9a0274ee78836adf30",
+        "gpuCompleted": true,
+        "depthHitCount": 6895,
+        "radianceNonzeroCount": 6895,
+        "radianceNonfiniteCount": 0,
+        "cameraLastUpdateFrame": 2,
+        "surfaceCount": 1,
+        "lightCount": 1,
+        "whitelist": {
+          "orderedInstances": 1,
+          "instanceId": 1,
+          "vertices": 252,
+          "indices": 432,
+          "sourceMeshKey": "925aa18481228b01392a574dbe28ba4e21aa1616",
+          "decoderVertexShader": "f098f457d9ae603bea5f84ec985d473c29cfb0c9",
+          "decoderPixelShader": "44b92a29eb3e5f2ee6d53f02e14fb11a01511da8",
+          "geometryHash": "0x32aeb7bb7e772c13",
+          "materialHash": "0x42a663d7392780d4"
+        },
+        "compositionPerformed": false,
+        "sourceAndRendererCameraEqualToDarkCase": true,
+        "slots": [
+          {
+            "name": "direct_diffuse_radiance",
+            "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-pt-x64-lit\\probe-output\\session_1791488778002148_33280\\edf_pt_request_1_frame_2_direct_diffuse_radiance.bin",
+            "sha256": "9e38ed34845464a2774f141ba35178fd818e05ea2c508e026754e7447178d7dc",
+            "nonzeroRgbPixelCount": 6895,
+            "nonzeroHitRgbPixelCount": 6895,
+            "rgbaAllZero": false,
+            "finite": true,
+            "rgbMinimum": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rgbMaximum": [
+              1.5595703125,
+              1.794921875,
+              1.947265625
+            ]
+          },
+          {
+            "name": "final_offscreen",
+            "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-pt-x64-lit\\probe-output\\session_1791488778002148_33280\\edf_pt_request_1_frame_2_final_offscreen.bin",
+            "sha256": "ee2b21bf906b15c6bc11b79aaafec430f77040bb4de2df1e494e82234af585b8",
+            "nonzeroRgbPixelCount": 1044959,
+            "nonzeroHitRgbPixelCount": 6893,
+            "rgbaAllZero": false,
+            "finite": true,
+            "rgbMinimum": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rgbMaximum": [
+              0.98486328125,
+              0.9912109375,
+              0.99365234375
+            ]
+          }
+        ],
+        "identicalGeometryOutputs": [
+          {
+            "name": "linear_z",
+            "darkSha256": "2e88c7e4d93941eea003e6a1236561b3bbd55dfa990d30787833015e41092a3d",
+            "litSha256": "2e88c7e4d93941eea003e6a1236561b3bbd55dfa990d30787833015e41092a3d",
+            "fullByteEqual": true
+          },
+          {
+            "name": "albedo",
+            "darkSha256": "2fbe31ca788acbb0bca1cd8d43f7c6c2ad0813fac5e63da7525d654fc4bf8751",
+            "litSha256": "2fbe31ca788acbb0bca1cd8d43f7c6c2ad0813fac5e63da7525d654fc4bf8751",
+            "fullByteEqual": true
+          }
+        ],
+        "preservedTargets": [
+          {
+            "slot": 0,
+            "beforeSha256": "2bd7338bddec7fb356ca07d9fec2814b8bf718fe42b69d7bfae354d66f04c35d",
+            "afterSha256": "2bd7338bddec7fb356ca07d9fec2814b8bf718fe42b69d7bfae354d66f04c35d",
+            "fullByteEqual": true
+          },
+          {
+            "slot": 1,
+            "beforeSha256": "2bd7338bddec7fb356ca07d9fec2814b8bf718fe42b69d7bfae354d66f04c35d",
+            "afterSha256": "2bd7338bddec7fb356ca07d9fec2814b8bf718fe42b69d7bfae354d66f04c35d",
+            "fullByteEqual": true
+          },
+          {
+            "slot": 2,
+            "beforeSha256": "1516b21791ffc51a458e83a6e184dac505d75a18c64db8a91b95bc17f3997e8c",
+            "afterSha256": "1516b21791ffc51a458e83a6e184dac505d75a18c64db8a91b95bc17f3997e8c",
+            "fullByteEqual": true
+          },
+          {
+            "slot": 3,
+            "beforeSha256": "545ebba01701816fbe383df2f3f5c41c684fc1cf66943ac9a654ad881a8d44f9",
+            "afterSha256": "545ebba01701816fbe383df2f3f5c41c684fc1cf66943ac9a654ad881a8d44f9",
+            "fullByteEqual": true
+          }
+        ]
+      }
+    }
+  ],
+  "abProvenance": {
+    "darkConfigSha256": "6b1953eadad2e1c05af7187280e15f2f7449415fe23227a3bac9517779309179",
+    "litConfigSha256": "f790d04cb3b4faf7786274fd540455045cc9439461e7e54e2041b041f37feebc",
+    "changedConfigFields": [
+      {
+        "key": "rtx.compatCapture.outputDirectory",
+        "dark": "\"D:/EDF IA RTX REMIX/runtime/_build/edf-pt-x64-probe/captures\"",
+        "lit": "\"D:/EDF IA RTX REMIX/runtime/_build/edf-pt-x64-lit/captures\""
+      },
+      {
+        "key": "rtx.edfStatic.probe.outputDirectory",
+        "dark": "\"D:/EDF IA RTX REMIX/runtime/_build/edf-pt-x64-probe/probe-output\"",
+        "lit": "\"D:/EDF IA RTX REMIX/runtime/_build/edf-pt-x64-lit/probe-output\""
+      },
+      {
+        "key": "rtx.fallbackLightDirection",
+        "dark": "-0.2, -1, 0.4",
+        "lit": "0.2, 1, -0.4"
+      }
+    ],
+    "binaries": [
+      {
+        "name": "d3d9.dll",
+        "darkSha256": "93b265b00cb55b51b25c5b7f0495d72a9e0cf76d55abe1462f932501843b4641",
+        "litSha256": "93b265b00cb55b51b25c5b7f0495d72a9e0cf76d55abe1462f932501843b4641",
+        "identical": true
+      },
+      {
+        "name": "edf_static_gpu_replay.exe",
+        "darkSha256": "f4cf480f406573f7d777d9c3b645577e6930ab53af555f4aa8ba5af84296594d",
+        "litSha256": "f4cf480f406573f7d777d9c3b645577e6930ab53af555f4aa8ba5af84296594d",
+        "identical": true
+      }
+    ],
+    "logs": [
+      {
+        "case": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-pt-x64-probe",
+        "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-pt-x64-probe\\rtx-remix\\logs\\remix-dxvk.log",
+        "sha256": "7a1983d23cbda82bd2312c53a8c4b129bbd63b2fb4ddd1a89438fe95ba3f5e57"
+      },
+      {
+        "case": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-pt-x64-lit",
+        "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-pt-x64-lit\\rtx-remix\\logs\\remix-dxvk.log",
+        "sha256": "0bff866ee524c1869f2d307207fd9876cad899d24bf1ef525473a57f50bcc8ff"
+      }
+    ]
+  },
+  "conclusion": {
+    "confirmedExplanation": "Reversing only the diagnostic distant-light travel direction causes positive direct diffuse radiance at every geometry hit in all three frames, using unchanged Runtime and replay binaries, cameras and geometry outputs.",
+    "zeroRadianceDoesNotProveDecoderFailure": true,
+    "directLightingGpuEvidence": "Dark case: 0 nonzero RGB pixels in direct diffuse. Reversed case: 6435, 6438, 6895, exactly matching depth hits; all original targets remain byte-identical.",
+    "finalImageCaveat": "Final RGB can contain indirect/sky/composite/tonemapping/dither energy; its nonzero pixels alone do not establish direct-light integration.",
+    "replacementAllowed": false
+  }
+}

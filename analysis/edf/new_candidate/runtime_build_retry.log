@@ -1,0 +1,170 @@
+ninja: Entering directory `D:/EDF IA RTX REMIX/runtime/_CompDebugOptimized_x64'
+[1/244] Generating version.h with a custom command
+[2/244] Generating src/d3d9/version.rc with a custom command
+[3/243] Generating src/dxvk/rtx_shaders with a custom command
+[4/243] Compiling C++ object src/dxso/libdxso.a.p/dxso_options.cpp.obj
+[5/243] Compiling C++ object src/dxso/libdxso.a.p/dxso_compiler.cpp.obj
+[6/243] Precompiling header src/d3d9/d3d9.dll.p/meson_pch-cpp.cpp
+[7/243] Compiling C++ object tests/rtx/unit/test_graph_usd_parser.exe.p/graph_test_flexible_component.cpp.obj
+[8/243] Linking static target src/dxso/libdxso.a
+[9/243] Compiling C++ object src/d3d9/d3d9.dll.p/d3d9_common_buffer.cpp.obj
+[10/243] Compiling C++ object src/d3d9/d3d9.dll.p/d3d9_buffer.cpp.obj
+[11/243] Precompiling header src/dxvk/libdxvk.a.p/meson_pch-cpp.cpp
+[12/243] Compiling C++ object src/d3d9/d3d9.dll.p/d3d9_adapter.cpp.obj
+[13/243] Compiling C++ object src/d3d9/d3d9.dll.p/d3d9_cursor.cpp.obj
+[14/243] Compiling C++ object src/d3d9/d3d9.dll.p/d3d9_common_texture.cpp.obj
+[15/243] Compiling C++ object src/dxvk/libdxvk.a.p/.._d3d9_d3d9_edf_static_decoder.cpp.obj
+[16/243] Compiling C++ object src/dxvk/libdxvk.a.p/.._d3d9_d3d9_edf_static_profile.cpp.obj
+FAILED: [code=2] src/dxvk/libdxvk.a.p/.._d3d9_d3d9_edf_static_profile.cpp.obj 
+"cl" "-Isrc\dxvk\libdxvk.a.p" "-Isrc\dxvk" "-I..\src\dxvk" "-I..\include" "-I..\include\vulkan\include" "-I..\submodules\nrc\include" "-I..\external\nsight_graphics\include" "-I..\src\dxvk\shaders" "-I..\submodules\rtxdi\rtxdi-sdk\include" "-I..\public\include" "-I..\submodules\rtxcr\shaders\include" "-I..\submodules" "-I..\external\usd_stock_x64\Release\include" "-I..\external\nrd\Include" "-I..\submodules\dlss\include" "-I..\external\ngx_sdk_dlnr\include" "-Isrc\tracy" "-I..\src\tracy" "-I..\external\aftermath\include" "-I..\submodules\nvapi" "-I..\external\reflex\inc" "-I..\submodules\xess\inc" "-I..\external\rtxio\include" "-I." "/MD" "/FIdxvk.pch.h" "/Yudxvk.pch.h" "/Fpsrc\dxvk\libdxvk.a.p\dxvk.pch.pch" "/nologo" "/showIncludes" "/utf-8" "/Zc:__cplusplus" "/W2" "/WX" "/EHsc" "/std:c++17" "/O2" "/Zi" "-DNOMINMAX" "-D_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR" "/DDEBUG_OPTIMIZED" "-DDXVK_ENABLE_NSIGHT_GRAPHICS_CAPTURE=1" "-DVK_ENABLE_BETA_EXTENSIONS" "/DREMIX_SENTRY_ENABLED=1" "/DWITH_RTXIO" "/DBUILD_NINJA=1" "/DBUILD_SOURCE_ROOT=\"D:/EDF IA RTX REMIX/runtime/\"" "/MP" "/DRUNTIME_SHADER_RECOMPILATION_PYTHON_ARGUMENTS=\"D:/EDF IA RTX REMIX/runtime/scripts-common/compile_shaders.py -glslang D:/EDF IA RTX REMIX/runtime/external/glslangvalidator/glslangValidator.exe -slangc D:/EDF IA RTX REMIX/runtime/external/slang/slangc.exe -spirvval D:/EDF IA RTX REMIX/runtime/external/spirv_tools/spirv-val.exe -input D:/EDF IA RTX REMIX/runtime/src/dxvk/shaders/rtx -include D:/EDF IA RTX REMIX/runtime/src/dxvk/shaders -include D:/EDF IA RTX REMIX/runtime/submodules/rtxdi/rtxdi-sdk/include -include D:/EDF IA RTX REMIX/runtime/submodules/rtxcr/shaders/include -include D:/EDF IA RTX REMIX/runtime/submodules -include D:/EDF IA RTX REMIX/runtime/submodules/rtxdi/rtxdi-sdk/include/volumetrics -output D:/EDF IA RTX REMIX/runtime/_CompDebugOptimized_x64/src/dxvk/rtx_shaders -parallel -debug -binary\"" "/DRUNTIME_SHADER_RECOMPILATION_SHADER_SOURCE_PATH=\"D:/EDF IA RTX REMIX/runtime/src/dxvk/shaders/rtx\"" "/DRUNTIME_SHADER_RECOMPILATION_SPIRV_BINARY_OUTPUT_PATH=\"D:/EDF IA RTX REMIX/runtime/_CompDebugOptimized_x64/src/dxvk/rtx_shaders\"" "/we4062" "/DREMIX_LIBRARY_EXPORTS=1" "/FS" "/FdD:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\dxvk\libdxvk.pdb" /Fosrc/dxvk/libdxvk.a.p/.._d3d9_d3d9_edf_static_profile.cpp.obj "/c" ../src/d3d9/d3d9_edf_static_profile.cpp
+../src/d3d9/d3d9_edf_static_profile.cpp(30): error C2665: 'dxvk::str::tows': nenhuma função sobrecarregada pode converter todos os tipos de argumento
+D:\EDF IA RTX REMIX\runtime\src\dxvk\../util/util_string.h(46): note: poderia ser 'std::wstring dxvk::str::tows(const char *)'
+../src/d3d9/d3d9_edf_static_profile.cpp(30): note: 'std::wstring dxvk::str::tows(const char *)': não é possível converter um argumento 1 de 'std::string' em 'const char *'
+../src/d3d9/d3d9_edf_static_profile.cpp(30): note: Nenhum operador de conversão definida pelo usuário disponível que possa realizar esta conversão, ou o operador não pode ser chamado
+D:\EDF IA RTX REMIX\runtime\src\dxvk\../util/util_string.h(42): note: ou       'void dxvk::str::tows(const char *,WCHAR (&)[N])'
+../src/d3d9/d3d9_edf_static_profile.cpp(30): note: 'void dxvk::str::tows(const char *,WCHAR (&)[N])': espera argumentos 2 - 1 fornecido
+../src/d3d9/d3d9_edf_static_profile.cpp(30): note: ao tentar corresponder a lista de argumentos '(std::string)'
+../src/d3d9/d3d9_edf_static_profile.cpp(30): error C2665: 'std::basic_ifstream<char,std::char_traits<char>>::basic_ifstream': nenhuma função sobrecarregada pode converter todos os tipos de argumento
+D:\EDFBuildTools\VC\Tools\MSVC\14.44.35207\include\fstream(62): note: poderia ser 'std::basic_ifstream<char,std::char_traits<char>>::basic_ifstream(FILE *)'
+../src/d3d9/d3d9_edf_static_profile.cpp(30): note: 'std::basic_ifstream<char,std::char_traits<char>>::basic_ifstream(FILE *)': não é possível converter um argumento 1 de 'const int' em 'FILE *'
+../src/d3d9/d3d9_edf_static_profile.cpp(30): note: Conversão de tipo integral para tipo de ponteiro requer reinterpret_cast, conversão C-style ou conversão function-style entre parênteses
+D:\EDFBuildTools\VC\Tools\MSVC\14.44.35207\include\fstream(53): note: ou       'std::basic_ifstream<char,std::char_traits<char>>::basic_ifstream(const std::wstring &,std::ios_base::openmode,int)'
+../src/d3d9/d3d9_edf_static_profile.cpp(30): note: 'std::basic_ifstream<char,std::char_traits<char>>::basic_ifstream(const std::wstring &,std::ios_base::openmode,int)': não é possível converter um argumento 1 de 'const int' em 'const std::wstring &'
+../src/d3d9/d3d9_edf_static_profile.cpp(30): note: Razão: não é possível converter de 'const int' para 'const std::wstring'
+../src/d3d9/d3d9_edf_static_profile.cpp(30): note: 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string': nenhuma função sobrecarregada pode converter todos os tipos de argumento
+D:\EDFBuildTools\VC\Tools\MSVC\14.44.35207\include\xstring(768): note: poderia ser 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const _Elem *const )'
+        with
+        [
+            _Elem=wchar_t
+        ]
+../src/d3d9/d3d9_edf_static_profile.cpp(30): note: 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const _Elem *const )': não é possível converter um argumento 1 de 'const int' em 'const _Elem *const '
+        with
+        [
+            _Elem=wchar_t
+        ]
+../src/d3d9/d3d9_edf_static_profile.cpp(30): note: Conversão de tipo integral para tipo de ponteiro requer reinterpret_cast, conversão C-style ou conversão function-style entre parênteses
+D:\EDFBuildTools\VC\Tools\MSVC\14.44.35207\include\xstring(1340): note: ou       'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(std::initializer_list<_Elem>,const _Alloc &)'
+        with
+        [
+            _Elem=wchar_t,
+            _Alloc=std::allocator<wchar_t>
+        ]
+../src/d3d9/d3d9_edf_static_profile.cpp(30): note: 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(std::initializer_list<_Elem>,const _Alloc &)': não é possível converter um argumento 1 de 'const int' em 'std::initializer_list<_Elem>'
+        with
+        [
+            _Elem=wchar_t,
+            _Alloc=std::allocator<wchar_t>
+        ]
+        and
+        [
+            _Elem=wchar_t
+        ]
+../src/d3d9/d3d9_edf_static_profile.cpp(30): note: Conversão requer um segundo operador de conversão definida pelo usuário ou construtor
+D:\EDFBuildTools\VC\Tools\MSVC\14.44.35207\include\xstring(1157): note: ou       'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const _Ty &,const unsigned __int64,const unsigned __int64,const _Alloc &)'
+        with
+        [
+            _Alloc=std::allocator<wchar_t>
+        ]
+D:\EDFBuildTools\VC\Tools\MSVC\14.44.35207\include\xstring(798): note: ou       'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(_Iter,_Iter,const _Alloc &)'
+        with
+        [
+            _Alloc=std::allocator<wchar_t>
+        ]
+D:\EDFBuildTools\VC\Tools\MSVC\14.44.35207\include\xstring(792): note: ou       'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const unsigned __int64,const _Elem,const _Alloc &)'
+        with
+        [
+            _Elem=wchar_t,
+            _Alloc=std::allocator<wchar_t>
+        ]
+D:\EDFBuildTools\VC\Tools\MSVC\14.44.35207\include\xstring(775): note: ou       'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const _Elem *const ,const _Alloc &)'
+        with
+        [
+            _Elem=wchar_t,
+            _Alloc=std::allocator<wchar_t>
+        ]
+D:\EDFBuildTools\VC\Tools\MSVC\14.44.35207\include\xstring(762): note: ou       'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const _Elem *const ,const unsigned __int64,const _Alloc &)'
+        with
+        [
+            _Elem=wchar_t,
+            _Alloc=std::allocator<wchar_t>
+        ]
+../src/d3d9/d3d9_edf_static_profile.cpp(30): note: ao tentar corresponder a lista de argumentos '(const int)'
+D:\EDFBuildTools\VC\Tools\MSVC\14.44.35207\include\fstream(44): note: ou       'std::basic_ifstream<char,std::char_traits<char>>::basic_ifstream(const wchar_t *,std::ios_base::openmode,int)'
+../src/d3d9/d3d9_edf_static_profile.cpp(30): note: 'std::basic_ifstream<char,std::char_traits<char>>::basic_ifstream(const wchar_t *,std::ios_base::openmode,int)': não é possível converter um argumento 1 de 'const int' em 'const wchar_t *'
+../src/d3d9/d3d9_edf_static_profile.cpp(30): note: Conversão de tipo integral para tipo de ponteiro requer reinterpret_cast, conversão C-style ou conversão function-style entre parênteses
+D:\EDFBuildTools\VC\Tools\MSVC\14.44.35207\include\fstream(40): note: ou       'std::basic_ifstream<char,std::char_traits<char>>::basic_ifstream(const std::string &,std::ios_base::openmode,int)'
+../src/d3d9/d3d9_edf_static_profile.cpp(30): note: 'std::basic_ifstream<char,std::char_traits<char>>::basic_ifstream(const std::string &,std::ios_base::openmode,int)': não é possível converter um argumento 1 de 'const int' em 'const std::string &'
+../src/d3d9/d3d9_edf_static_profile.cpp(30): note: Razão: não é possível converter de 'const int' para 'const std::string'
+../src/d3d9/d3d9_edf_static_profile.cpp(30): note: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string': nenhuma função sobrecarregada pode converter todos os tipos de argumento
+D:\EDFBuildTools\VC\Tools\MSVC\14.44.35207\include\xstring(768): note: poderia ser 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string(const _Elem *const )'
+        with
+        [
+            _Elem=char
+        ]
+../src/d3d9/d3d9_edf_static_profile.cpp(30): note: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string(const _Elem *const )': não é possível converter um argumento 1 de 'const int' em 'const _Elem *const '
+        with
+        [
+            _Elem=char
+        ]
+../src/d3d9/d3d9_edf_static_profile.cpp(30): note: Conversão de tipo integral para tipo de ponteiro requer reinterpret_cast, conversão C-style ou conversão function-style entre parênteses
+D:\EDFBuildTools\VC\Tools\MSVC\14.44.35207\include\xstring(1340): note: ou       'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string(std::initializer_list<_Elem>,const _Alloc &)'
+        with
+        [
+            _Elem=char,
+            _Alloc=std::allocator<char>
+        ]
+../src/d3d9/d3d9_edf_static_profile.cpp(30): note: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string(std::initializer_list<_Elem>,const _Alloc &)': não é possível converter um argumento 1 de 'const int' em 'std::initializer_list<_Elem>'
+        with
+        [
+            _Elem=char,
+            _Alloc=std::allocator<char>
+        ]
+        and
+        [
+            _Elem=char
+        ]
+../src/d3d9/d3d9_edf_static_profile.cpp(30): note: Conversão requer um segundo operador de conversão definida pelo usuário ou construtor
+D:\EDFBuildTools\VC\Tools\MSVC\14.44.35207\include\xstring(1157): note: ou       'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string(const _Ty &,const unsigned __int64,const unsigned __int64,const _Alloc &)'
+        with
+        [
+            _Alloc=std::allocator<char>
+        ]
+D:\EDFBuildTools\VC\Tools\MSVC\14.44.35207\include\xstring(798): note: ou       'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string(_Iter,_Iter,const _Alloc &)'
+        with
+        [
+            _Alloc=std::allocator<char>
+        ]
+D:\EDFBuildTools\VC\Tools\MSVC\14.44.35207\include\xstring(792): note: ou       'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string(const unsigned __int64,const _Elem,const _Alloc &)'
+        with
+        [
+            _Elem=char,
+            _Alloc=std::allocator<char>
+        ]
+D:\EDFBuildTools\VC\Tools\MSVC\14.44.35207\include\xstring(775): note: ou       'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string(const _Elem *const ,const _Alloc &)'
+        with
+        [
+            _Elem=char,
+            _Alloc=std::allocator<char>
+        ]
+D:\EDFBuildTools\VC\Tools\MSVC\14.44.35207\include\xstring(762): note: ou       'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string(const _Elem *const ,const unsigned __int64,const _Alloc &)'
+        with
+        [
+            _Elem=char,
+            _Alloc=std::allocator<char>
+        ]
+../src/d3d9/d3d9_edf_static_profile.cpp(30): note: ao tentar corresponder a lista de argumentos '(const int)'
+D:\EDFBuildTools\VC\Tools\MSVC\14.44.35207\include\fstream(31): note: ou       'std::basic_ifstream<char,std::char_traits<char>>::basic_ifstream(const char *,std::ios_base::openmode,int)'
+../src/d3d9/d3d9_edf_static_profile.cpp(30): note: 'std::basic_ifstream<char,std::char_traits<char>>::basic_ifstream(const char *,std::ios_base::openmode,int)': não é possível converter um argumento 1 de 'const int' em 'const char *'
+../src/d3d9/d3d9_edf_static_profile.cpp(30): note: Conversão de tipo integral para tipo de ponteiro requer reinterpret_cast, conversão C-style ou conversão function-style entre parênteses
+D:\EDFBuildTools\VC\Tools\MSVC\14.44.35207\include\fstream(58): note: ou       'std::basic_ifstream<char,std::char_traits<char>>::basic_ifstream(const _Ty &,std::ios_base::openmode,int)'
+../src/d3d9/d3d9_edf_static_profile.cpp(30): note: 'std::basic_ifstream<char,std::char_traits<char>>::basic_ifstream(const _Ty &,std::ios_base::openmode,int)': não foi possível deduzir o argumento de modelo para '__formal'
+D:\EDFBuildTools\VC\Tools\MSVC\14.44.35207\include\fstream(57): note: 'std::enable_if_t<false,int>' : Falha ao especializar o modelo de alias
+../src/d3d9/d3d9_edf_static_profile.cpp(30): note: ao tentar corresponder a lista de argumentos '(const int)'
+[17/243] Compiling C++ object src/dxvk/libdxvk.a.p/dxvk_barrier.cpp.obj
+[18/243] Compiling C++ object src/dxvk/libdxvk.a.p/dxvk_adapter.cpp.obj
+[19/243] Compiling C++ object src/dxvk/libdxvk.a.p/dxvk_buffer.cpp.obj
+ninja: build stopped: subcommand failed.
+Activating VS 17.14.41 (September 2026)
+INFO: automatically activated MSVC compiler environment
+INFO: autodetecting backend as ninja
+INFO: calculating backend command to run: "D:\EDF IA RTX REMIX\.tools\build-python\Scripts\ninja.exe" -C "D:/EDF IA RTX REMIX/runtime/_CompDebugOptimized_x64" -j 4

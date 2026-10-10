@@ -1,0 +1,71 @@
+[
+  {
+    "capture": "1791384177713-28796-0",
+    "blobFiles": 24,
+    "filenameHashErrors": [],
+    "unreferencedBlobs": []
+  },
+  {
+    "capture": "1791384179484-28796-1",
+    "blobFiles": 24,
+    "filenameHashErrors": [],
+    "unreferencedBlobs": []
+  },
+  {
+    "capture": "1791384287020-28796-2",
+    "blobFiles": 3592,
+    "filenameHashErrors": [],
+    "unreferencedBlobs": [
+      "6087bd969d1029306ab7cd7c59c51dda3d6aac17.bin"
+    ]
+  },
+  {
+    "capture": "1791384289663-28796-3",
+    "blobFiles": 3704,
+    "filenameHashErrors": [],
+    "unreferencedBlobs": []
+  },
+  {
+    "capture": "1791384292418-28796-4",
+    "blobFiles": 4119,
+    "filenameHashErrors": [],
+    "unreferencedBlobs": []
+  },
+  {
+    "capture": "1791384295010-28796-5",
+    "blobFiles": 3793,
+    "filenameHashErrors": [],
+    "unreferencedBlobs": []
+  },
+  {
+    "capture": "1791384430306-28796-6",
+    "blobFiles": 2862,
+    "filenameHashErrors": [],
+    "unreferencedBlobs": []
+  },
+  {
+    "capture": "1791384433361-28796-7",
+    "blobFiles": 2960,
+    "filenameHashErrors": [],
+    "unreferencedBlobs": []
+  },
+  {
+    "capture": "1791384443863-28796-8",
+    "blobFiles": 4168,
+    "filenameHashErrors": [],
+    "unreferencedBlobs": [
+      "440d208d9e904c192c963b6c6376ecbb09553583.bin",
+      "63f40d8afb810658c9f8609f704a942a15926333.bin",
+      "b97701dac47e77c2d6cca15747247a551e27d8d2.bin",
+      "d4ed60640ef9e51b3d23c3a6e6823c0fd68b86cd.bin",
+      "e4ae024fe6b3b762111b687dcb69b66d2fb44232.bin",
+      "fd09a756f26f71e91aa1bb4a27fdc85ad31ea696.bin"
+    ]
+  },
+  {
+    "capture": "1791384446843-28796-9",
+    "blobFiles": 4204,
+    "filenameHashErrors": [],
+    "unreferencedBlobs": []
+  }
+]

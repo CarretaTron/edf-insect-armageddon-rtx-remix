@@ -1,0 +1,2269 @@
+{
+  "schemaVersion": 1,
+  "shaders": [
+    {
+      "hash": "f098f457d9ae603bea5f84ec985d473c29cfb0c9",
+      "stage": "vs",
+      "category": "unknown",
+      "layoutsObserved": [
+        {
+          "hash": "6ff4217f660b280ef21cd86f83889aa93219aaa6",
+          "elements": [
+            {
+              "stream": 0,
+              "offset": 0,
+              "type": 5,
+              "method": 0,
+              "usage": 7,
+              "usageIndex": 0
+            },
+            {
+              "stream": 1,
+              "offset": 0,
+              "type": 5,
+              "method": 0,
+              "usage": 3,
+              "usageIndex": 0
+            },
+            {
+              "stream": 2,
+              "offset": 0,
+              "type": 7,
+              "method": 0,
+              "usage": 0,
+              "usageIndex": 0
+            },
+            {
+              "stream": 3,
+              "offset": 0,
+              "type": 5,
+              "method": 0,
+              "usage": 6,
+              "usageIndex": 0
+            },
+            {
+              "stream": 4,
+              "offset": 0,
+              "type": 6,
+              "method": 0,
+              "usage": 5,
+              "usageIndex": 0
+            }
+          ]
+        }
+      ],
+      "importantConstants": [],
+      "evidence": [
+        {
+          "kind": "disassembly",
+          "source": "blobs/40a4f0ce38843ce9a5f95b355039ecf885c1f3cd.bin"
+        }
+      ],
+      "errors": [],
+      "bytecodeHash": "f098f457d9ae603bea5f84ec985d473c29cfb0c9",
+      "model": "vs_3_0",
+      "disassembly": {
+        "model": "vs_3_0",
+        "inputs": [
+          {
+            "register": "v0",
+            "semantic": "binormal",
+            "instruction": "dcl_binormal v0"
+          },
+          {
+            "register": "v1",
+            "semantic": "normal",
+            "instruction": "dcl_normal v1"
+          },
+          {
+            "register": "v2",
+            "semantic": "position",
+            "instruction": "dcl_position v2"
+          },
+          {
+            "register": "v3",
+            "semantic": "tangent",
+            "instruction": "dcl_tangent v3"
+          },
+          {
+            "register": "v4",
+            "semantic": "texcoord",
+            "instruction": "dcl_texcoord v4"
+          }
+        ],
+        "outputs": [
+          {
+            "register": "o0",
+            "semantic": "position",
+            "instruction": "dcl_position o0"
+          },
+          {
+            "register": "o1",
+            "semantic": "texcoord",
+            "instruction": "dcl_texcoord o1.xyz"
+          },
+          {
+            "register": "o2",
+            "semantic": "texcoord1",
+            "instruction": "dcl_texcoord1 o2.xyz"
+          },
+          {
+            "register": "o3",
+            "semantic": "texcoord2",
+            "instruction": "dcl_texcoord2 o3.xyz"
+          },
+          {
+            "register": "o4",
+            "semantic": "texcoord3",
+            "instruction": "dcl_texcoord3 o4.xyz"
+          },
+          {
+            "register": "o5",
+            "semantic": "texcoord4",
+            "instruction": "dcl_texcoord4 o5.xyz"
+          }
+        ],
+        "declarations": [
+          {
+            "register": "v0",
+            "semantic": "binormal",
+            "instruction": "dcl_binormal v0"
+          },
+          {
+            "register": "v1",
+            "semantic": "normal",
+            "instruction": "dcl_normal v1"
+          },
+          {
+            "register": "v2",
+            "semantic": "position",
+            "instruction": "dcl_position v2"
+          },
+          {
+            "register": "v3",
+            "semantic": "tangent",
+            "instruction": "dcl_tangent v3"
+          },
+          {
+            "register": "v4",
+            "semantic": "texcoord",
+            "instruction": "dcl_texcoord v4"
+          },
+          {
+            "register": "o0",
+            "semantic": "position",
+            "instruction": "dcl_position o0"
+          },
+          {
+            "register": "o1",
+            "semantic": "texcoord",
+            "instruction": "dcl_texcoord o1.xyz"
+          },
+          {
+            "register": "o2",
+            "semantic": "texcoord1",
+            "instruction": "dcl_texcoord1 o2.xyz"
+          },
+          {
+            "register": "o3",
+            "semantic": "texcoord2",
+            "instruction": "dcl_texcoord2 o3.xyz"
+          },
+          {
+            "register": "o4",
+            "semantic": "texcoord3",
+            "instruction": "dcl_texcoord3 o4.xyz"
+          },
+          {
+            "register": "o5",
+            "semantic": "texcoord4",
+            "instruction": "dcl_texcoord4 o5.xyz"
+          }
+        ],
+        "constantRegisters": {
+          "c": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "i": [],
+          "b": []
+        },
+        "samplers": [],
+        "immediateDefinitions": {},
+        "relativeConstantAddressing": false,
+        "matrixInstructions": [],
+        "positionOutputWrites": [
+          "mov o0, r0"
+        ],
+        "instructionCount": 26,
+        "limitations": [
+          "Lexical inspection only; branches, relative addressing and data flow require further analysis."
+        ]
+      },
+      "inputSignature": [
+        {
+          "register": 0,
+          "usage": 7,
+          "usageIndex": 0
+        },
+        {
+          "register": 1,
+          "usage": 3,
+          "usageIndex": 0
+        },
+        {
+          "register": 2,
+          "usage": 0,
+          "usageIndex": 0
+        },
+        {
+          "register": 3,
+          "usage": 6,
+          "usageIndex": 0
+        },
+        {
+          "register": 4,
+          "usage": 5,
+          "usageIndex": 0
+        }
+      ],
+      "outputSignature": [
+        {
+          "register": 0,
+          "usage": 0,
+          "usageIndex": 0
+        },
+        {
+          "register": 1,
+          "usage": 5,
+          "usageIndex": 0
+        },
+        {
+          "register": 2,
+          "usage": 5,
+          "usageIndex": 1
+        },
+        {
+          "register": 3,
+          "usage": 5,
+          "usageIndex": 2
+        },
+        {
+          "register": 4,
+          "usage": 5,
+          "usageIndex": 3
+        },
+        {
+          "register": 5,
+          "usage": 5,
+          "usageIndex": 4
+        }
+      ],
+      "definedConstants": [],
+      "samplerMask": 0,
+      "renderTargetMask": 0,
+      "maxConstantIndexF": 10,
+      "maxConstantIndexI": 0,
+      "maxConstantIndexB": 0,
+      "relativeConstantCopies": false,
+      "drawsObserved": [
+        {
+          "frame": 1182,
+          "draw": 868
+        },
+        {
+          "frame": 1182,
+          "draw": 869
+        },
+        {
+          "frame": 1182,
+          "draw": 870
+        },
+        {
+          "frame": 1182,
+          "draw": 871
+        },
+        {
+          "frame": 1182,
+          "draw": 872
+        },
+        {
+          "frame": 1182,
+          "draw": 873
+        },
+        {
+          "frame": 1182,
+          "draw": 874
+        },
+        {
+          "frame": 1182,
+          "draw": 875
+        },
+        {
+          "frame": 1182,
+          "draw": 876
+        },
+        {
+          "frame": 1182,
+          "draw": 877
+        },
+        {
+          "frame": 1182,
+          "draw": 878
+        },
+        {
+          "frame": 1182,
+          "draw": 879
+        },
+        {
+          "frame": 1182,
+          "draw": 880
+        },
+        {
+          "frame": 1182,
+          "draw": 881
+        },
+        {
+          "frame": 1182,
+          "draw": 882
+        },
+        {
+          "frame": 1182,
+          "draw": 883
+        },
+        {
+          "frame": 1182,
+          "draw": 884
+        },
+        {
+          "frame": 1182,
+          "draw": 885
+        },
+        {
+          "frame": 1182,
+          "draw": 886
+        },
+        {
+          "frame": 1182,
+          "draw": 887
+        },
+        {
+          "frame": 1182,
+          "draw": 888
+        },
+        {
+          "frame": 1182,
+          "draw": 889
+        },
+        {
+          "frame": 1182,
+          "draw": 890
+        },
+        {
+          "frame": 1182,
+          "draw": 891
+        },
+        {
+          "frame": 1182,
+          "draw": 892
+        },
+        {
+          "frame": 1182,
+          "draw": 893
+        },
+        {
+          "frame": 1182,
+          "draw": 894
+        },
+        {
+          "frame": 1182,
+          "draw": 895
+        },
+        {
+          "frame": 1182,
+          "draw": 896
+        },
+        {
+          "frame": 1182,
+          "draw": 897
+        },
+        {
+          "frame": 1182,
+          "draw": 898
+        },
+        {
+          "frame": 1182,
+          "draw": 899
+        },
+        {
+          "frame": 1182,
+          "draw": 900
+        },
+        {
+          "frame": 1182,
+          "draw": 901
+        },
+        {
+          "frame": 1182,
+          "draw": 902
+        },
+        {
+          "frame": 1182,
+          "draw": 903
+        },
+        {
+          "frame": 1182,
+          "draw": 904
+        },
+        {
+          "frame": 1182,
+          "draw": 905
+        },
+        {
+          "frame": 1182,
+          "draw": 906
+        },
+        {
+          "frame": 1182,
+          "draw": 907
+        },
+        {
+          "frame": 1182,
+          "draw": 908
+        },
+        {
+          "frame": 1182,
+          "draw": 909
+        },
+        {
+          "frame": 1182,
+          "draw": 910
+        },
+        {
+          "frame": 1182,
+          "draw": 911
+        },
+        {
+          "frame": 1182,
+          "draw": 912
+        },
+        {
+          "frame": 1182,
+          "draw": 913
+        },
+        {
+          "frame": 1182,
+          "draw": 914
+        },
+        {
+          "frame": 1182,
+          "draw": 915
+        },
+        {
+          "frame": 1182,
+          "draw": 916
+        },
+        {
+          "frame": 1182,
+          "draw": 917
+        },
+        {
+          "frame": 1182,
+          "draw": 918
+        },
+        {
+          "frame": 1182,
+          "draw": 919
+        },
+        {
+          "frame": 1182,
+          "draw": 920
+        },
+        {
+          "frame": 1182,
+          "draw": 921
+        },
+        {
+          "frame": 1182,
+          "draw": 922
+        },
+        {
+          "frame": 1182,
+          "draw": 923
+        },
+        {
+          "frame": 1182,
+          "draw": 924
+        },
+        {
+          "frame": 1182,
+          "draw": 925
+        },
+        {
+          "frame": 1182,
+          "draw": 926
+        },
+        {
+          "frame": 1182,
+          "draw": 927
+        },
+        {
+          "frame": 1182,
+          "draw": 928
+        },
+        {
+          "frame": 1182,
+          "draw": 929
+        },
+        {
+          "frame": 1182,
+          "draw": 930
+        },
+        {
+          "frame": 1182,
+          "draw": 931
+        },
+        {
+          "frame": 1182,
+          "draw": 932
+        },
+        {
+          "frame": 1182,
+          "draw": 933
+        },
+        {
+          "frame": 1182,
+          "draw": 934
+        },
+        {
+          "frame": 1182,
+          "draw": 935
+        },
+        {
+          "frame": 1182,
+          "draw": 936
+        },
+        {
+          "frame": 1182,
+          "draw": 937
+        },
+        {
+          "frame": 1182,
+          "draw": 938
+        },
+        {
+          "frame": 1182,
+          "draw": 939
+        },
+        {
+          "frame": 1182,
+          "draw": 940
+        },
+        {
+          "frame": 1182,
+          "draw": 941
+        },
+        {
+          "frame": 1182,
+          "draw": 942
+        },
+        {
+          "frame": 1182,
+          "draw": 943
+        },
+        {
+          "frame": 1182,
+          "draw": 944
+        },
+        {
+          "frame": 1182,
+          "draw": 945
+        },
+        {
+          "frame": 1182,
+          "draw": 946
+        },
+        {
+          "frame": 1182,
+          "draw": 947
+        },
+        {
+          "frame": 1182,
+          "draw": 948
+        },
+        {
+          "frame": 1182,
+          "draw": 949
+        },
+        {
+          "frame": 1182,
+          "draw": 950
+        },
+        {
+          "frame": 1182,
+          "draw": 951
+        },
+        {
+          "frame": 1182,
+          "draw": 952
+        },
+        {
+          "frame": 1182,
+          "draw": 953
+        },
+        {
+          "frame": 1182,
+          "draw": 954
+        },
+        {
+          "frame": 1182,
+          "draw": 955
+        },
+        {
+          "frame": 1182,
+          "draw": 956
+        },
+        {
+          "frame": 1182,
+          "draw": 957
+        },
+        {
+          "frame": 1182,
+          "draw": 958
+        },
+        {
+          "frame": 1182,
+          "draw": 959
+        },
+        {
+          "frame": 1182,
+          "draw": 960
+        },
+        {
+          "frame": 1182,
+          "draw": 961
+        },
+        {
+          "frame": 1182,
+          "draw": 962
+        },
+        {
+          "frame": 1182,
+          "draw": 963
+        },
+        {
+          "frame": 1182,
+          "draw": 964
+        },
+        {
+          "frame": 1182,
+          "draw": 965
+        },
+        {
+          "frame": 1182,
+          "draw": 966
+        },
+        {
+          "frame": 1182,
+          "draw": 967
+        },
+        {
+          "frame": 1182,
+          "draw": 968
+        },
+        {
+          "frame": 1182,
+          "draw": 969
+        },
+        {
+          "frame": 1182,
+          "draw": 970
+        },
+        {
+          "frame": 1182,
+          "draw": 971
+        },
+        {
+          "frame": 1182,
+          "draw": 972
+        },
+        {
+          "frame": 1182,
+          "draw": 973
+        },
+        {
+          "frame": 1182,
+          "draw": 974
+        },
+        {
+          "frame": 1182,
+          "draw": 975
+        },
+        {
+          "frame": 1182,
+          "draw": 976
+        },
+        {
+          "frame": 1182,
+          "draw": 977
+        },
+        {
+          "frame": 1182,
+          "draw": 978
+        },
+        {
+          "frame": 1182,
+          "draw": 979
+        },
+        {
+          "frame": 1182,
+          "draw": 980
+        },
+        {
+          "frame": 1182,
+          "draw": 981
+        },
+        {
+          "frame": 1182,
+          "draw": 982
+        },
+        {
+          "frame": 1182,
+          "draw": 983
+        },
+        {
+          "frame": 1182,
+          "draw": 984
+        },
+        {
+          "frame": 1182,
+          "draw": 985
+        },
+        {
+          "frame": 1182,
+          "draw": 986
+        },
+        {
+          "frame": 1182,
+          "draw": 987
+        },
+        {
+          "frame": 1182,
+          "draw": 988
+        },
+        {
+          "frame": 1182,
+          "draw": 989
+        },
+        {
+          "frame": 1182,
+          "draw": 990
+        },
+        {
+          "frame": 1182,
+          "draw": 991
+        },
+        {
+          "frame": 1182,
+          "draw": 992
+        },
+        {
+          "frame": 1182,
+          "draw": 993
+        },
+        {
+          "frame": 1182,
+          "draw": 994
+        },
+        {
+          "frame": 1182,
+          "draw": 995
+        },
+        {
+          "frame": 1182,
+          "draw": 996
+        },
+        {
+          "frame": 1182,
+          "draw": 997
+        },
+        {
+          "frame": 1182,
+          "draw": 998
+        },
+        {
+          "frame": 1182,
+          "draw": 999
+        },
+        {
+          "frame": 1182,
+          "draw": 1000
+        },
+        {
+          "frame": 1182,
+          "draw": 1001
+        },
+        {
+          "frame": 1182,
+          "draw": 1002
+        },
+        {
+          "frame": 1182,
+          "draw": 1003
+        },
+        {
+          "frame": 1182,
+          "draw": 1004
+        },
+        {
+          "frame": 1182,
+          "draw": 1005
+        },
+        {
+          "frame": 1182,
+          "draw": 1006
+        },
+        {
+          "frame": 1182,
+          "draw": 1073
+        },
+        {
+          "frame": 1182,
+          "draw": 1074
+        },
+        {
+          "frame": 1182,
+          "draw": 1075
+        },
+        {
+          "frame": 1182,
+          "draw": 1076
+        },
+        {
+          "frame": 1182,
+          "draw": 1077
+        },
+        {
+          "frame": 1182,
+          "draw": 1078
+        },
+        {
+          "frame": 1182,
+          "draw": 1079
+        },
+        {
+          "frame": 1182,
+          "draw": 1080
+        },
+        {
+          "frame": 1182,
+          "draw": 1081
+        },
+        {
+          "frame": 1182,
+          "draw": 1082
+        },
+        {
+          "frame": 1182,
+          "draw": 1083
+        },
+        {
+          "frame": 1182,
+          "draw": 1084
+        },
+        {
+          "frame": 1182,
+          "draw": 1085
+        },
+        {
+          "frame": 1182,
+          "draw": 1086
+        },
+        {
+          "frame": 1182,
+          "draw": 1087
+        },
+        {
+          "frame": 1182,
+          "draw": 1088
+        },
+        {
+          "frame": 1182,
+          "draw": 1089
+        },
+        {
+          "frame": 1182,
+          "draw": 1090
+        },
+        {
+          "frame": 1182,
+          "draw": 1091
+        },
+        {
+          "frame": 1182,
+          "draw": 1092
+        },
+        {
+          "frame": 1182,
+          "draw": 1093
+        },
+        {
+          "frame": 1182,
+          "draw": 1094
+        },
+        {
+          "frame": 1182,
+          "draw": 1095
+        },
+        {
+          "frame": 1182,
+          "draw": 1096
+        },
+        {
+          "frame": 1182,
+          "draw": 1097
+        },
+        {
+          "frame": 1182,
+          "draw": 1098
+        },
+        {
+          "frame": 1182,
+          "draw": 1099
+        },
+        {
+          "frame": 1182,
+          "draw": 1100
+        },
+        {
+          "frame": 1182,
+          "draw": 1101
+        },
+        {
+          "frame": 1182,
+          "draw": 1102
+        },
+        {
+          "frame": 1182,
+          "draw": 1103
+        },
+        {
+          "frame": 1182,
+          "draw": 1104
+        },
+        {
+          "frame": 1182,
+          "draw": 1105
+        },
+        {
+          "frame": 1182,
+          "draw": 1106
+        },
+        {
+          "frame": 1182,
+          "draw": 1107
+        },
+        {
+          "frame": 1182,
+          "draw": 1108
+        },
+        {
+          "frame": 1182,
+          "draw": 1109
+        },
+        {
+          "frame": 1182,
+          "draw": 1110
+        },
+        {
+          "frame": 1182,
+          "draw": 1111
+        },
+        {
+          "frame": 1182,
+          "draw": 1112
+        },
+        {
+          "frame": 1182,
+          "draw": 1113
+        },
+        {
+          "frame": 1182,
+          "draw": 1114
+        },
+        {
+          "frame": 1182,
+          "draw": 1115
+        },
+        {
+          "frame": 1182,
+          "draw": 1116
+        },
+        {
+          "frame": 1182,
+          "draw": 1117
+        },
+        {
+          "frame": 1182,
+          "draw": 1118
+        },
+        {
+          "frame": 1182,
+          "draw": 1119
+        },
+        {
+          "frame": 1182,
+          "draw": 1120
+        },
+        {
+          "frame": 1182,
+          "draw": 1121
+        },
+        {
+          "frame": 1182,
+          "draw": 1122
+        },
+        {
+          "frame": 1182,
+          "draw": 1123
+        },
+        {
+          "frame": 1182,
+          "draw": 1124
+        },
+        {
+          "frame": 1182,
+          "draw": 1125
+        },
+        {
+          "frame": 1182,
+          "draw": 1126
+        },
+        {
+          "frame": 1182,
+          "draw": 1127
+        },
+        {
+          "frame": 1182,
+          "draw": 1128
+        },
+        {
+          "frame": 1182,
+          "draw": 1129
+        },
+        {
+          "frame": 1182,
+          "draw": 1130
+        },
+        {
+          "frame": 1182,
+          "draw": 1131
+        },
+        {
+          "frame": 1182,
+          "draw": 1132
+        },
+        {
+          "frame": 1182,
+          "draw": 1133
+        },
+        {
+          "frame": 1182,
+          "draw": 1134
+        },
+        {
+          "frame": 1182,
+          "draw": 1135
+        },
+        {
+          "frame": 1182,
+          "draw": 1136
+        },
+        {
+          "frame": 1182,
+          "draw": 1137
+        },
+        {
+          "frame": 1182,
+          "draw": 1138
+        },
+        {
+          "frame": 1182,
+          "draw": 1139
+        },
+        {
+          "frame": 1182,
+          "draw": 1140
+        },
+        {
+          "frame": 1182,
+          "draw": 1141
+        },
+        {
+          "frame": 1182,
+          "draw": 1142
+        },
+        {
+          "frame": 1182,
+          "draw": 1143
+        },
+        {
+          "frame": 1182,
+          "draw": 1144
+        },
+        {
+          "frame": 1182,
+          "draw": 1145
+        },
+        {
+          "frame": 1182,
+          "draw": 1146
+        },
+        {
+          "frame": 1182,
+          "draw": 1147
+        },
+        {
+          "frame": 1182,
+          "draw": 1148
+        },
+        {
+          "frame": 1182,
+          "draw": 1149
+        },
+        {
+          "frame": 1182,
+          "draw": 1150
+        },
+        {
+          "frame": 1182,
+          "draw": 1151
+        },
+        {
+          "frame": 1182,
+          "draw": 1152
+        },
+        {
+          "frame": 1182,
+          "draw": 1153
+        },
+        {
+          "frame": 1182,
+          "draw": 1154
+        },
+        {
+          "frame": 1182,
+          "draw": 1155
+        },
+        {
+          "frame": 1182,
+          "draw": 1156
+        },
+        {
+          "frame": 1182,
+          "draw": 1157
+        }
+      ]
+    },
+    {
+      "hash": "44b92a29eb3e5f2ee6d53f02e14fb11a01511da8",
+      "stage": "ps",
+      "category": "unknown",
+      "layoutsObserved": [
+        {
+          "hash": "6ff4217f660b280ef21cd86f83889aa93219aaa6",
+          "elements": [
+            {
+              "stream": 0,
+              "offset": 0,
+              "type": 5,
+              "method": 0,
+              "usage": 7,
+              "usageIndex": 0
+            },
+            {
+              "stream": 1,
+              "offset": 0,
+              "type": 5,
+              "method": 0,
+              "usage": 3,
+              "usageIndex": 0
+            },
+            {
+              "stream": 2,
+              "offset": 0,
+              "type": 7,
+              "method": 0,
+              "usage": 0,
+              "usageIndex": 0
+            },
+            {
+              "stream": 3,
+              "offset": 0,
+              "type": 5,
+              "method": 0,
+              "usage": 6,
+              "usageIndex": 0
+            },
+            {
+              "stream": 4,
+              "offset": 0,
+              "type": 6,
+              "method": 0,
+              "usage": 5,
+              "usageIndex": 0
+            }
+          ]
+        }
+      ],
+      "importantConstants": [],
+      "evidence": [
+        {
+          "kind": "disassembly",
+          "source": "blobs/f160956ebc24964a1a50774fd5149c6cc82289ae.bin"
+        }
+      ],
+      "errors": [],
+      "bytecodeHash": "44b92a29eb3e5f2ee6d53f02e14fb11a01511da8",
+      "model": "ps_3_0",
+      "disassembly": {
+        "model": "ps_3_0",
+        "inputs": [
+          {
+            "register": "v0",
+            "semantic": "texcoord",
+            "instruction": "dcl_texcoord v0.xyz"
+          },
+          {
+            "register": "v1",
+            "semantic": "texcoord3",
+            "instruction": "dcl_texcoord3 v1.xyz"
+          },
+          {
+            "register": "v2",
+            "semantic": "texcoord4",
+            "instruction": "dcl_texcoord4 v2.xyz"
+          }
+        ],
+        "outputs": [
+          {
+            "register": "oC0",
+            "semantic": "unspecified"
+          },
+          {
+            "register": "oC1",
+            "semantic": "unspecified"
+          },
+          {
+            "register": "oC2",
+            "semantic": "unspecified"
+          }
+        ],
+        "declarations": [
+          {
+            "register": "v0",
+            "semantic": "texcoord",
+            "instruction": "dcl_texcoord v0.xyz"
+          },
+          {
+            "register": "v1",
+            "semantic": "texcoord3",
+            "instruction": "dcl_texcoord3 v1.xyz"
+          },
+          {
+            "register": "v2",
+            "semantic": "texcoord4",
+            "instruction": "dcl_texcoord4 v2.xyz"
+          },
+          {
+            "register": "s0",
+            "semantic": "2d",
+            "instruction": "dcl_2d s0"
+          },
+          {
+            "register": "s1",
+            "semantic": "cube",
+            "instruction": "dcl_cube s1"
+          },
+          {
+            "register": "s2",
+            "semantic": "cube",
+            "instruction": "dcl_cube s2"
+          }
+        ],
+        "constantRegisters": {
+          "c": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "i": [],
+          "b": []
+        },
+        "samplers": [
+          0,
+          1,
+          2
+        ],
+        "immediateDefinitions": {
+          "c4": [
+            "1",
+            "32",
+            "0.5",
+            "0"
+          ]
+        },
+        "relativeConstantAddressing": false,
+        "matrixInstructions": [],
+        "positionOutputWrites": [],
+        "instructionCount": 28,
+        "limitations": [
+          "Lexical inspection only; branches, relative addressing and data flow require further analysis."
+        ]
+      },
+      "inputSignature": [
+        {
+          "register": 0,
+          "usage": 5,
+          "usageIndex": 0
+        },
+        {
+          "register": 1,
+          "usage": 5,
+          "usageIndex": 3
+        },
+        {
+          "register": 2,
+          "usage": 5,
+          "usageIndex": 4
+        }
+      ],
+      "outputSignature": [],
+      "definedConstants": [
+        {
+          "register": 4,
+          "value": [
+            1,
+            32,
+            0.5,
+            0
+          ]
+        }
+      ],
+      "samplerMask": 7,
+      "renderTargetMask": 7,
+      "maxConstantIndexF": 4,
+      "maxConstantIndexI": 0,
+      "maxConstantIndexB": 0,
+      "relativeConstantCopies": false,
+      "drawsObserved": [
+        {
+          "frame": 1182,
+          "draw": 868
+        },
+        {
+          "frame": 1182,
+          "draw": 869
+        },
+        {
+          "frame": 1182,
+          "draw": 870
+        },
+        {
+          "frame": 1182,
+          "draw": 871
+        },
+        {
+          "frame": 1182,
+          "draw": 872
+        },
+        {
+          "frame": 1182,
+          "draw": 873
+        },
+        {
+          "frame": 1182,
+          "draw": 874
+        },
+        {
+          "frame": 1182,
+          "draw": 875
+        },
+        {
+          "frame": 1182,
+          "draw": 876
+        },
+        {
+          "frame": 1182,
+          "draw": 877
+        },
+        {
+          "frame": 1182,
+          "draw": 878
+        },
+        {
+          "frame": 1182,
+          "draw": 879
+        },
+        {
+          "frame": 1182,
+          "draw": 880
+        },
+        {
+          "frame": 1182,
+          "draw": 881
+        },
+        {
+          "frame": 1182,
+          "draw": 882
+        },
+        {
+          "frame": 1182,
+          "draw": 883
+        },
+        {
+          "frame": 1182,
+          "draw": 884
+        },
+        {
+          "frame": 1182,
+          "draw": 885
+        },
+        {
+          "frame": 1182,
+          "draw": 886
+        },
+        {
+          "frame": 1182,
+          "draw": 887
+        },
+        {
+          "frame": 1182,
+          "draw": 888
+        },
+        {
+          "frame": 1182,
+          "draw": 889
+        },
+        {
+          "frame": 1182,
+          "draw": 890
+        },
+        {
+          "frame": 1182,
+          "draw": 891
+        },
+        {
+          "frame": 1182,
+          "draw": 892
+        },
+        {
+          "frame": 1182,
+          "draw": 893
+        },
+        {
+          "frame": 1182,
+          "draw": 894
+        },
+        {
+          "frame": 1182,
+          "draw": 895
+        },
+        {
+          "frame": 1182,
+          "draw": 896
+        },
+        {
+          "frame": 1182,
+          "draw": 897
+        },
+        {
+          "frame": 1182,
+          "draw": 898
+        },
+        {
+          "frame": 1182,
+          "draw": 899
+        },
+        {
+          "frame": 1182,
+          "draw": 900
+        },
+        {
+          "frame": 1182,
+          "draw": 901
+        },
+        {
+          "frame": 1182,
+          "draw": 902
+        },
+        {
+          "frame": 1182,
+          "draw": 903
+        },
+        {
+          "frame": 1182,
+          "draw": 904
+        },
+        {
+          "frame": 1182,
+          "draw": 905
+        },
+        {
+          "frame": 1182,
+          "draw": 906
+        },
+        {
+          "frame": 1182,
+          "draw": 907
+        },
+        {
+          "frame": 1182,
+          "draw": 908
+        },
+        {
+          "frame": 1182,
+          "draw": 909
+        },
+        {
+          "frame": 1182,
+          "draw": 910
+        },
+        {
+          "frame": 1182,
+          "draw": 911
+        },
+        {
+          "frame": 1182,
+          "draw": 912
+        },
+        {
+          "frame": 1182,
+          "draw": 913
+        },
+        {
+          "frame": 1182,
+          "draw": 914
+        },
+        {
+          "frame": 1182,
+          "draw": 915
+        },
+        {
+          "frame": 1182,
+          "draw": 916
+        },
+        {
+          "frame": 1182,
+          "draw": 917
+        },
+        {
+          "frame": 1182,
+          "draw": 918
+        },
+        {
+          "frame": 1182,
+          "draw": 919
+        },
+        {
+          "frame": 1182,
+          "draw": 920
+        },
+        {
+          "frame": 1182,
+          "draw": 921
+        },
+        {
+          "frame": 1182,
+          "draw": 922
+        },
+        {
+          "frame": 1182,
+          "draw": 923
+        },
+        {
+          "frame": 1182,
+          "draw": 924
+        },
+        {
+          "frame": 1182,
+          "draw": 925
+        },
+        {
+          "frame": 1182,
+          "draw": 926
+        },
+        {
+          "frame": 1182,
+          "draw": 927
+        },
+        {
+          "frame": 1182,
+          "draw": 928
+        },
+        {
+          "frame": 1182,
+          "draw": 929
+        },
+        {
+          "frame": 1182,
+          "draw": 930
+        },
+        {
+          "frame": 1182,
+          "draw": 931
+        },
+        {
+          "frame": 1182,
+          "draw": 932
+        },
+        {
+          "frame": 1182,
+          "draw": 933
+        },
+        {
+          "frame": 1182,
+          "draw": 934
+        },
+        {
+          "frame": 1182,
+          "draw": 935
+        },
+        {
+          "frame": 1182,
+          "draw": 936
+        },
+        {
+          "frame": 1182,
+          "draw": 937
+        },
+        {
+          "frame": 1182,
+          "draw": 938
+        },
+        {
+          "frame": 1182,
+          "draw": 939
+        },
+        {
+          "frame": 1182,
+          "draw": 940
+        },
+        {
+          "frame": 1182,
+          "draw": 941
+        },
+        {
+          "frame": 1182,
+          "draw": 942
+        },
+        {
+          "frame": 1182,
+          "draw": 943
+        },
+        {
+          "frame": 1182,
+          "draw": 944
+        },
+        {
+          "frame": 1182,
+          "draw": 945
+        },
+        {
+          "frame": 1182,
+          "draw": 946
+        },
+        {
+          "frame": 1182,
+          "draw": 947
+        },
+        {
+          "frame": 1182,
+          "draw": 948
+        },
+        {
+          "frame": 1182,
+          "draw": 949
+        },
+        {
+          "frame": 1182,
+          "draw": 950
+        },
+        {
+          "frame": 1182,
+          "draw": 951
+        },
+        {
+          "frame": 1182,
+          "draw": 952
+        },
+        {
+          "frame": 1182,
+          "draw": 953
+        },
+        {
+          "frame": 1182,
+          "draw": 954
+        },
+        {
+          "frame": 1182,
+          "draw": 955
+        },
+        {
+          "frame": 1182,
+          "draw": 956
+        },
+        {
+          "frame": 1182,
+          "draw": 957
+        },
+        {
+          "frame": 1182,
+          "draw": 958
+        },
+        {
+          "frame": 1182,
+          "draw": 959
+        },
+        {
+          "frame": 1182,
+          "draw": 960
+        },
+        {
+          "frame": 1182,
+          "draw": 961
+        },
+        {
+          "frame": 1182,
+          "draw": 962
+        },
+        {
+          "frame": 1182,
+          "draw": 963
+        },
+        {
+          "frame": 1182,
+          "draw": 964
+        },
+        {
+          "frame": 1182,
+          "draw": 965
+        },
+        {
+          "frame": 1182,
+          "draw": 966
+        },
+        {
+          "frame": 1182,
+          "draw": 967
+        },
+        {
+          "frame": 1182,
+          "draw": 968
+        },
+        {
+          "frame": 1182,
+          "draw": 969
+        },
+        {
+          "frame": 1182,
+          "draw": 970
+        },
+        {
+          "frame": 1182,
+          "draw": 971
+        },
+        {
+          "frame": 1182,
+          "draw": 972
+        },
+        {
+          "frame": 1182,
+          "draw": 973
+        },
+        {
+          "frame": 1182,
+          "draw": 974
+        },
+        {
+          "frame": 1182,
+          "draw": 975
+        },
+        {
+          "frame": 1182,
+          "draw": 976
+        },
+        {
+          "frame": 1182,
+          "draw": 977
+        },
+        {
+          "frame": 1182,
+          "draw": 978
+        },
+        {
+          "frame": 1182,
+          "draw": 979
+        },
+        {
+          "frame": 1182,
+          "draw": 980
+        },
+        {
+          "frame": 1182,
+          "draw": 981
+        },
+        {
+          "frame": 1182,
+          "draw": 982
+        },
+        {
+          "frame": 1182,
+          "draw": 983
+        },
+        {
+          "frame": 1182,
+          "draw": 984
+        },
+        {
+          "frame": 1182,
+          "draw": 985
+        },
+        {
+          "frame": 1182,
+          "draw": 986
+        },
+        {
+          "frame": 1182,
+          "draw": 987
+        },
+        {
+          "frame": 1182,
+          "draw": 988
+        },
+        {
+          "frame": 1182,
+          "draw": 989
+        },
+        {
+          "frame": 1182,
+          "draw": 990
+        },
+        {
+          "frame": 1182,
+          "draw": 991
+        },
+        {
+          "frame": 1182,
+          "draw": 992
+        },
+        {
+          "frame": 1182,
+          "draw": 993
+        },
+        {
+          "frame": 1182,
+          "draw": 994
+        },
+        {
+          "frame": 1182,
+          "draw": 995
+        },
+        {
+          "frame": 1182,
+          "draw": 996
+        },
+        {
+          "frame": 1182,
+          "draw": 997
+        },
+        {
+          "frame": 1182,
+          "draw": 998
+        },
+        {
+          "frame": 1182,
+          "draw": 999
+        },
+        {
+          "frame": 1182,
+          "draw": 1000
+        },
+        {
+          "frame": 1182,
+          "draw": 1001
+        },
+        {
+          "frame": 1182,
+          "draw": 1002
+        },
+        {
+          "frame": 1182,
+          "draw": 1003
+        },
+        {
+          "frame": 1182,
+          "draw": 1004
+        },
+        {
+          "frame": 1182,
+          "draw": 1005
+        },
+        {
+          "frame": 1182,
+          "draw": 1006
+        },
+        {
+          "frame": 1182,
+          "draw": 1073
+        },
+        {
+          "frame": 1182,
+          "draw": 1074
+        },
+        {
+          "frame": 1182,
+          "draw": 1075
+        },
+        {
+          "frame": 1182,
+          "draw": 1076
+        },
+        {
+          "frame": 1182,
+          "draw": 1077
+        },
+        {
+          "frame": 1182,
+          "draw": 1078
+        },
+        {
+          "frame": 1182,
+          "draw": 1079
+        },
+        {
+          "frame": 1182,
+          "draw": 1080
+        },
+        {
+          "frame": 1182,
+          "draw": 1081
+        },
+        {
+          "frame": 1182,
+          "draw": 1082
+        },
+        {
+          "frame": 1182,
+          "draw": 1083
+        },
+        {
+          "frame": 1182,
+          "draw": 1084
+        },
+        {
+          "frame": 1182,
+          "draw": 1085
+        },
+        {
+          "frame": 1182,
+          "draw": 1086
+        },
+        {
+          "frame": 1182,
+          "draw": 1087
+        },
+        {
+          "frame": 1182,
+          "draw": 1088
+        },
+        {
+          "frame": 1182,
+          "draw": 1089
+        },
+        {
+          "frame": 1182,
+          "draw": 1090
+        },
+        {
+          "frame": 1182,
+          "draw": 1091
+        },
+        {
+          "frame": 1182,
+          "draw": 1092
+        },
+        {
+          "frame": 1182,
+          "draw": 1093
+        },
+        {
+          "frame": 1182,
+          "draw": 1094
+        },
+        {
+          "frame": 1182,
+          "draw": 1095
+        },
+        {
+          "frame": 1182,
+          "draw": 1096
+        },
+        {
+          "frame": 1182,
+          "draw": 1097
+        },
+        {
+          "frame": 1182,
+          "draw": 1098
+        },
+        {
+          "frame": 1182,
+          "draw": 1099
+        },
+        {
+          "frame": 1182,
+          "draw": 1100
+        },
+        {
+          "frame": 1182,
+          "draw": 1101
+        },
+        {
+          "frame": 1182,
+          "draw": 1102
+        },
+        {
+          "frame": 1182,
+          "draw": 1103
+        },
+        {
+          "frame": 1182,
+          "draw": 1104
+        },
+        {
+          "frame": 1182,
+          "draw": 1105
+        },
+        {
+          "frame": 1182,
+          "draw": 1106
+        },
+        {
+          "frame": 1182,
+          "draw": 1107
+        },
+        {
+          "frame": 1182,
+          "draw": 1108
+        },
+        {
+          "frame": 1182,
+          "draw": 1109
+        },
+        {
+          "frame": 1182,
+          "draw": 1110
+        },
+        {
+          "frame": 1182,
+          "draw": 1111
+        },
+        {
+          "frame": 1182,
+          "draw": 1112
+        },
+        {
+          "frame": 1182,
+          "draw": 1113
+        },
+        {
+          "frame": 1182,
+          "draw": 1114
+        },
+        {
+          "frame": 1182,
+          "draw": 1115
+        },
+        {
+          "frame": 1182,
+          "draw": 1116
+        },
+        {
+          "frame": 1182,
+          "draw": 1117
+        },
+        {
+          "frame": 1182,
+          "draw": 1118
+        },
+        {
+          "frame": 1182,
+          "draw": 1119
+        },
+        {
+          "frame": 1182,
+          "draw": 1120
+        },
+        {
+          "frame": 1182,
+          "draw": 1121
+        },
+        {
+          "frame": 1182,
+          "draw": 1122
+        },
+        {
+          "frame": 1182,
+          "draw": 1123
+        },
+        {
+          "frame": 1182,
+          "draw": 1124
+        },
+        {
+          "frame": 1182,
+          "draw": 1125
+        },
+        {
+          "frame": 1182,
+          "draw": 1126
+        },
+        {
+          "frame": 1182,
+          "draw": 1127
+        },
+        {
+          "frame": 1182,
+          "draw": 1128
+        },
+        {
+          "frame": 1182,
+          "draw": 1129
+        },
+        {
+          "frame": 1182,
+          "draw": 1130
+        },
+        {
+          "frame": 1182,
+          "draw": 1131
+        },
+        {
+          "frame": 1182,
+          "draw": 1132
+        },
+        {
+          "frame": 1182,
+          "draw": 1133
+        },
+        {
+          "frame": 1182,
+          "draw": 1134
+        },
+        {
+          "frame": 1182,
+          "draw": 1135
+        },
+        {
+          "frame": 1182,
+          "draw": 1136
+        },
+        {
+          "frame": 1182,
+          "draw": 1137
+        },
+        {
+          "frame": 1182,
+          "draw": 1138
+        },
+        {
+          "frame": 1182,
+          "draw": 1139
+        },
+        {
+          "frame": 1182,
+          "draw": 1140
+        },
+        {
+          "frame": 1182,
+          "draw": 1141
+        },
+        {
+          "frame": 1182,
+          "draw": 1142
+        },
+        {
+          "frame": 1182,
+          "draw": 1143
+        },
+        {
+          "frame": 1182,
+          "draw": 1144
+        },
+        {
+          "frame": 1182,
+          "draw": 1145
+        },
+        {
+          "frame": 1182,
+          "draw": 1146
+        },
+        {
+          "frame": 1182,
+          "draw": 1147
+        },
+        {
+          "frame": 1182,
+          "draw": 1148
+        },
+        {
+          "frame": 1182,
+          "draw": 1149
+        },
+        {
+          "frame": 1182,
+          "draw": 1150
+        },
+        {
+          "frame": 1182,
+          "draw": 1151
+        },
+        {
+          "frame": 1182,
+          "draw": 1152
+        },
+        {
+          "frame": 1182,
+          "draw": 1153
+        },
+        {
+          "frame": 1182,
+          "draw": 1154
+        },
+        {
+          "frame": 1182,
+          "draw": 1155
+        },
+        {
+          "frame": 1182,
+          "draw": 1156
+        },
+        {
+          "frame": 1182,
+          "draw": 1157
+        }
+      ]
+    }
+  ]
+}

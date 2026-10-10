@@ -1,0 +1,52 @@
+[
+  {
+    "architecture": "x64",
+    "path": "d3d9.pdb.queue64-backup",
+    "size": 222687232
+  },
+  {
+    "architecture": "x64",
+    "path": "d3d9.pdb.queue64-retry-backup",
+    "size": 30863360
+  },
+  {
+    "architecture": "x64",
+    "path": "d3d9.pdb.stateblock-0ec0264cf82f4a3e8e067acb68eeb290.backup",
+    "size": 36864
+  },
+  {
+    "architecture": "x64",
+    "path": "d3d9.pdb.stateblock-pch-backup",
+    "size": 36864
+  },
+  {
+    "architecture": "x64",
+    "path": "d3d9.pdb.stateblock-retry-backup",
+    "size": 222867456
+  },
+  {
+    "architecture": "x86",
+    "path": ".trex/d3d9.pdb.queue64-backup",
+    "size": 222687232
+  },
+  {
+    "architecture": "x86",
+    "path": ".trex/d3d9.pdb.queue64-retry-backup",
+    "size": 30863360
+  },
+  {
+    "architecture": "x86",
+    "path": ".trex/d3d9.pdb.stateblock-0ec0264cf82f4a3e8e067acb68eeb290.backup",
+    "size": 36864
+  },
+  {
+    "architecture": "x86",
+    "path": ".trex/d3d9.pdb.stateblock-pch-backup",
+    "size": 36864
+  },
+  {
+    "architecture": "x86",
+    "path": ".trex/d3d9.pdb.stateblock-retry-backup",
+    "size": 222867456
+  }
+]

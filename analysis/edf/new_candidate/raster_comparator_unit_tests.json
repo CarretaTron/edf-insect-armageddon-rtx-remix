@@ -1,0 +1,47 @@
+{
+  "fixtureOnly": true,
+  "notGpuEvidence": true,
+  "result": "passed",
+  "checks": [
+    {
+      "name": "equal nonuniform synthetic BMPs accepted with correct bounds and explicit fixture label",
+      "passed": true
+    },
+    {
+      "name": "changed visible pixel rejected",
+      "passed": true
+    },
+    {
+      "name": "changed alpha rejected despite equal RGB",
+      "passed": true
+    },
+    {
+      "name": "both uniform images rejected",
+      "passed": true
+    },
+    {
+      "name": "one uniform image rejected",
+      "passed": true
+    },
+    {
+      "name": "different byte orientation rejected with equivalent decoded pixels",
+      "passed": true
+    },
+    {
+      "name": "truncated BMP rejected",
+      "passed": true
+    },
+    {
+      "name": "missing source frame rejected",
+      "passed": true
+    },
+    {
+      "name": "unexpected BMP format rejected",
+      "passed": true
+    },
+    {
+      "name": "different dimensions rejected",
+      "passed": true
+    }
+  ]
+}

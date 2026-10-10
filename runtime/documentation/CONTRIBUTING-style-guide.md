@@ -1,0 +1,311 @@
+# C++ Coding Style Guide
+
+This document outlines our project's C++ code formatting standards, commenting styles, memory management practices, and other essential guidelines. Adhering to these will help maintain the quality and consistency of our codebase.  For shader code guidelines and information, please refer to [this](src/dxvk/shaders/rtx/README.md) specific document.
+
+## Code Formatting Guidelines
+
+### Indentation and Spacing
+
+- **Indentation**: Use 2 spaces for indentation, not tabs.
+- **Spaces**:
+  - Include a space after control statements like `if`, `for`, `while`, etc.
+  - Use spaces around operators (`=`, `+`, `-`, `*`, `/`) and after commas.
+
+  ```cpp
+  if (x == 5) {
+    x += 1;
+  }
+  ```
+  
+
+### Naming Conventions
+
+- **Member Variables**: Prefix member variables with `m_`.
+- **Pointers**: Prefix pointers with `p`.
+- **Variables and Namespaces**: and functions: camelCase
+- **Constants**: `k` prefix and camelCase, i.e. `kConstantName`
+-  **Macros and defines**: UPPER_CASE
+- **Class and struct names**: PascalCase
+- **Functions**: Prefer a short **verb + object** name that matches vocabulary in the same subsystem (e.g. `registerCamera`, `mergeInstanceHeuristics`). Do not spell out mechanics (which container, per-frame reset); put that in a comment on the definition or call site.
+
+  ```cpp
+  class Example {
+    int m_value;     // Member variable
+    int* m_pPointer;  // Pointer to an integer
+    const int MAX_ITER = 1;
+    void someFunc(const int* pInput) {
+      int currentIter = 0;
+      // do something
+    }
+  };
+  ```
+
+### Braces `{}` Usage
+
+- **Functions, Classes, Control Structures, Namespaces**: Place the opening brace on the same line.
+
+  ```cpp
+  void function() {
+    // function body
+  }
+
+  if (condition) {
+    // if body
+  } else {
+    // else body
+  }
+
+  class ClassName {
+    // class body
+  };
+
+  namespace nameSpace {
+    // namespace content
+  }
+  ```
+
+### Conditions
+
+- **Truthiness Checks**: Test an integer flag by referencing the variable on its own rather than comparing it against zero. This applies to C++ and to Slang, including `uint` flags in shader constant buffers.
+
+  ```cpp
+  // Good
+  if (flag) {
+    // ...
+  }
+
+  // Bad
+  if (flag != 0) {
+    // ...
+  }
+  ```
+
+  Comparisons against a value other than zero, and bit tests such as `(flags & kSomeBit) != 0`, are unaffected.
+
+- **Subject First**: Put the subject (the variable being tested) on the left of the operator.
+
+  ```cpp
+  // Good
+  if (pData == nullptr) {
+    // ...
+  }
+
+  // Bad
+  if (nullptr == pData) {
+    // ...
+  }
+  ```
+
+- **Long Ternaries**: When a ternary expression is complex or long, put the condition on the first line and the `?` and `:` branches on the two lines that follow, each indented one level. Short ternaries stay on one line.
+
+  ```cpp
+  // Good
+  const Resources::Resource& worldPosition = useCurrentFrame
+    ? rtOutput.getCurrentPrimaryWorldPositionWorldTriangleNormal()
+    : rtOutput.getPreviousPrimaryWorldPositionWorldTriangleNormal();
+
+  const float scale = isActive ? rate : 1.0f;
+
+  // Bad
+  const Resources::Resource& worldPosition = useCurrentFrame ? rtOutput.getCurrentPrimaryWorldPositionWorldTriangleNormal() : rtOutput.getPreviousPrimaryWorldPositionWorldTriangleNormal();
+  ```
+
+### Headers and Includes
+
+- **Location**: Place includes at the start of the file, after the copyright header and `#pragma once`. Do not place them partway through the code.
+- **Ordering**: Standard libraries first, followed by third-party libraries, and then local project headers.
+- **Separation**: Separate each group with a blank line.
+
+  ```cpp
+  #include <vector>
+  #include <string>
+
+  #include "third_party/library.h"
+
+  #include "local/header.h"
+  ```
+
+### Macro Definitions
+
+- **Location**: Place macro definitions at the top of the file, after `#pragma once`.
+
+  ```cpp
+  #pragma once
+
+  #define PI 3.14159
+  ```
+
+## Commenting Styles
+
+- **Inline Comments**: Use `//` for short, explanatory comments at the end of a line.
+
+  ```cpp
+  int x = 5; // Initialize x to 5
+  ```
+
+- **Above-line Comments**: Place descriptive comments above the code block they describe.
+
+  ```cpp
+  // Calculate the square of x
+  int square(int num) {
+    return num * num;
+  }
+  ```
+
+- **Wording**: Write comments as proper sentences. Keep them concise, but not at the cost of complete sentences. Do not join clauses with semicolons, and do not use noun-phrase fragments, `Label: fragment` prefixes, or shorthand that leaves the reader to guess what is meant. A comment directly above or next to the function, variable or member it describes may leave that subject implied.
+
+  ```cpp
+  // Good
+  // Holds the previous frame's depth, which is read at reprojected coordinates, so it stays at full resolution.
+  Resource m_previousDepth;
+
+  // Bad
+  // Previous depth; read at reprojected coords, so full res.
+  Resource m_previousDepth;
+  ```
+
+- **Alternate Results**: When a comment lists alternate results or cases, give each its own sentence on its own line, like a list.
+
+  ```cpp
+  // Good
+  // Returns the texture's index in the bindless table.
+  // Returns BINDING_INDEX_INVALID when the texture is not loaded.
+  // Returns the fallback texture's index while the texture is still streaming in.
+
+  // Bad
+  // Returns the texture's index in the bindless table, or BINDING_INDEX_INVALID when the texture is not loaded, and
+  // otherwise the fallback texture's index.
+  ```
+
+- **Group Comments**: When a comment describes a group of declarations or statements inside a longer run of code, put an empty line above the comment and below the group, so it is clear where the comment's scope ends.
+
+  ```cpp
+  const VkExtent3D& getDownscaleDimensions() const { return m_downscaledExtent; }
+
+  // These report whether the RTXDI gradient resources exist and whether the current options need them.
+  bool areRtxdiGradientResourcesAllocated() const { return m_rtxdiGradientResourcesAllocated; }
+  bool needsRtxdiGradientResources() const;
+
+  bool areRtxdiIlluminanceResourcesAllocated() const { return m_rtxdiIlluminanceResourcesAllocated; }
+  ```
+
+- **Line Breaks**: Break comment lines at natural places whenever possible: after a period, after a comma, or where an idea is finished. Do not end a line with the first word or two of a new sentence, and never leave a single word of a sentence or clause on its own line or at the start of the next one. Prefer pulling the word up onto the previous line, even if it runs a few characters past the usual width. If that is too long, break earlier at the start of the clause.
+
+  ```cpp
+  // Good
+  // Skips pixels whose primary ray missed, because a miss stores no surface.
+  // Callers that already hold the hit distance pass it in.
+
+  // Bad
+  // Skips pixels whose primary ray missed, because a miss stores no surface. Callers
+  // that already hold the hit distance pass it
+  // in.
+  ```
+
+- **Block Comments**: Use `/* */` for detailed explanations or temporarily commenting out code.
+
+  ```cpp
+  /*
+  This function calculates the square of a number.
+  It is used in the context of energy calculations.
+  */
+  int square(int num) {
+    return num * num;
+  }
+  ```
+
+## Memory Allocation
+
+- **Smart Pointers**: Use smart pointers for managing dynamic memory.
+
+  ```cpp
+  std::unique_ptr<int> ptr = std::make_unique<int>(10);
+  std::shared_ptr<int> ptr = std::make_shared<int>(10);
+  ```
+  
+- **Ref Counted Smart Pointers for GPU resources**: Use ref counted pointers for all GPU allocations
+
+  ```cpp
+  Rc<DxvkImage> pImage = new DxvkImage(...);
+  ```
+  
+- **STL Containers**: Utilize STL containers which manage memory automatically for dynamic arrays.
+
+  ```cpp
+  std::vector<int> numbers;
+  numbers.push_back(1);
+  numbers.push_back(2);
+  ```
+  
+- **Last Resort**: Use primitive memory management functions.
+  ```cpp
+  uint8_t* pData = new uint8_t[4];
+  delete [] pData;
+  ```
+
+## Profiling
+
+- **CPU Profiling Macros**: Use macros to measure the performance of critical sections.
+
+  ```cpp
+  void someExpensiveFunction() {
+    ScopedCpuProfileZone(); // Automatically profiles the duration of someExpensiveFunction()
+    // process data here
+  }
+  ```
+  
+- **GPU Profiling Macros**: Use macros to measure the performance of *all* GPU workloads
+
+  ```cpp
+  void someExpensiveGpuWork() {
+    ScopedGpuProfileZone(ctx, "someExpensiveGpuWork"); // Automatically profiles the duration of someExpensiveGpuWork on the GPU
+    dispatchComputeShader();
+  }
+  ```
+  
+## Changes to DXVK
+
+- **Comment blocks**: Follow the pattern of comment blocking to define regions of code inside core DXVK files which are diverging from upstream DXVK.
+
+  ```cpp
+  // NV-DXVK start: Diverging DXVK change to add new function
+  void newDxvkFunctionality() {
+    // code change here
+  }
+  // NV-DXVK end
+  ```
+
+## RTX Options
+- **Regenerate Markdown**: Run RTX Remix app with `DXVK_DOCUMENTATION_WRITE_RTX_OPTIONS_MD=1`. The RtxOptions.md will be generated in the working directory.
+- **Adding New Options**: Add new rtx options within respective feature class, rather than piling them in rtx_options.h
+- **Categorize Options**: Add category to the string name: i.e. antiCulling -> `RTX_OPTION("rtx.antiCulling", float, fovScale, "It does ....")`. This makes it easier to see what the setting corresponds to as well as it keeps the members of a category enumerated together in .md doc since it's alphabetically sorted.
+- **Example**: Full example of dedicated struct to make string and in-code references match
+  ```cpp
+  inline static struct BakedTerrain {
+    friend class ImGUI; // <-- we want to modify these values directly.
+
+    RTX_OPTION("rtx.bakedTerrain", bool, enable, true, "Enables runtime terrain baking.");
+
+    static struct Cascade {
+      friend class ImGUI; // <-- we want to modify these values directly.
+
+      RTX_OPTION("rtx.bakedTerrain.cascade", float, width, 32.f, "Width of a cascade plane [game units].");
+      RTX_OPTION("rtx.bakedTerrain.cascade", uint32_t, levels, 1, "Number of cascade levels.");
+    } cascade;
+  } bakedTerrain;
+  ```
+
+- Consider adding more explanation to what XYZ is instead of just  "Enables XYZ"  for `RTX_OPTION("rtx.xyz", bool, enable, false, "Enables XYZ.");`  There's still value in "Enables XYZ" in the .md doc, but it could be more helpful. Not everyone knows what XYZ is.
+- It's more clear to read "Enables XYZ" than "Enable XYZ" for a description of a toggle/checkbox.
+- Use `RTX_ENV_VAR` instead of `DXVK_ENV_VAR` for env var strings relating to RTX.
+- Enumerate enums with their value and any string they are called out with in the GUI in description as applicable, i.e. `0: First Option, 1: Second Option, ...`
+- The value is helpful for values written in .md or in rtx.conf, since the string won't be read/wrote there
+- Be cautious of string formatting within descriptions so that it's compatible with both tooltips and .md output
+- Keep descriptions concise (since they appear as tooltips) but informative
+
+## Testing
+
+- **Unit Tests**: Add unit tests for new core functionality.
+
+
+By following these guidelines, we ensure that our codebase remains clean, efficient, and easy to maintain. Thank you for contributing to our project!

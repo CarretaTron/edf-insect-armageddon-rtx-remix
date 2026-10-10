@@ -1,0 +1,28 @@
+{
+  "privateRepositoryRequired": true,
+  "releaseTag": "checkpoint-2026-10-10",
+  "archives": [
+    {
+      "name": "edf-original-captures.zip",
+      "size": 143407102,
+      "sha256": "7683e8ec3e7b11fa58bd722ae39f9f6a71e6e0549e3e462545a6f298cab3ca41"
+    },
+    {
+      "name": "edf-native-gpu-readbacks.zip",
+      "size": 15666232,
+      "sha256": "31de0f7999974d0a2c042c9726d75d3e191bf7cbc1ee8084e7dbf1f5d831151c"
+    },
+    {
+      "name": "edf-custom-runtime-and-bridge.zip",
+      "size": 63640934,
+      "sha256": "6e8b32ba1f4c5f6176a1cb335eee00398a6e8471912fd0c5c47856e3731dc790"
+    },
+    {
+      "name": "edf-replay-fixtures.zip",
+      "size": 134495,
+      "sha256": "c86bb3b4ac093e70d8adc78f8688056e858a04c5ed07c1bfa8729eb5f4787fa9"
+    }
+  ],
+  "thirdPartyRuntimeDependenciesIncluded": false,
+  "originalFilesModified": false
+}

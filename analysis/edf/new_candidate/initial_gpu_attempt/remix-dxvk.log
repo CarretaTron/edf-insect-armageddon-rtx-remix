@@ -1,0 +1,531 @@
+[21:39:12.808] info:  Sentry: crash reporting initialized
+[21:39:12.812] info:  Sentry session id (Use this to search for uploaded crash reports): 50b80073-7d3b-4648-776b-af1f825a5353
+[21:39:12.825] info:  Attempting to parse option layer: C:\Users\alexp\AppData\Local\NVIDIA\RTXRemix\user_settings\b4fbc6f2d4683cbc.conf...
+[21:39:12.825] info:  No config file found at: C:\Users\alexp\AppData\Local\NVIDIA\RTXRemix\user_settings\b4fbc6f2d4683cbc.conf
+[21:39:12.826] info:  Game: edf_static_gpu_replay.exe
+[21:39:12.826] info:  DXVK_Remix: remix-main+0e18e55c
+[21:39:12.883] info:  System Information Report:
+[21:39:12.883] info:    CPU: (AuthenticAMD) AMD Ryzen 7 7700X 8-Core Processor             
+[21:39:12.883] info:    Memory: 23.39 GiB / 31.10 GiB physical, 47.83 GiB / 57.74 GiB committed, 4.85 GiB / 128.00 TiB virtual (current process)
+[21:39:12.884] info:    OS: Windows 10.0 Build 26200
+[21:39:12.889] info:  Initializing RtxOptions...
+[21:39:12.930] info:  Initializing RtxOption system layers...
+[21:39:12.930] info:  Attempting to parse option layer: dxvk.conf...
+[21:39:12.930] info:  No config file found at: dxvk.conf
+[21:39:12.930] info:  Did not find app config for executable: D:\EDF IA RTX REMIX\runtime\_build\edf-static-gpu-x64-positive\edf_static_gpu_replay.exe
+[21:39:12.930] info:  Attempting to parse option layer: rtx.conf...
+[21:39:12.931] info:  Found config file: rtx.conf
+[21:39:12.931] info:  Parsed config file.
+[21:39:12.931] info:  Effective Combined Config for DXVK Options configuration:
+[21:39:12.931] info:    rtx.enableRaytracing = True
+[21:39:12.931] info:    rtx.useVertexCapture = True
+[21:39:12.931] info:    rtx.compatCapture.enabled = True
+[21:39:12.931] info:    rtx.initializer.asyncShaderPrewarming = False
+[21:39:12.931] info:    rtx.edfStatic.enabled = True
+[21:39:12.931] info:    rtx.edfStatic.rasterOnly = True
+[21:39:12.931] info:    rtx.shader.enableAsyncCompilation = False
+[21:39:12.931] info:    rtx.edfStatic.executable = edf_static_gpu_replay.exe
+[21:39:12.931] info:    rtx.fusedWorldViewMode = 0
+[21:39:12.931] info:    rtx.edfStatic.executableSha1 = 770c6c47be2d359f9023c6b69f723bd6224752c4
+[21:39:12.931] info:    rtx.compatCapture.executable = edf_static_gpu_replay.exe
+[21:39:12.931] info:    rtx.compatCapture.outputDirectory = D:/EDF IA RTX REMIX/runtime/_build/edf-static-gpu-x64-positive/captures
+[21:39:12.931] info:    rtx.compatCapture.startFrame = 0
+[21:39:12.931] info:    rtx.compatCapture.frameCount = 3
+[21:39:12.931] info:    rtx.compatCapture.hotkey = 0
+[21:39:12.931] info:    rtx.compatCapture.maxCaptureMiB = 256
+[21:39:12.931] info:    rtx.compatCapture.maxQueueMiB = 64
+[21:39:12.931] info:  Attempting to parse option layer: user.conf...
+[21:39:12.931] info:  No config file found at: user.conf
+[21:39:12.932] info:  RtxOption system layer initialization complete.
+[21:39:12.932] info:  [RTX Neural Radiance Cache] Selected Ultra preset mode.
+[21:39:12.951] info:  Geometry generation hash rule:
+[21:39:12.951] info:  	positions
+[21:39:12.951] info:  	indices
+[21:39:12.951] info:  	texcoords
+[21:39:12.951] info:  	geometrydescriptor
+[21:39:12.951] info:  	vertexlayout
+[21:39:12.951] info:  	vertexshader
+[21:39:12.980] info:  Geometry asset hash rule:
+[21:39:12.980] info:  	positions
+[21:39:12.980] info:  	indices
+[21:39:12.980] info:  	geometrydescriptor
+[21:39:12.980] info:  Effective RtxOption values (after all config layers and migrations):
+[21:39:12.980] info:    rtx.compatCapture.enabled = True
+[21:39:12.980] info:    rtx.initializer.asyncShaderPrewarming = False
+[21:39:12.980] info:    rtx.neuralRadianceCache.trainingMaxPathBounces = 9
+[21:39:12.980] info:    rtx.compatCapture.outputDirectory = D:/EDF IA RTX REMIX/runtime/_build/edf-static-gpu-x64-positive/captures
+[21:39:12.980] info:    rtx.compatCapture.startFrame = 0
+[21:39:12.980] info:    rtx.compatCapture.hotkey = 0
+[21:39:12.980] info:    rtx.compatCapture.executable = edf_static_gpu_replay.exe
+[21:39:12.980] info:    rtx.edfStatic.enabled = True
+[21:39:12.980] info:    rtx.edfStatic.executableSha1 = 770c6c47be2d359f9023c6b69f723bd6224752c4
+[21:39:12.981] info:    rtx.compatCapture.frameCount = 3
+[21:39:12.981] info:    rtx.edfStatic.executable = edf_static_gpu_replay.exe
+[21:39:12.981] info:    rtx.compatCapture.maxQueueMiB = 64
+[21:39:12.981] info:    rtx.shader.enableAsyncCompilation = False
+[21:39:12.986] info:  Built-in extension providers:
+[21:39:12.997] info:    Win32 WSI
+[21:39:12.997] info:    OpenVR
+[21:39:12.997] info:    OpenXR
+[21:39:12.997] info:  OpenVR: could not open registry key, status 2
+[21:39:12.997] info:  OpenVR: Failed to locate module
+[21:39:13.160] info:  Enabled instance extensions:
+[21:39:13.160] info:    VK_KHR_external_memory_capabilities
+[21:39:13.160] info:    VK_KHR_external_semaphore_capabilities
+[21:39:13.160] info:    VK_KHR_get_physical_device_properties2
+[21:39:13.160] info:    VK_KHR_get_surface_capabilities2
+[21:39:13.160] info:    VK_KHR_surface
+[21:39:13.160] info:    VK_KHR_win32_surface
+[21:39:13.160] info:  Enabled Layer Names:
+[21:39:13.293] warn:  Skipping Integrated GPU adapter: AMD Radeon(TM) Graphics
+[21:39:13.309] info:  Vulkan instance layers:
+[21:39:13.309] info:    VK_LAYER_AMD_switchable_graphics
+[21:39:13.309] info:    VK_LAYER_KHRONOS_profiles
+[21:39:13.309] info:    VK_LAYER_KHRONOS_shader_object
+[21:39:13.309] info:    VK_LAYER_KHRONOS_synchronization2
+[21:39:13.309] info:    VK_LAYER_KHRONOS_validation
+[21:39:13.309] info:    VK_LAYER_LUNARG_api_dump
+[21:39:13.309] info:    VK_LAYER_LUNARG_crash_diagnostic
+[21:39:13.309] info:    VK_LAYER_LUNARG_gfxreconstruct
+[21:39:13.309] info:    VK_LAYER_LUNARG_monitor
+[21:39:13.309] info:    VK_LAYER_LUNARG_screenshot
+[21:39:13.310] info:    VK_LAYER_NV_optimus
+[21:39:13.310] info:    VK_LAYER_NV_present
+[21:39:13.310] info:    VK_LAYER_OBS_HOOK
+[21:39:13.310] info:    VK_LAYER_ROCKSTAR_GAMES_social_club
+[21:39:13.310] info:    VK_LAYER_RTSS
+[21:39:13.310] info:    VK_LAYER_VALVE_steam_fossilize
+[21:39:13.310] info:    VK_LAYER_VALVE_steam_overlay
+[21:39:13.310] info:    VK_LAYER_reshade
+[21:39:13.310] info:  Vulkan instance extensions:
+[21:39:13.310] info:    VK_EXT_debug_report
+[21:39:13.310] info:    VK_EXT_debug_utils
+[21:39:13.310] info:    VK_EXT_direct_mode_display
+[21:39:13.310] info:    VK_EXT_surface_maintenance1
+[21:39:13.310] info:    VK_EXT_swapchain_colorspace
+[21:39:13.310] info:    VK_KHR_device_group_creation
+[21:39:13.310] info:    VK_KHR_display
+[21:39:13.310] info:    VK_KHR_external_fence_capabilities
+[21:39:13.310] info:    VK_KHR_external_memory_capabilities
+[21:39:13.310] info:    VK_KHR_external_semaphore_capabilities
+[21:39:13.310] info:    VK_KHR_get_display_properties2
+[21:39:13.310] info:    VK_KHR_get_physical_device_properties2
+[21:39:13.310] info:    VK_KHR_get_surface_capabilities2
+[21:39:13.310] info:    VK_KHR_portability_enumeration
+[21:39:13.310] info:    VK_KHR_surface
+[21:39:13.310] info:    VK_KHR_surface_maintenance1
+[21:39:13.310] info:    VK_KHR_surface_protected_capabilities
+[21:39:13.310] info:    VK_KHR_win32_surface
+[21:39:13.310] info:    VK_LUNARG_direct_driver_loading
+[21:39:13.310] info:    VK_NV_external_memory_capabilities
+[21:39:13.316] info:  D3D9: VK_FORMAT_D16_UNORM_S8_UINT -> VK_FORMAT_D24_UNORM_S8_UINT
+[21:39:13.316] info:  NVIDIA GeForce RTX 5070 Ti:
+[21:39:13.323] info:    Driver: 617.14.0
+[21:39:13.324] info:    Vulkan: 1.4.351
+[21:39:13.328] info:    Memory Heap[0]: 
+[21:39:13.328] info:      Size: 15995 MiB
+[21:39:13.328] info:      Flags: 0x1
+[21:39:13.329] info:      Memory Type[1]: Property Flags = 0x1
+[21:39:13.329] info:      Memory Type[4]: Property Flags = 0x7
+[21:39:13.329] info:    Memory Heap[1]: 
+[21:39:13.329] info:      Size: 15924 MiB
+[21:39:13.329] info:      Flags: 0x0
+[21:39:13.329] info:      Memory Type[0]: Property Flags = 0x0
+[21:39:13.329] info:      Memory Type[2]: Property Flags = 0x6
+[21:39:13.329] info:      Memory Type[3]: Property Flags = 0xe
+[21:39:13.331] info:  Process set as DPI aware
+[21:39:13.355] info:  Device properties:
+[21:39:13.355] info:    Device name:     : NVIDIA GeForce RTX 5070 Ti
+[21:39:13.355] info:    Vendor name:     : NVIDIA
+[21:39:13.355] info:    Device ID:       : 0x2c05
+[21:39:13.355] info:    Vendor ID:       : 0x10de
+[21:39:13.355] info:    Driver version   : 617.14.0
+[21:39:13.355] info:  Enabled device extensions:
+[21:39:13.355] info:    VK_EXT_4444_formats
+[21:39:13.355] info:    VK_EXT_calibrated_timestamps
+[21:39:13.355] info:    VK_EXT_conservative_rasterization
+[21:39:13.355] info:    VK_EXT_custom_border_color
+[21:39:13.355] info:    VK_EXT_depth_clip_enable
+[21:39:13.355] info:    VK_EXT_extended_dynamic_state
+[21:39:13.355] info:    VK_EXT_full_screen_exclusive
+[21:39:13.355] info:    VK_EXT_memory_priority
+[21:39:13.355] info:    VK_EXT_opacity_micromap
+[21:39:13.355] info:    VK_EXT_robustness2
+[21:39:13.355] info:    VK_EXT_shader_atomic_float
+[21:39:13.355] info:    VK_EXT_shader_demote_to_helper_invocation
+[21:39:13.355] info:    VK_EXT_shader_viewport_index_layer
+[21:39:13.355] info:    VK_EXT_transform_feedback
+[21:39:13.355] info:    VK_EXT_vertex_attribute_divisor
+[21:39:13.355] info:    VK_KHR_acceleration_structure
+[21:39:13.355] info:    VK_KHR_buffer_device_address
+[21:39:13.355] info:    VK_KHR_create_renderpass2
+[21:39:13.355] info:    VK_KHR_deferred_host_operations
+[21:39:13.355] info:    VK_KHR_depth_stencil_resolve
+[21:39:13.355] info:    VK_KHR_draw_indirect_count
+[21:39:13.355] info:    VK_KHR_driver_properties
+[21:39:13.355] info:    VK_KHR_external_memory
+[21:39:13.355] info:    VK_KHR_external_memory_win32
+[21:39:13.355] info:    VK_KHR_external_semaphore
+[21:39:13.355] info:    VK_KHR_external_semaphore_win32
+[21:39:13.355] info:    VK_KHR_image_format_list
+[21:39:13.355] info:    VK_KHR_maintenance4
+[21:39:13.355] info:    VK_KHR_pipeline_library
+[21:39:13.355] info:    VK_KHR_push_descriptor
+[21:39:13.355] info:    VK_KHR_ray_query
+[21:39:13.355] info:    VK_KHR_ray_tracing_pipeline
+[21:39:13.355] info:    VK_KHR_sampler_mirror_clamp_to_edge
+[21:39:13.355] info:    VK_KHR_shader_float16_int8
+[21:39:13.355] info:    VK_KHR_shader_float_controls
+[21:39:13.355] info:    VK_KHR_swapchain
+[21:39:13.355] info:    VK_KHR_synchronization2
+[21:39:13.355] info:    VK_NVX_binary_import
+[21:39:13.355] info:    VK_NVX_image_view_handle
+[21:39:13.355] info:    VK_NV_low_latency
+[21:39:13.355] info:    VK_NV_present_metering
+[21:39:13.355] info:    VK_NV_ray_tracing_invocation_reorder
+[21:39:13.384] info:  Device features:
+[21:39:13.384] info:    robustBufferAccess                     : 1
+[21:39:13.384] info:    fullDrawIndexUint32                    : 1
+[21:39:13.384] info:    imageCubeArray                         : 1
+[21:39:13.384] info:    independentBlend                       : 1
+[21:39:13.384] info:    geometryShader                         : 1
+[21:39:13.384] info:    tessellationShader                     : 0
+[21:39:13.384] info:    sampleRateShading                      : 1
+[21:39:13.384] info:    dualSrcBlend                           : 0
+[21:39:13.384] info:    logicOp                                : 0
+[21:39:13.384] info:    multiDrawIndirect                      : 0
+[21:39:13.384] info:    drawIndirectFirstInstance              : 0
+[21:39:13.384] info:    depthClamp                             : 1
+[21:39:13.384] info:    depthBiasClamp                         : 1
+[21:39:13.384] info:    fillModeNonSolid                       : 1
+[21:39:13.384] info:    depthBounds                            : 1
+[21:39:13.384] info:    multiViewport                          : 1
+[21:39:13.384] info:    samplerAnisotropy                      : 1
+[21:39:13.384] info:    textureCompressionBC                   : 1
+[21:39:13.384] info:    occlusionQueryPrecise                  : 1
+[21:39:13.384] info:    pipelineStatisticsQuery                : 1
+[21:39:13.384] info:    vertexPipelineStoresAndAtomics         : 1
+[21:39:13.384] info:    fragmentStoresAndAtomics               : 0
+[21:39:13.384] info:    shaderImageGatherExtended              : 0
+[21:39:13.384] info:    shaderStorageImageExtendedFormats      : 0
+[21:39:13.384] info:    shaderStorageImageReadWithoutFormat    : 1
+[21:39:13.384] info:    shaderStorageImageWriteWithoutFormat   : 1
+[21:39:13.384] info:    shaderClipDistance                     : 1
+[21:39:13.384] info:    shaderCullDistance                     : 1
+[21:39:13.384] info:    shaderFloat64                          : 0
+[21:39:13.384] info:    shaderInt64                            : 0
+[21:39:13.384] info:    variableMultisampleRate                : 0
+[21:39:13.384] info:    hostQueryReset                         : 1
+[21:39:13.384] info:    scalarBlockLayout                      : 1
+[21:39:13.384] info:    uniformBufferStandardLayout            : 1
+[21:39:13.384] info:  VK_EXT_4444_formats
+[21:39:13.384] info:    formatA4R4G4B4                         : 1
+[21:39:13.384] info:    formatA4B4G4R4                         : 1
+[21:39:13.384] info:  VK_EXT_custom_border_color
+[21:39:13.384] info:    customBorderColors                     : 1
+[21:39:13.384] info:    customBorderColorWithoutFormat         : 1
+[21:39:13.384] info:  VK_EXT_depth_clip_enable
+[21:39:13.384] info:    depthClipEnable                        : 1
+[21:39:13.384] info:  VK_EXT_extended_dynamic_state
+[21:39:13.384] info:    extendedDynamicState                   : 1
+[21:39:13.384] info:  VK_EXT_memory_priority
+[21:39:13.384] info:    memoryPriority                         : 1
+[21:39:13.384] info:  VK_EXT_robustness2
+[21:39:13.384] info:    robustBufferAccess2                    : 1
+[21:39:13.384] info:    robustImageAccess2                     : 0
+[21:39:13.384] info:    nullDescriptor                         : 1
+[21:39:13.384] info:  VK_EXT_shader_demote_to_helper_invocation
+[21:39:13.384] info:    shaderDemoteToHelperInvocation         : 1
+[21:39:13.384] info:  VK_EXT_transform_feedback
+[21:39:13.384] info:    transformFeedback                      : 1
+[21:39:13.384] info:    geometryStreams                        : 0
+[21:39:13.384] info:  VK_EXT_vertex_attribute_divisor
+[21:39:13.384] info:    vertexAttributeInstanceRateDivisor     : 1
+[21:39:13.384] info:    vertexAttributeInstanceRateZeroDivisor : 1
+[21:39:13.384] info:  VK_KHR_buffer_device_address
+[21:39:13.384] info:    bufferDeviceAddress                    : 1
+[21:39:13.385] info:  Queue families:
+[21:39:13.385] info:    Graphics : 0
+[21:39:13.385] info:    Transfer : 1
+[21:39:13.385] info:    Async Compute : 2
+[21:39:13.385] info:    Present : 2
+[21:39:13.606] warn:  DXVK: No state cache file found
+[21:39:13.606] warn:  DXVK: Creating new state cache file
+[21:39:13.606] info:  DXVK: Using 10 compiler threads
+[21:39:13.695] info:  [RTX info] Neural Radiance Cache: supported
+[21:39:13.869] info:  DLSS Message: [2026-10-07 21:39:13] [NGXSafeInitializeLog:150] App logging hooks successfully initialized
+[21:39:13.869] info:  DLSS Message: [2026-10-07 21:39:13] [NGXLoadLibrary:332] error: failed to load NGXCore: 126 (D:\EDF IA RTX REMIX\runtime\_build\edf-static-gpu-x64-positive\_nvngx.dll)
+[21:39:13.869] info:  DLSS Message: [2026-10-07 21:39:13] [NGXLoadLibrary:332] error: failed to load NGXCore: 126 (D:\EDF IA RTX REMIX\runtime\_build\edf-static-gpu-x64-positive\nvngx.dll)
+[21:39:13.870] info:  DLSS Message: [2026-10-07 21:39:13] [NGXGetPathUsingQAI:153] Attempting to read from Parameters\NGXCore\NGXPath
+[21:39:13.870] info:  DLSS Message: [2026-10-07 21:39:13] [NGXGetPathUsingQAI:177] Path to driverStore found using QAI: C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_da865124972e1f80
+[21:39:13.883] info:  DLSS Message: [2026-10-07 21:39:13] [NGXLoadCoreLibrary:285] Loading C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_da865124972e1f80\_nvngx.dll succeeded
+[21:39:14.032] info:  DLSS Message: [2026-10-07 21:39:14] [NGXSafeInitializeLog:139] App logging hooks successfully initialized
+[21:39:14.052] info:  DLSS Message: [2026-10-07 21:39:14] [NGXGetPathUsingQAI:512] Path to driverStore found using QAI: C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_da865124972e1f80
+[21:39:14.053] info:  DLSS Message: [2026-10-07 21:39:14] [NGXGetPath:1046] using path for models: C:\ProgramData\NVIDIA\NGX\models
+[21:39:14.053] info:  DLSS Message: [2026-10-07 21:39:14] [NGXGetPath:1046] using path for models: C:\ProgramData\NVIDIA\NGX\models
+[21:39:14.073] info:  DLSS Message: [2026-10-07 21:39:14] [ModifyExistingFolderDACL:211] updated access control list for NGX cache (NGX cache should now be usable by all authenticated users)
+[21:39:14.073] info:  DLSS Message: [2026-10-07 21:39:14] [NGXCreateModelsFolder:1073] model folder created: C:\ProgramData\NVIDIA\NGX\models
+[21:39:14.073] info:  DLSS Message: [2026-10-07 21:39:14] [NGXLoadConfig:1145] [dlss_override]
+[21:39:14.073] info:  DLSS Message: [2026-10-07 21:39:14] [NGXLoadConfig:1151] app_E658700=310.9.0
+[21:39:14.073] info:  DLSS Message: [2026-10-07 21:39:14] [NGXLoadConfig:1145] [dlss]
+[21:39:14.073] info:  DLSS Message: [2026-10-07 21:39:14] [NGXLoadConfig:1151] app_E658702=0.0.0
+[21:39:14.073] info:  DLSS Message: [2026-10-07 21:39:14] [NGXLoadConfig:1151] app_E658701=0.0.0
+[21:39:14.073] info:  DLSS Message: [2026-10-07 21:39:14] [NGXLoadConfig:1151] app_E658700=310.9.0
+[21:39:14.073] info:  DLSS Message: [2026-10-07 21:39:14] [NGXLoadConfig:1151] app_B9FEB50=1.0.108
+[21:39:14.073] info:  DLSS Message: [2026-10-07 21:39:14] [NGXLoadConfig:1151] app_B9FF4BC=1.0.108
+[21:39:14.073] info:  DLSS Message: [2026-10-07 21:39:14] [NGXLoadConfig:1151] app_B9FD524=1.0.108
+[21:39:14.073] info:  DLSS Message: [2026-10-07 21:39:14] [NGXLoadConfig:1151] app_B9DF510=1.3.106
+[21:39:14.073] info:  DLSS Message: [2026-10-07 21:39:14] [NGXLoadConfig:1151] app_B9CB0B8=1.0.108
+[21:39:14.073] info:  DLSS Message: [2026-10-07 21:39:14] [NGXLoadConfig:1151] app_B9E26B0=2.1.28
+[21:39:14.073] info:  DLSS Message: [2026-10-07 21:39:14] [NGXLoadConfig:1151] app_B9D48D0=1.0.108
+[21:39:14.073] info:  DLSS Message: [2026-10-07 21:39:14] [NGXLoadConfig:1151] app_E99B5EC=1.2.109
+[21:39:14.073] info:  DLSS Message: [2026-10-07 21:39:14] [NGXLoadConfig:1151] app_B9DFA64=1.0.108
+[21:39:14.073] info:  DLSS Message: [2026-10-07 21:39:14] [NGXLoadConfig:1151] app_B9FD6C0=1.0.108
+[21:39:14.073] info:  DLSS Message: [2026-10-07 21:39:14] [NGXLoadConfig:1151] app_B9CF688=2.2.15
+[21:39:14.073] info:  DLSS Message: [2026-10-07 21:39:14] [NGXLoadConfig:1151] app_B9D6F08=1.0.108
+[21:39:14.073] info:  DLSS Message: [2026-10-07 21:39:14] [NGXLoadConfig:1151] app_B9BF564=2.1.201
+[21:39:14.073] info:  DLSS Message: [2026-10-07 21:39:14] [NGXLoadConfig:1151] app_B9DB4F4=1.0.108
+[21:39:14.073] info:  DLSS Message: [2026-10-07 21:39:14] [NGXLoadConfig:1151] app_B9D2F5C=1.2.110
+[21:39:14.073] info:  DLSS Message: [2026-10-07 21:39:14] [NGXLoadConfig:1151] app_B9D7388=1.0.108
+[21:39:14.073] info:  DLSS Message: [2026-10-07 21:39:14] [NGXLoadConfig:1151] app_B9F5618=2.1.29
+[21:39:14.073] info:  DLSS Message: [2026-10-07 21:39:14] [NGXLoadConfig:1151] app_B9DAE68=1.2.109
+[21:39:14.073] info:  DLSS Message: [2026-10-07 21:39:14] [NGXLoadConfig:1151] app_B9D8C54=1.2.109
+[21:39:14.074] info:  DLSS Message: [2026-10-07 21:39:14] [NGXLoadConfig:1151] app_B9D3EF0=2.1.28
+[21:39:14.074] info:  DLSS Message: [2026-10-07 21:39:14] [NGXLoadConfig:1151] app_B9FACDC=2.1.201
+[21:39:14.074] info:  DLSS Message: [2026-10-07 21:39:14] [NGXLoadConfig:1151] app_F7361DC=2.1.28
+[21:39:14.074] info:  DLSS Message: [2026-10-07 21:39:14] [NGXLoadConfig:1151] app_B9C3560=2.1.201
+[21:39:14.074] info:  DLSS Message: [2026-10-07 21:39:14] [NGXLoadConfig:1151] app_B9B0430=2.1.28
+[21:39:14.074] info:  DLSS Message: [2026-10-07 21:39:14] [NGXLoadConfig:1145] [dlssd]
+[21:39:14.074] info:  DLSS Message: [2026-10-07 21:39:14] [NGXLoadConfig:1151] app_E658700=310.9.0
+[21:39:14.074] info:  DLSS Message: [2026-10-07 21:39:14] [NGXLoadConfig:1145] [dlssg]
+[21:39:14.074] info:  DLSS Message: [2026-10-07 21:39:14] [NGXLoadConfig:1151] app_E658700=310.9.0
+[21:39:14.074] info:  DLSS Message: [2026-10-07 21:39:14] [NGXLoadConfig:1145] [sl_sdk_0]
+[21:39:14.074] info:  DLSS Message: [2026-10-07 21:39:14] [NGXLoadConfig:1151] app_E658703=2.14.0
+[21:39:14.074] info:  DLSS Message: [2026-10-07 21:39:14] [NGXLoadConfig:1145] [sl_common_0]
+[21:39:14.074] info:  DLSS Message: [2026-10-07 21:39:14] [NGXLoadConfig:1151] app_E658703=2.14.0
+[21:39:14.074] info:  DLSS Message: [2026-10-07 21:39:14] [NGXLoadConfig:1145] [sl_deepdvc_0]
+[21:39:14.074] info:  DLSS Message: [2026-10-07 21:39:14] [NGXLoadConfig:1151] app_E658703=2.14.0
+[21:39:14.074] info:  DLSS Message: [2026-10-07 21:39:14] [NGXLoadConfig:1145] [sl_dlss_0]
+[21:39:14.074] info:  DLSS Message: [2026-10-07 21:39:14] [NGXLoadConfig:1151] app_E658703=2.14.0
+[21:39:14.074] info:  DLSS Message: [2026-10-07 21:39:14] [NGXLoadConfig:1145] [sl_dlss_d_0]
+[21:39:14.074] info:  DLSS Message: [2026-10-07 21:39:14] [NGXLoadConfig:1151] app_E658703=2.14.0
+[21:39:14.074] info:  DLSS Message: [2026-10-07 21:39:14] [NGXLoadConfig:1145] [sl_dlss_g_0]
+[21:39:14.074] info:  DLSS Message: [2026-10-07 21:39:14] [NGXLoadConfig:1151] app_E658703=2.14.0
+[21:39:14.074] info:  DLSS Message: [2026-10-07 21:39:14] [NGXLoadConfig:1145] [sl_nis_0]
+[21:39:14.074] info:  DLSS Message: [2026-10-07 21:39:14] [NGXLoadConfig:1151] app_E658703=2.14.0
+[21:39:14.074] info:  DLSS Message: [2026-10-07 21:39:14] [NGXLoadConfig:1145] [sl_deepdvc_override_0]
+[21:39:14.074] info:  DLSS Message: [2026-10-07 21:39:14] [NGXLoadConfig:1151] app_E658700=2.14.0
+[21:39:14.074] info:  DLSS Message: [2026-10-07 21:39:14] [NGXLoadConfig:1145] [sl_nvperf_0]
+[21:39:14.074] info:  DLSS Message: [2026-10-07 21:39:14] [NGXLoadConfig:1151] app_E658703=2.14.0
+[21:39:14.074] info:  DLSS Message: [2026-10-07 21:39:14] [NGXLoadConfig:1145] [sl_pcl_0]
+[21:39:14.074] info:  DLSS Message: [2026-10-07 21:39:14] [NGXLoadConfig:1151] app_E658703=2.14.0
+[21:39:14.074] info:  DLSS Message: [2026-10-07 21:39:14] [NGXLoadConfig:1145] [sl_reflex_0]
+[21:39:14.074] info:  DLSS Message: [2026-10-07 21:39:14] [NGXLoadConfig:1151] app_E658703=2.14.0
+[21:39:14.074] info:  DLSS Message: [2026-10-07 21:39:14] [NGXLoadConfig:1145] [dlisp]
+[21:39:14.074] info:  DLSS Message: [2026-10-07 21:39:14] [NGXLoadConfig:1151] app_B9CF688=2.1.15
+[21:39:14.074] info:  DLSS Message: [2026-10-07 21:39:14] [NGXLoadConfig:1151] app_E99B5EC=1.2.102
+[21:39:14.074] info:  DLSS Message: [2026-10-07 21:39:14] [NGXLoadConfig:1151] app_E658703=310.0.0
+[21:39:14.074] info:  DLSS Message: [2026-10-07 21:39:14] [NGXLoadConfig:1151] app_B9D8C54=1.2.106
+[21:39:14.074] info:  DLSS Message: [2026-10-07 21:39:14] [NGXLoadConfig:1151] app_B9D2F5C=1.2.106
+[21:39:14.074] info:  DLSS Message: [2026-10-07 21:39:14] [NGXLoadConfig:1151] app_B9DF510=1.3.101
+[21:39:14.074] info:  DLSS Message: [2026-10-07 21:39:14] [NGXLoadConfig:1151] app_B9DAE68=1.2.106
+[21:39:14.074] info:  DLSS Message: [2026-10-07 21:39:14] [NGXLoadConfig:1145] [sl_sdk_override_0]
+[21:39:14.074] info:  DLSS Message: [2026-10-07 21:39:14] [NGXLoadConfig:1151] app_E658700=2.14.0
+[21:39:14.074] info:  DLSS Message: [2026-10-07 21:39:14] [NGXLoadConfig:1145] [sl_dlss_g_override_0]
+[21:39:14.074] info:  DLSS Message: [2026-10-07 21:39:14] [NGXLoadConfig:1151] app_E658700=2.14.0
+[21:39:14.074] info:  DLSS Message: [2026-10-07 21:39:14] [NGXLoadConfig:1145] [sl_common_override_0]
+[21:39:14.074] info:  DLSS Message: [2026-10-07 21:39:14] [NGXLoadConfig:1151] app_E658700=2.14.0
+[21:39:14.074] info:  DLSS Message: [2026-10-07 21:39:14] [NGXLoadConfig:1145] [sl_dlss_override_0]
+[21:39:14.074] info:  DLSS Message: [2026-10-07 21:39:14] [NGXLoadConfig:1151] app_E658700=2.14.0
+[21:39:14.074] info:  DLSS Message: [2026-10-07 21:39:14] [NGXLoadConfig:1145] [sl_nis_override_0]
+[21:39:14.074] info:  DLSS Message: [2026-10-07 21:39:14] [NGXLoadConfig:1151] app_E658700=2.14.0
+[21:39:14.074] info:  DLSS Message: [2026-10-07 21:39:14] [NGXLoadConfig:1145] [sl_dlss_d_override_0]
+[21:39:14.074] info:  DLSS Message: [2026-10-07 21:39:14] [NGXLoadConfig:1151] app_E658700=2.14.0
+[21:39:14.074] info:  DLSS Message: [2026-10-07 21:39:14] [NGXLoadConfig:1145] [sl_nvperf_override_0]
+[21:39:14.074] info:  DLSS Message: [2026-10-07 21:39:14] [NGXLoadConfig:1151] app_E658700=2.14.0
+[21:39:14.074] info:  DLSS Message: [2026-10-07 21:39:14] [NGXLoadConfig:1145] [sl_pcl_override_0]
+[21:39:14.074] info:  DLSS Message: [2026-10-07 21:39:14] [NGXLoadConfig:1151] app_E658700=2.14.0
+[21:39:14.074] info:  DLSS Message: [2026-10-07 21:39:14] [NGXLoadConfig:1145] [sl_reflex_override_0]
+[21:39:14.074] info:  DLSS Message: [2026-10-07 21:39:14] [NGXLoadConfig:1151] app_E658700=2.14.0
+[21:39:14.178] info:  DLSS Message: [2026-10-07 21:39:14] [NGXDRSInit:182] NvAPI_DRS_FindApplicationByName -166
+[21:39:14.188] info:  DLSS Message: [2026-10-07 21:39:14] [NGXInitContext:245] called from module d3d9.dll at D:\EDF IA RTX REMIX\runtime\_build\edf-static-gpu-x64-positive
+[21:39:14.189] info:  DLSS Message: [2026-10-07 21:39:14] [NGXLoadConfig:1145] [streamline-ota]
+[21:39:14.189] info:  DLSS Message: [2026-10-07 21:39:14] [NGXLoadConfig:1151] app_84D32F0=1
+[21:39:14.189] info:  DLSS Message: [2026-10-07 21:39:14] [NGXContextDenyListData::IsFeatureDenied:676] Feature dldenoiser, denial value 0 for Cms ID 870691c
+[21:39:14.189] info:  DLSS Message: [2026-10-07 21:39:14] [NGXReportStatusFeedback:1103] Override shared memory was opened successfully
+[21:39:14.189] info:  DLSS Message: [2026-10-07 21:39:14] [NGXReportStatusFeedback:1115] Override shared memory was mapped successfully
+[21:39:14.189] info:  DLSS Message: [2026-10-07 21:39:14] [NGXReportStatusFeedback:1144] Override feedback found available slot 1
+[21:39:14.189] info:  DLSS Message: [2026-10-07 21:39:14] [NGXContextDenyListData::IsFeatureDenied:676] Feature dlss, denial value 0 for Cms ID 870691c
+[21:39:15.777] info:  DLSS Message: [2026-10-07 21:39:15] [NGXSecureLoadFeature:1384] Feature dlss failed to load (cmsid 141584668) from cache (location: C:\ProgramData\NVIDIA\NGX\models\dlss\versions\0\files, name: 160_870691C.bin)
+[21:39:15.813] info:  DLSS Message: [2026-10-07 21:39:15] [NGXSecureLoadFeature:1384] Feature dlss failed to load (cmsid 241534723) from cache (location: C:\ProgramData\NVIDIA\NGX\models\dlss\versions\0\files, name: 160_E658703.bin)
+[21:39:16.213] info:  DLSS Message: [2026-10-07 21:39:16] [NGXSecureLoadFeature:1499] app 870691C feature dlss snippet: D:\EDF IA RTX REMIX\runtime\_build\edf-static-gpu-x64-positive/nvngx_dlss.dll version: 310.9.1
+[21:39:16.213] info:  DLSS Message: [2026-10-07 21:39:16] [NGXContextDenyListData::IsFeatureDenied:676] Feature dlinpainting, denial value 0 for Cms ID 870691c
+[21:39:16.213] info:  DLSS Message: [2026-10-07 21:39:16] [NGXContextDenyListData::IsFeatureDenied:676] Feature dlisr, denial value 0 for Cms ID 870691c
+[21:39:16.213] info:  DLSS Message: [2026-10-07 21:39:16] [NGXContextDenyListData::IsFeatureDenied:676] Feature dlslowmo, denial value 0 for Cms ID 870691c
+[21:39:16.213] info:  DLSS Message: [2026-10-07 21:39:16] [NGXContextDenyListData::IsFeatureDenied:676] Feature dlvsr, denial value 0 for Cms ID 870691c
+[21:39:16.213] info:  DLSS Message: [2026-10-07 21:39:16] [NGXContextDenyListData::IsFeatureDenied:676] Feature dlcolorize, denial value 0 for Cms ID 870691c
+[21:39:16.213] info:  DLSS Message: [2026-10-07 21:39:16] [NGXContextDenyListData::IsFeatureDenied:676] Feature dlstyletransfer, denial value 0 for Cms ID 870691c
+[21:39:16.213] info:  DLSS Message: [2026-10-07 21:39:16] [NGXContextDenyListData::IsFeatureDenied:676] Feature dlvdenoiser, denial value 0 for Cms ID 870691c
+[21:39:16.213] info:  DLSS Message: [2026-10-07 21:39:16] [NGXContextDenyListData::IsFeatureDenied:676] Feature dlisp, denial value 0 for Cms ID 870691c
+[21:39:16.213] info:  DLSS Message: [2026-10-07 21:39:16] [NGXContextDenyListData::IsFeatureDenied:676] Feature dlresolve, denial value 0 for Cms ID 870691c
+[21:39:16.213] info:  DLSS Message: [2026-10-07 21:39:16] [NGXContextDenyListData::IsFeatureDenied:676] Feature dlssg, denial value 0 for Cms ID 870691c
+[21:39:16.445] info:  DLSS Message: [2026-10-07 21:39:16] [NGXSecureLoadFeature:1384] Feature dlssg failed to load (cmsid 141584668) from cache (location: C:\ProgramData\NVIDIA\NGX\models\dlssg\versions\0\files, name: 160_870691C.bin)
+[21:39:16.482] info:  DLSS Message: [2026-10-07 21:39:16] [NGXSecureLoadFeature:1384] Feature dlssg failed to load (cmsid 241534723) from cache (location: C:\ProgramData\NVIDIA\NGX\models\dlssg\versions\0\files, name: 160_E658703.bin)
+[21:39:16.892] info:  DLSS Message: [2026-10-07 21:39:16] [NGXSecureLoadFeature:1420] Found dlssg driver fallback snippet at C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_da865124972e1f80
+[21:39:16.892] info:  DLSS Message: [2026-10-07 21:39:16] [NGXSecureLoadFeature:1499] app 870691C feature dlssg snippet: D:\EDF IA RTX REMIX\runtime\_build\edf-static-gpu-x64-positive/nvngx_dlssg.dll version: 310.9.1
+[21:39:16.893] info:  DLSS Message: [2026-10-07 21:39:16] [NGXContextDenyListData::IsFeatureDenied:676] Feature deepdvc, denial value 0 for Cms ID 870691c
+[21:39:16.893] info:  DLSS Message: [2026-10-07 21:39:16] [NGXContextDenyListData::IsFeatureDenied:676] Feature dlssd, denial value 0 for Cms ID 870691c
+[21:39:18.018] info:  DLSS Message: [2026-10-07 21:39:18] [NGXSecureLoadFeature:1384] Feature dlssd failed to load (cmsid 141584668) from cache (location: C:\ProgramData\NVIDIA\NGX\models\dlssd\versions\0\files, name: 160_870691C.bin)
+[21:39:18.051] info:  DLSS Message: [2026-10-07 21:39:18] [NGXSecureLoadFeature:1384] Feature dlssd failed to load (cmsid 241534723) from cache (location: C:\ProgramData\NVIDIA\NGX\models\dlssd\versions\0\files, name: 160_E658703.bin)
+[21:39:18.422] info:  DLSS Message: [2026-10-07 21:39:18] [NGXSecureLoadFeature:1499] app 870691C feature dlssd snippet: D:\EDF IA RTX REMIX\runtime\_build\edf-static-gpu-x64-positive/nvngx_dlssd.dll version: 310.9.1
+[21:39:18.422] info:  DLSS Message: [2026-10-07 21:39:18] [NGXContextDenyListData::IsFeatureDenied:676] Feature truehdr, denial value 0 for Cms ID 870691c
+[21:39:18.422] info:  DLSS Message: [2026-10-07 21:39:18] [NGXContextDenyListData::IsFeatureDenied:676] Feature latewarp, denial value 0 for Cms ID 870691c
+[21:39:18.422] info:  DLSS Message: [2026-10-07 21:39:18] [NGXContextDenyListData::IsFeatureDenied:676] Feature vsr, denial value 0 for Cms ID 870691c
+[21:39:18.422] info:  DLSS Message: [2026-10-07 21:39:18] [NGXContextDenyListData::IsFeatureDenied:676] Feature fgx, denial value 0 for Cms ID 870691c
+[21:39:18.422] info:  DLSS Message: [2026-10-07 21:39:18] [NGXContextDenyListData::IsFeatureDenied:676] Feature dlssnr, denial value 0 for Cms ID 870691c
+[21:39:18.569] info:  DLSS Message: [2026-10-07 21:39:18] [tid:17440][NGXInitLog:208] App logging hooks successfully initialized
+[21:39:18.569] info:  DLSS Message: [2026-10-07 21:39:18] [tid:17440][NGXInitLog:214] Build v310.9.1 CL 38868064
+[21:39:18.569] info:  DLSS Message: [2026-10-07 21:39:18] [tid:17440][NGXInitLog:216] Built with APP_NAME = default
+[21:39:18.569] info:  DLSS Message: [2026-10-07 21:39:18] [tid:17440][NGXInitLog:226] Loaded from path "D:\EDF IA RTX REMIX\runtime\_build\edf-static-gpu-x64-positive/nvngx_dlss.dll" by edf_static_gpu_replay.exe
+[21:39:18.570] info:  DLSS Message: [2026-10-07 21:39:18] [tid:17440][NGXCubinVulkan::Init:204] Enabling texmode_raw
+[21:39:18.587] info:  DLSS Message: [2026-10-07 21:39:18] [tid:17440][NGXCubinKernelMap::InitCubins:42] Loading NGXCubin kernels
+[21:39:18.587] info:  DLSS Message: [2026-10-07 21:39:18] [tid:17440][NGXCubinGeneric::SetGPUArch:413] SetGPUArch:: Gpu count = 1, luid: 0x101d6
+[21:39:18.588] info:  DLSS Message: [2026-10-07 21:39:18] [tid:17440][NGXCubinGeneric::SetGPUArch:473] m_gpuArch = 0x1b0
+[21:39:18.589] info:  DLSS Message: [2026-10-07 21:39:18] [tid:17440][NGXCubinGeneric::genericPostInit:164] Fast UAV clear: supported
+[21:39:18.589] info:  DLSS Message: [2026-10-07 21:39:18] [tid:17440][DLSSCubinKernelMap::InitCubins:303] Setting DLAA Cubins
+[21:39:18.589] info:  DLSS Message: [2026-10-07 21:39:18] [tid:17440][DLSSCubinKernelMap::InitCubins:303] Setting DLSS Debug Cubins
+[21:39:18.590] info:  DLSS Message: [2026-10-07 21:39:18] [tid:17440][DLSSCubinKernelMap::InitCubins:303] Setting DLTSS Engine Cubins
+[21:39:18.590] info:  DLSS Message: [2026-10-07 21:39:18] [tid:17440][DLSSCubinKernelMap::InitCubins:303] Setting DLTSS NW Cubins
+[21:39:18.590] info:  DLSS Message: [2026-10-07 21:39:18] [tid:17440][DLSSCubinKernelMap::InitCubins:303] Setting DLTSS NW E5M3_SKIP Cubins
+[21:39:18.590] info:  DLSS Message: [2026-10-07 21:39:18] [tid:17440][DLSSCubinKernelMap::InitCubins:303] Setting DLTSS NW Cubins
+[21:39:18.590] info:  DLSS Message: [2026-10-07 21:39:18] [tid:17440][DldnCubinKernelMap::InitCubins:138] Setting DLDN Engine Pre / Post Cubins
+[21:39:18.780] info:  DLSS Message: [2026-10-07 21:39:18] [tid:17440][NGXInitLog:208] App logging hooks successfully initialized
+[21:39:18.780] info:  DLSS Message: [2026-10-07 21:39:18] [tid:17440][NGXInitLog:214] Build v310.9.1 CL 38868064
+[21:39:18.780] info:  DLSS Message: [2026-10-07 21:39:18] [tid:17440][NGXInitLog:216] Built with APP_NAME = endpoint
+[21:39:18.780] info:  DLSS Message: [2026-10-07 21:39:18] [tid:17440][NGXInitLog:226] Loaded from path "D:\EDF IA RTX REMIX\runtime\_build\edf-static-gpu-x64-positive/nvngx_dlssg.dll" by edf_static_gpu_replay.exe
+[21:39:18.783] info:  DLSS Message: [2026-10-07 21:39:18] [tid:17440][NGXCubinVulkan::Init:204] Enabling texmode_raw
+[21:39:18.783] info:  DLSS Message: [2026-10-07 21:39:18] [tid:17440][NGXCubinKernelMap::InitCubins:42] Loading NGXCubin kernels
+[21:39:18.783] info:  DLSS Message: [2026-10-07 21:39:18] [tid:17440][NGXCubinGeneric::SetGPUArch:473] m_gpuArch = 0x1b0
+[21:39:18.783] info:  DLSS Message: [2026-10-07 21:39:18] [tid:17440][NGXCubinGeneric::genericPostInit:164] Fast UAV clear: supported
+[21:39:18.926] info:  DLSS Message: [2026-10-07 21:39:18] [tid:17440][NGXInitLog:208] App logging hooks successfully initialized
+[21:39:18.926] info:  DLSS Message: [2026-10-07 21:39:18] [tid:17440][NGXInitLog:214] Build v310.9.1 CL 38868064
+[21:39:18.926] info:  DLSS Message: [2026-10-07 21:39:18] [tid:17440][NGXInitLog:216] Built with APP_NAME = app_transformer_dlssd
+[21:39:18.926] info:  DLSS Message: [2026-10-07 21:39:18] [tid:17440][NGXInitLog:226] Loaded from path "D:\EDF IA RTX REMIX\runtime\_build\edf-static-gpu-x64-positive/nvngx_dlssd.dll" by edf_static_gpu_replay.exe
+[21:39:18.926] info:  DLSS Message: [2026-10-07 21:39:18] [tid:17440][NGXCubinVulkan::Init:204] Enabling texmode_raw
+[21:39:18.927] info:  DLSS Message: [2026-10-07 21:39:18] [tid:17440][NGXCubinKernelMap::InitCubins:42] Loading NGXCubin kernels
+[21:39:18.927] info:  DLSS Message: [2026-10-07 21:39:18] [tid:17440][NGXCubinGeneric::SetGPUArch:413] SetGPUArch:: Gpu count = 1, luid: 0x101d6
+[21:39:18.928] info:  DLSS Message: [2026-10-07 21:39:18] [tid:17440][NGXCubinGeneric::SetGPUArch:473] m_gpuArch = 0x1b0
+[21:39:18.928] info:  DLSS Message: [2026-10-07 21:39:18] [tid:17440][NGXCubinGeneric::genericPostInit:164] Fast UAV clear: supported
+[21:39:18.928] info:  DLSS Message: [2026-10-07 21:39:18] [tid:17440][DLSSCubinKernelMap::InitCubins:208] Setting DLSS Base Cubins for standalone RR
+[21:39:18.928] info:  DLSS Message: [2026-10-07 21:39:18] [tid:17440][DldnCubinKernelMap::InitCubins:156] Setting DLDN Engine Pre / Post Cubins
+[21:39:18.929] info:  DLSS Message: [2026-10-07 21:39:18] [tid:17440][DldnCubinKernelMap::InitCubins:188] Setting DLDN Engine Pre / Post Cubins
+[21:39:18.934] warn:  NVIDIA DLSS-NR not available on this hardware/platform. Available: 0, availability query: (code: 0x00000001, info: NVSDK_NGX_Result_Success), feature initialization: (code: 0xbad00004, info: NVSDK_NGX_Result_FAIL_FeatureNotFound), feature initialization query: (code: 0x00000001, info: NVSDK_NGX_Result_Success)
+[21:39:19.066] info:  Reflex initialized successfully.
+[21:39:19.106] info:  Automatic Graphics Preset in use (Set rtx.graphicsPreset to something other than Auto use a non-automatic preset)
+[21:39:19.257] info:  NVIDIA Blackwell architecture detected, setting default graphics settings to Ultra
+[21:39:19.257] info:  Automatic Raytrace Mode Preset in use (Set rtx.raytraceModePreset to something other than Auto use a non-automatic preset)
+[21:39:19.257] info:  NVIDIA architecture detected, setting default raytrace modes to Trace Ray (Indirect Integrate) and Ray Query (GBuffer, Direct Integrate)
+[21:39:19.258] info:  [RTX info] Opacity Micromap: supported
+[21:39:19.258] info:  [RTX info] Shader Execution Reordering: supported
+[21:39:19.258] info:  [RTX info] Shader Execution Reordering: enabled
+[21:39:19.267] info:  CPU supports SIMD: AVX2
+[21:39:19.299] info:  [EDF-Static] profile_enabled executable_sha1=770c6c47be2d359f9023c6b69f723bd6224752c4 mesh=925aa18481228b01392a574dbe28ba4e21aa1616 vertices=252 triangles=144 preserve_raster=true
+[21:39:19.414] info:  Compatibility capture started: D:/EDF IA RTX REMIX/runtime/_build/edf-static-gpu-x64-positive/captures\1791419959355-40756-0
+[21:39:19.414] info:  Compatibility capture enabled for edf_static_gpu_replay.exe; F10 captures the next frame (configurable).
+[21:39:19.414] info:  D3D9DeviceEx::ResetSwapChain:
+[21:39:19.414] info:    Requested Presentation Parameters
+[21:39:19.414] info:      - Width:              1920
+[21:39:19.414] info:      - Height:             1080
+[21:39:19.414] info:      - Format:             D3D9Format::A8R8G8B8
+[21:39:19.414] info:      - Auto Depth Stencil: true
+[21:39:19.414] info:                  ^ Format: D3D9Format::D24S8
+[21:39:19.414] info:      - Windowed:           true
+[21:39:19.550] info:  Presenter: Actual swap chain properties:
+[21:39:19.550] info:    Format:       VK_FORMAT_R8G8B8A8_UNORM
+[21:39:19.550] info:    Present mode: VK_PRESENT_MODE_IMMEDIATE_KHR
+[21:39:19.550] info:    Buffer size:  1904x1041
+[21:39:19.550] info:    Image count:  3
+[21:39:19.550] info:    Exclusive FS: 2
+[21:39:19.976] info:  Presenter: Actual swap chain properties:
+[21:39:19.976] info:    Format:       VK_FORMAT_R8G8B8A8_UNORM
+[21:39:19.976] info:    Present mode: VK_PRESENT_MODE_FIFO_KHR
+[21:39:19.976] info:    Buffer size:  1904x1041
+[21:39:19.976] info:    Image count:  3
+[21:39:19.976] info:    Exclusive FS: 2
+[21:39:20.478] warn:  [D3D9WindowProc] Swapchain handle is invalid, some of its values may not be correct.
+[21:39:20.478] warn:  D3D9Texture2D::QueryInterface: Unknown interface query
+[21:39:20.478] warn:  794950f2-adfc-458a-905e-10a10b0b503b
+[21:39:20.503] info:  [RTX-Compatibility-Trace] trace=0x4544465354415449 stage=recognized frame=0 profile=edf-static-925aa18481228b01392a574dbe28ba4e21aa1616 draw=1 vs=f098f457d9ae603bea5f84ec985d473c29cfb0c9 ps=44b92a29eb3e5f2ee6d53f02e14fb11a01511da8 preserve_raster=true
+[21:39:20.503] info:  [RTX-Compatibility-Trace] trace=0x4544465354415449 stage=raster_geometry frame=0 vertices=252 indices=432 position=FLOAT3 normal=FLOAT3 uv=FLOAT2 stride=32 indices_rebased=0..251 material_hash=0x3b9b4f5a015a8c1b base_texture_hash=0x3b9b4f5a015a8c1b reprojection_error_px=4.2776e-05 camera_anchor=-299.276,-358.455,-7.73695
+[21:39:20.643] info:  [RTX-Compatibility-Trace] trace=0x4544465354415449 stage=camera_accepted frame=0 type=0 valid=1
+[21:39:20.734] info:  [RTX-Compatibility-Trace] trace=0x4544465354415449 stage=scene_geometry frame=0 vertices=252 indices=432 position_format=106 normal_format=106 uv_format=103 cache_state=2 position_hash=0x6d7756d3182eed1d index_hash=0xdb9f5782ee579d47 uv_hash=0x78eb56661f89659b geometry_hash=0x32aeb7bb7e772c13 material_hash=0x3b9b4f5a015a8c1b
+[21:39:20.783] info:  [RTX-Compatibility-Trace] trace=0x4544465354415449 stage=instance_accepted frame=0 instance_id=1 created=1 mask=8 hidden=0 material_id=0
+[21:39:20.862] info:  Presenter: Actual swap chain properties:
+[21:39:20.862] info:    Format:       VK_FORMAT_R8G8B8A8_UNORM
+[21:39:20.862] info:    Present mode: VK_PRESENT_MODE_FIFO_KHR
+[21:39:20.862] info:    Buffer size:  1904x1041
+[21:39:20.862] info:    Image count:  3
+[21:39:20.862] info:    Exclusive FS: 2
+[21:39:20.939] info:  [RTX] Opacity Micromap: enabled
+[21:39:20.985] info:  [RTX-Compatibility-Trace] trace=0x4544465354415449 stage=blas_recorded frame=0 instance_id=1 mode=0 geometry_count=1 blas_address=0xae81900
+[21:39:20.986] info:  [RTX-Compatibility-Trace] trace=0x4544465354415449 stage=tlas_recorded frame=0 instance_id=1 type=TLAS_Opaque instance_count=1 blas_address=0xae81900 surface_index=0 included=1
+[21:39:21.007] info:  [RTX-Compatibility-Trace] trace=0x4544465354415449 stage=scene_only_frame frame=0 instance_id=1raster_preserved=1 path_tracing_dispatched=0
+[21:39:21.023] info:  [RTX-Compatibility-Trace] trace=0x4544465354415449 stage=camera_accepted frame=1 type=0 valid=1
+[21:39:21.023] info:  [RTX-Compatibility-Trace] trace=0x4544465354415449 stage=scene_geometry frame=1 vertices=252 indices=432 position_format=106 normal_format=106 uv_format=103 cache_state=0 position_hash=0x6d7756d3182eed1d index_hash=0xdb9f5782ee579d47 uv_hash=0x78eb56661f89659b geometry_hash=0x32aeb7bb7e772c13 material_hash=0x3b9b4f5a015a8c1b
+[21:39:21.023] info:  [RTX-Compatibility-Trace] trace=0x4544465354415449 stage=instance_accepted frame=1 instance_id=1 created=0 mask=8 hidden=0 material_id=0
+[21:39:21.033] info:  [RTX-Compatibility-Trace] trace=0x4544465354415449 stage=blas_reused frame=1 instance_id=1reason=scene_unchanged
+[21:39:21.034] info:  [RTX-Compatibility-Trace] trace=0x4544465354415449 stage=tlas_recorded frame=1 instance_id=1 type=TLAS_Opaque instance_count=1 blas_address=0xae81900 surface_index=0 included=1
+[21:39:21.034] info:  [RTX-Compatibility-Trace] trace=0x4544465354415449 stage=scene_only_frame frame=1 instance_id=1raster_preserved=1 path_tracing_dispatched=0
+[21:39:21.240] info:  [RTX-Compatibility-Trace] trace=0x4544465354415449 stage=recognized frame=2 profile=edf-static-925aa18481228b01392a574dbe28ba4e21aa1616 draw=1 vs=f098f457d9ae603bea5f84ec985d473c29cfb0c9 ps=44b92a29eb3e5f2ee6d53f02e14fb11a01511da8 preserve_raster=true
+[21:39:21.240] info:  [RTX-Compatibility-Trace] trace=0x4544465354415449 stage=raster_geometry frame=2 vertices=252 indices=432 position=FLOAT3 normal=FLOAT3 uv=FLOAT2 stride=32 indices_rebased=0..251 material_hash=0x3b9b4f5a015a8c1b base_texture_hash=0x3b9b4f5a015a8c1b reprojection_error_px=1.66571e-05 camera_anchor=-299.678,-357.408,-8.04995
+[21:39:21.240] info:  [RTX-Compatibility-Trace] trace=0x4544465354415449 stage=camera_accepted frame=2 type=0 valid=1
+[21:39:21.240] info:  [RTX-Compatibility-Trace] trace=0x4544465354415449 stage=instance_preserved frame=2 instance_id=1 mask=8 material_id=0 vertices=252 indices=432 position_hash=0x6d7756d3182eed1d index_hash=0xdb9f5782ee579d47 uv_hash=0x78eb56661f89659b geometry_hash=0x32aeb7bb7e772c13 material_hash=0x3b9b4f5a015a8c1b
+[21:39:21.288] info:  Compatibility capture finished; selected draws: 6; truncated: 0
+[21:39:21.289] info:  [RTX-Compatibility-Trace] trace=0x4544465354415449 stage=blas_reused frame=2 instance_id=1reason=scene_unchanged
+[21:39:21.289] info:  [RTX-Compatibility-Trace] trace=0x4544465354415449 stage=tlas_recorded frame=2 instance_id=1 type=TLAS_Opaque instance_count=1 blas_address=0xae81900 surface_index=0 included=1
+[21:39:21.289] info:  [RTX-Compatibility-Trace] trace=0x4544465354415449 stage=scene_only_frame frame=2 instance_id=1raster_preserved=1 path_tracing_dispatched=0
+[21:39:21.520] info:  filewatch: uninstalled all directory watches
+[21:39:21.552] err:   [43] common device objects were not disposed of.
+[21:39:21.555] err:   	Object class dxvk::DxvkRayReconstruction [000001BA10CF5590] is alive at exit.
+[21:39:21.557] err:   	Object struct dxvk::LightManager [000001BA0ADEC060] is alive at exit.
+[21:39:21.577] err:   	Object class dxvk::SceneManager [000001BA0ADEB8C0] is alive at exit.
+[21:39:21.577] err:   	Object class dxvk::InstanceManager [000001BA0ADEBBC8] is alive at exit.
+[21:39:21.578] err:   	Object class dxvk::CameraManager [000001BA0ADECD70] is alive at exit.
+[21:39:21.578] err:   	Object class dxvk::DrawCallCache [000001BA0ADECD20] is alive at exit.
+[21:39:21.578] err:   	Object class dxvk::RayPortalManager [000001BA0ADEC560] is alive at exit.
+[21:39:21.578] err:   	Object class dxvk::AccelManager [000001BA0ADEBD70] is alive at exit.
+[21:39:21.578] err:   	Object class dxvk::BindlessResourceManager [000001BA0ADECC80] is alive at exit.
+[21:39:21.578] err:   	Object struct dxvk::Resources [000001BA0ADF9410] is alive at exit.
+[21:39:21.578] err:   	Object class dxvk::RtxInitializer [000001BA0ADFC610] is alive at exit.
+[21:39:21.578] err:   	Object class dxvk::RtxTextureManager [000001BA09B8A080] is alive at exit.
+[21:39:21.590] err:   	Object class dxvk::RtxGlobalVolumetrics [000001BA095C9630] is alive at exit.
+[21:39:21.590] err:   	Object class dxvk::SparseRendering [000001BA04E00E60] is alive at exit.
+[21:39:21.592] err:   	Object class dxvk::DxvkPathtracerGbuffer [000001BA0ACF70F0] is alive at exit.
+[21:39:21.593] err:   	Object class dxvk::DxvkToneMapping [000001BA13502590] is alive at exit.
+[21:39:21.593] err:   	Object class dxvk::NRDContext [000001BA0B1318F0] is alive at exit.
+[21:39:21.593] err:   	Object class dxvk::DxvkPathtracerIntegrateDirect [000001BA0ACF7530] is alive at exit.
+[21:39:21.602] err:   	Object class dxvk::DxvkPathtracerIntegrateIndirect [000001BA0ACF58D0] is alive at exit.
+[21:39:21.602] err:   	Object class dxvk::DxvkDenoise [000001BA0ACF5BD0] is alive at exit.
+[21:39:21.602] err:   	Object class dxvk::DxvkDenoise [000001BA0ACF5D90] is alive at exit.
+[21:39:21.602] err:   	Object class dxvk::NRDContext [000001BA0B12EB30] is alive at exit.
+[21:39:21.602] err:   	Object class dxvk::DxvkDenoise [000001BA0ACF5D30] is alive at exit.
+[21:39:21.602] err:   	Object class dxvk::NRDContext [000001BA0B12D820] is alive at exit.
+[21:39:21.602] err:   	Object class dxvk::DxvkDenoise [000001BA0ACF5E50] is alive at exit.
+[21:39:21.602] err:   	Object class dxvk::NRDContext [000001BA0B131150] is alive at exit.
+[21:39:21.602] err:   	Object class dxvk::DxvkDenoise [000001BA0ACF5C30] is alive at exit.
+[21:39:21.602] err:   	Object class dxvk::NRDContext [000001BA0B132C00] is alive at exit.
+[21:39:21.602] err:   	Object class dxvk::NRDContext [000001BA0B131CC0] is alive at exit.
+[21:39:21.602] err:   	Object class dxvk::DxvkDLFG [000001BA0ACE66F0] is alive at exit.
+[21:39:21.602] err:   	Object class dxvk::DxvkDenoise [000001BA0ACF5E70] is alive at exit.
+[21:39:21.602] err:   	Object class dxvk::NRDContext [000001BA0B12EF00] is alive at exit.
+[21:39:21.602] err:   	Object class dxvk::DxvkDenoise [000001BA0ACF5C90] is alive at exit.
+[21:39:21.602] err:   	Object class dxvk::RtxGeometryUtils [000001BA13519460] is alive at exit.
+[21:39:21.602] err:   	Object class dxvk::DxvkDLSS [000001BA0ACE60C0] is alive at exit.
+[21:39:21.602] err:   	Object class dxvk::OpacityMicromapManager [000001BA10AF3160] is alive at exit.
+[21:39:21.602] err:   	Object class dxvk::DlssNeuralRendering [000001BA109D4770] is alive at exit.
+[21:39:21.602] err:   	Object class dxvk::DxvkXeSS [000001BA109D4990] is alive at exit.
+[21:39:21.602] err:   	Object class dxvk::DxvkAutoExposure [000001BA13026090] is alive at exit.
+[21:39:21.602] err:   	Object class dxvk::DxvkSRGBDither [000001BA10CE7910] is alive at exit.
+[21:39:21.602] err:   	Object class dxvk::RtxReflex [000001BA12115930] is alive at exit.
+[21:39:21.602] err:   	Object class dxvk::RtxParticleSystemManager [000001BA0ACF03E0] is alive at exit.
+[21:39:21.602] err:   	Object class dxvk::OpacityMicromapMemoryManager [000001BA10AF3328] is alive at exit.

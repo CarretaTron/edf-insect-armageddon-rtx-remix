@@ -1,0 +1,847 @@
+[10:04:14.331] info:  Sentry: crash reporting initialized
+[10:04:14.340] info:  Sentry session id (Use this to search for uploaded crash reports): 6c7fba40-b311-4871-5608-7160c915d5c1
+[10:04:14.341] info:  Attempting to parse option layer: C:\Users\alexp\AppData\Local\NVIDIA\RTXRemix\user_settings\afa81a18f1977db4.conf...
+[10:04:14.341] info:  No config file found at: C:\Users\alexp\AppData\Local\NVIDIA\RTXRemix\user_settings\afa81a18f1977db4.conf
+[10:04:14.349] info:  Game: edf_static_gpu_replay.exe
+[10:04:14.349] info:  DXVK_Remix: remix-main+0e18e55c
+[10:04:14.356] info:  System Information Report:
+[10:04:14.356] info:    CPU: (AuthenticAMD) AMD Ryzen 7 7700X 8-Core Processor             
+[10:04:14.359] info:    Memory: 15.54 GiB / 31.10 GiB physical, 26.99 GiB / 44.60 GiB committed, 4.99 GiB / 128.00 TiB virtual (current process)
+[10:04:14.359] info:    OS: Windows 10.0 Build 26200
+[10:04:14.359] info:  Initializing RtxOptions...
+[10:04:14.359] info:  Initializing RtxOption system layers...
+[10:04:14.359] info:  Attempting to parse option layer: dxvk.conf...
+[10:04:14.359] info:  No config file found at: dxvk.conf
+[10:04:14.366] info:  Did not find app config for executable: D:\EDF IA RTX REMIX\runtime\_build\edf-composition-retained-sync-positive-x86\positive_camera0\edf_static_gpu_replay.exe
+[10:04:14.366] info:  Attempting to parse option layer: rtx.conf...
+[10:04:14.370] info:  Found config file: rtx.conf
+[10:04:14.370] info:  Parsed config file.
+[10:04:14.371] info:  Effective Combined Config for DXVK Options configuration:
+[10:04:14.371] info:    rtx.edfStatic.composition.enabled = True
+[10:04:14.371] info:    rtx.edfStatic.enabled = True
+[10:04:14.371] info:    rtx.edfStatic.composition.panelX = 1040
+[10:04:14.371] info:    rtx.cameraSequence.mode = 0
+[10:04:14.371] info:    rtx.fallbackLightRadiance = 1.6, 1.8, 2
+[10:04:14.371] info:    rtx.volumetrics.enable = False
+[10:04:14.371] info:    rtx.resolutionScale = 1
+[10:04:14.371] info:    rtx.edfStatic.composition.panelY = 800
+[10:04:14.371] info:    rtx.edfStatic.composition.panelHeight = 200
+[10:04:14.371] info:    rtx.edfStatic.probe.enabled = True
+[10:04:14.371] info:    rtx.edfStatic.composition.panelWidth = 820
+[10:04:14.371] info:    rtx.enableRaytracing = True
+[10:04:14.371] info:    rtx.edfStatic.rasterOnly = True
+[10:04:14.371] info:    rtx.shader.enableAsyncCompilation = False
+[10:04:14.371] info:    rtx.edfStatic.executable = edf_static_gpu_replay.exe
+[10:04:14.371] info:    rtx.graphicsPreset = 4
+[10:04:14.371] info:    rtx.edfStatic.executableSha1 = 900afbd27e848be839876f7e660915757f01eb4f
+[10:04:14.371] info:    rtx.compatCapture.enabled = False
+[10:04:14.371] info:    rtx.useVertexCapture = True
+[10:04:14.371] info:    rtx.camera.enableFreeCamera = False
+[10:04:14.371] info:    rtx.fusedWorldViewMode = 0
+[10:04:14.371] info:    rtx.initializer.asyncShaderPrewarming = False
+[10:04:14.371] info:    rtx.edfStatic.probe.frameCount = 1
+[10:04:14.371] info:    rtx.edfStatic.probe.autorun = True
+[10:04:14.371] info:    rtx.edfStatic.probe.armKey = 0
+[10:04:14.371] info:    rtx.compatCapture.frameCount = 1
+[10:04:14.371] info:    rtx.edfStatic.probe.cancelKey = 0
+[10:04:14.371] info:    rtx.enableNearPlaneOverride = False
+[10:04:14.371] info:    rtx.edfStatic.probe.outputDirectory = D:/EDF IA RTX REMIX/runtime/_build/edf-composition-retained-sync-positive-x86/positive_camera0/probe-output
+[10:04:14.371] info:    rtx.compatCapture.pixelShaderHash = 44b92a29eb3e5f2ee6d53f02e14fb11a01511da8
+[10:04:14.371] info:    rtx.dlssPreset = 0
+[10:04:14.371] info:    rtx.upscalerType = 0
+[10:04:14.371] info:    rtx.enableRayReconstruction = False
+[10:04:14.371] info:    rtx.rayreconstruction.preserveSettingsInNativeMode = True
+[10:04:14.371] info:    rtx.forceCameraJitter = False
+[10:04:14.371] info:    rtx.camera.correctProjectionYFlip = False
+[10:04:14.371] info:    rtx.shakeCamera = False
+[10:04:14.371] info:    rtx.dlfg.enable = False
+[10:04:14.371] info:    rtx.edfStatic.probe.autorunStartFrame = 1
+[10:04:14.371] info:    rtx.compatCapture.executable = EDF-IA.exe
+[10:04:14.371] info:    rtx.useDenoiser = False
+[10:04:14.371] info:    rtx.useRTXDI = False
+[10:04:14.371] info:    rtx.integrateIndirectMode = 0
+[10:04:14.371] info:    rtx.compatCapture.maxCaptureMiB = 256
+[10:04:14.371] info:    rtx.pathMaxBounces = 1
+[10:04:14.371] info:    rtx.bloom.enable = False
+[10:04:14.371] info:    rtx.fallbackLightMode = 1
+[10:04:14.371] info:    rtx.compatCapture.outputDirectory = D:/EDF IA RTX REMIX/captures/edf-composition-capture
+[10:04:14.371] info:    rtx.fallbackLightType = 0
+[10:04:14.371] info:    rtx.compatCapture.maxQueueMiB = 64
+[10:04:14.371] info:    rtx.fallbackLightDirection = 0.2, 1, -0.4
+[10:04:14.371] info:    rtx.compatCapture.hotkey = 121
+[10:04:14.371] info:    rtx.compatCapture.vertexShaderHash = f098f457d9ae603bea5f84ec985d473c29cfb0c9
+[10:04:14.371] info:  Attempting to parse option layer: user.conf...
+[10:04:14.371] info:  No config file found at: user.conf
+[10:04:14.371] info:  Loading environment variable overrides:
+[10:04:14.371] info:    rtx.enableValidationLayerExtendedValidation = 0 (from DXVK_ENABLE_VALIDATION_LAYER_EXTENDED_VALIDATION)
+[10:04:14.371] info:    rtx.logCallstacksOnValidationLayerErrors = 0 (from DXVK_LOG_CALLSTACKS_ON_VALIDATION_LAYER_ERRORS)
+[10:04:14.372] info:    rtx.enableValidationLayers = 1 (from DXVK_ENABLE_VALIDATION_LAYERS)
+[10:04:14.372] info:  RtxOption system layer initialization complete.
+[10:04:14.372] info:  [RTX Neural Radiance Cache] Selected Ultra preset mode.
+[10:04:14.372] info:  Geometry generation hash rule:
+[10:04:14.372] info:  	positions
+[10:04:14.372] info:  	indices
+[10:04:14.372] info:  	texcoords
+[10:04:14.372] info:  	geometrydescriptor
+[10:04:14.372] info:  	vertexlayout
+[10:04:14.372] info:  	vertexshader
+[10:04:14.372] info:  Geometry asset hash rule:
+[10:04:14.372] info:  	positions
+[10:04:14.372] info:  	indices
+[10:04:14.372] info:  	geometrydescriptor
+[10:04:14.372] info:  Effective RtxOption values (after all config layers and migrations):
+[10:04:14.372] info:    rtx.initializer.asyncShaderPrewarming = False
+[10:04:14.372] info:    rtx.dlfg.enable = False
+[10:04:14.372] info:    rtx.dlssPreset = 0
+[10:04:14.372] info:    rtx.edfStatic.probe.armKey = 0
+[10:04:14.372] info:    rtx.neuralRadianceCache.trainingMaxPathBounces = 9
+[10:04:14.372] info:    rtx.rayreconstruction.preserveSettingsInNativeMode = True
+[10:04:14.372] info:    rtx.compatCapture.vertexShaderHash = f098f457d9ae603bea5f84ec985d473c29cfb0c9
+[10:04:14.372] info:    rtx.compatCapture.outputDirectory = D:/EDF IA RTX REMIX/captures/edf-composition-capture
+[10:04:14.372] info:    rtx.pathMaxBounces = 1
+[10:04:14.372] info:    rtx.bloom.enable = False
+[10:04:14.372] info:    rtx.edfStatic.composition.enabled = True
+[10:04:14.372] info:    rtx.compatCapture.pixelShaderHash = 44b92a29eb3e5f2ee6d53f02e14fb11a01511da8
+[10:04:14.372] info:    rtx.useDenoiser = False
+[10:04:14.372] info:    rtx.logCallstacksOnValidationLayerErrors = False
+[10:04:14.372] info:    rtx.edfStatic.probe.autorunStartFrame = 1
+[10:04:14.372] info:    rtx.fallbackLightDirection = 0.2, 1, -0.4
+[10:04:14.372] info:    rtx.edfStatic.enabled = True
+[10:04:14.372] info:    rtx.enableRayReconstruction = False
+[10:04:14.372] info:    rtx.edfStatic.probe.outputDirectory = D:/EDF IA RTX REMIX/runtime/_build/edf-composition-retained-sync-positive-x86/positive_camera0/probe-output
+[10:04:14.372] info:    rtx.useRTXDI = False
+[10:04:14.372] info:    rtx.edfStatic.executableSha1 = 900afbd27e848be839876f7e660915757f01eb4f
+[10:04:14.372] info:    rtx.graphicsPreset = 4
+[10:04:14.372] info:    rtx.upscalerType = 0
+[10:04:14.372] info:    rtx.edfStatic.probe.enabled = True
+[10:04:14.372] info:    rtx.edfStatic.probe.autorun = True
+[10:04:14.372] info:    rtx.edfStatic.executable = edf_static_gpu_replay.exe
+[10:04:14.372] info:    rtx.integrateIndirectMode = 0
+[10:04:14.372] info:    rtx.enableValidationLayers = True
+[10:04:14.372] info:    rtx.volumetrics.enable = False
+[10:04:14.372] info:    rtx.edfStatic.probe.cancelKey = 0
+[10:04:14.372] info:    rtx.resolutionScale = 1
+[10:04:14.372] info:    rtx.compatCapture.maxQueueMiB = 64
+[10:04:14.372] info:    rtx.shader.enableAsyncCompilation = False
+[10:04:14.373] info:  Built-in extension providers:
+[10:04:14.373] info:    Win32 WSI
+[10:04:14.373] info:    OpenVR
+[10:04:14.373] info:    OpenXR
+[10:04:14.373] info:  OpenVR: could not open registry key, status 2
+[10:04:14.373] info:  OpenVR: Failed to locate module
+[10:04:14.481] info:  Enabled instance extensions:
+[10:04:14.481] info:    VK_EXT_debug_utils
+[10:04:14.481] info:    VK_KHR_external_memory_capabilities
+[10:04:14.481] info:    VK_KHR_external_semaphore_capabilities
+[10:04:14.481] info:    VK_KHR_get_physical_device_properties2
+[10:04:14.481] info:    VK_KHR_get_surface_capabilities2
+[10:04:14.481] info:    VK_KHR_surface
+[10:04:14.481] info:    VK_KHR_win32_surface
+[10:04:14.489] info:  Enabled Layer Names:
+[10:04:14.489] info:    VK_LAYER_KHRONOS_validation
+[10:04:14.561] warn:  Skipping Integrated GPU adapter: AMD Radeon(TM) Graphics
+[10:04:14.572] info:  Vulkan instance layers:
+[10:04:14.572] info:    VK_LAYER_AMD_switchable_graphics
+[10:04:14.572] info:    VK_LAYER_KHRONOS_profiles
+[10:04:14.572] info:    VK_LAYER_KHRONOS_shader_object
+[10:04:14.572] info:    VK_LAYER_KHRONOS_synchronization2
+[10:04:14.572] info:    VK_LAYER_KHRONOS_validation
+[10:04:14.572] info:    VK_LAYER_LUNARG_api_dump
+[10:04:14.572] info:    VK_LAYER_LUNARG_crash_diagnostic
+[10:04:14.572] info:    VK_LAYER_LUNARG_gfxreconstruct
+[10:04:14.572] info:    VK_LAYER_LUNARG_monitor
+[10:04:14.572] info:    VK_LAYER_LUNARG_screenshot
+[10:04:14.572] info:    VK_LAYER_NV_optimus
+[10:04:14.572] info:    VK_LAYER_NV_present
+[10:04:14.573] info:    VK_LAYER_OBS_HOOK
+[10:04:14.573] info:    VK_LAYER_RTSS
+[10:04:14.573] info:    VK_LAYER_VALVE_steam_fossilize
+[10:04:14.573] info:    VK_LAYER_VALVE_steam_overlay
+[10:04:14.573] info:    VK_LAYER_reshade
+[10:04:14.573] info:  Vulkan instance extensions:
+[10:04:14.573] info:    VK_EXT_debug_report
+[10:04:14.573] info:    VK_EXT_debug_utils
+[10:04:14.573] info:    VK_EXT_direct_mode_display
+[10:04:14.573] info:    VK_EXT_surface_maintenance1
+[10:04:14.573] info:    VK_EXT_swapchain_colorspace
+[10:04:14.573] info:    VK_KHR_device_group_creation
+[10:04:14.573] info:    VK_KHR_display
+[10:04:14.573] info:    VK_KHR_external_fence_capabilities
+[10:04:14.573] info:    VK_KHR_external_memory_capabilities
+[10:04:14.573] info:    VK_KHR_external_semaphore_capabilities
+[10:04:14.573] info:    VK_KHR_get_display_properties2
+[10:04:14.573] info:    VK_KHR_get_physical_device_properties2
+[10:04:14.573] info:    VK_KHR_get_surface_capabilities2
+[10:04:14.573] info:    VK_KHR_portability_enumeration
+[10:04:14.573] info:    VK_KHR_surface
+[10:04:14.573] info:    VK_KHR_surface_maintenance1
+[10:04:14.573] info:    VK_KHR_surface_protected_capabilities
+[10:04:14.573] info:    VK_KHR_win32_surface
+[10:04:14.573] info:    VK_LUNARG_direct_driver_loading
+[10:04:14.573] info:    VK_NV_external_memory_capabilities
+[10:04:14.580] info:  [VK_DEBUG_REPORT] Enabling validation layer duplicate message filtering.
+[10:04:14.580] info:  D3D9: VK_FORMAT_D16_UNORM_S8_UINT -> VK_FORMAT_D24_UNORM_S8_UINT
+[10:04:14.581] info:  NVIDIA GeForce RTX 5070 Ti:
+[10:04:14.585] info:    Driver: 617.14.0
+[10:04:14.585] info:    Vulkan: 1.4.351
+[10:04:14.586] info:    Memory Heap[0]: 
+[10:04:14.586] info:      Size: 15995 MiB
+[10:04:14.586] info:      Flags: 0x1
+[10:04:14.586] info:      Memory Type[1]: Property Flags = 0x1
+[10:04:14.586] info:      Memory Type[4]: Property Flags = 0x7
+[10:04:14.586] info:    Memory Heap[1]: 
+[10:04:14.586] info:      Size: 15924 MiB
+[10:04:14.586] info:      Flags: 0x0
+[10:04:14.586] info:      Memory Type[0]: Property Flags = 0x0
+[10:04:14.586] info:      Memory Type[2]: Property Flags = 0x6
+[10:04:14.586] info:      Memory Type[3]: Property Flags = 0xe
+[10:04:14.591] info:  Process set as DPI aware
+[10:04:14.593] info:  Device properties:
+[10:04:14.593] info:    Device name:     : NVIDIA GeForce RTX 5070 Ti
+[10:04:14.593] info:    Vendor name:     : NVIDIA
+[10:04:14.593] info:    Device ID:       : 0x2c05
+[10:04:14.593] info:    Vendor ID:       : 0x10de
+[10:04:14.593] info:    Driver version   : 617.14.0
+[10:04:14.593] info:  Enabled device extensions:
+[10:04:14.593] info:    VK_EXT_4444_formats
+[10:04:14.593] info:    VK_EXT_calibrated_timestamps
+[10:04:14.593] info:    VK_EXT_conservative_rasterization
+[10:04:14.593] info:    VK_EXT_custom_border_color
+[10:04:14.593] info:    VK_EXT_depth_clip_enable
+[10:04:14.593] info:    VK_EXT_extended_dynamic_state
+[10:04:14.593] info:    VK_EXT_full_screen_exclusive
+[10:04:14.593] info:    VK_EXT_memory_priority
+[10:04:14.593] info:    VK_EXT_opacity_micromap
+[10:04:14.593] info:    VK_EXT_robustness2
+[10:04:14.593] info:    VK_EXT_shader_atomic_float
+[10:04:14.593] info:    VK_EXT_shader_demote_to_helper_invocation
+[10:04:14.593] info:    VK_EXT_shader_viewport_index_layer
+[10:04:14.593] info:    VK_EXT_transform_feedback
+[10:04:14.593] info:    VK_EXT_vertex_attribute_divisor
+[10:04:14.593] info:    VK_KHR_acceleration_structure
+[10:04:14.593] info:    VK_KHR_buffer_device_address
+[10:04:14.593] info:    VK_KHR_create_renderpass2
+[10:04:14.593] info:    VK_KHR_deferred_host_operations
+[10:04:14.593] info:    VK_KHR_depth_stencil_resolve
+[10:04:14.593] info:    VK_KHR_draw_indirect_count
+[10:04:14.593] info:    VK_KHR_driver_properties
+[10:04:14.593] info:    VK_KHR_external_memory
+[10:04:14.593] info:    VK_KHR_external_memory_win32
+[10:04:14.593] info:    VK_KHR_external_semaphore
+[10:04:14.593] info:    VK_KHR_external_semaphore_win32
+[10:04:14.593] info:    VK_KHR_image_format_list
+[10:04:14.593] info:    VK_KHR_maintenance4
+[10:04:14.593] info:    VK_KHR_pipeline_library
+[10:04:14.593] info:    VK_KHR_push_descriptor
+[10:04:14.593] info:    VK_KHR_ray_query
+[10:04:14.593] info:    VK_KHR_ray_tracing_pipeline
+[10:04:14.593] info:    VK_KHR_sampler_mirror_clamp_to_edge
+[10:04:14.593] info:    VK_KHR_shader_float16_int8
+[10:04:14.593] info:    VK_KHR_shader_float_controls
+[10:04:14.593] info:    VK_KHR_swapchain
+[10:04:14.593] info:    VK_KHR_synchronization2
+[10:04:14.593] info:    VK_NVX_binary_import
+[10:04:14.593] info:    VK_NVX_image_view_handle
+[10:04:14.593] info:    VK_NV_low_latency
+[10:04:14.593] info:    VK_NV_present_metering
+[10:04:14.593] info:    VK_NV_ray_tracing_invocation_reorder
+[10:04:14.593] info:  Device features:
+[10:04:14.593] info:    robustBufferAccess                     : 1
+[10:04:14.593] info:    fullDrawIndexUint32                    : 1
+[10:04:14.593] info:    imageCubeArray                         : 1
+[10:04:14.593] info:    independentBlend                       : 1
+[10:04:14.593] info:    geometryShader                         : 1
+[10:04:14.593] info:    tessellationShader                     : 0
+[10:04:14.593] info:    sampleRateShading                      : 1
+[10:04:14.593] info:    dualSrcBlend                           : 0
+[10:04:14.593] info:    logicOp                                : 0
+[10:04:14.593] info:    multiDrawIndirect                      : 0
+[10:04:14.593] info:    drawIndirectFirstInstance              : 0
+[10:04:14.593] info:    depthClamp                             : 1
+[10:04:14.593] info:    depthBiasClamp                         : 1
+[10:04:14.593] info:    fillModeNonSolid                       : 1
+[10:04:14.593] info:    depthBounds                            : 1
+[10:04:14.593] info:    multiViewport                          : 1
+[10:04:14.593] info:    samplerAnisotropy                      : 1
+[10:04:14.593] info:    textureCompressionBC                   : 1
+[10:04:14.593] info:    occlusionQueryPrecise                  : 1
+[10:04:14.593] info:    pipelineStatisticsQuery                : 1
+[10:04:14.593] info:    vertexPipelineStoresAndAtomics         : 1
+[10:04:14.593] info:    fragmentStoresAndAtomics               : 0
+[10:04:14.593] info:    shaderImageGatherExtended              : 0
+[10:04:14.593] info:    shaderStorageImageExtendedFormats      : 0
+[10:04:14.593] info:    shaderStorageImageReadWithoutFormat    : 1
+[10:04:14.593] info:    shaderStorageImageWriteWithoutFormat   : 1
+[10:04:14.593] info:    shaderClipDistance                     : 1
+[10:04:14.593] info:    shaderCullDistance                     : 1
+[10:04:14.593] info:    shaderFloat64                          : 0
+[10:04:14.593] info:    shaderInt64                            : 0
+[10:04:14.593] info:    variableMultisampleRate                : 0
+[10:04:14.593] info:    hostQueryReset                         : 1
+[10:04:14.593] info:    scalarBlockLayout                      : 1
+[10:04:14.593] info:    uniformBufferStandardLayout            : 1
+[10:04:14.593] info:  VK_EXT_4444_formats
+[10:04:14.593] info:    formatA4R4G4B4                         : 1
+[10:04:14.593] info:    formatA4B4G4R4                         : 1
+[10:04:14.593] info:  VK_EXT_custom_border_color
+[10:04:14.593] info:    customBorderColors                     : 1
+[10:04:14.593] info:    customBorderColorWithoutFormat         : 1
+[10:04:14.593] info:  VK_EXT_depth_clip_enable
+[10:04:14.593] info:    depthClipEnable                        : 1
+[10:04:14.593] info:  VK_EXT_extended_dynamic_state
+[10:04:14.593] info:    extendedDynamicState                   : 1
+[10:04:14.593] info:  VK_EXT_memory_priority
+[10:04:14.593] info:    memoryPriority                         : 1
+[10:04:14.593] info:  VK_EXT_robustness2
+[10:04:14.593] info:    robustBufferAccess2                    : 1
+[10:04:14.593] info:    robustImageAccess2                     : 0
+[10:04:14.593] info:    nullDescriptor                         : 1
+[10:04:14.593] info:  VK_EXT_shader_demote_to_helper_invocation
+[10:04:14.593] info:    shaderDemoteToHelperInvocation         : 1
+[10:04:14.593] info:  VK_EXT_transform_feedback
+[10:04:14.593] info:    transformFeedback                      : 1
+[10:04:14.593] info:    geometryStreams                        : 0
+[10:04:14.593] info:  VK_EXT_vertex_attribute_divisor
+[10:04:14.593] info:    vertexAttributeInstanceRateDivisor     : 1
+[10:04:14.593] info:    vertexAttributeInstanceRateZeroDivisor : 1
+[10:04:14.593] info:  VK_KHR_buffer_device_address
+[10:04:14.593] info:    bufferDeviceAddress                    : 1
+[10:04:14.595] info:  Queue families:
+[10:04:14.595] info:    Graphics : 0
+[10:04:14.595] info:    Transfer : 1
+[10:04:14.595] info:    Async Compute : 2
+[10:04:14.595] info:    Present : 2
+[10:04:14.595] info:  [VK_DEBUG_REPORT] Code 0: Inserted device layer "VK_LAYER_KHRONOS_validation" (C:\VulkanSDK\1.4.363.0\Bin\VkLayer_khronos_validation.dll)
+[10:04:14.595] info:  [VK_DEBUG_REPORT] Code 0: Inserted device layer "VK_LAYER_OBS_HOOK" (C:\ProgramData\obs-studio-hook\graphics-hook64.dll)
+[10:04:14.595] info:  [VK_DEBUG_REPORT] Code 0: Inserted device layer "VK_LAYER_RTSS" (C:\Program Files (x86)\RivaTuner Statistics Server\Vulkan\RTSSVkLayer64.dll)
+[10:04:14.595] info:  [VK_DEBUG_REPORT] Code 0: Inserted device layer "VK_LAYER_NV_present" (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_da865124972e1f80\nvoglv64.dll)
+[10:04:14.595] info:  [VK_DEBUG_REPORT] Code 0: Inserted device layer "VK_LAYER_NV_optimus" (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_da865124972e1f80\nvoglv64.dll)
+[10:04:14.595] info:  [VK_DEBUG_REPORT] Code 0: vkCreateDevice layer callstack setup to:
+[10:04:14.595] info:  [VK_DEBUG_REPORT] Code 0:    <Application>
+[10:04:14.595] info:  [VK_DEBUG_REPORT] Code 0:      ||
+[10:04:14.595] info:  [VK_DEBUG_REPORT] Code 0:    <Loader>
+[10:04:14.595] info:  [VK_DEBUG_REPORT] Code 0:    VK_LAYER_NV_optimus
+[10:04:14.595] info:  [VK_DEBUG_REPORT] Code 0:            Type: Implicit
+[10:04:14.595] info:  [VK_DEBUG_REPORT] Code 0:            Enabled By: Implicit Layer
+[10:04:14.595] info:  [VK_DEBUG_REPORT] Code 0:                Disable Env Var:  DISABLE_LAYER_NV_OPTIMUS_1
+[10:04:14.595] info:  [VK_DEBUG_REPORT] Code 0:            Manifest: C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_da865124972e1f80\nv-vk64.json
+[10:04:14.595] info:  [VK_DEBUG_REPORT] Code 0:            Library:  C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_da865124972e1f80\nvoglv64.dll
+[10:04:14.595] info:  [VK_DEBUG_REPORT] Code 0:    VK_LAYER_NV_present
+[10:04:14.595] info:  [VK_DEBUG_REPORT] Code 0:                Disable Env Var:  DISABLE_LAYER_NV_PRESENT_1
+[10:04:14.595] info:  [VK_DEBUG_REPORT] Code 0:    VK_LAYER_RTSS
+[10:04:14.595] info:  [VK_DEBUG_REPORT] Code 0:                Disable Env Var:  DISABLE_RTSS_LAYER
+[10:04:14.595] info:  [VK_DEBUG_REPORT] Code 0:            Manifest: C:\Program Files (x86)\RivaTuner Statistics Server\Vulkan\RTSSVkLayer64.json
+[10:04:14.595] info:  [VK_DEBUG_REPORT] Code 0:            Library:  C:\Program Files (x86)\RivaTuner Statistics Server\Vulkan\RTSSVkLayer64.dll
+[10:04:14.595] info:  [VK_DEBUG_REPORT] Code 0:    VK_LAYER_OBS_HOOK
+[10:04:14.595] info:  [VK_DEBUG_REPORT] Code 0:                Disable Env Var:  DISABLE_VULKAN_OBS_CAPTURE
+[10:04:14.595] info:  [VK_DEBUG_REPORT] Code 0:            Manifest: C:\ProgramData\obs-studio-hook\obs-vulkan64.json
+[10:04:14.595] info:  [VK_DEBUG_REPORT] Code 0:            Library:  C:\ProgramData\obs-studio-hook\graphics-hook64.dll
+[10:04:14.595] info:  [VK_DEBUG_REPORT] Code 0:    VK_LAYER_KHRONOS_validation
+[10:04:14.595] info:  [VK_DEBUG_REPORT] Code 0:            Type: Explicit
+[10:04:14.595] info:  [VK_DEBUG_REPORT] Code 0:            Enabled By: Environment Variable VK_INSTANCE_LAYERS
+[10:04:14.595] info:  [VK_DEBUG_REPORT] Code 0:            Manifest: C:\VulkanSDK\1.4.363.0\Bin\VkLayer_khronos_validation.json
+[10:04:14.595] info:  [VK_DEBUG_REPORT] Code 0:            Library:  C:\VulkanSDK\1.4.363.0\Bin\VkLayer_khronos_validation.dll
+[10:04:14.595] info:  [VK_DEBUG_REPORT] Code 0:    <Device>
+[10:04:14.597] info:  [VK_DEBUG_REPORT] Code 0:        Using "NVIDIA GeForce RTX 5070 Ti" with driver: "C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_da865124972e1f80\nvoglv64.dll"
+[10:04:14.727] info:  [VK_DEBUG_REPORT] Code -1202627309: vkCreateDevice(): Cannot open shader validation cache at D:\EDF IA RTX REMIX\runtime\_build\test-temp/shader_validation_cache.bin for reading (it may not exist yet)
+[10:04:14.737] warn:  DXVK: No state cache file found
+[10:04:14.738] warn:  DXVK: Creating new state cache file
+[10:04:14.743] info:  DXVK: Using 10 compiler threads
+[10:04:14.746] info:  [RTX info] Neural Radiance Cache: supported
+[10:04:14.779] info:  DLSS Message: [2026-10-09 10:04:14] [NGXSafeInitializeLog:150] App logging hooks successfully initialized
+[10:04:14.779] info:  DLSS Message: [2026-10-09 10:04:14] [NGXLoadLibrary:332] error: failed to load NGXCore: 126 (D:\EDF IA RTX REMIX\runtime\_build\edf-composition-retained-sync-positive-x86\positive_camera0\.trex\_nvngx.dll)
+[10:04:14.779] info:  DLSS Message: [2026-10-09 10:04:14] [NGXLoadLibrary:332] error: failed to load NGXCore: 126 (D:\EDF IA RTX REMIX\runtime\_build\edf-composition-retained-sync-positive-x86\positive_camera0\.trex\nvngx.dll)
+[10:04:14.779] info:  DLSS Message: [2026-10-09 10:04:14] [NGXGetPathUsingQAI:153] Attempting to read from Parameters\NGXCore\NGXPath
+[10:04:14.779] info:  DLSS Message: [2026-10-09 10:04:14] [NGXGetPathUsingQAI:177] Path to driverStore found using QAI: C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_da865124972e1f80
+[10:04:14.789] info:  DLSS Message: [2026-10-09 10:04:14] [NGXLoadCoreLibrary:285] Loading C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_da865124972e1f80\_nvngx.dll succeeded
+[10:04:14.903] info:  DLSS Message: [2026-10-09 10:04:14] [NGXSafeInitializeLog:139] App logging hooks successfully initialized
+[10:04:14.917] info:  DLSS Message: [2026-10-09 10:04:14] [NGXGetPathUsingQAI:512] Path to driverStore found using QAI: C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_da865124972e1f80
+[10:04:14.917] info:  DLSS Message: [2026-10-09 10:04:14] [NGXGetPath:1046] using path for models: C:\ProgramData\NVIDIA\NGX\models
+[10:04:14.917] info:  DLSS Message: [2026-10-09 10:04:14] [NGXGetPath:1046] using path for models: C:\ProgramData\NVIDIA\NGX\models
+[10:04:14.932] info:  DLSS Message: [2026-10-09 10:04:14] [ModifyExistingFolderDACL:211] updated access control list for NGX cache (NGX cache should now be usable by all authenticated users)
+[10:04:14.932] info:  DLSS Message: [2026-10-09 10:04:14] [NGXCreateModelsFolder:1073] model folder created: C:\ProgramData\NVIDIA\NGX\models
+[10:04:14.932] info:  DLSS Message: [2026-10-09 10:04:14] [NGXLoadConfig:1145] [dlss_override]
+[10:04:14.932] info:  DLSS Message: [2026-10-09 10:04:14] [NGXLoadConfig:1151] app_E658700=310.9.0
+[10:04:14.932] info:  DLSS Message: [2026-10-09 10:04:14] [NGXLoadConfig:1145] [dlss]
+[10:04:14.932] info:  DLSS Message: [2026-10-09 10:04:14] [NGXLoadConfig:1151] app_E658702=0.0.0
+[10:04:14.932] info:  DLSS Message: [2026-10-09 10:04:14] [NGXLoadConfig:1151] app_E658701=0.0.0
+[10:04:14.932] info:  DLSS Message: [2026-10-09 10:04:14] [NGXLoadConfig:1151] app_E658700=310.9.0
+[10:04:14.932] info:  DLSS Message: [2026-10-09 10:04:14] [NGXLoadConfig:1151] app_B9FEB50=1.0.108
+[10:04:14.932] info:  DLSS Message: [2026-10-09 10:04:14] [NGXLoadConfig:1151] app_B9FF4BC=1.0.108
+[10:04:14.932] info:  DLSS Message: [2026-10-09 10:04:14] [NGXLoadConfig:1151] app_B9FD524=1.0.108
+[10:04:14.932] info:  DLSS Message: [2026-10-09 10:04:14] [NGXLoadConfig:1151] app_B9DF510=1.3.106
+[10:04:14.932] info:  DLSS Message: [2026-10-09 10:04:14] [NGXLoadConfig:1151] app_B9CB0B8=1.0.108
+[10:04:14.932] info:  DLSS Message: [2026-10-09 10:04:14] [NGXLoadConfig:1151] app_B9E26B0=2.1.28
+[10:04:14.932] info:  DLSS Message: [2026-10-09 10:04:14] [NGXLoadConfig:1151] app_B9D48D0=1.0.108
+[10:04:14.932] info:  DLSS Message: [2026-10-09 10:04:14] [NGXLoadConfig:1151] app_E99B5EC=1.2.109
+[10:04:14.932] info:  DLSS Message: [2026-10-09 10:04:14] [NGXLoadConfig:1151] app_B9DFA64=1.0.108
+[10:04:14.932] info:  DLSS Message: [2026-10-09 10:04:14] [NGXLoadConfig:1151] app_B9FD6C0=1.0.108
+[10:04:14.932] info:  DLSS Message: [2026-10-09 10:04:14] [NGXLoadConfig:1151] app_B9CF688=2.2.15
+[10:04:14.932] info:  DLSS Message: [2026-10-09 10:04:14] [NGXLoadConfig:1151] app_B9D6F08=1.0.108
+[10:04:14.932] info:  DLSS Message: [2026-10-09 10:04:14] [NGXLoadConfig:1151] app_B9BF564=2.1.201
+[10:04:14.932] info:  DLSS Message: [2026-10-09 10:04:14] [NGXLoadConfig:1151] app_B9DB4F4=1.0.108
+[10:04:14.932] info:  DLSS Message: [2026-10-09 10:04:14] [NGXLoadConfig:1151] app_B9D2F5C=1.2.110
+[10:04:14.932] info:  DLSS Message: [2026-10-09 10:04:14] [NGXLoadConfig:1151] app_B9D7388=1.0.108
+[10:04:14.932] info:  DLSS Message: [2026-10-09 10:04:14] [NGXLoadConfig:1151] app_B9F5618=2.1.29
+[10:04:14.932] info:  DLSS Message: [2026-10-09 10:04:14] [NGXLoadConfig:1151] app_B9DAE68=1.2.109
+[10:04:14.932] info:  DLSS Message: [2026-10-09 10:04:14] [NGXLoadConfig:1151] app_B9D8C54=1.2.109
+[10:04:14.932] info:  DLSS Message: [2026-10-09 10:04:14] [NGXLoadConfig:1151] app_B9D3EF0=2.1.28
+[10:04:14.932] info:  DLSS Message: [2026-10-09 10:04:14] [NGXLoadConfig:1151] app_B9FACDC=2.1.201
+[10:04:14.932] info:  DLSS Message: [2026-10-09 10:04:14] [NGXLoadConfig:1151] app_F7361DC=2.1.28
+[10:04:14.932] info:  DLSS Message: [2026-10-09 10:04:14] [NGXLoadConfig:1151] app_B9C3560=2.1.201
+[10:04:14.932] info:  DLSS Message: [2026-10-09 10:04:14] [NGXLoadConfig:1151] app_B9B0430=2.1.28
+[10:04:14.932] info:  DLSS Message: [2026-10-09 10:04:14] [NGXLoadConfig:1145] [dlssd]
+[10:04:14.932] info:  DLSS Message: [2026-10-09 10:04:14] [NGXLoadConfig:1151] app_E658700=310.9.0
+[10:04:14.932] info:  DLSS Message: [2026-10-09 10:04:14] [NGXLoadConfig:1145] [dlssg]
+[10:04:14.932] info:  DLSS Message: [2026-10-09 10:04:14] [NGXLoadConfig:1151] app_E658700=310.9.0
+[10:04:14.932] info:  DLSS Message: [2026-10-09 10:04:14] [NGXLoadConfig:1145] [sl_sdk_0]
+[10:04:14.932] info:  DLSS Message: [2026-10-09 10:04:14] [NGXLoadConfig:1151] app_E658703=2.14.0
+[10:04:14.932] info:  DLSS Message: [2026-10-09 10:04:14] [NGXLoadConfig:1145] [sl_common_0]
+[10:04:14.932] info:  DLSS Message: [2026-10-09 10:04:14] [NGXLoadConfig:1151] app_E658703=2.14.0
+[10:04:14.932] info:  DLSS Message: [2026-10-09 10:04:14] [NGXLoadConfig:1145] [sl_deepdvc_0]
+[10:04:14.932] info:  DLSS Message: [2026-10-09 10:04:14] [NGXLoadConfig:1151] app_E658703=2.14.0
+[10:04:14.932] info:  DLSS Message: [2026-10-09 10:04:14] [NGXLoadConfig:1145] [sl_dlss_0]
+[10:04:14.932] info:  DLSS Message: [2026-10-09 10:04:14] [NGXLoadConfig:1151] app_E658703=2.14.0
+[10:04:14.932] info:  DLSS Message: [2026-10-09 10:04:14] [NGXLoadConfig:1145] [sl_dlss_d_0]
+[10:04:14.932] info:  DLSS Message: [2026-10-09 10:04:14] [NGXLoadConfig:1151] app_E658703=2.14.0
+[10:04:14.932] info:  DLSS Message: [2026-10-09 10:04:14] [NGXLoadConfig:1145] [sl_dlss_g_0]
+[10:04:14.932] info:  DLSS Message: [2026-10-09 10:04:14] [NGXLoadConfig:1151] app_E658703=2.14.0
+[10:04:14.932] info:  DLSS Message: [2026-10-09 10:04:14] [NGXLoadConfig:1145] [sl_nis_0]
+[10:04:14.933] info:  DLSS Message: [2026-10-09 10:04:14] [NGXLoadConfig:1151] app_E658703=2.14.0
+[10:04:14.933] info:  DLSS Message: [2026-10-09 10:04:14] [NGXLoadConfig:1145] [sl_deepdvc_override_0]
+[10:04:14.933] info:  DLSS Message: [2026-10-09 10:04:14] [NGXLoadConfig:1151] app_E658700=2.14.0
+[10:04:14.933] info:  DLSS Message: [2026-10-09 10:04:14] [NGXLoadConfig:1145] [sl_nvperf_0]
+[10:04:14.933] info:  DLSS Message: [2026-10-09 10:04:14] [NGXLoadConfig:1151] app_E658703=2.14.0
+[10:04:14.933] info:  DLSS Message: [2026-10-09 10:04:14] [NGXLoadConfig:1145] [sl_pcl_0]
+[10:04:14.933] info:  DLSS Message: [2026-10-09 10:04:14] [NGXLoadConfig:1151] app_E658703=2.14.0
+[10:04:14.933] info:  DLSS Message: [2026-10-09 10:04:14] [NGXLoadConfig:1145] [sl_reflex_0]
+[10:04:14.933] info:  DLSS Message: [2026-10-09 10:04:14] [NGXLoadConfig:1151] app_E658703=2.14.0
+[10:04:14.933] info:  DLSS Message: [2026-10-09 10:04:14] [NGXLoadConfig:1145] [dlisp]
+[10:04:14.933] info:  DLSS Message: [2026-10-09 10:04:14] [NGXLoadConfig:1151] app_B9CF688=2.1.15
+[10:04:14.933] info:  DLSS Message: [2026-10-09 10:04:14] [NGXLoadConfig:1151] app_E99B5EC=1.2.102
+[10:04:14.933] info:  DLSS Message: [2026-10-09 10:04:14] [NGXLoadConfig:1151] app_E658703=310.0.0
+[10:04:14.933] info:  DLSS Message: [2026-10-09 10:04:14] [NGXLoadConfig:1151] app_B9D8C54=1.2.106
+[10:04:14.933] info:  DLSS Message: [2026-10-09 10:04:14] [NGXLoadConfig:1151] app_B9D2F5C=1.2.106
+[10:04:14.933] info:  DLSS Message: [2026-10-09 10:04:14] [NGXLoadConfig:1151] app_B9DF510=1.3.101
+[10:04:14.933] info:  DLSS Message: [2026-10-09 10:04:14] [NGXLoadConfig:1151] app_B9DAE68=1.2.106
+[10:04:14.933] info:  DLSS Message: [2026-10-09 10:04:14] [NGXLoadConfig:1145] [sl_sdk_override_0]
+[10:04:14.933] info:  DLSS Message: [2026-10-09 10:04:14] [NGXLoadConfig:1151] app_E658700=2.14.0
+[10:04:14.933] info:  DLSS Message: [2026-10-09 10:04:14] [NGXLoadConfig:1145] [sl_dlss_g_override_0]
+[10:04:14.933] info:  DLSS Message: [2026-10-09 10:04:14] [NGXLoadConfig:1151] app_E658700=2.14.0
+[10:04:14.933] info:  DLSS Message: [2026-10-09 10:04:14] [NGXLoadConfig:1145] [sl_common_override_0]
+[10:04:14.933] info:  DLSS Message: [2026-10-09 10:04:14] [NGXLoadConfig:1151] app_E658700=2.14.0
+[10:04:14.933] info:  DLSS Message: [2026-10-09 10:04:14] [NGXLoadConfig:1145] [sl_dlss_override_0]
+[10:04:14.933] info:  DLSS Message: [2026-10-09 10:04:14] [NGXLoadConfig:1151] app_E658700=2.14.0
+[10:04:14.933] info:  DLSS Message: [2026-10-09 10:04:14] [NGXLoadConfig:1145] [sl_nis_override_0]
+[10:04:14.933] info:  DLSS Message: [2026-10-09 10:04:14] [NGXLoadConfig:1151] app_E658700=2.14.0
+[10:04:14.933] info:  DLSS Message: [2026-10-09 10:04:14] [NGXLoadConfig:1145] [sl_dlss_d_override_0]
+[10:04:14.933] info:  DLSS Message: [2026-10-09 10:04:14] [NGXLoadConfig:1151] app_E658700=2.14.0
+[10:04:14.933] info:  DLSS Message: [2026-10-09 10:04:14] [NGXLoadConfig:1145] [sl_nvperf_override_0]
+[10:04:14.933] info:  DLSS Message: [2026-10-09 10:04:14] [NGXLoadConfig:1151] app_E658700=2.14.0
+[10:04:14.933] info:  DLSS Message: [2026-10-09 10:04:14] [NGXLoadConfig:1145] [sl_pcl_override_0]
+[10:04:14.933] info:  DLSS Message: [2026-10-09 10:04:14] [NGXLoadConfig:1151] app_E658700=2.14.0
+[10:04:14.933] info:  DLSS Message: [2026-10-09 10:04:14] [NGXLoadConfig:1145] [sl_reflex_override_0]
+[10:04:14.933] info:  DLSS Message: [2026-10-09 10:04:14] [NGXLoadConfig:1151] app_E658700=2.14.0
+[10:04:15.007] info:  DLSS Message: [2026-10-09 10:04:15] [NGXDRSInit:196] DRS PROFILE FOUND : ProfileName "NvRemixBridge", AppName "nvremixbridge.exe"
+[10:04:15.013] info:  DLSS Message: [2026-10-09 10:04:15] [NGXInitContext:245] called from module d3d9.dll at D:\EDF IA RTX REMIX\runtime\_build\edf-composition-retained-sync-positive-x86\positive_camera0\.trex
+[10:04:15.013] info:  DLSS Message: [2026-10-09 10:04:15] [NGXLoadConfig:1145] [streamline-ota]
+[10:04:15.013] info:  DLSS Message: [2026-10-09 10:04:15] [NGXLoadConfig:1151] app_84D32F0=1
+[10:04:15.013] info:  DLSS Message: [2026-10-09 10:04:15] [NGXContextDenyListData::IsFeatureDenied:676] Feature dldenoiser, denial value 0 for Cms ID 870691c
+[10:04:15.013] info:  DLSS Message: [2026-10-09 10:04:15] [NGXReportStatusFeedback:1103] Override shared memory was opened successfully
+[10:04:15.013] info:  DLSS Message: [2026-10-09 10:04:15] [NGXReportStatusFeedback:1115] Override shared memory was mapped successfully
+[10:04:15.013] info:  DLSS Message: [2026-10-09 10:04:15] [NGXReportStatusFeedback:1144] Override feedback found available slot 0
+[10:04:15.013] info:  DLSS Message: [2026-10-09 10:04:15] [NGXContextDenyListData::IsFeatureDenied:676] Feature dlss, denial value 0 for Cms ID 870691c
+[10:04:15.158] info:  DLSS Message: [2026-10-09 10:04:15] [NGXSecureLoadFeature:1384] Feature dlss failed to load (cmsid 141584668) from cache (location: C:\ProgramData\NVIDIA\NGX\models\dlss\versions\0\files, name: 160_870691C.bin)
+[10:04:15.163] info:  DLSS Message: [2026-10-09 10:04:15] [NGXSecureLoadFeature:1384] Feature dlss failed to load (cmsid 241534723) from cache (location: C:\ProgramData\NVIDIA\NGX\models\dlss\versions\0\files, name: 160_E658703.bin)
+[10:04:15.338] info:  DLSS Message: [2026-10-09 10:04:15] [NGXSecureLoadFeature:1499] app 870691C feature dlss snippet: D:\EDF IA RTX REMIX\runtime\_build\edf-composition-retained-sync-positive-x86\positive_camera0\.trex/nvngx_dlss.dll version: 310.9.1
+[10:04:15.338] info:  DLSS Message: [2026-10-09 10:04:15] [NGXContextDenyListData::IsFeatureDenied:676] Feature dlinpainting, denial value 0 for Cms ID 870691c
+[10:04:15.338] info:  DLSS Message: [2026-10-09 10:04:15] [NGXContextDenyListData::IsFeatureDenied:676] Feature dlisr, denial value 0 for Cms ID 870691c
+[10:04:15.338] info:  DLSS Message: [2026-10-09 10:04:15] [NGXContextDenyListData::IsFeatureDenied:676] Feature dlslowmo, denial value 0 for Cms ID 870691c
+[10:04:15.338] info:  DLSS Message: [2026-10-09 10:04:15] [NGXContextDenyListData::IsFeatureDenied:676] Feature dlvsr, denial value 0 for Cms ID 870691c
+[10:04:15.338] info:  DLSS Message: [2026-10-09 10:04:15] [NGXContextDenyListData::IsFeatureDenied:676] Feature dlcolorize, denial value 0 for Cms ID 870691c
+[10:04:15.338] info:  DLSS Message: [2026-10-09 10:04:15] [NGXContextDenyListData::IsFeatureDenied:676] Feature dlstyletransfer, denial value 0 for Cms ID 870691c
+[10:04:15.338] info:  DLSS Message: [2026-10-09 10:04:15] [NGXContextDenyListData::IsFeatureDenied:676] Feature dlvdenoiser, denial value 0 for Cms ID 870691c
+[10:04:15.339] info:  DLSS Message: [2026-10-09 10:04:15] [NGXContextDenyListData::IsFeatureDenied:676] Feature dlisp, denial value 0 for Cms ID 870691c
+[10:04:15.339] info:  DLSS Message: [2026-10-09 10:04:15] [NGXContextDenyListData::IsFeatureDenied:676] Feature dlresolve, denial value 0 for Cms ID 870691c
+[10:04:15.339] info:  DLSS Message: [2026-10-09 10:04:15] [NGXContextDenyListData::IsFeatureDenied:676] Feature dlssg, denial value 0 for Cms ID 870691c
+[10:04:15.392] info:  DLSS Message: [2026-10-09 10:04:15] [NGXSecureLoadFeature:1384] Feature dlssg failed to load (cmsid 141584668) from cache (location: C:\ProgramData\NVIDIA\NGX\models\dlssg\versions\0\files, name: 160_870691C.bin)
+[10:04:15.398] info:  DLSS Message: [2026-10-09 10:04:15] [NGXSecureLoadFeature:1384] Feature dlssg failed to load (cmsid 241534723) from cache (location: C:\ProgramData\NVIDIA\NGX\models\dlssg\versions\0\files, name: 160_E658703.bin)
+[10:04:15.616] info:  DLSS Message: [2026-10-09 10:04:15] [NGXSecureLoadFeature:1420] Found dlssg driver fallback snippet at C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_da865124972e1f80
+[10:04:15.616] info:  DLSS Message: [2026-10-09 10:04:15] [NGXSecureLoadFeature:1499] app 870691C feature dlssg snippet: D:\EDF IA RTX REMIX\runtime\_build\edf-composition-retained-sync-positive-x86\positive_camera0\.trex/nvngx_dlssg.dll version: 310.9.1
+[10:04:15.617] info:  DLSS Message: [2026-10-09 10:04:15] [NGXContextDenyListData::IsFeatureDenied:676] Feature deepdvc, denial value 0 for Cms ID 870691c
+[10:04:15.617] info:  DLSS Message: [2026-10-09 10:04:15] [NGXContextDenyListData::IsFeatureDenied:676] Feature dlssd, denial value 0 for Cms ID 870691c
+[10:04:15.731] info:  DLSS Message: [2026-10-09 10:04:15] [NGXSecureLoadFeature:1384] Feature dlssd failed to load (cmsid 141584668) from cache (location: C:\ProgramData\NVIDIA\NGX\models\dlssd\versions\0\files, name: 160_870691C.bin)
+[10:04:15.738] info:  DLSS Message: [2026-10-09 10:04:15] [NGXSecureLoadFeature:1384] Feature dlssd failed to load (cmsid 241534723) from cache (location: C:\ProgramData\NVIDIA\NGX\models\dlssd\versions\0\files, name: 160_E658703.bin)
+[10:04:15.938] info:  DLSS Message: [2026-10-09 10:04:15] [NGXSecureLoadFeature:1499] app 870691C feature dlssd snippet: D:\EDF IA RTX REMIX\runtime\_build\edf-composition-retained-sync-positive-x86\positive_camera0\.trex/nvngx_dlssd.dll version: 310.9.1
+[10:04:15.938] info:  DLSS Message: [2026-10-09 10:04:15] [NGXContextDenyListData::IsFeatureDenied:676] Feature truehdr, denial value 0 for Cms ID 870691c
+[10:04:15.938] info:  DLSS Message: [2026-10-09 10:04:15] [NGXContextDenyListData::IsFeatureDenied:676] Feature latewarp, denial value 0 for Cms ID 870691c
+[10:04:15.938] info:  DLSS Message: [2026-10-09 10:04:15] [NGXContextDenyListData::IsFeatureDenied:676] Feature vsr, denial value 0 for Cms ID 870691c
+[10:04:15.938] info:  DLSS Message: [2026-10-09 10:04:15] [NGXContextDenyListData::IsFeatureDenied:676] Feature fgx, denial value 0 for Cms ID 870691c
+[10:04:15.939] info:  DLSS Message: [2026-10-09 10:04:15] [NGXContextDenyListData::IsFeatureDenied:676] Feature dlssnr, denial value 0 for Cms ID 870691c
+[10:04:16.069] info:  DLSS Message: [2026-10-09 10:04:16] [tid:8988][NGXInitLog:208] App logging hooks successfully initialized
+[10:04:16.069] info:  DLSS Message: [2026-10-09 10:04:16] [tid:8988][NGXInitLog:214] Build v310.9.1 CL 38868064
+[10:04:16.069] info:  DLSS Message: [2026-10-09 10:04:16] [tid:8988][NGXInitLog:216] Built with APP_NAME = default
+[10:04:16.070] info:  DLSS Message: [2026-10-09 10:04:16] [tid:8988][NGXInitLog:226] Loaded from path "D:\EDF IA RTX REMIX\runtime\_build\edf-composition-retained-sync-positive-x86\positive_camera0\.trex/nvngx_dlss.dll" by NvRemixBridge.exe
+[10:04:16.070] info:  DLSS Message: [2026-10-09 10:04:16] [tid:8988][NGXCubinVulkan::Init:204] Enabling texmode_raw
+[10:04:16.071] info:  DLSS Message: [2026-10-09 10:04:16] [tid:8988][NGXCubinKernelMap::InitCubins:42] Loading NGXCubin kernels
+[10:04:16.072] info:  DLSS Message: [2026-10-09 10:04:16] [tid:8988][NGXCubinGeneric::SetGPUArch:413] SetGPUArch:: Gpu count = 1, luid: 0x101d6
+[10:04:16.072] info:  DLSS Message: [2026-10-09 10:04:16] [tid:8988][NGXCubinGeneric::SetGPUArch:473] m_gpuArch = 0x1b0
+[10:04:16.072] info:  DLSS Message: [2026-10-09 10:04:16] [tid:8988][NGXCubinGeneric::genericPostInit:164] Fast UAV clear: supported
+[10:04:16.072] info:  DLSS Message: [2026-10-09 10:04:16] [tid:8988][DLSSCubinKernelMap::InitCubins:303] Setting DLAA Cubins
+[10:04:16.072] info:  DLSS Message: [2026-10-09 10:04:16] [tid:8988][DLSSCubinKernelMap::InitCubins:303] Setting DLSS Debug Cubins
+[10:04:16.072] info:  DLSS Message: [2026-10-09 10:04:16] [tid:8988][DLSSCubinKernelMap::InitCubins:303] Setting DLTSS Engine Cubins
+[10:04:16.073] info:  DLSS Message: [2026-10-09 10:04:16] [tid:8988][DLSSCubinKernelMap::InitCubins:303] Setting DLTSS NW Cubins
+[10:04:16.073] info:  DLSS Message: [2026-10-09 10:04:16] [tid:8988][DLSSCubinKernelMap::InitCubins:303] Setting DLTSS NW E5M3_SKIP Cubins
+[10:04:16.073] info:  DLSS Message: [2026-10-09 10:04:16] [tid:8988][DLSSCubinKernelMap::InitCubins:303] Setting DLTSS NW Cubins
+[10:04:16.073] info:  DLSS Message: [2026-10-09 10:04:16] [tid:8988][DldnCubinKernelMap::InitCubins:138] Setting DLDN Engine Pre / Post Cubins
+[10:04:16.226] info:  DLSS Message: [2026-10-09 10:04:16] [tid:8988][NGXInitLog:208] App logging hooks successfully initialized
+[10:04:16.226] info:  DLSS Message: [2026-10-09 10:04:16] [tid:8988][NGXInitLog:214] Build v310.9.1 CL 38868064
+[10:04:16.226] info:  DLSS Message: [2026-10-09 10:04:16] [tid:8988][NGXInitLog:216] Built with APP_NAME = endpoint
+[10:04:16.226] info:  DLSS Message: [2026-10-09 10:04:16] [tid:8988][NGXInitLog:226] Loaded from path "D:\EDF IA RTX REMIX\runtime\_build\edf-composition-retained-sync-positive-x86\positive_camera0\.trex/nvngx_dlssg.dll" by NvRemixBridge.exe
+[10:04:16.226] info:  DLSS Message: [2026-10-09 10:04:16] [tid:8988][NGXCubinVulkan::Init:204] Enabling texmode_raw
+[10:04:16.227] info:  DLSS Message: [2026-10-09 10:04:16] [tid:8988][NGXCubinKernelMap::InitCubins:42] Loading NGXCubin kernels
+[10:04:16.227] info:  DLSS Message: [2026-10-09 10:04:16] [tid:8988][NGXCubinGeneric::SetGPUArch:473] m_gpuArch = 0x1b0
+[10:04:16.227] info:  DLSS Message: [2026-10-09 10:04:16] [tid:8988][NGXCubinGeneric::genericPostInit:164] Fast UAV clear: supported
+[10:04:16.343] info:  DLSS Message: [2026-10-09 10:04:16] [tid:8988][NGXInitLog:208] App logging hooks successfully initialized
+[10:04:16.343] info:  DLSS Message: [2026-10-09 10:04:16] [tid:8988][NGXInitLog:214] Build v310.9.1 CL 38868064
+[10:04:16.343] info:  DLSS Message: [2026-10-09 10:04:16] [tid:8988][NGXInitLog:216] Built with APP_NAME = app_transformer_dlssd
+[10:04:16.343] info:  DLSS Message: [2026-10-09 10:04:16] [tid:8988][NGXInitLog:226] Loaded from path "D:\EDF IA RTX REMIX\runtime\_build\edf-composition-retained-sync-positive-x86\positive_camera0\.trex/nvngx_dlssd.dll" by NvRemixBridge.exe
+[10:04:16.343] info:  DLSS Message: [2026-10-09 10:04:16] [tid:8988][NGXCubinVulkan::Init:204] Enabling texmode_raw
+[10:04:16.344] info:  DLSS Message: [2026-10-09 10:04:16] [tid:8988][NGXCubinKernelMap::InitCubins:42] Loading NGXCubin kernels
+[10:04:16.344] info:  DLSS Message: [2026-10-09 10:04:16] [tid:8988][NGXCubinGeneric::SetGPUArch:413] SetGPUArch:: Gpu count = 1, luid: 0x101d6
+[10:04:16.345] info:  DLSS Message: [2026-10-09 10:04:16] [tid:8988][NGXCubinGeneric::SetGPUArch:473] m_gpuArch = 0x1b0
+[10:04:16.345] info:  DLSS Message: [2026-10-09 10:04:16] [tid:8988][NGXCubinGeneric::genericPostInit:164] Fast UAV clear: supported
+[10:04:16.345] info:  DLSS Message: [2026-10-09 10:04:16] [tid:8988][DLSSCubinKernelMap::InitCubins:208] Setting DLSS Base Cubins for standalone RR
+[10:04:16.345] info:  DLSS Message: [2026-10-09 10:04:16] [tid:8988][DldnCubinKernelMap::InitCubins:156] Setting DLDN Engine Pre / Post Cubins
+[10:04:16.345] info:  DLSS Message: [2026-10-09 10:04:16] [tid:8988][DldnCubinKernelMap::InitCubins:188] Setting DLDN Engine Pre / Post Cubins
+[10:04:16.349] warn:  NVIDIA DLSS-NR not available on this hardware/platform. Available: 0, availability query: (code: 0x00000001, info: NVSDK_NGX_Result_Success), feature initialization: (code: 0xbad00004, info: NVSDK_NGX_Result_FAIL_FeatureNotFound), feature initialization query: (code: 0x00000001, info: NVSDK_NGX_Result_Success)
+[10:04:16.351] info:  Reflex initialized successfully.
+[10:04:16.429] info:  Automatic Raytrace Mode Preset in use (Set rtx.raytraceModePreset to something other than Auto use a non-automatic preset)
+[10:04:16.429] info:  NVIDIA architecture detected, setting default raytrace modes to Trace Ray (Indirect Integrate) and Ray Query (GBuffer, Direct Integrate)
+[10:04:16.430] warn:  [RTX] Opacity Micromap vendor extension is not compatible with VK Validation Layers. Disabling Opacity Micromap extension.
+[10:04:16.430] info:  [RTX info] Opacity Micromap: not supported
+[10:04:16.431] info:  [RTX info] Shader Execution Reordering: supported
+[10:04:16.431] info:  [RTX info] Shader Execution Reordering: enabled
+[10:04:16.431] info:  CPU supports SIMD: AVX2
+[10:04:16.459] info:  [EDF-Static] profile_enabled executable_sha1=900afbd27e848be839876f7e660915757f01eb4f mesh=925aa18481228b01392a574dbe28ba4e21aa1616 vertices=252 triangles=144 preserve_raster=true
+[10:04:16.460] info:  D3D9DeviceEx::ResetSwapChain:
+[10:04:16.460] info:    Requested Presentation Parameters
+[10:04:16.460] info:      - Width:              1920
+[10:04:16.460] info:      - Height:             1080
+[10:04:16.460] info:      - Format:             D3D9Format::A8R8G8B8
+[10:04:16.460] info:      - Auto Depth Stencil: true
+[10:04:16.460] info:                  ^ Format: D3D9Format::D24S8
+[10:04:16.460] info:      - Windowed:           true
+[10:04:16.530] info:  [EDF-Static] profile_enabled executable_sha1=900afbd27e848be839876f7e660915757f01eb4f mesh=925aa18481228b01392a574dbe28ba4e21aa1616 vertices=252 triangles=144 preserve_raster=true
+[10:04:16.534] info:  Presenter: Actual swap chain properties:
+[10:04:16.534] info:    Format:       VK_FORMAT_R8G8B8A8_UNORM
+[10:04:16.534] info:    Present mode: VK_PRESENT_MODE_IMMEDIATE_KHR
+[10:04:16.534] info:    Buffer size:  1920x1080
+[10:04:16.534] info:    Image count:  2
+[10:04:16.534] info:    Exclusive FS: 2
+[10:04:16.768] info:  Presenter: Actual swap chain properties:
+[10:04:16.768] info:    Format:       VK_FORMAT_R8G8B8A8_UNORM
+[10:04:16.768] info:    Present mode: VK_PRESENT_MODE_FIFO_KHR
+[10:04:16.768] info:    Buffer size:  1920x1080
+[10:04:16.768] info:    Image count:  3
+[10:04:16.768] info:    Exclusive FS: 2
+[10:04:16.776] info:  No winproc detected, initiating bridge message channel for: 0000000000640B66
+[10:04:16.785] info:  Message channel UWM_REMIX_BRIDGE_REGISTER_THREADPROC_MSG established.
+[10:04:16.785] warn:  D3D9Texture2D::QueryInterface: Unknown interface query
+[10:04:16.785] warn:  794950f2-adfc-458a-905e-10a10b0b503b
+[10:04:16.787] info:  [RTX-Compatibility-Trace] trace=0x4544465354415449 stage=recognized frame=0 profile=edf-static-925aa18481228b01392a574dbe28ba4e21aa1616 draw=0 vs=f098f457d9ae603bea5f84ec985d473c29cfb0c9 ps=44b92a29eb3e5f2ee6d53f02e14fb11a01511da8 preserve_raster=true
+[10:04:16.787] info:  [RTX-Compatibility-Trace] trace=0x4544465354415449 stage=raster_geometry frame=0 vertices=252 indices=432 position=FLOAT3 normal=FLOAT3 uv=FLOAT2 stride=32 indices_rebased=0..251 material_hash=0x3b9b4f5a015a8c1b base_texture_hash=0x3b9b4f5a015a8c1b reprojection_error_px=1.66571e-05 camera_anchor=-299.678,-357.408,-8.04995
+[10:04:16.801] err:   [VK_DEBUG_REPORT] Code 861854874: vkCmdBeginRenderPass(): dependencyCount is incompatible between VkRenderPass 0x2d200000002d2 (from VkRenderPass 0x2d200000002d2) and VkRenderPass 0x2d000000002d0 (from VkFramebuffer 0x2d100000002d1)
+[10:04:16.801] err:   3 != 1
+[10:04:16.801] err:   Hint: RenderPass Compatibility is to allow you to use a different VkRenderPass in your VkPipeline and VkFramebuffer, but some things need to be the same.
+[10:04:16.801] err:   The Vulkan spec states: renderPass must be compatible with the renderPass member of the VkFramebufferCreateInfo structure specified when creating framebuffer (https://docs.vulkan.org/spec/latest/chapters/renderpass.html#VUID-VkRenderPassBeginInfo-renderPass-00904)
+[10:04:16.826] err:   [VK_DEBUG_REPORT] Code -1934215230: vkCmdDrawIndexed(): dependencyCount is incompatible between VkRenderPass 0x2d200000002d2 (from VkCommandBuffer 0x2158442a0d0) and VkRenderPass 0x2d000000002d0 (from VkPipeline 0x2d700000002d7)
+[10:04:16.826] err:   3 != 1
+[10:04:16.826] err:   Hint: RenderPass Compatibility is to allow you to use a different VkRenderPass in your VkPipeline and VkFramebuffer, but some things need to be the same.
+[10:04:16.826] err:   The Vulkan spec states: The current render pass must be compatible with the renderPass member of the VkGraphicsPipelineCreateInfo structure specified when creating the VkPipeline bound to VK_PIPELINE_BIND_POINT_GRAPHICS (https://docs.vulkan.org/spec/latest/chapters/drawing.html#VUID-vkCmdDrawIndexed-renderPass-02684)
+[10:04:16.827] err:   [VK_DEBUG_REPORT] Code 1397510317: vkCmdDrawIndexed(): the combined image sampler descriptor [VkDescriptorSet 0x2d400000002d4[DxvkContext::updateShaderResources], Set 0, Binding 6, Index 0, variable "s0_2d_shadow"] has VkImageView 0x2270000000227 with format of VK_FORMAT_BC3_UNORM_BLOCK which doesn't support VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_DEPTH_COMPARISON_BIT.
+[10:04:16.827] err:   (supported features: VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_BIT|VK_FORMAT_FEATURE_2_BLIT_SRC_BIT|VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_FILTER_LINEAR_BIT|VK_FORMAT_FEATURE_2_TRANSFER_SRC_BIT|VK_FORMAT_FEATURE_2_TRANSFER_DST_BIT|VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_FILTER_MINMAX_BIT|VK_FORMAT_FEATURE_2_HOST_IMAGE_TRANSFER_BIT|VK_FORMAT_FEATURE_2_COPY_IMAGE_INDIRECT_DST_BIT_KHR).
+[10:04:16.827] err:   The Vulkan spec states: If a VkImageView is sampled with depth comparison, the image view's format features must contain VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_DEPTH_COMPARISON_BIT (https://docs.vulkan.org/spec/latest/chapters/drawing.html#VUID-vkCmdDrawIndexed-None-06479)
+[10:04:16.827] err:   [VK_DEBUG_REPORT] Code 1397510317: vkCmdDrawIndexed(): the combined image sampler descriptor [VkDescriptorSet 0x2d400000002d4[DxvkContext::updateShaderResources], Set 0, Binding 7, Index 0, variable "s1_cube_shadow"] has VkImageView 0x2380000000238 with format of VK_FORMAT_BC1_RGBA_UNORM_BLOCK which doesn't support VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_DEPTH_COMPARISON_BIT.
+[10:04:16.827] err:   (supported features: VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_BIT|VK_FORMAT_FEATURE_2_BLIT_SRC_BIT|VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_FILTER_LINEAR_BIT|VK_FORMAT_FEATURE_2_TRANSFER_SRC_BIT|VK_FORMAT_FEATURE_2_TRANSFER_DST_BIT|VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_FILTER_MINMAX_BIT|VK_FORMAT_FEATURE_2_HOST_IMAGE_TRANSFER_BIT|VK_FORMAT_FEATURE_2_COPY_IMAGE_INDIRECT_DST_BIT_KHR).
+[10:04:16.827] err:   The Vulkan spec states: If a VkImageView is sampled with depth comparison, the image view's format features must contain VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_DEPTH_COMPARISON_BIT (https://docs.vulkan.org/spec/latest/chapters/drawing.html#VUID-vkCmdDrawIndexed-None-06479)
+[10:04:16.827] err:   [VK_DEBUG_REPORT] Code 1397510317: vkCmdDrawIndexed(): the combined image sampler descriptor [VkDescriptorSet 0x2d400000002d4[DxvkContext::updateShaderResources], Set 0, Binding 8, Index 0, variable "s2_cube_shadow"] has VkImageView 0x23f000000023f with format of VK_FORMAT_BC1_RGBA_UNORM_BLOCK which doesn't support VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_DEPTH_COMPARISON_BIT.
+[10:04:16.827] err:   (supported features: VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_BIT|VK_FORMAT_FEATURE_2_BLIT_SRC_BIT|VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_FILTER_LINEAR_BIT|VK_FORMAT_FEATURE_2_TRANSFER_SRC_BIT|VK_FORMAT_FEATURE_2_TRANSFER_DST_BIT|VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_FILTER_MINMAX_BIT|VK_FORMAT_FEATURE_2_HOST_IMAGE_TRANSFER_BIT|VK_FORMAT_FEATURE_2_COPY_IMAGE_INDIRECT_DST_BIT_KHR).
+[10:04:16.827] err:   The Vulkan spec states: If a VkImageView is sampled with depth comparison, the image view's format features must contain VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_DEPTH_COMPARISON_BIT (https://docs.vulkan.org/spec/latest/chapters/drawing.html#VUID-vkCmdDrawIndexed-None-06479)
+[10:04:16.828] info:  [RTX-Compatibility-Trace] trace=0x4544465354415449 stage=camera_accepted frame=0 type=0 valid=1
+[10:04:16.828] info:  [RTX-Compatibility-Trace] trace=0x4544465354415449 stage=scene_geometry frame=0 vertices=252 indices=432 position_format=106 normal_format=106 uv_format=103 cache_state=2 position_hash=0x6d7756d3182eed1d index_hash=0xdb9f5782ee579d47 uv_hash=0x78eb56661f89659b geometry_hash=0x32aeb7bb7e772c13 material_hash=0x3b9b4f5a015a8c1b
+[10:04:16.828] info:  [RTX-Compatibility-Trace] trace=0x4544465354415449 stage=instance_accepted frame=0 instance_id=1 created=1 mask=8 hidden=0 material_id=0
+[10:04:17.159] err:   [VK_DEBUG_REPORT] Code -1777306431: vkCmdBeginRenderPass(): pRenderPassBegin->renderPass (VkRenderPass 0x2e200000002e2) was created with pCreateInfo->pAttachments[0].initialLayout = VK_IMAGE_LAYOUT_SHADER_READ_ONLY_OPTIMAL, but VkFramebuffer 0x2e100000002e1 pAttachments[0] (VkImageView 0x2de00000002de) references an image not created with the required VkImageUsageFlags.
+[10:04:17.159] err:   VkImage 0x1fa00000001fa[D3D9 texture primary] was created with VK_IMAGE_USAGE_2_TRANSFER_SRC_BIT_KHR|VK_IMAGE_USAGE_2_TRANSFER_DST_BIT_KHR|VK_IMAGE_USAGE_2_SAMPLED_BIT_KHR|VK_IMAGE_USAGE_2_COLOR_ATTACHMENT_BIT_KHR, but VkImageViewUsageCreateInfo overwrote it with VK_IMAGE_USAGE_COLOR_ATTACHMENT_BIT.
+[10:04:17.159] err:   The Vulkan spec states: If any of the initialLayout or finalLayout member of the VkAttachmentDescription structures or the layout member of the VkAttachmentReference structures specified when creating the render pass specified in the renderPass member of pRenderPassBegin is VK_IMAGE_LAYOUT_SHADER_READ_ONLY_OPTIMAL then the corresponding attachment image view of the framebuffer specified in the framebuffer member of pRenderPassBegin must have been created with the VK_IMAGE_USAGE_SAMPLED_BIT or VK_IMAGE_USAGE_INPUT_ATTACHMENT_BIT usage flags set (https://docs.vulkan.org/spec/latest/chapters/renderpass.html#VUID-vkCmdBeginRenderPass-initialLayout-00897)
+[10:04:17.159] err:   [VK_DEBUG_REPORT] Code -1777306431: vkCmdBeginRenderPass(): pRenderPassBegin->renderPass (VkRenderPass 0x2e200000002e2) was created with pCreateInfo->pAttachments[0].finalLayout = VK_IMAGE_LAYOUT_SHADER_READ_ONLY_OPTIMAL, but VkFramebuffer 0x2e100000002e1 pAttachments[0] (VkImageView 0x2de00000002de) references an image not created with the required VkImageUsageFlags.
+[10:04:17.159] err:   VkImage 0x1fa00000001fa[D3D9 texture primary] was created with VK_IMAGE_USAGE_2_TRANSFER_SRC_BIT_KHR|VK_IMAGE_USAGE_2_TRANSFER_DST_BIT_KHR|VK_IMAGE_USAGE_2_SAMPLED_BIT_KHR|VK_IMAGE_USAGE_2_COLOR_ATTACHMENT_BIT_KHR, but VkImageViewUsageCreateInfo overwrote it with VK_IMAGE_USAGE_COLOR_ATTACHMENT_BIT.
+[10:04:17.159] err:   The Vulkan spec states: If any of the initialLayout or finalLayout member of the VkAttachmentDescription structures or the layout member of the VkAttachmentReference structures specified when creating the render pass specified in the renderPass member of pRenderPassBegin is VK_IMAGE_LAYOUT_SHADER_READ_ONLY_OPTIMAL then the corresponding attachment image view of the framebuffer specified in the framebuffer member of pRenderPassBegin must have been created with the VK_IMAGE_USAGE_SAMPLED_BIT or VK_IMAGE_USAGE_INPUT_ATTACHMENT_BIT usage flags set (https://docs.vulkan.org/spec/latest/chapters/renderpass.html#VUID-vkCmdBeginRenderPass-initialLayout-00897)
+[10:04:17.168] err:   [VK_DEBUG_REPORT] Code 861854874: vkCmdBeginRenderPass(): dependencyCount is incompatible between VkRenderPass 0x2e200000002e2 (from VkRenderPass 0x2e200000002e2) and VkRenderPass 0x2e000000002e0 (from VkFramebuffer 0x2e100000002e1)
+[10:04:17.168] err:   2 != 1
+[10:04:17.168] err:   Hint: RenderPass Compatibility is to allow you to use a different VkRenderPass in your VkPipeline and VkFramebuffer, but some things need to be the same.
+[10:04:17.168] err:   The Vulkan spec states: renderPass must be compatible with the renderPass member of the VkFramebufferCreateInfo structure specified when creating framebuffer (https://docs.vulkan.org/spec/latest/chapters/renderpass.html#VUID-VkRenderPassBeginInfo-renderPass-00904)
+[10:04:17.258] err:   [VK_DEBUG_REPORT] Code -1777306431: vkCmdBeginRenderPass(): pRenderPassBegin->renderPass (VkRenderPass 0x2e300000002e3) was created with pCreateInfo->pAttachments[0].initialLayout = VK_IMAGE_LAYOUT_SHADER_READ_ONLY_OPTIMAL, but VkFramebuffer 0x2d100000002d1 pAttachments[0] (VkImageView 0x2b800000002b8) references an image not created with the required VkImageUsageFlags.
+[10:04:17.258] err:   VkImage 0x2a400000002a4[D3D9 texture primary] was created with VK_IMAGE_USAGE_2_TRANSFER_SRC_BIT_KHR|VK_IMAGE_USAGE_2_TRANSFER_DST_BIT_KHR|VK_IMAGE_USAGE_2_SAMPLED_BIT_KHR|VK_IMAGE_USAGE_2_COLOR_ATTACHMENT_BIT_KHR, but VkImageViewUsageCreateInfo overwrote it with VK_IMAGE_USAGE_COLOR_ATTACHMENT_BIT.
+[10:04:17.258] err:   The Vulkan spec states: If any of the initialLayout or finalLayout member of the VkAttachmentDescription structures or the layout member of the VkAttachmentReference structures specified when creating the render pass specified in the renderPass member of pRenderPassBegin is VK_IMAGE_LAYOUT_SHADER_READ_ONLY_OPTIMAL then the corresponding attachment image view of the framebuffer specified in the framebuffer member of pRenderPassBegin must have been created with the VK_IMAGE_USAGE_SAMPLED_BIT or VK_IMAGE_USAGE_INPUT_ATTACHMENT_BIT usage flags set (https://docs.vulkan.org/spec/latest/chapters/renderpass.html#VUID-vkCmdBeginRenderPass-initialLayout-00897)
+[10:04:17.258] err:   [VK_DEBUG_REPORT] Code -1777306431: vkCmdBeginRenderPass(): pRenderPassBegin->renderPass (VkRenderPass 0x2e300000002e3) was created with pCreateInfo->pAttachments[1].initialLayout = VK_IMAGE_LAYOUT_SHADER_READ_ONLY_OPTIMAL, but VkFramebuffer 0x2d100000002d1 pAttachments[1] (VkImageView 0x2ba00000002ba) references an image not created with the required VkImageUsageFlags.
+[10:04:17.258] err:   VkImage 0x2aa00000002aa[D3D9 texture primary] was created with VK_IMAGE_USAGE_2_TRANSFER_SRC_BIT_KHR|VK_IMAGE_USAGE_2_TRANSFER_DST_BIT_KHR|VK_IMAGE_USAGE_2_SAMPLED_BIT_KHR|VK_IMAGE_USAGE_2_COLOR_ATTACHMENT_BIT_KHR, but VkImageViewUsageCreateInfo overwrote it with VK_IMAGE_USAGE_COLOR_ATTACHMENT_BIT.
+[10:04:17.258] err:   The Vulkan spec states: If any of the initialLayout or finalLayout member of the VkAttachmentDescription structures or the layout member of the VkAttachmentReference structures specified when creating the render pass specified in the renderPass member of pRenderPassBegin is VK_IMAGE_LAYOUT_SHADER_READ_ONLY_OPTIMAL then the corresponding attachment image view of the framebuffer specified in the framebuffer member of pRenderPassBegin must have been created with the VK_IMAGE_USAGE_SAMPLED_BIT or VK_IMAGE_USAGE_INPUT_ATTACHMENT_BIT usage flags set (https://docs.vulkan.org/spec/latest/chapters/renderpass.html#VUID-vkCmdBeginRenderPass-initialLayout-00897)
+[10:04:17.258] err:   [VK_DEBUG_REPORT] Code -1777306431: vkCmdBeginRenderPass(): pRenderPassBegin->renderPass (VkRenderPass 0x2e300000002e3) was created with pCreateInfo->pAttachments[2].initialLayout = VK_IMAGE_LAYOUT_SHADER_READ_ONLY_OPTIMAL, but VkFramebuffer 0x2d100000002d1 pAttachments[2] (VkImageView 0x2bc00000002bc) references an image not created with the required VkImageUsageFlags.
+[10:04:17.258] err:   VkImage 0x2b000000002b0[D3D9 texture primary] was created with VK_IMAGE_USAGE_2_TRANSFER_SRC_BIT_KHR|VK_IMAGE_USAGE_2_TRANSFER_DST_BIT_KHR|VK_IMAGE_USAGE_2_SAMPLED_BIT_KHR|VK_IMAGE_USAGE_2_COLOR_ATTACHMENT_BIT_KHR, but VkImageViewUsageCreateInfo overwrote it with VK_IMAGE_USAGE_COLOR_ATTACHMENT_BIT.
+[10:04:17.258] err:   The Vulkan spec states: If any of the initialLayout or finalLayout member of the VkAttachmentDescription structures or the layout member of the VkAttachmentReference structures specified when creating the render pass specified in the renderPass member of pRenderPassBegin is VK_IMAGE_LAYOUT_SHADER_READ_ONLY_OPTIMAL then the corresponding attachment image view of the framebuffer specified in the framebuffer member of pRenderPassBegin must have been created with the VK_IMAGE_USAGE_SAMPLED_BIT or VK_IMAGE_USAGE_INPUT_ATTACHMENT_BIT usage flags set (https://docs.vulkan.org/spec/latest/chapters/renderpass.html#VUID-vkCmdBeginRenderPass-initialLayout-00897)
+[10:04:17.270] err:   [VK_DEBUG_REPORT] Code 861854874: vkCmdBeginRenderPass(): dependencyCount is incompatible between VkRenderPass 0x2e300000002e3 (from VkRenderPass 0x2e300000002e3) and VkRenderPass 0x2d000000002d0 (from VkFramebuffer 0x2d100000002d1)
+[10:04:17.270] err:   3 != 1
+[10:04:17.270] err:   Hint: RenderPass Compatibility is to allow you to use a different VkRenderPass in your VkPipeline and VkFramebuffer, but some things need to be the same.
+[10:04:17.270] err:   The Vulkan spec states: renderPass must be compatible with the renderPass member of the VkFramebufferCreateInfo structure specified when creating framebuffer (https://docs.vulkan.org/spec/latest/chapters/renderpass.html#VUID-VkRenderPassBeginInfo-renderPass-00904)
+[10:04:17.270] info:  [EDF-Static-Probe] stage=injection_snapshot frame=0 serial=1 source=present_fallback last_injected_frame=4294967295 latest_draw_frame=0 current_frame_draw_count=1 camera_last_update_frame=0 camera_valid=1 duplicate=0 target_session_id=2292776996176 source_target_session_id=2292777020176 target_hash=2094001132311158761 target_format=44 target_width=1920 target_height=1080 renderer_view_error=0 renderer_projection_error=0
+[10:04:17.274] info:  [RTX-Compatibility-Trace] trace=0x4544465354415449 stage=blas_recorded frame=0 instance_id=1 mode=0 geometry_count=1 blas_address=0xae81900
+[10:04:17.276] err:   [VK_DEBUG_REPORT] Code 1544472022: vkCmdBuildAccelerationStructuresKHR(): WRITE_AFTER_WRITE hazard detected. vkCmdBuildAccelerationStructuresKHR writes to scratch buffer VkBuffer 0x2f300000002f3[BVH Scratch], which was previously written by another vkCmdBuildAccelerationStructuresKHR[InjectRTX::Build Scene] command. 
+[10:04:17.276] err:   The current synchronization allows VK_ACCESS_2_SHADER_READ_BIT|VK_ACCESS_2_ACCELERATION_STRUCTURE_READ_BIT_KHR accesses at VK_PIPELINE_STAGE_2_COMPUTE_SHADER_BIT|VK_PIPELINE_STAGE_2_RAY_TRACING_SHADER_BIT_KHR, VK_ACCESS_2_SHADER_READ_BIT|VK_ACCESS_2_ACCELERATION_STRUCTURE_READ_BIT_KHR accesses at VK_PIPELINE_STAGE_2_ACCELERATION_STRUCTURE_BUILD_BIT_KHR, but to prevent this hazard, it must allow VK_ACCESS_2_ACCELERATION_STRUCTURE_WRITE_BIT_KHR accesses at VK_PIPELINE_STAGE_2_ACCELERATION_STRUCTURE_BUILD_BIT_KHR.
+[10:04:17.276] err:   Buffer access region: {
+[10:04:17.276] err:     offset = 0
+[10:04:17.276] err:     size = 1792
+[10:04:17.276] err:   }
+[10:04:17.276] info:  [RTX-Compatibility-Trace] trace=0x4544465354415449 stage=tlas_recorded frame=0 instance_id=1 type=TLAS_Opaque instance_count=1 blas_address=0xae81900 surface_index=0 included=1
+[10:04:17.276] info:  [RTX-Compatibility-Trace] trace=0x4544465354415449 stage=scene_only_frame frame=0 instance_id=1 raster_preserved=1 path_tracing_dispatched=0
+[10:04:17.290] info:  Presenter: Actual swap chain properties:
+[10:04:17.290] info:    Format:       VK_FORMAT_R8G8B8A8_UNORM
+[10:04:17.290] info:    Present mode: VK_PRESENT_MODE_FIFO_KHR
+[10:04:17.290] info:    Buffer size:  1920x1080
+[10:04:17.290] info:    Image count:  3
+[10:04:17.290] info:    Exclusive FS: 2
+[10:04:17.307] err:   [VK_DEBUG_REPORT] Code 861854874: vkCmdBeginRenderPass(): dependencyCount is incompatible between VkRenderPass 0x3190000000319 (from VkRenderPass 0x3190000000319) and VkRenderPass 0x3170000000317 (from VkFramebuffer 0x3180000000318)
+[10:04:17.307] err:   3 != 1
+[10:04:17.307] err:   Hint: RenderPass Compatibility is to allow you to use a different VkRenderPass in your VkPipeline and VkFramebuffer, but some things need to be the same.
+[10:04:17.307] err:   The Vulkan spec states: renderPass must be compatible with the renderPass member of the VkFramebufferCreateInfo structure specified when creating framebuffer (https://docs.vulkan.org/spec/latest/chapters/renderpass.html#VUID-VkRenderPassBeginInfo-renderPass-00904)
+[10:04:17.319] err:   [VK_DEBUG_REPORT] Code 1349015333: vkCmdDraw(): dependencyCount is incompatible between VkRenderPass 0x3190000000319 (from VkCommandBuffer 0x2158441f8d0) and VkRenderPass 0x3170000000317 (from VkPipeline 0x31e000000031e)
+[10:04:17.319] err:   3 != 1
+[10:04:17.319] err:   Hint: RenderPass Compatibility is to allow you to use a different VkRenderPass in your VkPipeline and VkFramebuffer, but some things need to be the same.
+[10:04:17.319] err:   The Vulkan spec states: The current render pass must be compatible with the renderPass member of the VkGraphicsPipelineCreateInfo structure specified when creating the VkPipeline bound to VK_PIPELINE_BIND_POINT_GRAPHICS (https://docs.vulkan.org/spec/latest/chapters/drawing.html#VUID-vkCmdDraw-renderPass-02684)
+[10:04:17.320] info:  [RTX-Compatibility-Trace] trace=0x4544465354415449 stage=recognized frame=1 profile=edf-static-925aa18481228b01392a574dbe28ba4e21aa1616 draw=0 vs=f098f457d9ae603bea5f84ec985d473c29cfb0c9 ps=44b92a29eb3e5f2ee6d53f02e14fb11a01511da8 preserve_raster=true
+[10:04:17.320] info:  [RTX-Compatibility-Trace] trace=0x4544465354415449 stage=raster_geometry frame=1 vertices=252 indices=432 position=FLOAT3 normal=FLOAT3 uv=FLOAT2 stride=32 indices_rebased=0..251 material_hash=0x3b9b4f5a015a8c1b base_texture_hash=0x3b9b4f5a015a8c1b reprojection_error_px=4.2776e-05 camera_anchor=-299.276,-358.455,-7.73695
+[10:04:17.333] err:   [VK_DEBUG_REPORT] Code 861854874: vkCmdBeginRenderPass(): dependencyCount is incompatible between VkRenderPass 0x3220000000322 (from VkRenderPass 0x3220000000322) and VkRenderPass 0x2d000000002d0 (from VkFramebuffer 0x2d100000002d1)
+[10:04:17.333] err:   3 != 1
+[10:04:17.333] err:   Hint: RenderPass Compatibility is to allow you to use a different VkRenderPass in your VkPipeline and VkFramebuffer, but some things need to be the same.
+[10:04:17.333] err:   The Vulkan spec states: renderPass must be compatible with the renderPass member of the VkFramebufferCreateInfo structure specified when creating framebuffer (https://docs.vulkan.org/spec/latest/chapters/renderpass.html#VUID-VkRenderPassBeginInfo-renderPass-00904)
+[10:04:17.343] err:   [VK_DEBUG_REPORT] Code -1934215230: vkCmdDrawIndexed(): dependencyCount is incompatible between VkRenderPass 0x3220000000322 (from VkCommandBuffer 0x215844380d0) and VkRenderPass 0x2d000000002d0 (from VkPipeline 0x2d700000002d7)
+[10:04:17.343] err:   3 != 1
+[10:04:17.343] err:   Hint: RenderPass Compatibility is to allow you to use a different VkRenderPass in your VkPipeline and VkFramebuffer, but some things need to be the same.
+[10:04:17.343] err:   The Vulkan spec states: The current render pass must be compatible with the renderPass member of the VkGraphicsPipelineCreateInfo structure specified when creating the VkPipeline bound to VK_PIPELINE_BIND_POINT_GRAPHICS (https://docs.vulkan.org/spec/latest/chapters/drawing.html#VUID-vkCmdDrawIndexed-renderPass-02684)
+[10:04:17.343] err:   [VK_DEBUG_REPORT] Code 1397510317: vkCmdDrawIndexed(): the combined image sampler descriptor [VkDescriptorSet 0x3230000000323[DxvkContext::updateShaderResources], Set 0, Binding 6, Index 0, variable "s0_2d_shadow"] has VkImageView 0x2270000000227 with format of VK_FORMAT_BC3_UNORM_BLOCK which doesn't support VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_DEPTH_COMPARISON_BIT.
+[10:04:17.343] err:   (supported features: VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_BIT|VK_FORMAT_FEATURE_2_BLIT_SRC_BIT|VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_FILTER_LINEAR_BIT|VK_FORMAT_FEATURE_2_TRANSFER_SRC_BIT|VK_FORMAT_FEATURE_2_TRANSFER_DST_BIT|VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_FILTER_MINMAX_BIT|VK_FORMAT_FEATURE_2_HOST_IMAGE_TRANSFER_BIT|VK_FORMAT_FEATURE_2_COPY_IMAGE_INDIRECT_DST_BIT_KHR).
+[10:04:17.343] err:   The Vulkan spec states: If a VkImageView is sampled with depth comparison, the image view's format features must contain VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_DEPTH_COMPARISON_BIT (https://docs.vulkan.org/spec/latest/chapters/drawing.html#VUID-vkCmdDrawIndexed-None-06479)
+[10:04:17.344] err:   [VK_DEBUG_REPORT] Code 1397510317: vkCmdDrawIndexed(): the combined image sampler descriptor [VkDescriptorSet 0x3230000000323[DxvkContext::updateShaderResources], Set 0, Binding 7, Index 0, variable "s1_cube_shadow"] has VkImageView 0x2380000000238 with format of VK_FORMAT_BC1_RGBA_UNORM_BLOCK which doesn't support VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_DEPTH_COMPARISON_BIT.
+[10:04:17.344] err:   (supported features: VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_BIT|VK_FORMAT_FEATURE_2_BLIT_SRC_BIT|VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_FILTER_LINEAR_BIT|VK_FORMAT_FEATURE_2_TRANSFER_SRC_BIT|VK_FORMAT_FEATURE_2_TRANSFER_DST_BIT|VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_FILTER_MINMAX_BIT|VK_FORMAT_FEATURE_2_HOST_IMAGE_TRANSFER_BIT|VK_FORMAT_FEATURE_2_COPY_IMAGE_INDIRECT_DST_BIT_KHR).
+[10:04:17.344] err:   The Vulkan spec states: If a VkImageView is sampled with depth comparison, the image view's format features must contain VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_DEPTH_COMPARISON_BIT (https://docs.vulkan.org/spec/latest/chapters/drawing.html#VUID-vkCmdDrawIndexed-None-06479)
+[10:04:17.344] err:   [VK_DEBUG_REPORT] Code 1397510317: vkCmdDrawIndexed(): the combined image sampler descriptor [VkDescriptorSet 0x3230000000323[DxvkContext::updateShaderResources], Set 0, Binding 8, Index 0, variable "s2_cube_shadow"] has VkImageView 0x23f000000023f with format of VK_FORMAT_BC1_RGBA_UNORM_BLOCK which doesn't support VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_DEPTH_COMPARISON_BIT.
+[10:04:17.344] err:   (supported features: VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_BIT|VK_FORMAT_FEATURE_2_BLIT_SRC_BIT|VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_FILTER_LINEAR_BIT|VK_FORMAT_FEATURE_2_TRANSFER_SRC_BIT|VK_FORMAT_FEATURE_2_TRANSFER_DST_BIT|VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_FILTER_MINMAX_BIT|VK_FORMAT_FEATURE_2_HOST_IMAGE_TRANSFER_BIT|VK_FORMAT_FEATURE_2_COPY_IMAGE_INDIRECT_DST_BIT_KHR).
+[10:04:17.344] err:   The Vulkan spec states: If a VkImageView is sampled with depth comparison, the image view's format features must contain VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_DEPTH_COMPARISON_BIT (https://docs.vulkan.org/spec/latest/chapters/drawing.html#VUID-vkCmdDrawIndexed-None-06479)
+[10:04:17.344] info:  [RTX-Compatibility-Trace] trace=0x4544465354415449 stage=camera_accepted frame=1 type=0 valid=1
+[10:04:17.344] info:  [RTX-Compatibility-Trace] trace=0x4544465354415449 stage=scene_geometry frame=1 vertices=252 indices=432 position_format=106 normal_format=106 uv_format=103 cache_state=0 position_hash=0x6d7756d3182eed1d index_hash=0xdb9f5782ee579d47 uv_hash=0x78eb56661f89659b geometry_hash=0x32aeb7bb7e772c13 material_hash=0x3b9b4f5a015a8c1b
+[10:04:17.344] info:  [RTX-Compatibility-Trace] trace=0x4544465354415449 stage=instance_accepted frame=1 instance_id=1 created=0 mask=8 hidden=0 material_id=0
+[10:04:17.369] err:   [VK_DEBUG_REPORT] Code 861854874: vkCmdBeginRenderPass(): dependencyCount is incompatible between VkRenderPass 0x3190000000319 (from VkRenderPass 0x3190000000319) and VkRenderPass 0x3170000000317 (from VkFramebuffer 0x3280000000328)
+[10:04:17.369] err:   3 != 1
+[10:04:17.369] err:   Hint: RenderPass Compatibility is to allow you to use a different VkRenderPass in your VkPipeline and VkFramebuffer, but some things need to be the same.
+[10:04:17.369] err:   The Vulkan spec states: renderPass must be compatible with the renderPass member of the VkFramebufferCreateInfo structure specified when creating framebuffer (https://docs.vulkan.org/spec/latest/chapters/renderpass.html#VUID-VkRenderPassBeginInfo-renderPass-00904)
+[10:04:17.370] err:   [VK_DEBUG_REPORT] Code -1777306431: vkCmdBeginRenderPass(): pRenderPassBegin->renderPass (VkRenderPass 0x2e200000002e2) was created with pCreateInfo->pAttachments[0].initialLayout = VK_IMAGE_LAYOUT_SHADER_READ_ONLY_OPTIMAL, but VkFramebuffer 0x3290000000329 pAttachments[0] (VkImageView 0x3240000000324) references an image not created with the required VkImageUsageFlags.
+[10:04:17.370] err:   VkImage 0x2000000000200[D3D9 texture primary] was created with VK_IMAGE_USAGE_2_TRANSFER_SRC_BIT_KHR|VK_IMAGE_USAGE_2_TRANSFER_DST_BIT_KHR|VK_IMAGE_USAGE_2_SAMPLED_BIT_KHR|VK_IMAGE_USAGE_2_COLOR_ATTACHMENT_BIT_KHR, but VkImageViewUsageCreateInfo overwrote it with VK_IMAGE_USAGE_COLOR_ATTACHMENT_BIT.
+[10:04:17.370] err:   The Vulkan spec states: If any of the initialLayout or finalLayout member of the VkAttachmentDescription structures or the layout member of the VkAttachmentReference structures specified when creating the render pass specified in the renderPass member of pRenderPassBegin is VK_IMAGE_LAYOUT_SHADER_READ_ONLY_OPTIMAL then the corresponding attachment image view of the framebuffer specified in the framebuffer member of pRenderPassBegin must have been created with the VK_IMAGE_USAGE_SAMPLED_BIT or VK_IMAGE_USAGE_INPUT_ATTACHMENT_BIT usage flags set (https://docs.vulkan.org/spec/latest/chapters/renderpass.html#VUID-vkCmdBeginRenderPass-initialLayout-00897)
+[10:04:17.370] err:   [VK_DEBUG_REPORT] Code -1777306431: vkCmdBeginRenderPass(): pRenderPassBegin->renderPass (VkRenderPass 0x2e200000002e2) was created with pCreateInfo->pAttachments[0].finalLayout = VK_IMAGE_LAYOUT_SHADER_READ_ONLY_OPTIMAL, but VkFramebuffer 0x3290000000329 pAttachments[0] (VkImageView 0x3240000000324) references an image not created with the required VkImageUsageFlags.
+[10:04:17.370] err:   VkImage 0x2000000000200[D3D9 texture primary] was created with VK_IMAGE_USAGE_2_TRANSFER_SRC_BIT_KHR|VK_IMAGE_USAGE_2_TRANSFER_DST_BIT_KHR|VK_IMAGE_USAGE_2_SAMPLED_BIT_KHR|VK_IMAGE_USAGE_2_COLOR_ATTACHMENT_BIT_KHR, but VkImageViewUsageCreateInfo overwrote it with VK_IMAGE_USAGE_COLOR_ATTACHMENT_BIT.
+[10:04:17.370] err:   The Vulkan spec states: If any of the initialLayout or finalLayout member of the VkAttachmentDescription structures or the layout member of the VkAttachmentReference structures specified when creating the render pass specified in the renderPass member of pRenderPassBegin is VK_IMAGE_LAYOUT_SHADER_READ_ONLY_OPTIMAL then the corresponding attachment image view of the framebuffer specified in the framebuffer member of pRenderPassBegin must have been created with the VK_IMAGE_USAGE_SAMPLED_BIT or VK_IMAGE_USAGE_INPUT_ATTACHMENT_BIT usage flags set (https://docs.vulkan.org/spec/latest/chapters/renderpass.html#VUID-vkCmdBeginRenderPass-initialLayout-00897)
+[10:04:17.378] err:   [VK_DEBUG_REPORT] Code 861854874: vkCmdBeginRenderPass(): dependencyCount is incompatible between VkRenderPass 0x2e200000002e2 (from VkRenderPass 0x2e200000002e2) and VkRenderPass 0x2e000000002e0 (from VkFramebuffer 0x3290000000329)
+[10:04:17.378] err:   2 != 1
+[10:04:17.378] err:   Hint: RenderPass Compatibility is to allow you to use a different VkRenderPass in your VkPipeline and VkFramebuffer, but some things need to be the same.
+[10:04:17.378] err:   The Vulkan spec states: renderPass must be compatible with the renderPass member of the VkFramebufferCreateInfo structure specified when creating framebuffer (https://docs.vulkan.org/spec/latest/chapters/renderpass.html#VUID-VkRenderPassBeginInfo-renderPass-00904)
+[10:04:17.385] err:   [VK_DEBUG_REPORT] Code 1349015333: vkCmdDraw(): dependencyCount is incompatible between VkRenderPass 0x3190000000319 (from VkCommandBuffer 0x215844380d0) and VkRenderPass 0x3170000000317 (from VkPipeline 0x31e000000031e)
+[10:04:17.385] err:   3 != 1
+[10:04:17.385] err:   Hint: RenderPass Compatibility is to allow you to use a different VkRenderPass in your VkPipeline and VkFramebuffer, but some things need to be the same.
+[10:04:17.385] err:   The Vulkan spec states: The current render pass must be compatible with the renderPass member of the VkGraphicsPipelineCreateInfo structure specified when creating the VkPipeline bound to VK_PIPELINE_BIND_POINT_GRAPHICS (https://docs.vulkan.org/spec/latest/chapters/drawing.html#VUID-vkCmdDraw-renderPass-02684)
+[10:04:17.481] info:  [EDF-Static-Probe] stage=armed frame=1 request_id=1 frame_count=1 trigger=autorun composition_performed=0 output_directory=D:/EDF IA RTX REMIX/runtime/_build/edf-composition-retained-sync-positive-x86/positive_camera0/probe-output\session_1791551057481654_18784
+[10:04:17.481] info:  [EDF-Static-Probe] stage=injection_snapshot frame=1 serial=2 source=present_fallback last_injected_frame=0 latest_draw_frame=1 current_frame_draw_count=1 camera_last_update_frame=1 camera_valid=1 duplicate=0 target_session_id=2292776996576 source_target_session_id=2292777020176 target_hash=2760323028160007304 target_format=44 target_width=1920 target_height=1080 renderer_view_error=0 renderer_projection_error=0
+[10:04:17.484] info:  [RTX-Compatibility-Trace] trace=0x4544465354415449 stage=blas_reused frame=1 instance_id=1 reason=scene_unchanged
+[10:04:17.484] info:  [RTX-Compatibility-Trace] trace=0x4544465354415449 stage=tlas_recorded frame=1 instance_id=1 type=TLAS_Opaque instance_count=1 blas_address=0xae81900 surface_index=0 included=1
+[10:04:17.484] info:  [EDF-Static-Probe] stage=whitelist_accepted frame=1 instance_id=1 ordered_instances=1 vertices=252 indices=432 geometry_hash=0x32aeb7bb7e772c13 mesh=925aa18481228b01392a574dbe28ba4e21aa1616 vs=f098f457d9ae603bea5f84ec985d473c29cfb0c9 ps=44b92a29eb3e5f2ee6d53f02e14fb11a01511da8
+[10:04:17.484] info:  [EDF-Static-Probe] stage=offscreen_begin frame=1 request_id=1 trace=0x4544465354415449 camera_last_update_frame=1 renderer_view_error=0 renderer_projection_error=0 composition_performed=0 raster_preserved=1
+[10:04:17.484] info:  RenderPass GBuffer Raytrace Mode: Ray Query (CS)
+[10:04:17.484] info:  RenderPass Integrate Direct Raytrace Mode: Ray Query (CS)
+[10:04:17.484] info:  RenderPass Integrate Indirect Raytrace Mode: Trace Ray (RGS)
+[10:04:17.485] err:   [VK_DEBUG_REPORT] Code 1544472022: vkCmdPipelineBarrier(): WRITE_AFTER_WRITE hazard detected. vkCmdPipelineBarrier performs image layout transition on the VkImage 0x3ad00000003ad[shadow terminator fix], which was previously written by vkCmdClearColorImage[InjectRTX]. 
+[10:04:17.485] err:   The current synchronization allows VK_ACCESS_2_SHADER_READ_BIT|VK_ACCESS_2_SHADER_STORAGE_WRITE_BIT accesses at VK_PIPELINE_STAGE_2_COMPUTE_SHADER_BIT|VK_PIPELINE_STAGE_2_RAY_TRACING_SHADER_BIT_KHR, but layout transition does not synchronize with these accesses.
+[10:04:17.485] err:   
+[10:04:17.485] err:   Hint:
+[10:04:17.485] err:   a) Image barrier layout transition:
+[10:04:17.485] err:     Ensure srcStageMask and srcAccessMask synchronize with the accesses mentioned above.
+[10:04:17.485] err:   
+[10:04:17.485] err:   b) Render pass begin layout transition:
+[10:04:17.485] err:     Either specify an external subpass dependency (VK_SUBPASS_EXTERNAL) with srcStageMask and srcAccessMask that synchronize with those accesses, or move the layout transition before the render pass by using a separate image barrier.
+[10:04:17.485] err:   
+[10:04:17.485] err:   c) Separate synchronization barrier before layout transition:
+[10:04:17.485] err:     Use VK_PIPELINE_STAGE_2_ALL_COMMANDS_BIT in dstStageMask to include layout transitions.
+[10:04:17.485] err:   
+[10:04:17.485] err:   Hint: Ensure that srcStageMask includes VK_PIPELINE_STAGE_2_CLEAR_BIT and srcAccessMask includes VK_ACCESS_2_TRANSFER_WRITE_BIT. The source side of the barrier protects layout transition writes from previous accesses, and the destination side cannot introduce this specific hazard.
+[10:04:17.485] err:   pImageMemoryBarriers[0]: {
+[10:04:17.485] err:     srcStageMask = VK_PIPELINE_STAGE_2_ALL_TRANSFER_BIT,
+[10:04:17.485] err:     srcAccessMask = VkAccessFlags2(0),
+[10:04:17.485] err:     dstStageMask = VK_PIPELINE_STAGE_2_ALL_TRANSFER_BIT,
+[10:04:17.485] err:     dstAccessMask = VK_ACCESS_2_TRANSFER_WRITE_BIT,
+[10:04:17.485] err:   }
+[10:04:17.486] err:   [VK_DEBUG_REPORT] Code 1544472022: vkCmdPipelineBarrier(): WRITE_AFTER_WRITE hazard detected. vkCmdPipelineBarrier performs image layout transition on the VkImage 0x3b000000003b0[shadow terminator fix], which was previously written by vkCmdClearColorImage[InjectRTX]. 
+[10:04:17.486] err:   The current synchronization allows VK_ACCESS_2_SHADER_READ_BIT|VK_ACCESS_2_SHADER_STORAGE_WRITE_BIT accesses at VK_PIPELINE_STAGE_2_COMPUTE_SHADER_BIT|VK_PIPELINE_STAGE_2_RAY_TRACING_SHADER_BIT_KHR, but layout transition does not synchronize with these accesses.
+[10:04:17.486] err:   
+[10:04:17.486] err:   Hint:
+[10:04:17.486] err:   a) Image barrier layout transition:
+[10:04:17.486] err:     Ensure srcStageMask and srcAccessMask synchronize with the accesses mentioned above.
+[10:04:17.486] err:   
+[10:04:17.486] err:   b) Render pass begin layout transition:
+[10:04:17.486] err:     Either specify an external subpass dependency (VK_SUBPASS_EXTERNAL) with srcStageMask and srcAccessMask that synchronize with those accesses, or move the layout transition before the render pass by using a separate image barrier.
+[10:04:17.486] err:   
+[10:04:17.486] err:   c) Separate synchronization barrier before layout transition:
+[10:04:17.486] err:     Use VK_PIPELINE_STAGE_2_ALL_COMMANDS_BIT in dstStageMask to include layout transitions.
+[10:04:17.486] err:   
+[10:04:17.486] err:   Hint: Ensure that srcStageMask includes VK_PIPELINE_STAGE_2_CLEAR_BIT and srcAccessMask includes VK_ACCESS_2_TRANSFER_WRITE_BIT. The source side of the barrier protects layout transition writes from previous accesses, and the destination side cannot introduce this specific hazard.
+[10:04:17.486] err:   pImageMemoryBarriers[0]: {
+[10:04:17.486] err:     srcStageMask = VK_PIPELINE_STAGE_2_ALL_TRANSFER_BIT,
+[10:04:17.486] err:     srcAccessMask = VkAccessFlags2(0),
+[10:04:17.486] err:     dstStageMask = VK_PIPELINE_STAGE_2_ALL_TRANSFER_BIT,
+[10:04:17.486] err:     dstAccessMask = VK_ACCESS_2_TRANSFER_WRITE_BIT,
+[10:04:17.486] err:   }
+[10:04:18.832] info:  [RTX] Integrate Indirect Mode: Importance Sampled - activated
+[10:04:19.280] warn:  [VK_DEBUG_REPORT] Code 20145586: vkCmdDispatch(): the sampled image descriptor [VkDescriptorSet 0x4240000000424[DxvkContext::updateShaderResources], Set 0, Binding 27, Index 0, variable "PrimarySurfaceFlags"] is accessed by a OpTypeImage that has a Format operand R32ui (equivalent to VK_FORMAT_R32_UINT) which doesn't match the VkImageView 0x15c000000015c format (VK_FORMAT_R8_UINT). Any loads or stores with the variable will produce undefined values to the whole image (not just the texel being accessed).
+[10:04:19.280] warn:  Spec information at https://docs.vulkan.org/spec/latest/chapters/textures.html#textures-format-validation
+[10:04:19.286] warn:  [VK_DEBUG_REPORT] Code 20145586: vkCmdDispatch(): the sampled image descriptor [VkDescriptorSet 0x4340000000434[DxvkContext::updateShaderResources], Set 0, Binding 1, Index 0, variable "PrimarySurfaceFlags"] is accessed by a OpTypeImage that has a Format operand R32ui (equivalent to VK_FORMAT_R32_UINT) which doesn't match the VkImageView 0x1ca00000001ca format (VK_FORMAT_R8_UINT). Any loads or stores with the variable will produce undefined values to the whole image (not just the texel being accessed).
+[10:04:19.286] warn:  Spec information at https://docs.vulkan.org/spec/latest/chapters/textures.html#textures-format-validation
+[10:04:19.305] err:   [VK_DEBUG_REPORT] Code 1544472022: vkCmdPipelineBarrier(): WRITE_AFTER_WRITE hazard detected. vkCmdPipelineBarrier performs image layout transition on the VkImage 0x1d200000001d2[final output], which was previously written by vkCmdCopyImage[InjectRTX::PostFx Motion Blur]. 
+[10:04:19.305] err:   The current synchronization allows VK_ACCESS_2_SHADER_READ_BIT|VK_ACCESS_2_SHADER_STORAGE_WRITE_BIT accesses at VK_PIPELINE_STAGE_2_FRAGMENT_SHADER_BIT|VK_PIPELINE_STAGE_2_COMPUTE_SHADER_BIT|VK_PIPELINE_STAGE_2_RAY_TRACING_SHADER_BIT_KHR, but layout transition does not synchronize with these accesses.
+[10:04:19.305] err:   
+[10:04:19.305] err:   Hint:
+[10:04:19.305] err:   a) Image barrier layout transition:
+[10:04:19.305] err:     Ensure srcStageMask and srcAccessMask synchronize with the accesses mentioned above.
+[10:04:19.305] err:   
+[10:04:19.305] err:   b) Render pass begin layout transition:
+[10:04:19.305] err:     Either specify an external subpass dependency (VK_SUBPASS_EXTERNAL) with srcStageMask and srcAccessMask that synchronize with those accesses, or move the layout transition before the render pass by using a separate image barrier.
+[10:04:19.305] err:   
+[10:04:19.305] err:   c) Separate synchronization barrier before layout transition:
+[10:04:19.305] err:     Use VK_PIPELINE_STAGE_2_ALL_COMMANDS_BIT in dstStageMask to include layout transitions.
+[10:04:19.305] err:   
+[10:04:19.305] err:   Hint: Ensure that srcStageMask includes VK_PIPELINE_STAGE_2_COPY_BIT and srcAccessMask includes VK_ACCESS_2_TRANSFER_WRITE_BIT. The source side of the barrier protects layout transition writes from previous accesses, and the destination side cannot introduce this specific hazard.
+[10:04:19.305] err:   pImageMemoryBarriers[0]: {
+[10:04:19.305] err:     srcStageMask = VK_PIPELINE_STAGE_2_ALL_TRANSFER_BIT,
+[10:04:19.305] err:     srcAccessMask = VkAccessFlags2(0),
+[10:04:19.305] err:     dstStageMask = VK_PIPELINE_STAGE_2_ALL_TRANSFER_BIT,
+[10:04:19.305] err:     dstAccessMask = VK_ACCESS_2_TRANSFER_WRITE_BIT,
+[10:04:19.305] err:   }
+[10:04:19.311] info:  [EDF-Static-Composition] stage=preview_generated frame=1 request_id=1 camera_frame=1 current_frame_only=1 gamma_conversion=1 screenshot=0 debug_view=0 vertices=252 indices=432
+[10:04:19.311] info:  [EDF-Static-Probe] stage=readback_recorded frame=1 request_id=1 image_count=4 composition_performed=0 raster_preserved=1
+[10:04:19.316] info:  [EDF-Static-Composition] stage=composition_recorded frame=1 request_id=1 present_serial=6 loop_index=0 wsi_image=2292777012176 roi=1040,800,820,200 only_wsi_written=1 game_targets_written=0 present_signal_requires_overlay=1
+[10:04:19.316] info:  [EDF-Static-Composition] stage=presentation_queued frame=1 present_serial=6 loop_index=0 image_index=1 present_signal_after_overlay=1 frame_latency_after_overlay=1
+[10:04:19.316] info:  [RTX-Compatibility-Trace] trace=0x4544465354415449 stage=recognized frame=2 profile=edf-static-925aa18481228b01392a574dbe28ba4e21aa1616 draw=0 vs=f098f457d9ae603bea5f84ec985d473c29cfb0c9 ps=44b92a29eb3e5f2ee6d53f02e14fb11a01511da8 preserve_raster=true
+[10:04:19.316] info:  [RTX-Compatibility-Trace] trace=0x4544465354415449 stage=raster_geometry frame=2 vertices=252 indices=432 position=FLOAT3 normal=FLOAT3 uv=FLOAT2 stride=32 indices_rebased=0..251 material_hash=0x3b9b4f5a015a8c1b base_texture_hash=0x3b9b4f5a015a8c1b reprojection_error_px=3.31918e-05 camera_anchor=-299.276,-358.455,-7.73692
+[10:04:19.350] err:   [VK_DEBUG_REPORT] Code -1934215230: vkCmdDrawIndexed(): dependencyCount is incompatible between VkRenderPass 0x3220000000322 (from VkCommandBuffer 0x2158442a0d0) and VkRenderPass 0x2d000000002d0 (from VkPipeline 0x2d700000002d7)
+[10:04:19.350] err:   3 != 1
+[10:04:19.350] err:   Hint: RenderPass Compatibility is to allow you to use a different VkRenderPass in your VkPipeline and VkFramebuffer, but some things need to be the same.
+[10:04:19.350] err:   The Vulkan spec states: The current render pass must be compatible with the renderPass member of the VkGraphicsPipelineCreateInfo structure specified when creating the VkPipeline bound to VK_PIPELINE_BIND_POINT_GRAPHICS (https://docs.vulkan.org/spec/latest/chapters/drawing.html#VUID-vkCmdDrawIndexed-renderPass-02684)
+[10:04:19.350] err:   [VK_DEBUG_REPORT] Code 1397510317: vkCmdDrawIndexed(): the combined image sampler descriptor [VkDescriptorSet 0x4df00000004df[DxvkContext::updateShaderResources], Set 0, Binding 6, Index 0, variable "s0_2d_shadow"] has VkImageView 0x2270000000227 with format of VK_FORMAT_BC3_UNORM_BLOCK which doesn't support VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_DEPTH_COMPARISON_BIT.
+[10:04:19.350] err:   (supported features: VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_BIT|VK_FORMAT_FEATURE_2_BLIT_SRC_BIT|VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_FILTER_LINEAR_BIT|VK_FORMAT_FEATURE_2_TRANSFER_SRC_BIT|VK_FORMAT_FEATURE_2_TRANSFER_DST_BIT|VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_FILTER_MINMAX_BIT|VK_FORMAT_FEATURE_2_HOST_IMAGE_TRANSFER_BIT|VK_FORMAT_FEATURE_2_COPY_IMAGE_INDIRECT_DST_BIT_KHR).
+[10:04:19.350] err:   The Vulkan spec states: If a VkImageView is sampled with depth comparison, the image view's format features must contain VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_DEPTH_COMPARISON_BIT (https://docs.vulkan.org/spec/latest/chapters/drawing.html#VUID-vkCmdDrawIndexed-None-06479)
+[10:04:19.350] err:   [VK_DEBUG_REPORT] Code 1397510317: vkCmdDrawIndexed(): the combined image sampler descriptor [VkDescriptorSet 0x4df00000004df[DxvkContext::updateShaderResources], Set 0, Binding 7, Index 0, variable "s1_cube_shadow"] has VkImageView 0x2380000000238 with format of VK_FORMAT_BC1_RGBA_UNORM_BLOCK which doesn't support VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_DEPTH_COMPARISON_BIT.
+[10:04:19.350] err:   (supported features: VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_BIT|VK_FORMAT_FEATURE_2_BLIT_SRC_BIT|VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_FILTER_LINEAR_BIT|VK_FORMAT_FEATURE_2_TRANSFER_SRC_BIT|VK_FORMAT_FEATURE_2_TRANSFER_DST_BIT|VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_FILTER_MINMAX_BIT|VK_FORMAT_FEATURE_2_HOST_IMAGE_TRANSFER_BIT|VK_FORMAT_FEATURE_2_COPY_IMAGE_INDIRECT_DST_BIT_KHR).
+[10:04:19.350] err:   The Vulkan spec states: If a VkImageView is sampled with depth comparison, the image view's format features must contain VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_DEPTH_COMPARISON_BIT (https://docs.vulkan.org/spec/latest/chapters/drawing.html#VUID-vkCmdDrawIndexed-None-06479)
+[10:04:19.351] err:   [VK_DEBUG_REPORT] Code 1397510317: vkCmdDrawIndexed(): the combined image sampler descriptor [VkDescriptorSet 0x4df00000004df[DxvkContext::updateShaderResources], Set 0, Binding 8, Index 0, variable "s2_cube_shadow"] has VkImageView 0x23f000000023f with format of VK_FORMAT_BC1_RGBA_UNORM_BLOCK which doesn't support VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_DEPTH_COMPARISON_BIT.
+[10:04:19.351] err:   (supported features: VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_BIT|VK_FORMAT_FEATURE_2_BLIT_SRC_BIT|VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_FILTER_LINEAR_BIT|VK_FORMAT_FEATURE_2_TRANSFER_SRC_BIT|VK_FORMAT_FEATURE_2_TRANSFER_DST_BIT|VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_FILTER_MINMAX_BIT|VK_FORMAT_FEATURE_2_HOST_IMAGE_TRANSFER_BIT|VK_FORMAT_FEATURE_2_COPY_IMAGE_INDIRECT_DST_BIT_KHR).
+[10:04:19.351] err:   The Vulkan spec states: If a VkImageView is sampled with depth comparison, the image view's format features must contain VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_DEPTH_COMPARISON_BIT (https://docs.vulkan.org/spec/latest/chapters/drawing.html#VUID-vkCmdDrawIndexed-None-06479)
+[10:04:19.351] info:  [RTX-Compatibility-Trace] trace=0x4544465354415449 stage=camera_accepted frame=2 type=0 valid=1
+[10:04:19.351] info:  [RTX-Compatibility-Trace] trace=0x4544465354415449 stage=instance_preserved frame=2 instance_id=1 mask=8 material_id=0 vertices=252 indices=432 position_hash=0x6d7756d3182eed1d index_hash=0xdb9f5782ee579d47 uv_hash=0x78eb56661f89659b geometry_hash=0x32aeb7bb7e772c13 material_hash=0x3b9b4f5a015a8c1b
+[10:04:19.819] info:  [EDF-Static-Probe] stage=gpu_completed frame=1 request_id=1 depth_hits=6435 depth_nonfinite=0 radiance_nonzero=6435 radiance_nonfinite=0 original_targets_unchanged=1 preserved_target_count=4 composition_performed=0 raster_preserved=1 output=D:/EDF IA RTX REMIX/runtime/_build/edf-composition-retained-sync-positive-x86/positive_camera0/probe-output\session_1791551057481654_18784\edf_pt_request_1_frame_1.json
+[10:04:19.916] info:  [EDF-Static-Composition] stage=composition_gpu_completed frame=1 request_id=1 gpu_completed=1 composition_performed=1 outside_changed_pixels=0 inside_changed_pixels=164000 panel_mismatch_pixels=0 original_targets_unchanged=1 passed=1 output=D:/EDF IA RTX REMIX/runtime/_build/edf-composition-retained-sync-positive-x86/positive_camera0/probe-output\session_1791551057481654_18784\edf_pt_request_1_frame_1_composition.json
+[10:04:19.961] err:   [VK_DEBUG_REPORT] Code 1349015333: vkCmdDraw(): dependencyCount is incompatible between VkRenderPass 0x3190000000319 (from VkCommandBuffer 0x2158442a0d0) and VkRenderPass 0x3170000000317 (from VkPipeline 0x31e000000031e)
+[10:04:19.961] err:   3 != 1
+[10:04:19.961] err:   Hint: RenderPass Compatibility is to allow you to use a different VkRenderPass in your VkPipeline and VkFramebuffer, but some things need to be the same.
+[10:04:19.961] err:   The Vulkan spec states: The current render pass must be compatible with the renderPass member of the VkGraphicsPipelineCreateInfo structure specified when creating the VkPipeline bound to VK_PIPELINE_BIND_POINT_GRAPHICS (https://docs.vulkan.org/spec/latest/chapters/drawing.html#VUID-vkCmdDraw-renderPass-02684)
+[10:04:19.980] err:   [VK_DEBUG_REPORT] Code 861854874: vkCmdBeginRenderPass(): dependencyCount is incompatible between VkRenderPass 0x4e400000004e4 (from VkRenderPass 0x4e400000004e4) and VkRenderPass 0x3170000000317 (from VkFramebuffer 0x3180000000318)
+[10:04:19.980] err:   3 != 1
+[10:04:19.980] err:   Hint: RenderPass Compatibility is to allow you to use a different VkRenderPass in your VkPipeline and VkFramebuffer, but some things need to be the same.
+[10:04:19.980] err:   The Vulkan spec states: renderPass must be compatible with the renderPass member of the VkFramebufferCreateInfo structure specified when creating framebuffer (https://docs.vulkan.org/spec/latest/chapters/renderpass.html#VUID-VkRenderPassBeginInfo-renderPass-00904)
+[10:04:20.003] err:   [VK_DEBUG_REPORT] Code -1934215230: vkCmdDrawIndexed(): dependencyCount is incompatible between VkRenderPass 0x4e400000004e4 (from VkCommandBuffer 0x2158442a0d0) and VkRenderPass 0x3170000000317 (from VkPipeline 0x4e800000004e8)
+[10:04:20.003] err:   3 != 1
+[10:04:20.003] err:   Hint: RenderPass Compatibility is to allow you to use a different VkRenderPass in your VkPipeline and VkFramebuffer, but some things need to be the same.
+[10:04:20.003] err:   The Vulkan spec states: The current render pass must be compatible with the renderPass member of the VkGraphicsPipelineCreateInfo structure specified when creating the VkPipeline bound to VK_PIPELINE_BIND_POINT_GRAPHICS (https://docs.vulkan.org/spec/latest/chapters/drawing.html#VUID-vkCmdDrawIndexed-renderPass-02684)
+[10:04:20.101] info:  [EDF-Static-Probe] stage=injection_snapshot frame=2 serial=3 source=present_fallback last_injected_frame=1 latest_draw_frame=2 current_frame_draw_count=1 camera_last_update_frame=2 camera_valid=1 duplicate=0 target_session_id=2292776996176 source_target_session_id=2292777020176 target_hash=2094001132311158761 target_format=44 target_width=1920 target_height=1080 renderer_view_error=0 renderer_projection_error=0
+[10:04:20.105] info:  [RTX-Compatibility-Trace] trace=0x4544465354415449 stage=blas_reused frame=2 instance_id=1 reason=scene_unchanged
+[10:04:20.105] info:  [RTX-Compatibility-Trace] trace=0x4544465354415449 stage=tlas_recorded frame=2 instance_id=1 type=TLAS_Opaque instance_count=1 blas_address=0xae81900 surface_index=0 included=1
+[10:04:20.105] info:  [RTX-Compatibility-Trace] trace=0x4544465354415449 stage=scene_only_frame frame=2 instance_id=1 raster_preserved=1 path_tracing_dispatched=0
+[10:04:20.105] info:  [RTX-Compatibility-Trace] trace=0x4544465354415449 stage=recognized frame=3 profile=edf-static-925aa18481228b01392a574dbe28ba4e21aa1616 draw=0 vs=f098f457d9ae603bea5f84ec985d473c29cfb0c9 ps=44b92a29eb3e5f2ee6d53f02e14fb11a01511da8 preserve_raster=true
+[10:04:20.105] info:  [RTX-Compatibility-Trace] trace=0x4544465354415449 stage=raster_geometry frame=3 vertices=252 indices=432 position=FLOAT3 normal=FLOAT3 uv=FLOAT2 stride=32 indices_rebased=0..251 material_hash=0x3b9b4f5a015a8c1b base_texture_hash=0x3b9b4f5a015a8c1b reprojection_error_px=1.66571e-05 camera_anchor=-299.678,-357.408,-8.04995
+[10:04:20.146] err:   [VK_DEBUG_REPORT] Code -1934215230: vkCmdDrawIndexed(): dependencyCount is incompatible between VkRenderPass 0x3220000000322 (from VkCommandBuffer 0x215844150d0) and VkRenderPass 0x2d000000002d0 (from VkPipeline 0x2d700000002d7)
+[10:04:20.146] err:   3 != 1
+[10:04:20.146] err:   Hint: RenderPass Compatibility is to allow you to use a different VkRenderPass in your VkPipeline and VkFramebuffer, but some things need to be the same.
+[10:04:20.146] err:   The Vulkan spec states: The current render pass must be compatible with the renderPass member of the VkGraphicsPipelineCreateInfo structure specified when creating the VkPipeline bound to VK_PIPELINE_BIND_POINT_GRAPHICS (https://docs.vulkan.org/spec/latest/chapters/drawing.html#VUID-vkCmdDrawIndexed-renderPass-02684)
+[10:04:20.147] err:   [VK_DEBUG_REPORT] Code 1397510317: vkCmdDrawIndexed(): the combined image sampler descriptor [VkDescriptorSet 0x4f100000004f1[DxvkContext::updateShaderResources], Set 0, Binding 6, Index 0, variable "s0_2d_shadow"] has VkImageView 0x2270000000227 with format of VK_FORMAT_BC3_UNORM_BLOCK which doesn't support VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_DEPTH_COMPARISON_BIT.
+[10:04:20.147] err:   (supported features: VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_BIT|VK_FORMAT_FEATURE_2_BLIT_SRC_BIT|VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_FILTER_LINEAR_BIT|VK_FORMAT_FEATURE_2_TRANSFER_SRC_BIT|VK_FORMAT_FEATURE_2_TRANSFER_DST_BIT|VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_FILTER_MINMAX_BIT|VK_FORMAT_FEATURE_2_HOST_IMAGE_TRANSFER_BIT|VK_FORMAT_FEATURE_2_COPY_IMAGE_INDIRECT_DST_BIT_KHR).
+[10:04:20.147] err:   The Vulkan spec states: If a VkImageView is sampled with depth comparison, the image view's format features must contain VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_DEPTH_COMPARISON_BIT (https://docs.vulkan.org/spec/latest/chapters/drawing.html#VUID-vkCmdDrawIndexed-None-06479)
+[10:04:20.147] err:   [VK_DEBUG_REPORT] Code 1397510317: vkCmdDrawIndexed(): the combined image sampler descriptor [VkDescriptorSet 0x4f100000004f1[DxvkContext::updateShaderResources], Set 0, Binding 7, Index 0, variable "s1_cube_shadow"] has VkImageView 0x2380000000238 with format of VK_FORMAT_BC1_RGBA_UNORM_BLOCK which doesn't support VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_DEPTH_COMPARISON_BIT.
+[10:04:20.147] err:   (supported features: VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_BIT|VK_FORMAT_FEATURE_2_BLIT_SRC_BIT|VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_FILTER_LINEAR_BIT|VK_FORMAT_FEATURE_2_TRANSFER_SRC_BIT|VK_FORMAT_FEATURE_2_TRANSFER_DST_BIT|VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_FILTER_MINMAX_BIT|VK_FORMAT_FEATURE_2_HOST_IMAGE_TRANSFER_BIT|VK_FORMAT_FEATURE_2_COPY_IMAGE_INDIRECT_DST_BIT_KHR).
+[10:04:20.147] err:   The Vulkan spec states: If a VkImageView is sampled with depth comparison, the image view's format features must contain VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_DEPTH_COMPARISON_BIT (https://docs.vulkan.org/spec/latest/chapters/drawing.html#VUID-vkCmdDrawIndexed-None-06479)
+[10:04:20.147] err:   [VK_DEBUG_REPORT] Code 1397510317: vkCmdDrawIndexed(): the combined image sampler descriptor [VkDescriptorSet 0x4f100000004f1[DxvkContext::updateShaderResources], Set 0, Binding 8, Index 0, variable "s2_cube_shadow"] has VkImageView 0x23f000000023f with format of VK_FORMAT_BC1_RGBA_UNORM_BLOCK which doesn't support VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_DEPTH_COMPARISON_BIT.
+[10:04:20.147] err:   (supported features: VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_BIT|VK_FORMAT_FEATURE_2_BLIT_SRC_BIT|VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_FILTER_LINEAR_BIT|VK_FORMAT_FEATURE_2_TRANSFER_SRC_BIT|VK_FORMAT_FEATURE_2_TRANSFER_DST_BIT|VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_FILTER_MINMAX_BIT|VK_FORMAT_FEATURE_2_HOST_IMAGE_TRANSFER_BIT|VK_FORMAT_FEATURE_2_COPY_IMAGE_INDIRECT_DST_BIT_KHR).
+[10:04:20.147] err:   The Vulkan spec states: If a VkImageView is sampled with depth comparison, the image view's format features must contain VK_FORMAT_FEATURE_2_SAMPLED_IMAGE_DEPTH_COMPARISON_BIT (https://docs.vulkan.org/spec/latest/chapters/drawing.html#VUID-vkCmdDrawIndexed-None-06479)
+[10:04:20.147] info:  [RTX-Compatibility-Trace] trace=0x4544465354415449 stage=camera_accepted frame=3 type=0 valid=1
+[10:04:20.147] info:  [RTX-Compatibility-Trace] trace=0x4544465354415449 stage=instance_preserved frame=3 instance_id=1 mask=8 material_id=0 vertices=252 indices=432 position_hash=0x6d7756d3182eed1d index_hash=0xdb9f5782ee579d47 uv_hash=0x78eb56661f89659b geometry_hash=0x32aeb7bb7e772c13 material_hash=0x3b9b4f5a015a8c1b
+[10:04:20.160] err:   [VK_DEBUG_REPORT] Code 861854874: vkCmdBeginRenderPass(): dependencyCount is incompatible between VkRenderPass 0x4e400000004e4 (from VkRenderPass 0x4e400000004e4) and VkRenderPass 0x3170000000317 (from VkFramebuffer 0x3280000000328)
+[10:04:20.160] err:   3 != 1
+[10:04:20.160] err:   Hint: RenderPass Compatibility is to allow you to use a different VkRenderPass in your VkPipeline and VkFramebuffer, but some things need to be the same.
+[10:04:20.160] err:   The Vulkan spec states: renderPass must be compatible with the renderPass member of the VkFramebufferCreateInfo structure specified when creating framebuffer (https://docs.vulkan.org/spec/latest/chapters/renderpass.html#VUID-VkRenderPassBeginInfo-renderPass-00904)
+[10:04:20.183] err:   [VK_DEBUG_REPORT] Code -1934215230: vkCmdDrawIndexed(): dependencyCount is incompatible between VkRenderPass 0x4e400000004e4 (from VkCommandBuffer 0x215844380d0) and VkRenderPass 0x3170000000317 (from VkPipeline 0x4e800000004e8)
+[10:04:20.183] err:   3 != 1
+[10:04:20.183] err:   Hint: RenderPass Compatibility is to allow you to use a different VkRenderPass in your VkPipeline and VkFramebuffer, but some things need to be the same.
+[10:04:20.183] err:   The Vulkan spec states: The current render pass must be compatible with the renderPass member of the VkGraphicsPipelineCreateInfo structure specified when creating the VkPipeline bound to VK_PIPELINE_BIND_POINT_GRAPHICS (https://docs.vulkan.org/spec/latest/chapters/drawing.html#VUID-vkCmdDrawIndexed-renderPass-02684)
+[10:04:20.321] info:  [EDF-Static-Probe] stage=injection_snapshot frame=3 serial=4 source=present_fallback last_injected_frame=2 latest_draw_frame=3 current_frame_draw_count=1 camera_last_update_frame=3 camera_valid=1 duplicate=0 target_session_id=2292776996576 source_target_session_id=2292777020176 target_hash=2760323028160007304 target_format=44 target_width=1920 target_height=1080 renderer_view_error=0 renderer_projection_error=0
+[10:04:20.324] info:  [RTX-Compatibility-Trace] trace=0x4544465354415449 stage=blas_reused frame=3 instance_id=1 reason=scene_unchanged
+[10:04:20.324] info:  [RTX-Compatibility-Trace] trace=0x4544465354415449 stage=tlas_recorded frame=3 instance_id=1 type=TLAS_Opaque instance_count=1 blas_address=0xae81900 surface_index=0 included=1
+[10:04:20.324] info:  [RTX-Compatibility-Trace] trace=0x4544465354415449 stage=scene_only_frame frame=3 instance_id=1 raster_preserved=1 path_tracing_dispatched=0
+Replay failed: Runtime/GPU failure during callback completion: [10:04:16.801] err:   [VK_DEBUG_REPORT] Code 861854874: vkCmdBeginRenderPass(): dependencyCount is incompatible between VkRenderPass 0x2d200000002d2 (from VkRenderPass 0x2d200000002d2) and VkRenderPass 0x2d000000002d0 (from VkFramebuffer 0x2d100000002d1)
+[10:04:20.487] warn:  [D3D9WindowProc] Swapchain handle is invalid, some of its values may not be correct.
+[10:04:20.658] info:  filewatch: uninstalled all directory watches
+[10:04:20.658] err:   [41] common device objects were not disposed of.
+[10:04:20.658] err:   	Object struct dxvk::LightManager [00000215FAFF2760] is alive at exit.
+[10:04:20.658] err:   	Object class dxvk::SceneManager [00000215FAFF1FC0] is alive at exit.
+[10:04:20.658] err:   	Object class dxvk::InstanceManager [00000215FAFF22C8] is alive at exit.
+[10:04:20.658] err:   	Object class dxvk::CameraManager [00000215FAFF3470] is alive at exit.
+[10:04:20.658] err:   	Object class dxvk::AccelManager [00000215FAFF2470] is alive at exit.
+[10:04:20.658] err:   	Object class dxvk::DrawCallCache [00000215FAFF3420] is alive at exit.
+[10:04:20.658] err:   	Object class dxvk::RtxGeometryUtils [00000215CE1FB0F0] is alive at exit.
+[10:04:20.658] err:   	Object class dxvk::RayPortalManager [00000215FAFF2C60] is alive at exit.
+[10:04:20.658] err:   	Object class dxvk::BindlessResourceManager [00000215FAFF3380] is alive at exit.
+[10:04:20.658] err:   	Object struct dxvk::Resources [00000215FAFFFB10] is alive at exit.
+[10:04:20.658] err:   	Object class dxvk::NRDContext [00000215CB5429E0] is alive at exit.
+[10:04:20.658] err:   	Object class dxvk::RtxInitializer [00000215FB002D10] is alive at exit.
+[10:04:20.658] err:   	Object class dxvk::RtxParticleSystemManager [000002589B3F5EE0] is alive at exit.
+[10:04:20.658] err:   	Object class dxvk::NRDContext [00000215CB545000] is alive at exit.
+[10:04:20.658] err:   	Object class dxvk::RtxTextureManager [00000215CB40BCD0] is alive at exit.
+[10:04:20.658] err:   	Object class dxvk::SparseRendering [00000215C513F540] is alive at exit.
+[10:04:20.658] err:   	Object class dxvk::RtxGlobalVolumetrics [00000215D7543EE0] is alive at exit.
+[10:04:20.658] err:   	Object class dxvk::DxvkXeSS [00000215D163FDB0] is alive at exit.
+[10:04:20.658] err:   	Object class dxvk::DxvkPathtracerIntegrateIndirect [00000215CB57FF20] is alive at exit.
+[10:04:20.658] err:   	Object class dxvk::DxvkPathtracerGbuffer [00000215CB57FFE0] is alive at exit.
+[10:04:20.658] err:   	Object class dxvk::DxvkPathtracerIntegrateDirect [00000215CB57FC40] is alive at exit.
+[10:04:20.658] err:   	Object class dxvk::DxvkDenoise [00000215CB57FB60] is alive at exit.
+[10:04:20.658] err:   	Object class dxvk::NRDContext [00000215CB541300] is alive at exit.
+[10:04:20.658] err:   	Object class dxvk::DxvkDenoise [00000215CB57FAC0] is alive at exit.
+[10:04:20.658] err:   	Object class dxvk::NRDContext [00000215CB542DB0] is alive at exit.
+[10:04:20.658] err:   	Object class dxvk::DxvkDenoise [00000215CB57FE00] is alive at exit.
+[10:04:20.658] err:   	Object class dxvk::DxvkDenoise [00000215CB57F940] is alive at exit.
+[10:04:20.658] err:   	Object class dxvk::NRDContext [00000215CB544490] is alive at exit.
+[10:04:20.658] err:   	Object class dxvk::DlssNeuralRendering [00000215D163FB90] is alive at exit.
+[10:04:20.658] err:   	Object class dxvk::DxvkDLFG [00000215CB56B610] is alive at exit.
+[10:04:20.658] err:   	Object class dxvk::DxvkDenoise [00000215CB57FAE0] is alive at exit.
+[10:04:20.658] err:   	Object class dxvk::NRDContext [00000215CB544C30] is alive at exit.
+[10:04:20.658] err:   	Object class dxvk::DxvkDenoise [00000215CB580400] is alive at exit.
+[10:04:20.659] err:   	Object class dxvk::DxvkDenoise [00000215CB5803C0] is alive at exit.
+[10:04:20.659] err:   	Object class dxvk::NRDContext [00000215CB5453D0] is alive at exit.
+[10:04:20.659] err:   	Object class dxvk::DxvkDLSS [00000215CB56BBB0] is alive at exit.
+[10:04:20.659] err:   	Object class dxvk::DxvkRayReconstruction [00000215D18CCAC0] is alive at exit.
+[10:04:20.659] err:   	Object class dxvk::DxvkAutoExposure [00000215D38FA720] is alive at exit.
+[10:04:20.659] err:   	Object class dxvk::DxvkToneMapping [00000215D3FF2F90] is alive at exit.
+[10:04:20.659] err:   	Object class dxvk::DxvkSRGBDither [00000215D18AD2B0] is alive at exit.
+[10:04:20.659] err:   	Object class dxvk::RtxReflex [00000215CFAC2E10] is alive at exit.

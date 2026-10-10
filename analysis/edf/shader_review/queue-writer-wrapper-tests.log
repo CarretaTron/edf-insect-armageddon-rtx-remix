@@ -1,0 +1,6 @@
+writer_tests.cpp
+util_compat_capture.cpp
+sha1_util.cpp
+sha1.c
+Gerando Código...
+All compatibility capture writer tests passed. Artifacts: "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf_capture_writer_tests\\artifacts\\263491663537200"

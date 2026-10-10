@@ -1,0 +1,10 @@
+ninja: Entering directory `D:/EDF IA RTX REMIX/runtime/_CompDebugOptimized_x64'
+[1/15] Generating version.h with a custom command
+[2/11] Compiling C++ object src/util/libutil.a.p/util_compat_capture.cpp.obj
+[3/11] Generating src/d3d9/version.rc with a custom command
+[4/10] Generating src/dxvk/rtx_shaders with a custom command
+[5/10] Linking static target src/util/libutil.a
+Activating VS 17.14.41 (September 2026)
+INFO: automatically activated MSVC compiler environment
+INFO: autodetecting backend as ninja
+INFO: calculating backend command to run: "D:\EDF IA RTX REMIX\.tools\build-python\Scripts\ninja.exe" -C "D:/EDF IA RTX REMIX/runtime/_CompDebugOptimized_x64" -j 2 src\d3d9\d3d9.dll

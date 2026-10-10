@@ -1,0 +1,68 @@
+/*
+* Copyright (c) 2025-2026, NVIDIA CORPORATION. All rights reserved.
+*
+* Permission is hereby granted, free of charge, to any person obtaining a
+* copy of this software and associated documentation files (the "Software"),
+* to deal in the Software without restriction, including without limitation
+* the rights to use, copy, modify, merge, publish, distribute, sublicense,
+* and/or sell copies of the Software, and to permit persons to whom the
+* Software is furnished to do so, subject to the following conditions:
+*
+* The above copyright notice and this permission notice shall be included in
+* all copies or substantial portions of the Software.
+*
+* THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+* IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+* FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL
+* THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+* LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+* FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+* DEALINGS IN THE SOFTWARE.
+*/
+#pragma once
+
+// SR-internal compaction helpers used to BUILD the compacted active-pixel maps.
+// External consumers only need the load-path API in compact_active_pixels.slangh.
+
+#include "rtx/pass/sparse_rendering/compact_active_pixels.slangh"
+
+#if (COMPACT_ACTIVE_PIXELS_TILE_SIZE % COMPACT_ACTIVE_PIXELS_GROUP_SIZE) != 0
+  #error "COMPACT_ACTIVE_PIXELS_TILE_SIZE must be an exact multiple of COMPACT_ACTIVE_PIXELS_GROUP_SIZE."
+#endif
+
+// Map a compacted linear index to 2D tile-local coordinates using Morton (Z-order) curve.
+// Handles non-square tiles by splitting into square sub-tiles along the wider dimension.
+uint2 mortonIndexToTileCoord(uint index) {
+#if COMPACT_ACTIVE_PIXELS_TILE_SIZE_X >= COMPACT_ACTIVE_PIXELS_TILE_SIZE_Y
+  static const uint kSquareSize = COMPACT_ACTIVE_PIXELS_TILE_SIZE_Y;
+#else
+  static const uint kSquareSize = COMPACT_ACTIVE_PIXELS_TILE_SIZE_X;
+#endif
+  static const uint kSquareArea = kSquareSize * kSquareSize;
+
+  uint squareIdx = index / kSquareArea;
+  uint mortonIdx = index % kSquareArea;
+  uint2 coord = mortonDecode(mortonIdx);
+
+#if COMPACT_ACTIVE_PIXELS_TILE_SIZE_X >= COMPACT_ACTIVE_PIXELS_TILE_SIZE_Y
+  coord.x += squareIdx * kSquareSize;
+#else
+  coord.y += squareIdx * kSquareSize;
+#endif
+
+  return coord;
+}
+
+// The low byte holds x and the high byte holds y. A pixel's activity comes from the tile's active count.
+uint16_t packLocalPixelCoordinate(uint2 localPixelCoordinate)
+{
+  return uint16_t(
+    (localPixelCoordinate.x & 0xFF) |
+    ((localPixelCoordinate.y & 0xFF) << 8));
+}
+
+// A list entry holds only the pixel coordinate, because its list position is the global compacted index.
+uint packActivePixelCoordinate(uint2 pixelCoordinate)
+{
+  return (pixelCoordinate.x & 0xFFFF) | ((pixelCoordinate.y & 0xFFFF) << 16);
+}

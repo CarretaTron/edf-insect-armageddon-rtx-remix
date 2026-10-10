@@ -1,0 +1,1 @@
+[18992:3816:20261007,124309.864:FATAL exception_handler_server.cc:347] Check failed: pipe != INVALID_HANDLE_VALUE. CreateNamedPipe: Acesso negado. (5)

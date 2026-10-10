@@ -1,0 +1,99 @@
+{
+  "allThreeCompleteAndIntegral": true,
+  "totalVerifiedBlobs": 9345,
+  "windows": [
+    {
+      "capture": "1791398932979-38296-0",
+      "recordsSha256": "8d716a5b2c5a4c40b416d74587d7d99ed82ee2dfda6e637ffc12e7756d7893ff",
+      "complete": true,
+      "status": {
+        "type": "capture_status",
+        "truncated": false,
+        "reason": "",
+        "error": null,
+        "accepted_bytes": 13212963,
+        "max_bytes": 268435456,
+        "max_queue_bytes": 67108864,
+        "peak_queue_bytes": 12370284,
+        "written_records": 42698,
+        "written_blobs": 3166
+      },
+      "captureEnds": [
+        {
+          "type": "capture_end",
+          "reason": "window_complete",
+          "completedFrames": 1,
+          "selectedDraws": 224
+        }
+      ],
+      "drawCount": 224,
+      "onDiskBlobs": 3166,
+      "uniqueBlobReferences": 3166,
+      "missingPaths": [],
+      "orphanPaths": [],
+      "integrityErrors": []
+    },
+    {
+      "capture": "1791398948329-38296-1",
+      "recordsSha256": "9435ee252aad869ac1d50ee6d5bb63dada29e339f85e756bf786e2322270e901",
+      "complete": true,
+      "status": {
+        "type": "capture_status",
+        "truncated": false,
+        "reason": "",
+        "error": null,
+        "accepted_bytes": 13288102,
+        "max_bytes": 268435456,
+        "max_queue_bytes": 67108864,
+        "peak_queue_bytes": 12547500,
+        "written_records": 42867,
+        "written_blobs": 3169
+      },
+      "captureEnds": [
+        {
+          "type": "capture_end",
+          "reason": "window_complete",
+          "completedFrames": 1,
+          "selectedDraws": 224
+        }
+      ],
+      "drawCount": 224,
+      "onDiskBlobs": 3169,
+      "uniqueBlobReferences": 3169,
+      "missingPaths": [],
+      "orphanPaths": [],
+      "integrityErrors": []
+    },
+    {
+      "capture": "1791398952733-38296-2",
+      "recordsSha256": "55768098d03a3da84933d042efc3c86830cbc2578ac930406f96f2f1d6cf4312",
+      "complete": true,
+      "status": {
+        "type": "capture_status",
+        "truncated": false,
+        "reason": "",
+        "error": null,
+        "accepted_bytes": 12792806,
+        "max_bytes": 268435456,
+        "max_queue_bytes": 67108864,
+        "peak_queue_bytes": 10920155,
+        "written_records": 41574,
+        "written_blobs": 3010
+      },
+      "captureEnds": [
+        {
+          "type": "capture_end",
+          "reason": "window_complete",
+          "completedFrames": 1,
+          "selectedDraws": 209
+        }
+      ],
+      "drawCount": 209,
+      "onDiskBlobs": 3010,
+      "uniqueBlobReferences": 3010,
+      "missingPaths": [],
+      "orphanPaths": [],
+      "integrityErrors": []
+    }
+  ]
+}

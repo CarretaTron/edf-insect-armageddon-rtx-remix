@@ -1,0 +1,198 @@
+{
+  "schema": 1,
+  "generatedUtc": "2026-10-09T12:53:37.010353+00:00",
+  "scope": "read_only_differential_diagnosis_of_real_sync_validation",
+  "compositionExperimentApproved": false,
+  "codeModifiedByThisAudit": false,
+  "gpuExecutedByThisAudit": false,
+  "cases": {
+    "positive": {
+      "runtimeLog": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-sync-x86\\positive_camera0\\rtx-remix\\logs\\remix-dxvk.log",
+      "runtimeLogSha256": "e5fa8617e1e009530ac677f324128f1ab75f9bb2f4bc73187112f7419b4d0dc5",
+      "validationErrorHeaderCount": 42,
+      "validationErrorCodeCounts": {
+        "861854874": 9,
+        "-1934215230": 6,
+        "1397510317": 12,
+        "-1777306431": 7,
+        "1544472022": 4,
+        "1349015333": 3,
+        "-1360208885": 1
+      },
+      "hazards": [
+        {
+          "line": 599,
+          "code": "1544472022",
+          "message": "Code 1544472022: vkCmdBuildAccelerationStructuresKHR(): WRITE_AFTER_WRITE hazard detected. vkCmdBuildAccelerationStructuresKHR writes to scratch buffer VkBuffer 0x2f300000002f3[BVH Scratch], which was previously written by another vkCmdBuildAccelerationStructuresKHR[InjectRTX::Build Scene] command. ",
+          "normalizedMessage": "Code 1544472022: vkCmdBuildAccelerationStructuresKHR(): WRITE_AFTER_WRITE hazard detected. vkCmdBuildAccelerationStructuresKHR writes to scratch buffer VkBuffer <handle>[BVH Scratch], which was previously written by another vkCmdBuildAccelerationStructuresKHR[InjectRTX::Build Scene] command. ",
+          "vuid": []
+        },
+        {
+          "line": 670,
+          "code": "1544472022",
+          "message": "Code 1544472022: vkCmdPipelineBarrier(): WRITE_AFTER_WRITE hazard detected. vkCmdPipelineBarrier performs image layout transition on the VkImage 0x3ad00000003ad[shadow terminator fix], which was previously written by vkCmdClearColorImage[InjectRTX]. ",
+          "normalizedMessage": "Code 1544472022: vkCmdPipelineBarrier(): WRITE_AFTER_WRITE hazard detected. vkCmdPipelineBarrier performs image layout transition on the VkImage <handle>[shadow terminator fix], which was previously written by vkCmdClearColorImage[InjectRTX]. ",
+          "vuid": []
+        },
+        {
+          "line": 690,
+          "code": "1544472022",
+          "message": "Code 1544472022: vkCmdPipelineBarrier(): WRITE_AFTER_WRITE hazard detected. vkCmdPipelineBarrier performs image layout transition on the VkImage 0x3b000000003b0[shadow terminator fix], which was previously written by vkCmdClearColorImage[InjectRTX]. ",
+          "normalizedMessage": "Code 1544472022: vkCmdPipelineBarrier(): WRITE_AFTER_WRITE hazard detected. vkCmdPipelineBarrier performs image layout transition on the VkImage <handle>[shadow terminator fix], which was previously written by vkCmdClearColorImage[InjectRTX]. ",
+          "vuid": []
+        },
+        {
+          "line": 715,
+          "code": "1544472022",
+          "message": "Code 1544472022: vkCmdPipelineBarrier(): WRITE_AFTER_WRITE hazard detected. vkCmdPipelineBarrier performs image layout transition on the VkImage 0x1d200000001d2[final output], which was previously written by vkCmdCopyImage[InjectRTX::PostFx Motion Blur]. ",
+          "normalizedMessage": "Code 1544472022: vkCmdPipelineBarrier(): WRITE_AFTER_WRITE hazard detected. vkCmdPipelineBarrier performs image layout transition on the VkImage <handle>[final output], which was previously written by vkCmdCopyImage[InjectRTX::PostFx Motion Blur]. ",
+          "vuid": []
+        }
+      ],
+      "queueSubmitInvalidation": [
+        {
+          "line": 739,
+          "code": "-1360208885",
+          "message": "Code -1360208885: vkQueueSubmit(): pSubmits[0].pCommandBuffers[0] was called in VkCommandBuffer 0x1d5187aa0d0 which was recorded but now has become invalid to use because the following objects bound to the command buffer were invalidated:",
+          "normalizedMessage": "Code -1360208885: vkQueueSubmit(): pSubmits[0].pCommandBuffers[0] was called in VkCommandBuffer <handle> which was recorded but now has become invalid to use because the following objects bound to the command buffer were invalidated:",
+          "vuid": [
+            "VUID-vkQueueSubmit-pCommandBuffers-00070"
+          ]
+        }
+      ],
+      "compositionStages": [
+        {
+          "line": 735,
+          "text": "[09:48:32.991] info:  [EDF-Static-Composition] stage=preview_generated frame=1 request_id=1 camera_frame=1 current_frame_only=1 gamma_conversion=1 screenshot=0 debug_view=0 vertices=252 indices=432"
+        },
+        {
+          "line": 737,
+          "text": "[09:48:32.994] info:  [EDF-Static-Composition] stage=composition_recorded frame=1 request_id=1 present_serial=6 loop_index=0 wsi_image=2016102676064 roi=1040,800,820,200 only_wsi_written=1 game_targets_written=0 present_signal_requires_overlay=1"
+        },
+        {
+          "line": 738,
+          "text": "[09:48:32.994] info:  [EDF-Static-Composition] stage=presentation_queued frame=1 present_serial=6 loop_index=0 image_index=1 present_signal_after_overlay=1 frame_latency_after_overlay=1"
+        },
+        {
+          "line": 760,
+          "text": "[09:48:33.670] info:  [EDF-Static-Composition] stage=composition_gpu_completed frame=1 request_id=1 gpu_completed=1 composition_performed=1 outside_changed_pixels=0 inside_changed_pixels=164000 panel_mismatch_pixels=0 original_targets_unchanged=1 passed=1 output=D:/EDF IA RTX REMIX/runtime/_build/edf-composition-sync-x86/positive_camera0/probe-output\\session_1791550108244193_40620\\edf_pt_request_1_frame_1_composition.json"
+        }
+      ],
+      "synchronizationValidationErrorsInStdout": 4,
+      "synchronizationActivationEvidence": true
+    },
+    "disabled": {
+      "runtimeLog": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-sync-baseline-x86\\disabled\\rtx-remix\\logs\\remix-dxvk.log",
+      "runtimeLogSha256": "c5e2069b8f19aa7e396d619bc051e2ce84b69511e7b05148501426b74aea9810",
+      "validationErrorHeaderCount": 39,
+      "validationErrorCodeCounts": {
+        "861854874": 9,
+        "-1934215230": 5,
+        "1397510317": 12,
+        "-1777306431": 7,
+        "1349015333": 2,
+        "1544472022": 4
+      },
+      "hazards": [
+        {
+          "line": 611,
+          "code": "1544472022",
+          "message": "Code 1544472022: vkCmdBuildAccelerationStructuresKHR(): WRITE_AFTER_WRITE hazard detected. vkCmdBuildAccelerationStructuresKHR writes to scratch buffer VkBuffer 0x3130000000313[BVH Scratch], which was previously written by another vkCmdBuildAccelerationStructuresKHR[InjectRTX::Build Scene] command. ",
+          "normalizedMessage": "Code 1544472022: vkCmdBuildAccelerationStructuresKHR(): WRITE_AFTER_WRITE hazard detected. vkCmdBuildAccelerationStructuresKHR writes to scratch buffer VkBuffer <handle>[BVH Scratch], which was previously written by another vkCmdBuildAccelerationStructuresKHR[InjectRTX::Build Scene] command. ",
+          "vuid": []
+        },
+        {
+          "line": 668,
+          "code": "1544472022",
+          "message": "Code 1544472022: vkCmdPipelineBarrier(): WRITE_AFTER_WRITE hazard detected. vkCmdPipelineBarrier performs image layout transition on the VkImage 0x3a900000003a9[shadow terminator fix], which was previously written by vkCmdClearColorImage[InjectRTX]. ",
+          "normalizedMessage": "Code 1544472022: vkCmdPipelineBarrier(): WRITE_AFTER_WRITE hazard detected. vkCmdPipelineBarrier performs image layout transition on the VkImage <handle>[shadow terminator fix], which was previously written by vkCmdClearColorImage[InjectRTX]. ",
+          "vuid": []
+        },
+        {
+          "line": 688,
+          "code": "1544472022",
+          "message": "Code 1544472022: vkCmdPipelineBarrier(): WRITE_AFTER_WRITE hazard detected. vkCmdPipelineBarrier performs image layout transition on the VkImage 0x3ac00000003ac[shadow terminator fix], which was previously written by vkCmdClearColorImage[InjectRTX]. ",
+          "normalizedMessage": "Code 1544472022: vkCmdPipelineBarrier(): WRITE_AFTER_WRITE hazard detected. vkCmdPipelineBarrier performs image layout transition on the VkImage <handle>[shadow terminator fix], which was previously written by vkCmdClearColorImage[InjectRTX]. ",
+          "vuid": []
+        },
+        {
+          "line": 713,
+          "code": "1544472022",
+          "message": "Code 1544472022: vkCmdPipelineBarrier(): WRITE_AFTER_WRITE hazard detected. vkCmdPipelineBarrier performs image layout transition on the VkImage 0x1d200000001d2[final output], which was previously written by vkCmdCopyImage[InjectRTX::PostFx Motion Blur]. ",
+          "normalizedMessage": "Code 1544472022: vkCmdPipelineBarrier(): WRITE_AFTER_WRITE hazard detected. vkCmdPipelineBarrier performs image layout transition on the VkImage <handle>[final output], which was previously written by vkCmdCopyImage[InjectRTX::PostFx Motion Blur]. ",
+          "vuid": []
+        }
+      ],
+      "queueSubmitInvalidation": [],
+      "compositionStages": [],
+      "synchronizationValidationErrorsInStdout": 4,
+      "synchronizationActivationEvidence": true
+    }
+  },
+  "comparison": {
+    "positiveOnlyValidationCodes": [
+      "-1360208885"
+    ],
+    "baselineOnlyValidationCodes": [],
+    "allFourHazardsHaveIdenticalNormalizedMessagesAndCounts": true,
+    "newHazardNamesForPanelBoundsOrWSIObserved": false,
+    "baselineHasValidationErrors": true,
+    "note": "Positive has one extra DrawIndexed and one extra Draw renderpass compatibility occurrence; these are existing error patterns, not new error types. Equal hazard signatures do not prove all GPU synchronization correct."
+  },
+  "confirmedNewBlockingFailure": {
+    "code": "-1360208885",
+    "vuid": "VUID-vkQueueSubmit-pCommandBuffers-00070",
+    "positiveLogLine": 739,
+    "frame": 1,
+    "descriptorSet": "0x4de00000004de",
+    "cause": "Temporary overlayContext releases its active m_descPool after recording. allocateDescriptorSet transfers that pool to a command list only when the pool fills; the single overlay dispatch does not fill it.",
+    "sourceEvidence": [
+      {
+        "file": "runtime/src/dxvk/dxvk_context.h",
+        "line": 1279,
+        "fact": "Context owns Rc<DxvkDescriptorPool> m_descPool."
+      },
+      {
+        "file": "runtime/src/dxvk/dxvk_context.cpp",
+        "line": 5938,
+        "fact": "Pool tracking occurs only on allocation exhaustion."
+      },
+      {
+        "file": "runtime/src/dxvk/dxvk_descriptor.cpp",
+        "line": 127,
+        "fact": "Pool destructor calls vkDestroyDescriptorPool."
+      }
+    ]
+  },
+  "reviewedRootFix": {
+    "mechanism": "Final command list retains CallbackFence, whose callback captures Rc<overlayContext>. endRecording exchanges m_cmd to nullptr to break the ownership cycle. The context/pool survive until GPU fence notification.",
+    "presentInCurrentSource": true,
+    "currentSwapchainSha256": "14f26801795894463c3e8bd453edbbcec47615aa3a23d87246c8cbc04858f222",
+    "staticContractTestCount": 15,
+    "staticContractTestsPassed": true,
+    "mutationTestCoversRemovedContextCapture": true,
+    "fixedBinaryGPUValidationExecutedByThisAudit": false,
+    "requiredNextCheck": "Rebuild/repackage, rerun positive and disabled sync validation, require descriptor invalidation to disappear and compare remaining baseline hazards explicitly. Keep strict verifier rejection of Vulkan errors."
+  },
+  "baselineHazardOrigins": [
+    {
+      "resource": "BVH Scratch",
+      "count": 1,
+      "producer": "vkCmdBuildAccelerationStructuresKHR[InjectRTX::Build Scene]",
+      "hazard": "WRITE_AFTER_WRITE"
+    },
+    {
+      "resource": "shadow terminator fix",
+      "count": 2,
+      "producer": "vkCmdClearColorImage[InjectRTX]",
+      "hazard": "WRITE_AFTER_WRITE"
+    },
+    {
+      "resource": "final output",
+      "count": 1,
+      "producer": "vkCmdCopyImage[InjectRTX::PostFx Motion Blur]",
+      "hazard": "WRITE_AFTER_WRITE"
+    }
+  ],
+  "approvalLimit": "Successful readback/callback is insufficient: positive composition pixels match, but validation reports illegal descriptor lifetime and the disabled offscreen baseline also contains Vulkan errors."
+}

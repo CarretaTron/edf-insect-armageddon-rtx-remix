@@ -1,0 +1,8 @@
+{
+  "schema": 1,
+  "result": "failed",
+  "errors": [
+    "invalid literal for int() with base 0: '1raster_preserved=1'"
+  ],
+  "replayDirectory": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-static-gpu-x64-positive"
+}

@@ -1,0 +1,171 @@
+{
+  "artifacts": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf_capture_writer_tests\\artifacts\\263138956655400",
+  "parsedManifests": 11,
+  "outputs": [
+    {
+      "name": "asynchronous_failure",
+      "status": {
+        "type": "capture_status",
+        "truncated": false,
+        "reason": "",
+        "error": "Cannot write capture blob 50e83481b987ad66c417d6b8fecf46e3d46210a3",
+        "accepted_bytes": 15,
+        "max_bytes": 268435456,
+        "max_queue_bytes": 16777216,
+        "peak_queue_bytes": 143,
+        "written_records": 0,
+        "written_blobs": 0
+      }
+    },
+    {
+      "name": "blob_queue_limit",
+      "status": {
+        "type": "capture_status",
+        "truncated": true,
+        "reason": "queue_limit",
+        "error": null,
+        "accepted_bytes": 0,
+        "max_bytes": 268435456,
+        "max_queue_bytes": 16777216,
+        "peak_queue_bytes": 0,
+        "written_records": 0,
+        "written_blobs": 0
+      }
+    },
+    {
+      "name": "byte_limit",
+      "status": {
+        "type": "capture_status",
+        "truncated": true,
+        "reason": "byte_limit",
+        "error": null,
+        "accepted_bytes": 24,
+        "max_bytes": 2048,
+        "max_queue_bytes": 16777216,
+        "peak_queue_bytes": 111,
+        "written_records": 1,
+        "written_blobs": 0
+      }
+    },
+    {
+      "name": "concurrent",
+      "status": {
+        "type": "capture_status",
+        "truncated": false,
+        "reason": "",
+        "error": null,
+        "accepted_bytes": 25566,
+        "max_bytes": 268435456,
+        "max_queue_bytes": 16777216,
+        "peak_queue_bytes": 64253,
+        "written_records": 1000,
+        "written_blobs": 1
+      }
+    },
+    {
+      "name": "dedup",
+      "status": {
+        "type": "capture_status",
+        "truncated": false,
+        "reason": "",
+        "error": null,
+        "accepted_bytes": 100,
+        "max_bytes": 268435456,
+        "max_queue_bytes": 16777216,
+        "peak_queue_bytes": 443,
+        "written_records": 1,
+        "written_blobs": 2
+      }
+    },
+    {
+      "name": "default_queue_20mib",
+      "status": {
+        "type": "capture_status",
+        "truncated": true,
+        "reason": "queue_limit",
+        "error": null,
+        "accepted_bytes": 0,
+        "max_bytes": 268435456,
+        "max_queue_bytes": 16777216,
+        "peak_queue_bytes": 0,
+        "written_records": 0,
+        "written_blobs": 0
+      }
+    },
+    {
+      "name": "large_queue_small_disk",
+      "status": {
+        "type": "capture_status",
+        "truncated": true,
+        "reason": "byte_limit",
+        "error": null,
+        "accepted_bytes": 0,
+        "max_bytes": 8388608,
+        "max_queue_bytes": 67108864,
+        "peak_queue_bytes": 0,
+        "written_records": 0,
+        "written_blobs": 0
+      }
+    },
+    {
+      "name": "line_break",
+      "status": {
+        "type": "capture_status",
+        "truncated": false,
+        "reason": "",
+        "error": "JSONL record is empty or contains an unescaped line break",
+        "accepted_bytes": 0,
+        "max_bytes": 268435456,
+        "max_queue_bytes": 16777216,
+        "peak_queue_bytes": 0,
+        "written_records": 0,
+        "written_blobs": 0
+      }
+    },
+    {
+      "name": "null_payload",
+      "status": {
+        "type": "capture_status",
+        "truncated": false,
+        "reason": "",
+        "error": "Blob payload is null",
+        "accepted_bytes": 0,
+        "max_bytes": 268435456,
+        "max_queue_bytes": 16777216,
+        "peak_queue_bytes": 0,
+        "written_records": 0,
+        "written_blobs": 0
+      }
+    },
+    {
+      "name": "queue_64mib",
+      "status": {
+        "type": "capture_status",
+        "truncated": false,
+        "reason": "",
+        "error": null,
+        "accepted_bytes": 20971548,
+        "max_bytes": 268435456,
+        "max_queue_bytes": 67108864,
+        "peak_queue_bytes": 20971763,
+        "written_records": 1,
+        "written_blobs": 1
+      }
+    },
+    {
+      "name": "queue_limit",
+      "status": {
+        "type": "capture_status",
+        "truncated": true,
+        "reason": "queue_limit",
+        "error": null,
+        "accepted_bytes": 24,
+        "max_bytes": 268435456,
+        "max_queue_bytes": 16777216,
+        "peak_queue_bytes": 111,
+        "written_records": 1,
+        "written_blobs": 0
+      }
+    }
+  ]
+}

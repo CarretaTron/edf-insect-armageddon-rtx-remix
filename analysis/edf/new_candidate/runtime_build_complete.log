@@ -1,0 +1,20 @@
+ninja: Entering directory `D:/EDF IA RTX REMIX/runtime/_CompDebugOptimized_x64'
+[1/33] Generating version.h with a custom command
+[2/28] Generating src/d3d9/version.rc with a custom command
+[3/27] Compiling C++ object tests/rtx/unit/test_rtx_option.exe.p/test_rtx_option.cpp.obj
+[4/27] Compiling C++ object tests/rtx/unit/test_option_layer_export.exe.p/test_option_layer_export.cpp.obj
+[5/27] Compiling C++ object tests/rtx/unit/test_transform_components.exe.p/test_transform_components.cpp.obj
+[6/27] Generating src/dxvk/rtx_shaders with a custom command
+[7/27] Compiling C++ object tests/rtx/unit/test_preserved_object_picking.exe.p/test_preserved_object_picking.cpp.obj
+[8/27] Linking target tests/rtx/unit/fastop_minmax.exe
+[9/27] Linking target tests/rtx/unit/fastop_copysubtract.exe
+[10/27] Linking target tests/rtx/unit/fastop_parallelmemcpy.exe
+[11/27] Linking target tests/rtx/unit/test_intersection_helper_sat.exe
+[12/27] Linking target tests/rtx/unit/test_pnext.exe
+[13/27] Linking target tests/rtx/unit/util_threadpool.exe
+[14/27] Linking target tests/rtx/unit/test_f16tof32.exe
+[15/27] Linking target tests/rtx/unit/test_spatial_map.exe
+Activating VS 17.14.41 (September 2026)
+INFO: automatically activated MSVC compiler environment
+INFO: autodetecting backend as ninja
+INFO: calculating backend command to run: "D:\EDF IA RTX REMIX\.tools\build-python\Scripts\ninja.exe" -C "D:/EDF IA RTX REMIX/runtime/_CompDebugOptimized_x64" -j 4

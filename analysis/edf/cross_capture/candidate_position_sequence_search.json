@@ -1,0 +1,110 @@
+[
+  {
+    "capture": "1791384430306-28796-6",
+    "draw": 56,
+    "frame": 7572,
+    "vs": "100fb804e4cbe4eec5bd02fe9a604bd4c5ede30d",
+    "ps": "6bfe7adb3a8cae9fd4248c2fd2c5174095019411",
+    "stream": 0,
+    "blob": {
+      "hash": "c494580e5b4cd375e416dcd0c807a23344ac3c74",
+      "path": "blobs/c494580e5b4cd375e416dcd0c807a23344ac3c74.bin",
+      "size": 672,
+      "byteOffset": 17976,
+      "available": true
+    },
+    "needleByteOffset": 0,
+    "args": {
+      "primitiveType": 4,
+      "primitiveCount": 56,
+      "baseVertexIndex": 0,
+      "startVertex": 0,
+      "minVertexIndex": 0,
+      "numVertices": 84,
+      "startIndex": 4728,
+      "indexed": true,
+      "elementCount": 168
+    }
+  },
+  {
+    "capture": "1791384430306-28796-6",
+    "draw": 284,
+    "frame": 7572,
+    "vs": "f098f457d9ae603bea5f84ec985d473c29cfb0c9",
+    "ps": "44b92a29eb3e5f2ee6d53f02e14fb11a01511da8",
+    "stream": 2,
+    "blob": {
+      "hash": "c494580e5b4cd375e416dcd0c807a23344ac3c74",
+      "path": "blobs/c494580e5b4cd375e416dcd0c807a23344ac3c74.bin",
+      "size": 672,
+      "byteOffset": 17976,
+      "available": true
+    },
+    "needleByteOffset": 0,
+    "args": {
+      "primitiveType": 4,
+      "primitiveCount": 56,
+      "baseVertexIndex": 0,
+      "startVertex": 0,
+      "minVertexIndex": 0,
+      "numVertices": 84,
+      "startIndex": 4728,
+      "indexed": true,
+      "elementCount": 168
+    }
+  },
+  {
+    "capture": "1791384433361-28796-7",
+    "draw": 56,
+    "frame": 7644,
+    "vs": "100fb804e4cbe4eec5bd02fe9a604bd4c5ede30d",
+    "ps": "6bfe7adb3a8cae9fd4248c2fd2c5174095019411",
+    "stream": 0,
+    "blob": {
+      "hash": "c494580e5b4cd375e416dcd0c807a23344ac3c74",
+      "path": "blobs/c494580e5b4cd375e416dcd0c807a23344ac3c74.bin",
+      "size": 672,
+      "byteOffset": 17976,
+      "available": true
+    },
+    "needleByteOffset": 0,
+    "args": {
+      "primitiveType": 4,
+      "primitiveCount": 56,
+      "baseVertexIndex": 0,
+      "startVertex": 0,
+      "minVertexIndex": 0,
+      "numVertices": 84,
+      "startIndex": 4728,
+      "indexed": true,
+      "elementCount": 168
+    }
+  },
+  {
+    "capture": "1791384433361-28796-7",
+    "draw": 281,
+    "frame": 7644,
+    "vs": "f098f457d9ae603bea5f84ec985d473c29cfb0c9",
+    "ps": "44b92a29eb3e5f2ee6d53f02e14fb11a01511da8",
+    "stream": 2,
+    "blob": {
+      "hash": "c494580e5b4cd375e416dcd0c807a23344ac3c74",
+      "path": "blobs/c494580e5b4cd375e416dcd0c807a23344ac3c74.bin",
+      "size": 672,
+      "byteOffset": 17976,
+      "available": true
+    },
+    "needleByteOffset": 0,
+    "args": {
+      "primitiveType": 4,
+      "primitiveCount": 56,
+      "baseVertexIndex": 0,
+      "startVertex": 0,
+      "minVertexIndex": 0,
+      "numVertices": 84,
+      "startIndex": 4728,
+      "indexed": true,
+      "elementCount": 168
+    }
+  }
+]

@@ -1,0 +1,694 @@
+[
+  {
+    "capture": "1791384430306-28796-6",
+    "frame": 7572,
+    "targetTransitions": [
+      {
+        "draw": 0,
+        "targets": [
+          {
+            "resource": 4818,
+            "format": 114,
+            "width": 1920,
+            "height": 1080,
+            "backBuffer": false
+          },
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "draw": 228,
+        "targets": [
+          {
+            "resource": 4831,
+            "format": 21,
+            "width": 1920,
+            "height": 1080,
+            "backBuffer": false
+          },
+          {
+            "resource": 4832,
+            "format": 21,
+            "width": 1920,
+            "height": 1080,
+            "backBuffer": false
+          },
+          {
+            "resource": 4833,
+            "format": 21,
+            "width": 1920,
+            "height": 1080,
+            "backBuffer": false
+          },
+          null
+        ]
+      },
+      {
+        "draw": 475,
+        "targets": [
+          {
+            "resource": 5000,
+            "format": 21,
+            "width": 512,
+            "height": 512,
+            "backBuffer": false
+          },
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "draw": 628,
+        "targets": [
+          {
+            "resource": 627,
+            "format": 21,
+            "width": 1920,
+            "height": 1080,
+            "backBuffer": true
+          },
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "draw": 629,
+        "targets": [
+          {
+            "resource": 5005,
+            "format": 113,
+            "width": 960,
+            "height": 540,
+            "backBuffer": false
+          },
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "draw": 630,
+        "targets": [
+          {
+            "resource": 5006,
+            "format": 21,
+            "width": 960,
+            "height": 540,
+            "backBuffer": false
+          },
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "draw": 631,
+        "targets": [
+          {
+            "resource": 5008,
+            "format": 21,
+            "width": 960,
+            "height": 540,
+            "backBuffer": false
+          },
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "draw": 632,
+        "targets": [
+          {
+            "resource": 5009,
+            "format": 21,
+            "width": 960,
+            "height": 540,
+            "backBuffer": false
+          },
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "draw": 633,
+        "targets": [
+          {
+            "resource": 627,
+            "format": 21,
+            "width": 1920,
+            "height": 1080,
+            "backBuffer": true
+          },
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "draw": 639,
+        "targets": [
+          {
+            "resource": 5009,
+            "format": 21,
+            "width": 960,
+            "height": 540,
+            "backBuffer": false
+          },
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "draw": 640,
+        "targets": [
+          {
+            "resource": 5008,
+            "format": 21,
+            "width": 960,
+            "height": 540,
+            "backBuffer": false
+          },
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "draw": 641,
+        "targets": [
+          {
+            "resource": 5006,
+            "format": 21,
+            "width": 960,
+            "height": 540,
+            "backBuffer": false
+          },
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "draw": 642,
+        "targets": [
+          {
+            "resource": 5024,
+            "format": 21,
+            "width": 480,
+            "height": 270,
+            "backBuffer": false
+          },
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "draw": 643,
+        "targets": [
+          {
+            "resource": 5025,
+            "format": 21,
+            "width": 480,
+            "height": 270,
+            "backBuffer": false
+          },
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "draw": 644,
+        "targets": [
+          {
+            "resource": 5026,
+            "format": 21,
+            "width": 240,
+            "height": 135,
+            "backBuffer": false
+          },
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "draw": 645,
+        "targets": [
+          {
+            "resource": 5027,
+            "format": 21,
+            "width": 240,
+            "height": 135,
+            "backBuffer": false
+          },
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "draw": 646,
+        "targets": [
+          {
+            "resource": 5028,
+            "format": 21,
+            "width": 120,
+            "height": 67,
+            "backBuffer": false
+          },
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "draw": 647,
+        "targets": [
+          {
+            "resource": 5029,
+            "format": 21,
+            "width": 120,
+            "height": 67,
+            "backBuffer": false
+          },
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "draw": 648,
+        "targets": [
+          {
+            "resource": 627,
+            "format": 21,
+            "width": 1920,
+            "height": 1080,
+            "backBuffer": true
+          },
+          null,
+          null,
+          null
+        ]
+      }
+    ],
+    "mrtConsumers": [
+      {
+        "draw": 630,
+        "pixelShader": "a30b7a7e81cf0f95b99c3f36be717e82ab1751fd",
+        "vertexShader": "a084d603cbc8ea4af0b208b5b46375c0899b0aad",
+        "targets": [
+          5006,
+          null,
+          null,
+          null
+        ],
+        "usedSamplers": {
+          "0": 5005,
+          "1": 5007,
+          "2": 4833
+        }
+      },
+      {
+        "draw": 633,
+        "pixelShader": "f6ec35294efe3e2709d71ec792c3d46a54dc16ea",
+        "vertexShader": "54423df303ffd9bcc2df3dbcbef3c0f09509e55d",
+        "targets": [
+          627,
+          null,
+          null,
+          null
+        ],
+        "usedSamplers": {
+          "0": 5009,
+          "1": 5001,
+          "2": 5002,
+          "3": 5003,
+          "4": 5004,
+          "5": 4831,
+          "6": 4832,
+          "7": 4833,
+          "8": 4818
+        }
+      }
+    ],
+    "limitations": [
+      "Only recorded draw bindings; resource copies and actual texture contents are not inferred."
+    ]
+  },
+  {
+    "capture": "1791384433361-28796-7",
+    "frame": 7644,
+    "targetTransitions": [
+      {
+        "draw": 0,
+        "targets": [
+          {
+            "resource": 4818,
+            "format": 114,
+            "width": 1920,
+            "height": 1080,
+            "backBuffer": false
+          },
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "draw": 225,
+        "targets": [
+          {
+            "resource": 4831,
+            "format": 21,
+            "width": 1920,
+            "height": 1080,
+            "backBuffer": false
+          },
+          {
+            "resource": 4832,
+            "format": 21,
+            "width": 1920,
+            "height": 1080,
+            "backBuffer": false
+          },
+          {
+            "resource": 4833,
+            "format": 21,
+            "width": 1920,
+            "height": 1080,
+            "backBuffer": false
+          },
+          null
+        ]
+      },
+      {
+        "draw": 469,
+        "targets": [
+          {
+            "resource": 5000,
+            "format": 21,
+            "width": 512,
+            "height": 512,
+            "backBuffer": false
+          },
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "draw": 644,
+        "targets": [
+          {
+            "resource": 627,
+            "format": 21,
+            "width": 1920,
+            "height": 1080,
+            "backBuffer": true
+          },
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "draw": 645,
+        "targets": [
+          {
+            "resource": 5005,
+            "format": 113,
+            "width": 960,
+            "height": 540,
+            "backBuffer": false
+          },
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "draw": 646,
+        "targets": [
+          {
+            "resource": 5006,
+            "format": 21,
+            "width": 960,
+            "height": 540,
+            "backBuffer": false
+          },
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "draw": 647,
+        "targets": [
+          {
+            "resource": 5008,
+            "format": 21,
+            "width": 960,
+            "height": 540,
+            "backBuffer": false
+          },
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "draw": 648,
+        "targets": [
+          {
+            "resource": 5009,
+            "format": 21,
+            "width": 960,
+            "height": 540,
+            "backBuffer": false
+          },
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "draw": 649,
+        "targets": [
+          {
+            "resource": 627,
+            "format": 21,
+            "width": 1920,
+            "height": 1080,
+            "backBuffer": true
+          },
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "draw": 657,
+        "targets": [
+          {
+            "resource": 5009,
+            "format": 21,
+            "width": 960,
+            "height": 540,
+            "backBuffer": false
+          },
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "draw": 658,
+        "targets": [
+          {
+            "resource": 5008,
+            "format": 21,
+            "width": 960,
+            "height": 540,
+            "backBuffer": false
+          },
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "draw": 659,
+        "targets": [
+          {
+            "resource": 5006,
+            "format": 21,
+            "width": 960,
+            "height": 540,
+            "backBuffer": false
+          },
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "draw": 660,
+        "targets": [
+          {
+            "resource": 5024,
+            "format": 21,
+            "width": 480,
+            "height": 270,
+            "backBuffer": false
+          },
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "draw": 661,
+        "targets": [
+          {
+            "resource": 5025,
+            "format": 21,
+            "width": 480,
+            "height": 270,
+            "backBuffer": false
+          },
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "draw": 662,
+        "targets": [
+          {
+            "resource": 5026,
+            "format": 21,
+            "width": 240,
+            "height": 135,
+            "backBuffer": false
+          },
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "draw": 663,
+        "targets": [
+          {
+            "resource": 5027,
+            "format": 21,
+            "width": 240,
+            "height": 135,
+            "backBuffer": false
+          },
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "draw": 664,
+        "targets": [
+          {
+            "resource": 5028,
+            "format": 21,
+            "width": 120,
+            "height": 67,
+            "backBuffer": false
+          },
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "draw": 665,
+        "targets": [
+          {
+            "resource": 5029,
+            "format": 21,
+            "width": 120,
+            "height": 67,
+            "backBuffer": false
+          },
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "draw": 666,
+        "targets": [
+          {
+            "resource": 627,
+            "format": 21,
+            "width": 1920,
+            "height": 1080,
+            "backBuffer": true
+          },
+          null,
+          null,
+          null
+        ]
+      }
+    ],
+    "mrtConsumers": [
+      {
+        "draw": 646,
+        "pixelShader": "a30b7a7e81cf0f95b99c3f36be717e82ab1751fd",
+        "vertexShader": "a084d603cbc8ea4af0b208b5b46375c0899b0aad",
+        "targets": [
+          5006,
+          null,
+          null,
+          null
+        ],
+        "usedSamplers": {
+          "0": 5005,
+          "1": 5007,
+          "2": 4833
+        }
+      },
+      {
+        "draw": 649,
+        "pixelShader": "f6ec35294efe3e2709d71ec792c3d46a54dc16ea",
+        "vertexShader": "54423df303ffd9bcc2df3dbcbef3c0f09509e55d",
+        "targets": [
+          627,
+          null,
+          null,
+          null
+        ],
+        "usedSamplers": {
+          "0": 5009,
+          "1": 5001,
+          "2": 5002,
+          "3": 5003,
+          "4": 5004,
+          "5": 4831,
+          "6": 4832,
+          "7": 4833,
+          "8": 4818
+        }
+      }
+    ],
+    "limitations": [
+      "Only recorded draw bindings; resource copies and actual texture contents are not inferred."
+    ]
+  }
+]

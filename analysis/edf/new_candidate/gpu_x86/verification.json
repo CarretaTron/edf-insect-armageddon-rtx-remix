@@ -1,0 +1,843 @@
+{
+  "schema": 1,
+  "result": "passed",
+  "errors": [],
+  "runtimeBinary": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-static-gpu-x86-positive\\.trex\\d3d9.dll",
+  "runtimeSha256": "7b8ab28eee0838ee2e9e018663e7f911df6d311d7b25437587fb5cffc7cdb98d",
+  "runtimeSize": 188300800,
+  "runtimeProvenance": {
+    "available": true,
+    "transport": "x86_bridge_x64_runtime",
+    "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-static-gpu-x86-positive\\.trex\\d3d9.dll",
+    "measurement": "replay_directory_binary_after_execution",
+    "reason": null
+  },
+  "fixtureOnly": false,
+  "notGpuEvidence": false,
+  "evidenceKind": "controlled_runtime_replay",
+  "replayDirectory": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-static-gpu-x86-positive",
+  "traceId": "0x4544465354415449",
+  "replayReport": {
+    "result": "passed",
+    "frames": 3,
+    "hresultChecks": 842,
+    "syntheticTextures": true,
+    "RTXStages": "verify_runtime_logs_separately"
+  },
+  "runtimeFrameOffset": 0,
+  "captureFrameOffset": 0,
+  "sourceFrameMapping": {
+    "0": 755,
+    "1": 1182,
+    "2": 1292
+  },
+  "captures": [
+    {
+      "records": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-static-gpu-x86-positive\\captures\\1791422096302-38756-0\\records.jsonl",
+      "frames": [
+        0,
+        1,
+        2
+      ],
+      "status": {
+        "type": "capture_status",
+        "truncated": false,
+        "reason": "",
+        "error": null,
+        "accepted_bytes": 175723,
+        "max_bytes": 268435456,
+        "max_queue_bytes": 67108864,
+        "peak_queue_bytes": 45542,
+        "written_records": 508,
+        "written_blobs": 25
+      },
+      "end": {
+        "type": "capture_end",
+        "reason": "window_complete",
+        "completedFrames": 3,
+        "selectedDraws": 6
+      },
+      "writtenBlobs": 25,
+      "referencedBlobs": 25
+    }
+  ],
+  "negativeAndPositiveControls": [
+    {
+      "frame": 0,
+      "observerFrame": 0,
+      "sourceFrame": 755,
+      "negative": {
+        "frame": 0,
+        "draw": 0,
+        "api": "DrawIndexedPrimitive",
+        "args": {
+          "primitiveType": 4,
+          "primitiveCount": 144,
+          "baseVertexIndex": 0,
+          "startVertex": 0,
+          "minVertexIndex": 0,
+          "numVertices": 882,
+          "startIndex": 0,
+          "indexed": true,
+          "elementCount": 432
+        },
+        "inputRangeValid": true,
+        "flags": 6,
+        "positionSha1": "112beb46be05535b52f651646ef67706ed6b69f6",
+        "streamSha1": {
+          "0": "392f544f133f951dea21d8177cf549c553608827",
+          "1": "7c6fcffa660096291a371651cd73a85bfa5aa1ce",
+          "2": "112beb46be05535b52f651646ef67706ed6b69f6",
+          "3": "d6b757b9a822e87a7983c8dca148d55ff813ed77",
+          "4": "f4d8a45daf8dcb614756f4bbd45a13d18e390b49"
+        },
+        "indexSha1": "2ecc0d2d1046f418d56ea51bbcca29579a04a937",
+        "vertexShader": "f098f457d9ae603bea5f84ec985d473c29cfb0c9",
+        "pixelShader": "44b92a29eb3e5f2ee6d53f02e14fb11a01511da8",
+        "vsFloatConstantsSha1": "8efec5f4f679852fa8bc047f30d22ae1656e392a",
+        "psFloatConstantsSha1": "f7d6a527de811abbd97b780dbd610ce00db918d7",
+        "decisions": [
+          "used vertex attribute content does not match the single allowed mesh"
+        ],
+        "geometry": {
+          "indexed": true,
+          "elementCount": 432,
+          "indexWidth": 2,
+          "rawMinimum": 630,
+          "rawMaximum": 881,
+          "effectiveMinimum": 630,
+          "effectiveMaximum": 881,
+          "baseVertexIndex": 0,
+          "declaredIndexRangeValid": true,
+          "uniqueVertexCount": 252,
+          "bounds": null,
+          "instanced": false,
+          "errors": [],
+          "warnings": [],
+          "validCapturedRanges": true
+        },
+        "capture": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-static-gpu-x86-positive\\captures\\1791422096302-38756-0"
+      },
+      "positive": {
+        "frame": 0,
+        "draw": 1,
+        "api": "DrawIndexedPrimitive",
+        "args": {
+          "primitiveType": 4,
+          "primitiveCount": 144,
+          "baseVertexIndex": 0,
+          "startVertex": 0,
+          "minVertexIndex": 0,
+          "numVertices": 882,
+          "startIndex": 0,
+          "indexed": true,
+          "elementCount": 432
+        },
+        "inputRangeValid": true,
+        "flags": 7,
+        "positionSha1": "f3ddbe4c53df3aea29e2cad8d305844c95c7dc4c",
+        "streamSha1": {
+          "0": "392f544f133f951dea21d8177cf549c553608827",
+          "1": "7c6fcffa660096291a371651cd73a85bfa5aa1ce",
+          "2": "f3ddbe4c53df3aea29e2cad8d305844c95c7dc4c",
+          "3": "d6b757b9a822e87a7983c8dca148d55ff813ed77",
+          "4": "f4d8a45daf8dcb614756f4bbd45a13d18e390b49"
+        },
+        "indexSha1": "2ecc0d2d1046f418d56ea51bbcca29579a04a937",
+        "vertexShader": "f098f457d9ae603bea5f84ec985d473c29cfb0c9",
+        "pixelShader": "44b92a29eb3e5f2ee6d53f02e14fb11a01511da8",
+        "vsFloatConstantsSha1": "8efec5f4f679852fa8bc047f30d22ae1656e392a",
+        "psFloatConstantsSha1": "f7d6a527de811abbd97b780dbd610ce00db918d7",
+        "decisions": [],
+        "geometry": {
+          "indexed": true,
+          "elementCount": 432,
+          "indexWidth": 2,
+          "rawMinimum": 630,
+          "rawMaximum": 881,
+          "effectiveMinimum": 630,
+          "effectiveMaximum": 881,
+          "baseVertexIndex": 0,
+          "declaredIndexRangeValid": true,
+          "uniqueVertexCount": 252,
+          "bounds": null,
+          "instanced": false,
+          "errors": [],
+          "warnings": [],
+          "validCapturedRanges": true
+        },
+        "capture": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-static-gpu-x86-positive\\captures\\1791422096302-38756-0"
+      }
+    },
+    {
+      "frame": 1,
+      "observerFrame": 1,
+      "sourceFrame": 1182,
+      "negative": {
+        "frame": 1,
+        "draw": 0,
+        "api": "DrawIndexedPrimitive",
+        "args": {
+          "primitiveType": 4,
+          "primitiveCount": 144,
+          "baseVertexIndex": 0,
+          "startVertex": 0,
+          "minVertexIndex": 0,
+          "numVertices": 882,
+          "startIndex": 0,
+          "indexed": true,
+          "elementCount": 432
+        },
+        "inputRangeValid": true,
+        "flags": 6,
+        "positionSha1": "112beb46be05535b52f651646ef67706ed6b69f6",
+        "streamSha1": {
+          "0": "392f544f133f951dea21d8177cf549c553608827",
+          "1": "7c6fcffa660096291a371651cd73a85bfa5aa1ce",
+          "2": "112beb46be05535b52f651646ef67706ed6b69f6",
+          "3": "d6b757b9a822e87a7983c8dca148d55ff813ed77",
+          "4": "f4d8a45daf8dcb614756f4bbd45a13d18e390b49"
+        },
+        "indexSha1": "2ecc0d2d1046f418d56ea51bbcca29579a04a937",
+        "vertexShader": "f098f457d9ae603bea5f84ec985d473c29cfb0c9",
+        "pixelShader": "44b92a29eb3e5f2ee6d53f02e14fb11a01511da8",
+        "vsFloatConstantsSha1": "4197781f14e595d6b7def6b2c290691b7cade10c",
+        "psFloatConstantsSha1": "778ddec2cebdb665892542d40ff0e147edd18638",
+        "decisions": [
+          "used vertex attribute content does not match the single allowed mesh"
+        ],
+        "geometry": {
+          "indexed": true,
+          "elementCount": 432,
+          "indexWidth": 2,
+          "rawMinimum": 630,
+          "rawMaximum": 881,
+          "effectiveMinimum": 630,
+          "effectiveMaximum": 881,
+          "baseVertexIndex": 0,
+          "declaredIndexRangeValid": true,
+          "uniqueVertexCount": 252,
+          "bounds": null,
+          "instanced": false,
+          "errors": [],
+          "warnings": [],
+          "validCapturedRanges": true
+        },
+        "capture": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-static-gpu-x86-positive\\captures\\1791422096302-38756-0"
+      },
+      "positive": {
+        "frame": 1,
+        "draw": 1,
+        "api": "DrawIndexedPrimitive",
+        "args": {
+          "primitiveType": 4,
+          "primitiveCount": 144,
+          "baseVertexIndex": 0,
+          "startVertex": 0,
+          "minVertexIndex": 0,
+          "numVertices": 882,
+          "startIndex": 0,
+          "indexed": true,
+          "elementCount": 432
+        },
+        "inputRangeValid": true,
+        "flags": 7,
+        "positionSha1": "f3ddbe4c53df3aea29e2cad8d305844c95c7dc4c",
+        "streamSha1": {
+          "0": "392f544f133f951dea21d8177cf549c553608827",
+          "1": "7c6fcffa660096291a371651cd73a85bfa5aa1ce",
+          "2": "f3ddbe4c53df3aea29e2cad8d305844c95c7dc4c",
+          "3": "d6b757b9a822e87a7983c8dca148d55ff813ed77",
+          "4": "f4d8a45daf8dcb614756f4bbd45a13d18e390b49"
+        },
+        "indexSha1": "2ecc0d2d1046f418d56ea51bbcca29579a04a937",
+        "vertexShader": "f098f457d9ae603bea5f84ec985d473c29cfb0c9",
+        "pixelShader": "44b92a29eb3e5f2ee6d53f02e14fb11a01511da8",
+        "vsFloatConstantsSha1": "4197781f14e595d6b7def6b2c290691b7cade10c",
+        "psFloatConstantsSha1": "778ddec2cebdb665892542d40ff0e147edd18638",
+        "decisions": [],
+        "geometry": {
+          "indexed": true,
+          "elementCount": 432,
+          "indexWidth": 2,
+          "rawMinimum": 630,
+          "rawMaximum": 881,
+          "effectiveMinimum": 630,
+          "effectiveMaximum": 881,
+          "baseVertexIndex": 0,
+          "declaredIndexRangeValid": true,
+          "uniqueVertexCount": 252,
+          "bounds": null,
+          "instanced": false,
+          "errors": [],
+          "warnings": [],
+          "validCapturedRanges": true
+        },
+        "capture": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-static-gpu-x86-positive\\captures\\1791422096302-38756-0"
+      }
+    },
+    {
+      "frame": 2,
+      "observerFrame": 2,
+      "sourceFrame": 1292,
+      "negative": {
+        "frame": 2,
+        "draw": 0,
+        "api": "DrawIndexedPrimitive",
+        "args": {
+          "primitiveType": 4,
+          "primitiveCount": 144,
+          "baseVertexIndex": 0,
+          "startVertex": 0,
+          "minVertexIndex": 0,
+          "numVertices": 882,
+          "startIndex": 0,
+          "indexed": true,
+          "elementCount": 432
+        },
+        "inputRangeValid": true,
+        "flags": 6,
+        "positionSha1": "112beb46be05535b52f651646ef67706ed6b69f6",
+        "streamSha1": {
+          "0": "392f544f133f951dea21d8177cf549c553608827",
+          "1": "7c6fcffa660096291a371651cd73a85bfa5aa1ce",
+          "2": "112beb46be05535b52f651646ef67706ed6b69f6",
+          "3": "d6b757b9a822e87a7983c8dca148d55ff813ed77",
+          "4": "f4d8a45daf8dcb614756f4bbd45a13d18e390b49"
+        },
+        "indexSha1": "2ecc0d2d1046f418d56ea51bbcca29579a04a937",
+        "vertexShader": "f098f457d9ae603bea5f84ec985d473c29cfb0c9",
+        "pixelShader": "44b92a29eb3e5f2ee6d53f02e14fb11a01511da8",
+        "vsFloatConstantsSha1": "b9a8904201959c76e13e822372fd8bf1c902f774",
+        "psFloatConstantsSha1": "f7eb6821329405149ac4e0a24923b22d944f0ea5",
+        "decisions": [
+          "used vertex attribute content does not match the single allowed mesh"
+        ],
+        "geometry": {
+          "indexed": true,
+          "elementCount": 432,
+          "indexWidth": 2,
+          "rawMinimum": 630,
+          "rawMaximum": 881,
+          "effectiveMinimum": 630,
+          "effectiveMaximum": 881,
+          "baseVertexIndex": 0,
+          "declaredIndexRangeValid": true,
+          "uniqueVertexCount": 252,
+          "bounds": null,
+          "instanced": false,
+          "errors": [],
+          "warnings": [],
+          "validCapturedRanges": true
+        },
+        "capture": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-static-gpu-x86-positive\\captures\\1791422096302-38756-0"
+      },
+      "positive": {
+        "frame": 2,
+        "draw": 1,
+        "api": "DrawIndexedPrimitive",
+        "args": {
+          "primitiveType": 4,
+          "primitiveCount": 144,
+          "baseVertexIndex": 0,
+          "startVertex": 0,
+          "minVertexIndex": 0,
+          "numVertices": 882,
+          "startIndex": 0,
+          "indexed": true,
+          "elementCount": 432
+        },
+        "inputRangeValid": true,
+        "flags": 7,
+        "positionSha1": "f3ddbe4c53df3aea29e2cad8d305844c95c7dc4c",
+        "streamSha1": {
+          "0": "392f544f133f951dea21d8177cf549c553608827",
+          "1": "7c6fcffa660096291a371651cd73a85bfa5aa1ce",
+          "2": "f3ddbe4c53df3aea29e2cad8d305844c95c7dc4c",
+          "3": "d6b757b9a822e87a7983c8dca148d55ff813ed77",
+          "4": "f4d8a45daf8dcb614756f4bbd45a13d18e390b49"
+        },
+        "indexSha1": "2ecc0d2d1046f418d56ea51bbcca29579a04a937",
+        "vertexShader": "f098f457d9ae603bea5f84ec985d473c29cfb0c9",
+        "pixelShader": "44b92a29eb3e5f2ee6d53f02e14fb11a01511da8",
+        "vsFloatConstantsSha1": "b9a8904201959c76e13e822372fd8bf1c902f774",
+        "psFloatConstantsSha1": "f7eb6821329405149ac4e0a24923b22d944f0ea5",
+        "decisions": [],
+        "geometry": {
+          "indexed": true,
+          "elementCount": 432,
+          "indexWidth": 2,
+          "rawMinimum": 630,
+          "rawMaximum": 881,
+          "effectiveMinimum": 630,
+          "effectiveMaximum": 881,
+          "baseVertexIndex": 0,
+          "declaredIndexRangeValid": true,
+          "uniqueVertexCount": 252,
+          "bounds": null,
+          "instanced": false,
+          "errors": [],
+          "warnings": [],
+          "validCapturedRanges": true
+        },
+        "capture": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-static-gpu-x86-positive\\captures\\1791422096302-38756-0"
+      }
+    }
+  ],
+  "frameEvidence": [
+    {
+      "frame": 0,
+      "sourceFrame": 755,
+      "recognized": [
+        {
+          "frame": 0,
+          "trace": 4991191610743149641,
+          "stage": "recognized",
+          "fields": {
+            "trace": "0x4544465354415449",
+            "stage": "recognized",
+            "frame": "0",
+            "profile": "edf-static-925aa18481228b01392a574dbe28ba4e21aa1616",
+            "draw": "1",
+            "vs": "f098f457d9ae603bea5f84ec985d473c29cfb0c9",
+            "ps": "44b92a29eb3e5f2ee6d53f02e14fb11a01511da8",
+            "preserve_raster": "true"
+          },
+          "file": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-static-gpu-x86-positive\\rtx-remix\\logs\\remix-dxvk.log",
+          "line": 459
+        }
+      ],
+      "raster_geometry": [
+        {
+          "frame": 0,
+          "trace": 4991191610743149641,
+          "stage": "raster_geometry",
+          "fields": {
+            "trace": "0x4544465354415449",
+            "stage": "raster_geometry",
+            "frame": "0",
+            "vertices": "252",
+            "indices": "432",
+            "position": "FLOAT3",
+            "normal": "FLOAT3",
+            "uv": "FLOAT2",
+            "stride": "32",
+            "indices_rebased": "0..251",
+            "material_hash": "0x3b9b4f5a015a8c1b",
+            "base_texture_hash": "0x3b9b4f5a015a8c1b",
+            "reprojection_error_px": "4.2776e-05",
+            "camera_anchor": "-299.276,-358.455,-7.73695"
+          },
+          "file": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-static-gpu-x86-positive\\rtx-remix\\logs\\remix-dxvk.log",
+          "line": 460
+        }
+      ],
+      "camera_accepted": [
+        {
+          "frame": 0,
+          "trace": 4991191610743149641,
+          "stage": "camera_accepted",
+          "fields": {
+            "trace": "0x4544465354415449",
+            "stage": "camera_accepted",
+            "frame": "0",
+            "type": "0",
+            "valid": "1"
+          },
+          "file": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-static-gpu-x86-positive\\rtx-remix\\logs\\remix-dxvk.log",
+          "line": 461
+        }
+      ],
+      "tlas_recorded": [
+        {
+          "frame": 0,
+          "trace": 4991191610743149641,
+          "stage": "tlas_recorded",
+          "fields": {
+            "trace": "0x4544465354415449",
+            "stage": "tlas_recorded",
+            "frame": "0",
+            "instance_id": "1",
+            "type": "TLAS_Opaque",
+            "instance_count": "1",
+            "blas_address": "0xae81900",
+            "surface_index": "0",
+            "included": "1"
+          },
+          "file": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-static-gpu-x86-positive\\rtx-remix\\logs\\remix-dxvk.log",
+          "line": 472
+        }
+      ],
+      "scene_only_frame": [
+        {
+          "frame": 0,
+          "trace": 4991191610743149641,
+          "stage": "scene_only_frame",
+          "fields": {
+            "trace": "0x4544465354415449",
+            "stage": "scene_only_frame",
+            "frame": "0",
+            "instance_id": "1",
+            "raster_preserved": "1",
+            "path_tracing_dispatched": "0"
+          },
+          "file": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-static-gpu-x86-positive\\rtx-remix\\logs\\remix-dxvk.log",
+          "line": 473
+        }
+      ],
+      "instance": [
+        {
+          "frame": 0,
+          "trace": 4991191610743149641,
+          "stage": "instance_accepted",
+          "fields": {
+            "trace": "0x4544465354415449",
+            "stage": "instance_accepted",
+            "frame": "0",
+            "instance_id": "1",
+            "created": "1",
+            "mask": "8",
+            "hidden": "0",
+            "material_id": "0"
+          },
+          "file": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-static-gpu-x86-positive\\rtx-remix\\logs\\remix-dxvk.log",
+          "line": 463
+        }
+      ],
+      "blas": [
+        {
+          "frame": 0,
+          "trace": 4991191610743149641,
+          "stage": "blas_recorded",
+          "fields": {
+            "trace": "0x4544465354415449",
+            "stage": "blas_recorded",
+            "frame": "0",
+            "instance_id": "1",
+            "mode": "0",
+            "geometry_count": "1",
+            "blas_address": "0xae81900"
+          },
+          "file": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-static-gpu-x86-positive\\rtx-remix\\logs\\remix-dxvk.log",
+          "line": 471
+        }
+      ]
+    },
+    {
+      "frame": 1,
+      "sourceFrame": 1182,
+      "recognized": [
+        {
+          "frame": 1,
+          "trace": 4991191610743149641,
+          "stage": "recognized",
+          "fields": {
+            "trace": "0x4544465354415449",
+            "stage": "recognized",
+            "frame": "1",
+            "profile": "edf-static-925aa18481228b01392a574dbe28ba4e21aa1616",
+            "draw": "1",
+            "vs": "f098f457d9ae603bea5f84ec985d473c29cfb0c9",
+            "ps": "44b92a29eb3e5f2ee6d53f02e14fb11a01511da8",
+            "preserve_raster": "true"
+          },
+          "file": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-static-gpu-x86-positive\\rtx-remix\\logs\\remix-dxvk.log",
+          "line": 474
+        }
+      ],
+      "raster_geometry": [
+        {
+          "frame": 1,
+          "trace": 4991191610743149641,
+          "stage": "raster_geometry",
+          "fields": {
+            "trace": "0x4544465354415449",
+            "stage": "raster_geometry",
+            "frame": "1",
+            "vertices": "252",
+            "indices": "432",
+            "position": "FLOAT3",
+            "normal": "FLOAT3",
+            "uv": "FLOAT2",
+            "stride": "32",
+            "indices_rebased": "0..251",
+            "material_hash": "0x3b9b4f5a015a8c1b",
+            "base_texture_hash": "0x3b9b4f5a015a8c1b",
+            "reprojection_error_px": "3.31918e-05",
+            "camera_anchor": "-299.276,-358.455,-7.73692"
+          },
+          "file": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-static-gpu-x86-positive\\rtx-remix\\logs\\remix-dxvk.log",
+          "line": 475
+        }
+      ],
+      "camera_accepted": [
+        {
+          "frame": 1,
+          "trace": 4991191610743149641,
+          "stage": "camera_accepted",
+          "fields": {
+            "trace": "0x4544465354415449",
+            "stage": "camera_accepted",
+            "frame": "1",
+            "type": "0",
+            "valid": "1"
+          },
+          "file": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-static-gpu-x86-positive\\rtx-remix\\logs\\remix-dxvk.log",
+          "line": 476
+        }
+      ],
+      "tlas_recorded": [
+        {
+          "frame": 1,
+          "trace": 4991191610743149641,
+          "stage": "tlas_recorded",
+          "fields": {
+            "trace": "0x4544465354415449",
+            "stage": "tlas_recorded",
+            "frame": "1",
+            "instance_id": "1",
+            "type": "TLAS_Opaque",
+            "instance_count": "1",
+            "blas_address": "0xae81900",
+            "surface_index": "0",
+            "included": "1"
+          },
+          "file": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-static-gpu-x86-positive\\rtx-remix\\logs\\remix-dxvk.log",
+          "line": 480
+        }
+      ],
+      "scene_only_frame": [
+        {
+          "frame": 1,
+          "trace": 4991191610743149641,
+          "stage": "scene_only_frame",
+          "fields": {
+            "trace": "0x4544465354415449",
+            "stage": "scene_only_frame",
+            "frame": "1",
+            "instance_id": "1",
+            "raster_preserved": "1",
+            "path_tracing_dispatched": "0"
+          },
+          "file": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-static-gpu-x86-positive\\rtx-remix\\logs\\remix-dxvk.log",
+          "line": 481
+        }
+      ],
+      "instance": [
+        {
+          "frame": 1,
+          "trace": 4991191610743149641,
+          "stage": "instance_accepted",
+          "fields": {
+            "trace": "0x4544465354415449",
+            "stage": "instance_accepted",
+            "frame": "1",
+            "instance_id": "1",
+            "created": "0",
+            "mask": "8",
+            "hidden": "0",
+            "material_id": "0"
+          },
+          "file": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-static-gpu-x86-positive\\rtx-remix\\logs\\remix-dxvk.log",
+          "line": 478
+        }
+      ],
+      "blas": [
+        {
+          "frame": 1,
+          "trace": 4991191610743149641,
+          "stage": "blas_reused",
+          "fields": {
+            "trace": "0x4544465354415449",
+            "stage": "blas_reused",
+            "frame": "1",
+            "instance_id": "1",
+            "reason": "scene_unchanged"
+          },
+          "file": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-static-gpu-x86-positive\\rtx-remix\\logs\\remix-dxvk.log",
+          "line": 479
+        }
+      ]
+    },
+    {
+      "frame": 2,
+      "sourceFrame": 1292,
+      "recognized": [
+        {
+          "frame": 2,
+          "trace": 4991191610743149641,
+          "stage": "recognized",
+          "fields": {
+            "trace": "0x4544465354415449",
+            "stage": "recognized",
+            "frame": "2",
+            "profile": "edf-static-925aa18481228b01392a574dbe28ba4e21aa1616",
+            "draw": "1",
+            "vs": "f098f457d9ae603bea5f84ec985d473c29cfb0c9",
+            "ps": "44b92a29eb3e5f2ee6d53f02e14fb11a01511da8",
+            "preserve_raster": "true"
+          },
+          "file": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-static-gpu-x86-positive\\rtx-remix\\logs\\remix-dxvk.log",
+          "line": 482
+        }
+      ],
+      "raster_geometry": [
+        {
+          "frame": 2,
+          "trace": 4991191610743149641,
+          "stage": "raster_geometry",
+          "fields": {
+            "trace": "0x4544465354415449",
+            "stage": "raster_geometry",
+            "frame": "2",
+            "vertices": "252",
+            "indices": "432",
+            "position": "FLOAT3",
+            "normal": "FLOAT3",
+            "uv": "FLOAT2",
+            "stride": "32",
+            "indices_rebased": "0..251",
+            "material_hash": "0x3b9b4f5a015a8c1b",
+            "base_texture_hash": "0x3b9b4f5a015a8c1b",
+            "reprojection_error_px": "1.66571e-05",
+            "camera_anchor": "-299.678,-357.408,-8.04995"
+          },
+          "file": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-static-gpu-x86-positive\\rtx-remix\\logs\\remix-dxvk.log",
+          "line": 483
+        }
+      ],
+      "camera_accepted": [
+        {
+          "frame": 2,
+          "trace": 4991191610743149641,
+          "stage": "camera_accepted",
+          "fields": {
+            "trace": "0x4544465354415449",
+            "stage": "camera_accepted",
+            "frame": "2",
+            "type": "0",
+            "valid": "1"
+          },
+          "file": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-static-gpu-x86-positive\\rtx-remix\\logs\\remix-dxvk.log",
+          "line": 484
+        }
+      ],
+      "tlas_recorded": [
+        {
+          "frame": 2,
+          "trace": 4991191610743149641,
+          "stage": "tlas_recorded",
+          "fields": {
+            "trace": "0x4544465354415449",
+            "stage": "tlas_recorded",
+            "frame": "2",
+            "instance_id": "1",
+            "type": "TLAS_Opaque",
+            "instance_count": "1",
+            "blas_address": "0xae81900",
+            "surface_index": "0",
+            "included": "1"
+          },
+          "file": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-static-gpu-x86-positive\\rtx-remix\\logs\\remix-dxvk.log",
+          "line": 488
+        }
+      ],
+      "scene_only_frame": [
+        {
+          "frame": 2,
+          "trace": 4991191610743149641,
+          "stage": "scene_only_frame",
+          "fields": {
+            "trace": "0x4544465354415449",
+            "stage": "scene_only_frame",
+            "frame": "2",
+            "instance_id": "1",
+            "raster_preserved": "1",
+            "path_tracing_dispatched": "0"
+          },
+          "file": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-static-gpu-x86-positive\\rtx-remix\\logs\\remix-dxvk.log",
+          "line": 489
+        }
+      ],
+      "instance": [
+        {
+          "frame": 2,
+          "trace": 4991191610743149641,
+          "stage": "instance_preserved",
+          "fields": {
+            "trace": "0x4544465354415449",
+            "stage": "instance_preserved",
+            "frame": "2",
+            "instance_id": "1",
+            "mask": "8",
+            "material_id": "0",
+            "vertices": "252",
+            "indices": "432",
+            "position_hash": "0x6d7756d3182eed1d",
+            "index_hash": "0xdb9f5782ee579d47",
+            "uv_hash": "0x78eb56661f89659b",
+            "geometry_hash": "0x32aeb7bb7e772c13",
+            "material_hash": "0x3b9b4f5a015a8c1b"
+          },
+          "file": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-static-gpu-x86-positive\\rtx-remix\\logs\\remix-dxvk.log",
+          "line": 485
+        }
+      ],
+      "blas": [
+        {
+          "frame": 2,
+          "trace": 4991191610743149641,
+          "stage": "blas_reused",
+          "fields": {
+            "trace": "0x4544465354415449",
+            "stage": "blas_reused",
+            "frame": "2",
+            "instance_id": "1",
+            "reason": "scene_unchanged"
+          },
+          "file": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-static-gpu-x86-positive\\rtx-remix\\logs\\remix-dxvk.log",
+          "line": 487
+        }
+      ]
+    }
+  ],
+  "stageCounts": {
+    "recognized": 3,
+    "raster_geometry": 3,
+    "camera_accepted": 3,
+    "scene_geometry": 2,
+    "instance_accepted": 2,
+    "blas_recorded": 1,
+    "tlas_recorded": 3,
+    "scene_only_frame": 3,
+    "blas_reused": 2,
+    "instance_preserved": 1
+  },
+  "instanceIds": [
+    1
+  ],
+  "stableHashes": {
+    "position_hash": [
+      "0x6d7756d3182eed1d"
+    ],
+    "index_hash": [
+      "0xdb9f5782ee579d47"
+    ],
+    "uv_hash": [
+      "0x78eb56661f89659b"
+    ],
+    "geometry_hash": [
+      "0x32aeb7bb7e772c13"
+    ],
+    "material_hash": [
+      "0x3b9b4f5a015a8c1b"
+    ]
+  },
+  "runtimeLogs": [
+    "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-static-gpu-x86-positive\\rtx-remix\\logs\\remix-dxvk.log"
+  ],
+  "limitations": [
+    "Synthetic textures; original EDF texture pixels and lighting are not reproduced.",
+    "AS evidence identifies recorded Vulkan commands; visual agreement with the real game still requires its in-game test."
+  ]
+}

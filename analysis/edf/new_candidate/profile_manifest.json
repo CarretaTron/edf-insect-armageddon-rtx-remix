@@ -1,0 +1,184 @@
+{
+  "profile": "edf_static_252_144_experimental",
+  "enabledByDefault": false,
+  "executable": "EDF-IA.exe",
+  "executableSha256": "87ba53c92c1377ba50b98cae00860afe23e6cdcad7f95850166c1b83bf83082d",
+  "vertexShaderOriginalSha1": "f098f457d9ae603bea5f84ec985d473c29cfb0c9",
+  "pixelShaderOriginalSha1": "44b92a29eb3e5f2ee6d53f02e14fb11a01511da8",
+  "vertexDeclaration": {
+    "hash": "6ff4217f660b280ef21cd86f83889aa93219aaa6",
+    "elements": [
+      {
+        "stream": 0,
+        "offset": 0,
+        "type": 5,
+        "method": 0,
+        "usage": 7,
+        "usageIndex": 0
+      },
+      {
+        "stream": 1,
+        "offset": 0,
+        "type": 5,
+        "method": 0,
+        "usage": 3,
+        "usageIndex": 0
+      },
+      {
+        "stream": 2,
+        "offset": 0,
+        "type": 7,
+        "method": 0,
+        "usage": 0,
+        "usageIndex": 0
+      },
+      {
+        "stream": 3,
+        "offset": 0,
+        "type": 5,
+        "method": 0,
+        "usage": 6,
+        "usageIndex": 0
+      },
+      {
+        "stream": 4,
+        "offset": 0,
+        "type": 6,
+        "method": 0,
+        "usage": 5,
+        "usageIndex": 0
+      }
+    ]
+  },
+  "vertexCountUsedRange": 252,
+  "triangleCount": 144,
+  "rawIndexMinimum": 630,
+  "rawIndexMaximum": 881,
+  "indexFormat": "UINT16",
+  "indexCount": 432,
+  "indexUsedBytesSha1": "2ecc0d2d1046f418d56ea51bbcca29579a04a937",
+  "activeStreams": [
+    {
+      "stream": 0,
+      "stride": 4,
+      "frequency": 1,
+      "usedBytes": 1008,
+      "sha1": "392f544f133f951dea21d8177cf549c553608827"
+    },
+    {
+      "stream": 1,
+      "stride": 4,
+      "frequency": 1,
+      "usedBytes": 1008,
+      "sha1": "7c6fcffa660096291a371651cd73a85bfa5aa1ce"
+    },
+    {
+      "stream": 2,
+      "stride": 8,
+      "frequency": 1,
+      "usedBytes": 2016,
+      "sha1": "f3ddbe4c53df3aea29e2cad8d305844c95c7dc4c"
+    },
+    {
+      "stream": 3,
+      "stride": 4,
+      "frequency": 1,
+      "usedBytes": 1008,
+      "sha1": "d6b757b9a822e87a7983c8dca148d55ff813ed77"
+    },
+    {
+      "stream": 4,
+      "stride": 4,
+      "frequency": 1,
+      "usedBytes": 1008,
+      "sha1": "f4d8a45daf8dcb614756f4bbd45a13d18e390b49"
+    }
+  ],
+  "requiredVsC4ThroughC6": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ]
+  ],
+  "requiredVsC9": [
+    0.25,
+    0.00048828125,
+    0.007874015718698502,
+    1.0
+  ],
+  "requiredPsC1Rgb": [
+    1,
+    1,
+    1
+  ],
+  "requiredPsC0X": 0.5,
+  "opaqueRenderStates": {
+    "7": 1,
+    "14": 1,
+    "15": 0,
+    "22": 2,
+    "27": 0,
+    "168": 15,
+    "190": 15,
+    "191": 15,
+    "192": 15
+  },
+  "texture0Descriptor": {
+    "descriptorHash": "af52c1a348fe8e4e",
+    "width": 128,
+    "height": 128,
+    "depth": 1,
+    "format": 894720068,
+    "usage": 0,
+    "pool": 0,
+    "mipLevels": 8,
+    "arraySize": 1,
+    "backBuffer": false
+  },
+  "texture0SamplerStates": [
+    0,
+    3,
+    3,
+    1,
+    0,
+    2,
+    3,
+    2,
+    0,
+    0,
+    2,
+    0,
+    0,
+    256
+  ],
+  "renderTargetPass": {
+    "count": 3,
+    "formats": [
+      21,
+      21,
+      21
+    ],
+    "backBuffer": false,
+    "sameExtentAsViewport": true,
+    "depthFormat": 75
+  },
+  "spatialConvention": "FLOAT3 positions=v2.xyz*0.25; object anchor W=identity. Factor perspective RH from c0..3, check camera c7 and separate basis c4..6=identity. No claim about original engine-global translation.",
+  "materialConvention": "s0 RGB opaque. PS_c1 RGB white makes material blend sample.rgb*((1-alpha)*white+alpha)=sample.rgb. Preserve sampler/clamp and sRGB=0. Ignore s1/s2 cubemap original lighting in RTX.",
+  "preserveOriginalRasterDraw": true,
+  "excludeCameraConstantsFromDecodedGeometryIdentity": true,
+  "sourceResourceIdsAndDrawNumbersAreNeverRecognitionRules": true
+}

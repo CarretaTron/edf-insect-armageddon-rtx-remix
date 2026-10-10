@@ -1,0 +1,127 @@
+{
+  "schema": 1,
+  "generatedUtc": "2026-10-09T12:52:25.683969+00:00",
+  "scope": "static_source_contracts_only",
+  "passed": true,
+  "testCount": 15,
+  "passedCount": 15,
+  "sourcesUnchangedDuringAudit": true,
+  "gpuExecuted": false,
+  "gameInstallationModified": false,
+  "presentationDisplayVerified": false,
+  "depthStencilBinaryVerified": false,
+  "commandPowerShell": "& 'D:\\EDF IA RTX REMIX\\.tools\\build-python\\Scripts\\python.exe' -B 'D:\\EDF IA RTX REMIX\\runtime\\tools\\edf_composition\\tests\\test_source_contract.py' --report 'D:\\EDF IA RTX REMIX\\analysis\\edf\\composition\\source_audit.json'",
+  "contracts": [
+    {
+      "id": "test_01_acquire_wait_belongs_to_base_list",
+      "passed": true,
+      "purpose": "Base waits for the acquired WSI image and does not signal Present."
+    },
+    {
+      "id": "test_02_present_signal_belongs_to_final_list",
+      "passed": true,
+      "purpose": "Present is queued only after the final overlay submission."
+    },
+    {
+      "id": "test_03_frame_latency_belongs_to_final_list",
+      "passed": true,
+      "purpose": "Latency completion must cover the overlay and its readbacks."
+    },
+    {
+      "id": "test_04_cross_list_dependency_precedes_wsi_access",
+      "passed": true,
+      "purpose": "Prior raster/RTX writes are visible before overlay reads and writes."
+    },
+    {
+      "id": "test_05_storage_write_uses_general_layout",
+      "passed": true,
+      "purpose": "Storage descriptor creation is followed by GENERAL before dispatch."
+    },
+    {
+      "id": "test_06_wsi_returns_to_present_after_readbacks",
+      "passed": true,
+      "purpose": "Image returns to PRESENT before registering completion."
+    },
+    {
+      "id": "test_07_default_off_and_exact_executable_profile",
+      "passed": true,
+      "purpose": "Only an explicit option and a matching executable enable WSI hooks."
+    },
+    {
+      "id": "test_08_shader_writes_only_bounded_roi",
+      "passed": true,
+      "purpose": "Out-of-panel threads return and the only store uses the ROI offset."
+    },
+    {
+      "id": "test_09_invalid_gpu_mask_does_not_write_wsi",
+      "passed": true,
+      "purpose": "Empty geometry or nonfinite depth/final colour rejects the store."
+    },
+    {
+      "id": "test_10_usage_reflects_supported_presenter_capabilities",
+      "passed": true,
+      "purpose": "Diagnostic SRC usage is optional and accurately mirrored by WSI."
+    },
+    {
+      "id": "test_11_memcpy_cannot_auto_submit_overlay",
+      "passed": true,
+      "purpose": "Readback helpers cannot submit a partial overlay before its base."
+    },
+    {
+      "id": "test_12_recreate_drains_cached_profile_gpu_work",
+      "passed": true,
+      "purpose": "Destroying WSI waits for prior experiment work even after disable."
+    },
+    {
+      "id": "test_13_exception_layout_restore_is_noexcept_and_host_only",
+      "passed": true,
+      "purpose": "Discarded recording restores bookkeeping without new GPU commands."
+    },
+    {
+      "id": "test_14_producer_failure_preserves_raster_fallback",
+      "passed": true,
+      "purpose": "Frame/camera/geometry guards and producer exception fallback remain."
+    },
+    {
+      "id": "test_15_overlay_context_descriptor_pool_survives_until_gpu_completion",
+      "passed": true,
+      "purpose": "The temporary context owns its active descriptor pool until fence notification."
+    }
+  ],
+  "sources": [
+    {
+      "path": "src/dxvk/rtx_render/rtx_edf_static_composition.cpp",
+      "sha256": "ca42217a5e977915bf66720a06a40e51fa9a5642f0982a45d2ce88443e7a0833"
+    },
+    {
+      "path": "src/dxvk/rtx_render/rtx_edf_static_composition.h",
+      "sha256": "8c28d4a0961c5d1e166fa5299a4be31bb33d2ec5c87c233955ea53ad659ac374"
+    },
+    {
+      "path": "src/dxvk/dxvk_context.cpp",
+      "sha256": "6fa4dff1a6b649a20dc40dc618bfa046b91e714719ee67a8f4bebdf0f398eae5"
+    },
+    {
+      "path": "src/dxvk/shaders/rtx/pass/edf_static_composition/edf_static_composition_present.comp.slang",
+      "sha256": "54c88fcdbf506ad41932b985eb3e57594a4ac014bae38ab3e78848cfe35f8144"
+    },
+    {
+      "path": "src/vulkan/vulkan_presenter.cpp",
+      "sha256": "7f41b44e915bb7c00b08c23eef99d61c8aeaef97e8715a27acedff1568bf1e91"
+    },
+    {
+      "path": "src/vulkan/vulkan_presenter.h",
+      "sha256": "f41e31435c63dc580a2ca52181ae1cd3ab6031a1140fab51ff113b64c333e53f"
+    },
+    {
+      "path": "src/d3d9/d3d9_swapchain.cpp",
+      "sha256": "14f26801795894463c3e8bd453edbbcec47615aa3a23d87246c8cbc04858f222"
+    }
+  ],
+  "limitations": [
+    "Text-level contracts support review; they do not prove Vulkan execution or display correctness.",
+    "Actual synchronization/WSI validation and visual approval still require controlled GPU and EDF tests.",
+    "Depth/stencil preservation is structural (no experiment access), not a binary depth/stencil checksum.",
+    "getCompositionSource(...) argument evaluation occurs before the preparePreview function-try-block; an allocation exception there remains a standard failure path."
+  ]
+}

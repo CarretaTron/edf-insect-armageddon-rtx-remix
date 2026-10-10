@@ -1,0 +1,132 @@
+Cleaning... 0 files.
+The Meson build system
+Version: 1.8.2
+Source dir: D:\EDF IA RTX REMIX\runtime
+Build dir: D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64
+Build type: native build
+Activating VS 17.14.41 (September 2026)
+Project name: dxvk
+Project version: remix-main
+C compiler for the host machine: cl (msvc 19.44.35229 "Microsoft (R) C/C++ Optimizing Compiler Versão 19.44.35229 para x64")
+C linker for the host machine: link link 14.44.35229.0
+C++ compiler for the host machine: cl (msvc 19.44.35229 "Microsoft (R) C/C++ Optimizing Compiler Versão 19.44.35229 para x64")
+C++ linker for the host machine: link link 14.44.35229.0
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Message: Downloading dependencies...
+Message: Setting user environment variable PM_PACKAGES_ROOT to D:\packman-repo
+
+ÊXITO: o valor especificado foi salvo.
+Program rc found: YES (C:\Program Files (x86)\Windows Kits\10\bin\10.0.26100.0\\x64\rc.EXE)
+Compiler for C++ supports arguments -msse3: NO (cached)
+Library vulkan-1 found: YES
+Library d3d9 found: YES
+Library d3d11 found: YES
+Library dxgi found: YES
+Library delayimp found: YES
+Library d3dcompiler found: YES
+Library shlwapi found: YES
+Library dbghelp found: YES
+Library rtxio found: YES
+Program external/glslangvalidator/glslangValidator found: YES (D:\EDF IA RTX REMIX\runtime\external/glslangvalidator/glslangValidator.exe)
+Program external/slang/slangc found: YES (D:\EDF IA RTX REMIX\runtime\external/slang/slangc.exe)
+Program external/spirv_tools/spirv-val found: YES (D:\EDF IA RTX REMIX\runtime\external/spirv_tools/spirv-val.exe)
+Program python3 found: YES (C:\Users\alexp\AppData\Local\Python\bin\python3.EXE)
+Message: ##############
+Message: # Versioning #
+Message: ##############
+Message: Current git hash: 0e18e55c
+Message: No tag found at current commit.
+Message: This is NOT a release version
+Message: Full version: remix-main+0e18e55c
+Program external/nv_xxd/nv_xxd found: YES (D:\EDF IA RTX REMIX\runtime\external/nv_xxd/nv_xxd.exe)
+Library sentry found: YES
+Library crashpad_client found: YES
+Library crashpad_compat found: YES
+Library crashpad_getopt found: YES
+Library crashpad_minidump found: YES
+Library crashpad_mpack found: YES
+Library crashpad_snapshot found: YES
+Library crashpad_tools found: YES
+Library crashpad_util found: YES
+Library crashpad_zlib found: YES
+Library mini_chromium found: YES
+Library dbghelp found: YES
+Library shlwapi found: YES
+Library version found: YES
+Library winhttp found: YES
+Library advapi32 found: YES
+Library kernel32 found: YES
+Library powrprof found: YES
+Library rpcrt4 found: YES
+Library user32 found: YES
+Library Synchronization found: YES
+Library GFSDK_Aftermath_Lib.x64 found: YES
+Library nvsdk_ngx_d found: YES
+Library nvapi64 found: YES
+Library usd_ar found: YES
+Library usd_arch found: YES
+Library usd_js found: YES
+Library usd_gf found: YES
+Library usd_kind found: YES
+Library usd_sdf found: YES
+Library usd_sdr found: YES
+Library usd_pcp found: YES
+Library usd_tf found: YES
+Library usd_trace found: YES
+Library usd_usd found: YES
+Library usd_usdLux found: YES
+Library usd_usdGeom found: YES
+Library usd_usdRender found: YES
+Library usd_usdShade found: YES
+Library usd_usdSkel found: YES
+Library usd_work found: YES
+Library usd_vt found: YES
+Library usd_plug found: YES
+Library usd_ts found: YES
+Library tbb12 found: YES
+Library NvLowLatencyVk found: YES
+Library usd_arch found: YES
+Library usd_tf found: YES
+Library usd_usd found: YES
+Library usd_sdf found: YES
+Library usd_plug found: YES
+Library tbb12 found: YES
+Dependency threads found: YES unknown (cached)
+Dependency threads found: YES unknown (cached)
+Dependency threads found: YES unknown (cached)
+Dependency threads found: YES unknown (cached)
+WARNING: find_library('libxess') starting in "lib" only works by accident and is not portable
+Library libxess found: YES
+Library NRC_Vulkan found: YES
+Message: HDREMIX: Downloading USD and other dependencies...
+Library opengl32 found: YES
+Library usd_cameraUtil found: YES
+Library usd_gf found: YES
+Library usd_glf found: YES
+Library usd_hd found: YES
+Library usd_hdx found: YES
+Library usd_hgi found: YES
+Library usd_hgiGL found: YES
+Library usd_sdf found: YES
+Library usd_tf found: YES
+Library usd_plug found: YES
+Library usd_usd found: YES
+Library usd_usdImaging found: YES
+Library usd_usdShade found: YES
+Library usd_usdGeom found: YES
+Library usd_vt found: YES
+Library tbb12 found: YES
+Library glfw3 found: YES
+Build targets in project: 37
+
+dxvk remix-main
+
+  User defined options
+    backend        : ninja
+    buildtype      : debugoptimized
+    download_apics : False
+    enable_tracy   : false
+    remix_with_shim: false
+
+Found ninja.exe-1.13.2.git.kitware.jobserver-pipe-1 at "D:\EDF IA RTX REMIX\.tools\build-python\Scripts\ninja.exe"

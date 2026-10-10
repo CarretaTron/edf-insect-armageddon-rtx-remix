@@ -1,0 +1,514 @@
+{
+  "schema": 1,
+  "passed": true,
+  "evidenceKind": "native_offscreen_gpu_replays_from_measured_edf_data",
+  "runtimeBaseCommit": "0e18e55c04309c08e6206e768bc72b24ac83f853",
+  "runtimeSha256": "93b265b00cb55b51b25c5b7f0495d72a9e0cf76d55abe1462f932501843b4641",
+  "runtimeSize": 188414464,
+  "packages": [
+    {
+      "architecture": "x64",
+      "bundle": "D:\\EDF IA RTX REMIX\\packages\\edf-pt-probe\\edf-diagnostics-x64",
+      "manifestSha256": "8f454a8eea84e5f972149fa088b0de60c8ff20856ea30c05c507ee5b9d8c51f4",
+      "filesChecked": 187,
+      "runtimeBinary": "D:\\EDF IA RTX REMIX\\packages\\edf-pt-probe\\edf-diagnostics-x64\\d3d9.dll",
+      "runtimeSize": 188414464,
+      "runtimeSha256": "93b265b00cb55b51b25c5b7f0495d72a9e0cf76d55abe1462f932501843b4641",
+      "passed": true
+    },
+    {
+      "architecture": "x86",
+      "bundle": "D:\\EDF IA RTX REMIX\\packages\\edf-pt-probe\\edf-diagnostics-x86",
+      "manifestSha256": "7550cf65f04f9bf5be828366afb5dc560918587e0a49453ab2fb6255a9aac598",
+      "filesChecked": 189,
+      "runtimeBinary": "D:\\EDF IA RTX REMIX\\packages\\edf-pt-probe\\edf-diagnostics-x86\\.trex\\d3d9.dll",
+      "runtimeSize": 188414464,
+      "runtimeSha256": "93b265b00cb55b51b25c5b7f0495d72a9e0cf76d55abe1462f932501843b4641",
+      "passed": true
+    }
+  ],
+  "replays": [
+    {
+      "architecture": "x64",
+      "illuminated": false,
+      "passed": true,
+      "runtimeLog": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-pt-x64-probe\\rtx-remix\\logs\\remix-dxvk.log",
+      "runtimeLogSha256": "7a1983d23cbda82bd2312c53a8c4b129bbd63b2fb4ddd1a89438fe95ba3f5e57",
+      "verification": "D:\\EDF IA RTX REMIX\\analysis\\edf\\pathtrace_probe\\x64_probe_verification.json",
+      "verificationSha256": "9c9a08e46901a48fa56634f59cd7b58987c2183c7812b2588b9efc1fe14d9e81",
+      "rasterComparison": "D:\\EDF IA RTX REMIX\\analysis\\edf\\pathtrace_probe\\x64_raster_preservation.json",
+      "rasterComparisonSha256": "4b7b7d61eb1fc0a08f489931a61c7beb7ac2e3d6d0c082f02e099c27b2cb942d",
+      "replayExecutableSha256": "f4cf480f406573f7d777d9c3b645577e6930ab53af555f4aa8ba5af84296594d",
+      "configuration": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-pt-x64-probe\\rtx.conf",
+      "configurationSha256": "6b1953eadad2e1c05af7187280e15f2f7449415fe23227a3bac9517779309179",
+      "replayFrameCount": 6,
+      "successfulHresultChecks": 1303,
+      "gpuCompletedFrames": 3,
+      "missingCameraFrame": 3,
+      "recoveryCameraFrame": 4,
+      "mutatedVertexDrawRejectedOnProbeFrames": true,
+      "debugBuildExitCommonObjects": [
+        "43"
+      ],
+      "samples": [
+        {
+          "frame": 0,
+          "gpuHitCount": 6435,
+          "directRadiancePositivePixels": 0,
+          "originalTargetsUnchanged": true,
+          "independentCpuRayTriangles": {
+            "passed": true,
+            "cpuHitCount": 6452,
+            "gpuHitCount": 6435,
+            "cpuBounds": [
+              531,
+              533,
+              1016,
+              579
+            ],
+            "gpuBounds": [
+              531,
+              533,
+              1016,
+              579
+            ],
+            "silhouetteIoU": 0.9973651580905145,
+            "allowedSilhouetteEdgePixels": 1,
+            "interiorDepthSamples": 5812,
+            "maximumInteriorDepthError": 0.00034822397992684273,
+            "depthTolerance": "0.0005 + abs(cpuLinearZ) * 2e-5",
+            "nearestTrianglesTwoSided": true
+          },
+          "metadata": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-pt-x64-probe\\probe-output\\session_1791488375451875_25904\\edf_pt_request_1_frame_0.json",
+          "metadataSha256": "fb234be63a490f9a99f8e0384a7395f9f68c6eeeba15e6c0d6c539f8f4c39372"
+        },
+        {
+          "frame": 1,
+          "gpuHitCount": 6438,
+          "directRadiancePositivePixels": 0,
+          "originalTargetsUnchanged": true,
+          "independentCpuRayTriangles": {
+            "passed": true,
+            "cpuHitCount": 6449,
+            "gpuHitCount": 6438,
+            "cpuBounds": [
+              531,
+              533,
+              1016,
+              579
+            ],
+            "gpuBounds": [
+              531,
+              533,
+              1016,
+              579
+            ],
+            "silhouetteIoU": 0.9982943091952241,
+            "allowedSilhouetteEdgePixels": 1,
+            "interiorDepthSamples": 5810,
+            "maximumInteriorDepthError": 0.0003979244106631086,
+            "depthTolerance": "0.0005 + abs(cpuLinearZ) * 2e-5",
+            "nearestTrianglesTwoSided": true
+          },
+          "metadata": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-pt-x64-probe\\probe-output\\session_1791488375451875_25904\\edf_pt_request_1_frame_1.json",
+          "metadataSha256": "f4bf707883d63f32d4422224824c0093e0d5ff0b5461ddf36662c9ac705ffc7e"
+        },
+        {
+          "frame": 2,
+          "gpuHitCount": 6895,
+          "directRadiancePositivePixels": 0,
+          "originalTargetsUnchanged": true,
+          "independentCpuRayTriangles": {
+            "passed": true,
+            "cpuHitCount": 6924,
+            "gpuHitCount": 6895,
+            "cpuBounds": [
+              278,
+              597,
+              789,
+              644
+            ],
+            "gpuBounds": [
+              278,
+              597,
+              789,
+              644
+            ],
+            "silhouetteIoU": 0.9958116695551704,
+            "allowedSilhouetteEdgePixels": 1,
+            "interiorDepthSamples": 6254,
+            "maximumInteriorDepthError": 0.00036644926080953155,
+            "depthTolerance": "0.0005 + abs(cpuLinearZ) * 2e-5",
+            "nearestTrianglesTwoSided": true
+          },
+          "metadata": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-pt-x64-probe\\probe-output\\session_1791488375451875_25904\\edf_pt_request_1_frame_2.json",
+          "metadataSha256": "10818f7cccc38d646384d28cd641623b3bd2b27b466062ed4b7e17bf935b8c84"
+        }
+      ]
+    },
+    {
+      "architecture": "x64",
+      "illuminated": true,
+      "passed": true,
+      "runtimeLog": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-pt-x64-lit\\rtx-remix\\logs\\remix-dxvk.log",
+      "runtimeLogSha256": "0bff866ee524c1869f2d307207fd9876cad899d24bf1ef525473a57f50bcc8ff",
+      "verification": "D:\\EDF IA RTX REMIX\\analysis\\edf\\pathtrace_probe\\x64_lit_verification.json",
+      "verificationSha256": "6df212c39c36cb9d63283e5790c6671afd2414f34b02da91020d2ae030f695b4",
+      "rasterComparison": "D:\\EDF IA RTX REMIX\\analysis\\edf\\pathtrace_probe\\x64_lit_raster_preservation.json",
+      "rasterComparisonSha256": "4966209da8db3674587a4441eff88033cd9725f7dbfc749a366e63f99a0a63e1",
+      "replayExecutableSha256": "f4cf480f406573f7d777d9c3b645577e6930ab53af555f4aa8ba5af84296594d",
+      "configuration": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-pt-x64-lit\\rtx.conf",
+      "configurationSha256": "f790d04cb3b4faf7786274fd540455045cc9439461e7e54e2041b041f37feebc",
+      "replayFrameCount": 6,
+      "successfulHresultChecks": 1303,
+      "gpuCompletedFrames": 3,
+      "missingCameraFrame": 3,
+      "recoveryCameraFrame": 4,
+      "mutatedVertexDrawRejectedOnProbeFrames": true,
+      "debugBuildExitCommonObjects": [
+        "43"
+      ],
+      "samples": [
+        {
+          "frame": 0,
+          "gpuHitCount": 6435,
+          "directRadiancePositivePixels": 6435,
+          "originalTargetsUnchanged": true,
+          "independentCpuRayTriangles": {
+            "passed": true,
+            "cpuHitCount": 6452,
+            "gpuHitCount": 6435,
+            "cpuBounds": [
+              531,
+              533,
+              1016,
+              579
+            ],
+            "gpuBounds": [
+              531,
+              533,
+              1016,
+              579
+            ],
+            "silhouetteIoU": 0.9973651580905145,
+            "allowedSilhouetteEdgePixels": 1,
+            "interiorDepthSamples": 5812,
+            "maximumInteriorDepthError": 0.00034822397992684273,
+            "depthTolerance": "0.0005 + abs(cpuLinearZ) * 2e-5",
+            "nearestTrianglesTwoSided": true
+          },
+          "metadata": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-pt-x64-lit\\probe-output\\session_1791488778002148_33280\\edf_pt_request_1_frame_0.json",
+          "metadataSha256": "a60ebe7f6b2e0a1f52bd8c6cdd16590dd4ee7c43d2513e4019df1cf43997ed8a"
+        },
+        {
+          "frame": 1,
+          "gpuHitCount": 6438,
+          "directRadiancePositivePixels": 6438,
+          "originalTargetsUnchanged": true,
+          "independentCpuRayTriangles": {
+            "passed": true,
+            "cpuHitCount": 6449,
+            "gpuHitCount": 6438,
+            "cpuBounds": [
+              531,
+              533,
+              1016,
+              579
+            ],
+            "gpuBounds": [
+              531,
+              533,
+              1016,
+              579
+            ],
+            "silhouetteIoU": 0.9982943091952241,
+            "allowedSilhouetteEdgePixels": 1,
+            "interiorDepthSamples": 5810,
+            "maximumInteriorDepthError": 0.0003979244106631086,
+            "depthTolerance": "0.0005 + abs(cpuLinearZ) * 2e-5",
+            "nearestTrianglesTwoSided": true
+          },
+          "metadata": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-pt-x64-lit\\probe-output\\session_1791488778002148_33280\\edf_pt_request_1_frame_1.json",
+          "metadataSha256": "44b8ec8c5b9c4c290d06444619ee51b722055b5c41f4f443add8cf5dfd60e1d9"
+        },
+        {
+          "frame": 2,
+          "gpuHitCount": 6895,
+          "directRadiancePositivePixels": 6895,
+          "originalTargetsUnchanged": true,
+          "independentCpuRayTriangles": {
+            "passed": true,
+            "cpuHitCount": 6924,
+            "gpuHitCount": 6895,
+            "cpuBounds": [
+              278,
+              597,
+              789,
+              644
+            ],
+            "gpuBounds": [
+              278,
+              597,
+              789,
+              644
+            ],
+            "silhouetteIoU": 0.9958116695551704,
+            "allowedSilhouetteEdgePixels": 1,
+            "interiorDepthSamples": 6254,
+            "maximumInteriorDepthError": 0.00036644926080953155,
+            "depthTolerance": "0.0005 + abs(cpuLinearZ) * 2e-5",
+            "nearestTrianglesTwoSided": true
+          },
+          "metadata": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-pt-x64-lit\\probe-output\\session_1791488778002148_33280\\edf_pt_request_1_frame_2.json",
+          "metadataSha256": "c374f4b12b1b4b26092c2f3fe9bfa3f92c0660a60f6d5c9a0274ee78836adf30"
+        }
+      ]
+    },
+    {
+      "architecture": "x86",
+      "illuminated": false,
+      "passed": true,
+      "runtimeLog": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-pt-x86-probe\\rtx-remix\\logs\\remix-dxvk.log",
+      "runtimeLogSha256": "e113df34b6c1fcedd7123abe5430c540e415236282798cef9e0641ae0b492f7f",
+      "verification": "D:\\EDF IA RTX REMIX\\analysis\\edf\\pathtrace_probe\\x86_probe_verification.json",
+      "verificationSha256": "5214a37b4a368ea1535521bac9b9fd87e037c2a248c9006d0aa7c579dd6f97bd",
+      "rasterComparison": "D:\\EDF IA RTX REMIX\\analysis\\edf\\pathtrace_probe\\x86_raster_preservation.json",
+      "rasterComparisonSha256": "c443f06bd0e8cb0a8d2cd22da4db91b33d56fdb59faa7ea8b2b81390ba9f8189",
+      "replayExecutableSha256": "c8bee8b54ccd26994c5bbeb5d3131a350b9b6096737e3944a53757c71aea0a1f",
+      "configuration": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-pt-x86-probe\\rtx.conf",
+      "configurationSha256": "b92edd7704f3d00de41e75438b042ac7fbe819de8fb5a78422f6870069572814",
+      "replayFrameCount": 6,
+      "successfulHresultChecks": 1303,
+      "gpuCompletedFrames": 3,
+      "missingCameraFrame": 3,
+      "recoveryCameraFrame": 4,
+      "mutatedVertexDrawRejectedOnProbeFrames": true,
+      "debugBuildExitCommonObjects": [
+        "43"
+      ],
+      "samples": [
+        {
+          "frame": 0,
+          "gpuHitCount": 6435,
+          "directRadiancePositivePixels": 0,
+          "originalTargetsUnchanged": true,
+          "independentCpuRayTriangles": {
+            "passed": true,
+            "cpuHitCount": 6452,
+            "gpuHitCount": 6435,
+            "cpuBounds": [
+              531,
+              533,
+              1016,
+              579
+            ],
+            "gpuBounds": [
+              531,
+              533,
+              1016,
+              579
+            ],
+            "silhouetteIoU": 0.9973651580905145,
+            "allowedSilhouetteEdgePixels": 1,
+            "interiorDepthSamples": 5812,
+            "maximumInteriorDepthError": 0.00034822397992684273,
+            "depthTolerance": "0.0005 + abs(cpuLinearZ) * 2e-5",
+            "nearestTrianglesTwoSided": true
+          },
+          "metadata": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-pt-x86-probe\\probe-output\\session_1791488513720710_24652\\edf_pt_request_1_frame_0.json",
+          "metadataSha256": "a7f6f79fbfa0891df7e9e0c69513cc99ec68c4ace373eca3058b9de7512beeb0"
+        },
+        {
+          "frame": 1,
+          "gpuHitCount": 6438,
+          "directRadiancePositivePixels": 0,
+          "originalTargetsUnchanged": true,
+          "independentCpuRayTriangles": {
+            "passed": true,
+            "cpuHitCount": 6449,
+            "gpuHitCount": 6438,
+            "cpuBounds": [
+              531,
+              533,
+              1016,
+              579
+            ],
+            "gpuBounds": [
+              531,
+              533,
+              1016,
+              579
+            ],
+            "silhouetteIoU": 0.9982943091952241,
+            "allowedSilhouetteEdgePixels": 1,
+            "interiorDepthSamples": 5810,
+            "maximumInteriorDepthError": 0.0003979244106631086,
+            "depthTolerance": "0.0005 + abs(cpuLinearZ) * 2e-5",
+            "nearestTrianglesTwoSided": true
+          },
+          "metadata": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-pt-x86-probe\\probe-output\\session_1791488513720710_24652\\edf_pt_request_1_frame_1.json",
+          "metadataSha256": "3464238274b784d55a08cb3b3ccccd929dde414e30c6eb89efc7d3179b027096"
+        },
+        {
+          "frame": 2,
+          "gpuHitCount": 6895,
+          "directRadiancePositivePixels": 0,
+          "originalTargetsUnchanged": true,
+          "independentCpuRayTriangles": {
+            "passed": true,
+            "cpuHitCount": 6924,
+            "gpuHitCount": 6895,
+            "cpuBounds": [
+              278,
+              597,
+              789,
+              644
+            ],
+            "gpuBounds": [
+              278,
+              597,
+              789,
+              644
+            ],
+            "silhouetteIoU": 0.9958116695551704,
+            "allowedSilhouetteEdgePixels": 1,
+            "interiorDepthSamples": 6254,
+            "maximumInteriorDepthError": 0.00036644926080953155,
+            "depthTolerance": "0.0005 + abs(cpuLinearZ) * 2e-5",
+            "nearestTrianglesTwoSided": true
+          },
+          "metadata": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-pt-x86-probe\\probe-output\\session_1791488513720710_24652\\edf_pt_request_1_frame_2.json",
+          "metadataSha256": "7550388194190ddb04b5266c429f975ba80d3d1fb73143028c356759ad98ec44"
+        }
+      ]
+    },
+    {
+      "architecture": "x86",
+      "illuminated": true,
+      "passed": true,
+      "runtimeLog": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-pt-x86-lit\\rtx-remix\\logs\\remix-dxvk.log",
+      "runtimeLogSha256": "c497add937cc29e2be16e9e6be1ecf25f8968d5df396c2df7c5987e1c2d92c32",
+      "verification": "D:\\EDF IA RTX REMIX\\analysis\\edf\\pathtrace_probe\\x86_lit_verification.json",
+      "verificationSha256": "7ee90cf074cea354ef054e731e5665d5e07a0487590899420588138843820653",
+      "rasterComparison": "D:\\EDF IA RTX REMIX\\analysis\\edf\\pathtrace_probe\\x86_lit_raster_preservation.json",
+      "rasterComparisonSha256": "f2bffa9c021980ed39d84b8b076039ff1dacf94c5025d5d4ce39a7bae3ebaa28",
+      "replayExecutableSha256": "c8bee8b54ccd26994c5bbeb5d3131a350b9b6096737e3944a53757c71aea0a1f",
+      "configuration": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-pt-x86-lit\\rtx.conf",
+      "configurationSha256": "06e6fae38432b527c3a18d3e6718e993415680d46f45a2f77edc3e92cc043b25",
+      "replayFrameCount": 6,
+      "successfulHresultChecks": 1303,
+      "gpuCompletedFrames": 3,
+      "missingCameraFrame": 3,
+      "recoveryCameraFrame": 4,
+      "mutatedVertexDrawRejectedOnProbeFrames": true,
+      "debugBuildExitCommonObjects": [
+        "43"
+      ],
+      "samples": [
+        {
+          "frame": 0,
+          "gpuHitCount": 6435,
+          "directRadiancePositivePixels": 6435,
+          "originalTargetsUnchanged": true,
+          "independentCpuRayTriangles": {
+            "passed": true,
+            "cpuHitCount": 6452,
+            "gpuHitCount": 6435,
+            "cpuBounds": [
+              531,
+              533,
+              1016,
+              579
+            ],
+            "gpuBounds": [
+              531,
+              533,
+              1016,
+              579
+            ],
+            "silhouetteIoU": 0.9973651580905145,
+            "allowedSilhouetteEdgePixels": 1,
+            "interiorDepthSamples": 5812,
+            "maximumInteriorDepthError": 0.00034822397992684273,
+            "depthTolerance": "0.0005 + abs(cpuLinearZ) * 2e-5",
+            "nearestTrianglesTwoSided": true
+          },
+          "metadata": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-pt-x86-lit\\probe-output\\session_1791488834553954_34340\\edf_pt_request_1_frame_0.json",
+          "metadataSha256": "8d93fe49ce1c10c9a04332e85ca1d666ee59552449f15aef893f6716fee17192"
+        },
+        {
+          "frame": 1,
+          "gpuHitCount": 6438,
+          "directRadiancePositivePixels": 6438,
+          "originalTargetsUnchanged": true,
+          "independentCpuRayTriangles": {
+            "passed": true,
+            "cpuHitCount": 6449,
+            "gpuHitCount": 6438,
+            "cpuBounds": [
+              531,
+              533,
+              1016,
+              579
+            ],
+            "gpuBounds": [
+              531,
+              533,
+              1016,
+              579
+            ],
+            "silhouetteIoU": 0.9982943091952241,
+            "allowedSilhouetteEdgePixels": 1,
+            "interiorDepthSamples": 5810,
+            "maximumInteriorDepthError": 0.0003979244106631086,
+            "depthTolerance": "0.0005 + abs(cpuLinearZ) * 2e-5",
+            "nearestTrianglesTwoSided": true
+          },
+          "metadata": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-pt-x86-lit\\probe-output\\session_1791488834553954_34340\\edf_pt_request_1_frame_1.json",
+          "metadataSha256": "3407e2a30256514da900ebe4a987981c3c07473145c70c82b8cc8312a090926f"
+        },
+        {
+          "frame": 2,
+          "gpuHitCount": 6895,
+          "directRadiancePositivePixels": 6895,
+          "originalTargetsUnchanged": true,
+          "independentCpuRayTriangles": {
+            "passed": true,
+            "cpuHitCount": 6924,
+            "gpuHitCount": 6895,
+            "cpuBounds": [
+              278,
+              597,
+              789,
+              644
+            ],
+            "gpuBounds": [
+              278,
+              597,
+              789,
+              644
+            ],
+            "silhouetteIoU": 0.9958116695551704,
+            "allowedSilhouetteEdgePixels": 1,
+            "interiorDepthSamples": 6254,
+            "maximumInteriorDepthError": 0.00036644926080953155,
+            "depthTolerance": "0.0005 + abs(cpuLinearZ) * 2e-5",
+            "nearestTrianglesTwoSided": true
+          },
+          "metadata": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-pt-x86-lit\\probe-output\\session_1791488834553954_34340\\edf_pt_request_1_frame_2.json",
+          "metadataSha256": "79a93760ccf7851245135314d37eb82576faf59f9f2e4297f4986c9fdf064462"
+        }
+      ]
+    }
+  ],
+  "actualEdfProbeRunPending": true,
+  "visualCompositionValidated": false,
+  "globalPathTracingEnabled": false,
+  "decoderExpanded": false,
+  "limits": [
+    "Native replay textures are synthetic; original EDF materials/lighting are not recovered.",
+    "Full comparison covers the backbuffer and three original color MRTs, not future partial composition.",
+    "Original game DLL and log remain unchanged and contain the previous scene-only prototype.",
+    "Existing debug-build shutdown object notices also occur in the raster baseline."
+  ]
+}

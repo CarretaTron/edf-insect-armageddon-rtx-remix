@@ -1,0 +1,37 @@
+{
+  "schema": 1,
+  "files": [
+    {
+      "file": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x86\\positive_camera1\\verified-images\\request_1_frame_1_wsi_before.png",
+      "sha256": "e94ca569c09a5edfbe0919251a8d9e2804266def5d7611d3f943cb1082bac2b7",
+      "source": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x86\\positive_camera1\\probe-output\\session_1791550881213320_15696\\edf_pt_request_1_frame_1_composition_wsi_before.bin",
+      "sourceSha256": "9c5b662c79a6b64c816005aee4ee7ce7dbb9087f17a09f08faa40023d254e48b"
+    },
+    {
+      "file": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x86\\positive_camera1\\verified-images\\request_1_frame_1_wsi_after.png",
+      "sha256": "9c779403a927e7260567df993ce4978102b4e3f9e325e411e7d11b6a9099f995",
+      "source": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x86\\positive_camera1\\probe-output\\session_1791550881213320_15696\\edf_pt_request_1_frame_1_composition_wsi_after.bin",
+      "sourceSha256": "3dda73fb6f88c36c9cf3264b8e3d1c95ca205b79b80c2bb028896cc3195f3034"
+    },
+    {
+      "file": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x86\\positive_camera1\\verified-images\\request_1_frame_1_expected_panel.png",
+      "sha256": "8d37b5fdf0ffb38f25400e4472b3866454e6404de497d1db12bdd20450fe2920",
+      "source": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x86\\positive_camera1\\probe-output\\session_1791550881213320_15696\\edf_pt_request_1_frame_1_composition_expected_panel.bin",
+      "sourceSha256": "f60e638cf2ee6178bdf11d1e7c991a7fcc800535d7ae828f150eb9137c1aa923"
+    },
+    {
+      "file": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x86\\positive_camera1\\verified-images\\request_1_frame_1_scratch_before.png",
+      "sha256": "aa83d9f1108cac86149b6341feeb414bd134206ff810993770070663def07d9c",
+      "source": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x86\\positive_camera1\\probe-output\\session_1791550881213320_15696\\edf_pt_request_1_frame_1_composition_scratch_before.bin",
+      "sourceSha256": "accc6a1df811fd4e64eba918d0fce1d2f95a46ec10e4fed1d78bfe9a7e6287f2"
+    },
+    {
+      "file": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x86\\positive_camera1\\verified-images\\request_1_frame_1_changed_pixels.png",
+      "sha256": "eb6152045fac00c6ef4f14b62161b1f829962220726c0f3794da49eec2381bd1",
+      "meaning": "Orange pixels have at least one different RGBA byte; black pixels are identical."
+    }
+  ],
+  "sourceInputsModified": false,
+  "presentationDisplayVerified": false,
+  "interpretation": "Raw GPU WSI readbacks, not desktop screenshots or scanout evidence."
+}

@@ -1,0 +1,11 @@
+/.tools/
+/captures/
+/packages/**/*.dll
+/packages/**/*.exe
+**/__pycache__/
+*.pyc
+*.pdb
+*.zip
+runtime/_Comp*/
+runtime/_output/
+runtime/_vs/

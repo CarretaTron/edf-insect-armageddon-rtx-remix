@@ -1,0 +1,243 @@
+ninja: Entering directory `D:/EDF IA RTX REMIX/runtime/_CompDebugOptimized_x64'
+[1/142] Generating version.h with a custom command
+[2/141] Generating src/d3d9/version.rc with a custom command
+[3/140] Compiling C++ object src/d3d9/d3d9.dll.p/d3d9_buffer.cpp.obj
+[4/140] Compiling C++ object src/d3d9/d3d9.dll.p/d3d9_adapter.cpp.obj
+[5/140] Compiling C++ object src/d3d9/d3d9.dll.p/d3d9_common_buffer.cpp.obj
+[6/140] Compiling C++ object src/d3d9/d3d9.dll.p/d3d9_cursor.cpp.obj
+[7/140] Compiling C++ object src/d3d9/d3d9.dll.p/d3d9_common_texture.cpp.obj
+[8/140] Generating src/dxvk/rtx_shaders with a custom command
+[9/140] Linking static target src/dxso/libdxso.a
+[10/140] Compiling C++ object src/d3d9/d3d9.dll.p/d3d9_fixed_function.cpp.obj
+[11/140] Compiling C++ object src/dxvk/libdxvk.a.p/rtx_render_rtx_env.cpp.obj
+[12/140] Compiling C++ object src/d3d9/d3d9.dll.p/d3d9_device.cpp.obj
+[13/140] Compiling C++ object src/dxvk/libdxvk.a.p/rtx_render_rtx_edf_static_probe.cpp.obj
+[14/140] Compiling C++ object src/dxvk/libdxvk.a.p/rtx_render_rtx_file_watch.cpp.obj
+[15/140] Compiling C++ object src/dxvk/libdxvk.a.p/rtx_render_rtx_geometry_utils.cpp.obj
+[16/140] Compiling C++ object src/dxvk/libdxvk.a.p/rtx_render_rtx_gpu_crash_recorder.cpp.obj
+[17/140] Compiling C++ object src/dxvk/libdxvk.a.p/rtx_render_rtx_hashing.cpp.obj
+[18/140] Compiling C++ object src/dxvk/libdxvk.a.p/rtx_render_rtx_global_volumetrics.cpp.obj
+[19/140] Compiling C++ object src/dxvk/libdxvk.a.p/rtx_render_rtx_hash_collision_detection.cpp.obj
+[20/140] Compiling C++ object src/dxvk/libdxvk.a.p/rtx_render_rtx_image_utils.cpp.obj
+[21/140] Compiling C++ object src/dxvk/libdxvk.a.p/rtx_render_rtx_imgui.cpp.obj
+[22/140] Compiling C++ object src/dxvk/libdxvk.a.p/rtx_render_rtx_game_capturer.cpp.obj
+[23/140] Compiling C++ object src/dxvk/libdxvk.a.p/rtx_render_rtx_io.cpp.obj
+[24/140] Compiling C++ object src/dxvk/libdxvk.a.p/rtx_render_rtx_initializer.cpp.obj
+[25/140] Compiling C++ object src/dxvk/libdxvk.a.p/rtx_render_rtx_light_manager.cpp.obj
+[26/140] Compiling C++ object src/dxvk/libdxvk.a.p/rtx_render_rtx_lights.cpp.obj
+[27/140] Compiling C++ object src/dxvk/libdxvk.a.p/rtx_render_rtx_light_manager_gui.cpp.obj
+[28/140] Compiling C++ object src/dxvk/libdxvk.a.p/rtx_render_rtx_light_utils.cpp.obj
+[29/140] Compiling C++ object src/dxvk/libdxvk.a.p/rtx_render_rtx_instance_manager.cpp.obj
+[30/140] Compiling C++ object src/dxvk/libdxvk.a.p/rtx_render_rtx_materials.cpp.obj
+[31/140] Compiling C++ object src/dxvk/libdxvk.a.p/rtx_render_rtx_mipmap.cpp.obj
+[32/140] Compiling C++ object src/dxvk/libdxvk.a.p/rtx_render_rtx_local_tone_mapping.cpp.obj
+[33/140] Compiling C++ object src/dxvk/libdxvk.a.p/rtx_render_rtx_mod_manager.cpp.obj
+[34/140] Compiling C++ object src/dxvk/libdxvk.a.p/rtx_render_rtx_lights_data.cpp.obj
+[35/140] Compiling C++ object src/dxvk/libdxvk.a.p/rtx_render_rtx_nee_cache.cpp.obj
+[36/140] Compiling C++ object src/dxvk/libdxvk.a.p/rtx_render_rtx_neural_radiance_cache.cpp.obj
+[37/140] Compiling C++ object src/dxvk/libdxvk.a.p/rtx_render_rtx_nrc_context.cpp.obj
+[38/140] Compiling C++ object src/dxvk/libdxvk.a.p/rtx_render_rtx_ngx_wrapper.cpp.obj
+nvsdk_ngx_helpers_dlssd.h is deprecated; #include "nvsdk_ngx_helpers_dlssd_d3d.h" instead
+nvsdk_ngx_helpers_dlssg.h is deprecated; #include "nvsdk_ngx_helpers_dlssg_d3d.h" instead
+[39/140] Compiling C++ object src/dxvk/libdxvk.a.p/rtx_render_rtx_nis.cpp.obj
+[40/140] Compiling C++ object src/dxvk/libdxvk.a.p/rtx_render_rtx_nrd_settings.cpp.obj
+[41/140] Compiling C++ object src/dxvk/libdxvk.a.p/rtx_render_rtx_objectpicking.cpp.obj
+[42/140] Compiling C++ object src/dxvk/libdxvk.a.p/rtx_render_rtx_nrd_context.cpp.obj
+[43/140] Compiling C++ object src/dxvk/libdxvk.a.p/rtx_render_rtx_nsight_capture.cpp.obj
+[44/140] Compiling C++ object src/dxvk/libdxvk.a.p/rtx_render_rtx_option_layer.cpp.obj
+[45/140] Compiling C++ object src/dxvk/libdxvk.a.p/rtx_render_rtx_option_manager.cpp.obj
+[46/140] Compiling C++ object src/dxvk/libdxvk.a.p/rtx_render_rtx_opacity_micromap_manager.cpp.obj
+[47/140] Compiling C++ object src/dxvk/libdxvk.a.p/rtx_render_rtx_option.cpp.obj
+[48/140] Compiling C++ object src/dxvk/libdxvk.a.p/rtx_render_rtx_option_layer_gui.cpp.obj
+[49/140] Compiling C++ object src/dxvk/libdxvk.a.p/rtx_render_rtx_mod_usd.cpp.obj
+[50/140] Compiling C++ object src/dxvk/libdxvk.a.p/rtx_render_rtx_options.cpp.obj
+[51/140] Compiling C++ object src/dxvk/libdxvk.a.p/rtx_render_rtx_postFx.cpp.obj
+[52/140] Compiling C++ object src/dxvk/libdxvk.a.p/rtx_render_rtx_srgb_dither.cpp.obj
+[53/140] Compiling C++ object src/dxvk/libdxvk.a.p/rtx_render_rtx_ray_portal_manager.cpp.obj
+[54/140] Compiling C++ object src/dxvk/libdxvk.a.p/rtx_render_rtx_pathtracer_integrate_direct.cpp.obj
+[55/140] Compiling C++ object src/dxvk/libdxvk.a.p/rtx_render_rtx_reflex.cpp.obj
+[56/140] Compiling C++ object src/dxvk/libdxvk.a.p/rtx_render_rtx_ray_reconstruction.cpp.obj
+[57/140] Compiling C++ object src/dxvk/libdxvk.a.p/rtx_render_rtx_remix_api.cpp.obj
+[58/140] Compiling C++ object src/dxvk/libdxvk.a.p/rtx_render_rtx_resources.cpp.obj
+[59/140] Compiling C++ object src/dxvk/libdxvk.a.p/rtx_render_rtx_restir_gi_rayquery.cpp.obj
+[60/140] Compiling C++ object src/dxvk/libdxvk.a.p/rtx_render_rtx_scene_manager.cpp.obj
+[61/140] Compiling C++ object src/dxvk/libdxvk.a.p/rtx_render_rtx_semaphore.cpp.obj
+[62/140] Compiling C++ object src/dxvk/libdxvk.a.p/rtx_render_rtx_shader_manager.cpp.obj
+[63/140] Compiling C++ object src/dxvk/libdxvk.a.p/rtx_render_rtx_staging.cpp.obj
+[64/140] Compiling C++ object src/dxvk/libdxvk.a.p/rtx_render_rtx_taa.cpp.obj
+[65/140] Compiling C++ object src/dxvk/libdxvk.a.p/rtx_render_rtx_terrain_baker.cpp.obj
+[66/140] Compiling C++ object src/dxvk/libdxvk.a.p/rtx_render_rtx_rtxdi_rayquery.cpp.obj
+[67/140] Compiling C++ object src/dxvk/libdxvk.a.p/rtx_render_rtx_texture.cpp.obj
+[68/140] Compiling C++ object src/dxvk/libdxvk.a.p/rtx_render_rtx_texture_manager.cpp.obj
+[69/140] Compiling C++ object src/dxvk/libdxvk.a.p/rtx_render_rtx_tone_mapping.cpp.obj
+[70/140] Compiling C++ object src/dxvk/libdxvk.a.p/rtx_render_rtx_types.cpp.obj
+[71/140] Compiling C++ object src/dxvk/libdxvk.a.p/rtx_render_rtx_system_info.cpp.obj
+[72/140] Compiling C++ object src/dxvk/libdxvk.a.p/rtx_render_rtx_xess.cpp.obj
+[73/140] Compiling C++ object src/dxvk/libdxvk.a.p/rtx_render_rtx_point_instancer_system.cpp.obj
+[74/140] Compiling C++ object src/dxvk/libdxvk.a.p/rtx_render_rtx_particle_system.cpp.obj
+[75/140] Compiling C++ object src/dxvk/libdxvk.a.p/rtx_render_graph_components_add.cpp.obj
+[76/140] Compiling C++ object src/dxvk/libdxvk.a.p/rtx_render_graph_components_divide.cpp.obj
+[77/140] Compiling C++ object src/dxvk/libdxvk.a.p/rtx_render_graph_rtx_component_list.cpp.obj
+[78/140] Compiling C++ object src/dxvk/libdxvk.a.p/rtx_render_graph_components_equal_to.cpp.obj
+[79/140] Compiling C++ object src/dxvk/libdxvk.a.p/rtx_render_graph_components_subtract.cpp.obj
+[80/140] Compiling C++ object src/dxvk/libdxvk.a.p/rtx_render_graph_components_multiply.cpp.obj
+[81/140] Compiling C++ object src/dxvk/libdxvk.a.p/rtx_render_graph_rtx_graph_gui.cpp.obj
+[82/140] Compiling C++ object src/dxvk/libdxvk.a.p/rtx_render_graph_rtx_graph_instance.cpp.obj
+[83/140] Compiling C++ object src/dxvk/libdxvk.a.p/rtx_render_graph_rtx_graph_ogn_writer.cpp.obj
+[84/140] Compiling C++ object src/dxvk/libdxvk.a.p/rtx_render_graph_rtx_graph_md_writer.cpp.obj
+[85/140] Compiling C++ object src/dxvk/libdxvk.a.p/rtx_render_graph_rtx_graph_batch.cpp.obj
+[86/140] Compiling C++ object src/dxvk/libdxvk.a.p/rtx_render_graph_rtx_graph_types.cpp.obj
+[87/140] Compiling C++ object src/dxvk/libdxvk.a.p/rtx_render_rtx_overlay_window.cpp.obj
+[88/140] Compiling C++ object src/dxvk/libdxvk.a.p/rtx_render_rtx_gui_widgets.cpp.obj
+[89/140] Compiling C++ object src/dxvk/libdxvk.a.p/rtx_render_rtx_option_blocking_popup.cpp.obj
+[90/140] Compiling C++ object src/dxvk/libdxvk.a.p/platform_dxvk_win32_exts.cpp.obj
+[91/140] Compiling C++ object src/dxvk/libdxvk.a.p/hud_dxvk_hud.cpp.obj
+[92/140] Compiling C++ object src/dxvk/libdxvk.a.p/hud_dxvk_hud_font.cpp.obj
+[93/140] Compiling C++ object src/dxvk/libdxvk.a.p/hud_dxvk_hud_item.cpp.obj
+[94/140] Compiling C++ object src/dxvk/libdxvk.a.p/hud_dxvk_hud_renderer.cpp.obj
+[95/140] Compiling C++ object src/dxvk/libdxvk.a.p/rtx_render_graph_rtx_graph_usd_parser.cpp.obj
+[96/140] Compiling C++ object src/dxvk/libdxvk.a.p/imgui_dxvk_imgui_about.cpp.obj
+[97/140] Compiling C++ object src/dxvk/libdxvk.a.p/imgui_dxvk_imgui_capture.cpp.obj
+[98/140] Compiling C++ object src/dxvk/libdxvk.a.p/rtx_render_rtx_pathtracer_integrate_indirect.cpp.obj
+[99/140] Compiling C++ object src/dxvk/libdxvk.a.p/imgui_dxvk_imgui_first_use_guide.cpp.obj
+[100/140] Compiling C++ object src/dxvk/libdxvk.a.p/imgui_dxvk_imgui_splash.cpp.obj
+[101/140] Compiling C++ object src/dxvk/libdxvk.a.p/imgui_imgui.cpp.obj
+[102/140] Compiling C++ object src/dxvk/libdxvk.a.p/imgui_imgui_demo.cpp.obj
+[103/140] Compiling C++ object src/dxvk/libdxvk.a.p/imgui_rtx_user_menu.cpp.obj
+[104/140] Compiling C++ object src/dxvk/libdxvk.a.p/imgui_imgui_draw.cpp.obj
+[105/140] Compiling C++ object src/dxvk/libdxvk.a.p/imgui_imgui_impl_win32.cpp.obj
+[106/140] Compiling C++ object src/dxvk/libdxvk.a.p/imgui_imgui_tables.cpp.obj
+[107/140] Compiling C++ object src/dxvk/libdxvk.a.p/imgui_imgui_widgets.cpp.obj
+[108/140] Compiling C++ object src/dxvk/libdxvk.a.p/imgui_implot.cpp.obj
+[109/140] Compiling C++ object src/dxvk/libdxvk.a.p/imgui_implot_demo.cpp.obj
+[110/140] Compiling C++ object src/d3d9/d3d9.dll.p/d3d9_format.cpp.obj
+[111/140] Compiling C++ object src/d3d9/d3d9.dll.p/d3d9_format_helpers.cpp.obj
+[112/140] Compiling C++ object src/d3d9/d3d9.dll.p/d3d9_hud.cpp.obj
+[113/140] Compiling C++ object src/d3d9/d3d9.dll.p/d3d9_initializer.cpp.obj
+[114/140] Compiling C++ object src/d3d9/d3d9.dll.p/d3d9_interface.cpp.obj
+[115/140] Compiling C++ object src/d3d9/d3d9.dll.p/d3d9_main.cpp.obj
+[116/140] Compiling C++ object src/dxvk/libdxvk.a.p/imgui_dxvk_imgui.cpp.obj
+[117/140] Compiling C++ object src/d3d9/d3d9.dll.p/d3d9_monitor.cpp.obj
+[118/140] Compiling C++ object src/d3d9/d3d9.dll.p/d3d9_multithread.cpp.obj
+[119/140] Compiling C++ object src/d3d9/d3d9.dll.p/d3d9_names.cpp.obj
+[120/140] Compiling C++ object src/d3d9/d3d9.dll.p/d3d9_options.cpp.obj
+[121/140] Compiling C++ object src/d3d9/d3d9.dll.p/d3d9_sampler.cpp.obj
+[122/140] Compiling C++ object src/d3d9/d3d9.dll.p/d3d9_query.cpp.obj
+[123/140] Compiling C++ object src/d3d9/d3d9.dll.p/d3d9_state.cpp.obj
+[124/140] Compiling C++ object src/d3d9/d3d9.dll.p/d3d9_shader.cpp.obj
+[125/140] Compiling C++ object src/d3d9/d3d9.dll.p/d3d9_surface.cpp.obj
+[126/140] Compiling C++ object src/d3d9/d3d9.dll.p/d3d9_stateblock.cpp.obj
+[127/140] Compiling C++ object src/d3d9/d3d9.dll.p/d3d9_swvp_emu.cpp.obj
+[128/140] Compiling C++ object src/d3d9/d3d9.dll.p/d3d9_swapchain.cpp.obj
+[129/140] Compiling C++ object src/d3d9/d3d9.dll.p/d3d9_texture.cpp.obj
+[130/140] Compiling C++ object src/d3d9/d3d9.dll.p/d3d9_util.cpp.obj
+[131/140] Compiling C++ object src/d3d9/d3d9.dll.p/d3d9_vertex_declaration.cpp.obj
+[132/140] Compiling C++ object src/d3d9/d3d9.dll.p/d3d9_volume.cpp.obj
+[133/140] Compiling C++ object src/dxvk/libdxvk.a.p/imgui_implot_items.cpp.obj
+[134/140] Compiling C++ object src/d3d9/d3d9.dll.p/d3d9_rtx_utils.cpp.obj
+[135/140] Compiling C++ object src/d3d9/d3d9.dll.p/d3d9_rtx_geometry.cpp.obj
+[136/140] Compiling C++ object src/d3d9/d3d9.dll.p/d3d9_swapchain_external.cpp.obj
+[137/140] Compiling C++ object src/d3d9/d3d9.dll.p/d3d9_rtx.cpp.obj
+[138/140] Compiling C++ object src/dxvk/libdxvk.a.p/rtx_render_rtx_pathtracer_gbuffer.cpp.obj
+[139/140] Linking static target src/dxvk/libdxvk.a
+[140/140] Linking target src/d3d9/d3d9.dll
+sentry.lib(sentry_value.obj) : warning LNK4099: PDB 'sentry.pdb' não foi encontrado 'sentry.lib(sentry_value.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\sentry.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+sentry.lib(sentry_uuid.obj) : warning LNK4099: PDB 'sentry.pdb' não foi encontrado 'sentry.lib(sentry_uuid.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\sentry.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+sentry.lib(sentry_options.obj) : warning LNK4099: PDB 'sentry.pdb' não foi encontrado 'sentry.lib(sentry_options.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\sentry.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+sentry.lib(sentry_core.obj) : warning LNK4099: PDB 'sentry.pdb' não foi encontrado 'sentry.lib(sentry_core.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\sentry.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+sentry.lib(sentry_scope.obj) : warning LNK4099: PDB 'sentry.pdb' não foi encontrado 'sentry.lib(sentry_scope.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\sentry.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+sentry.lib(sentry_tracing.obj) : warning LNK4099: PDB 'sentry.pdb' não foi encontrado 'sentry.lib(sentry_tracing.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\sentry.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+sentry.lib(sentry_alloc.obj) : warning LNK4099: PDB 'sentry.pdb' não foi encontrado 'sentry.lib(sentry_alloc.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\sentry.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+sentry.lib(sentry_unwinder.obj) : warning LNK4099: PDB 'sentry.pdb' não foi encontrado 'sentry.lib(sentry_unwinder.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\sentry.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+sentry.lib(mpack.obj) : warning LNK4099: PDB 'sentry.pdb' não foi encontrado 'sentry.lib(mpack.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\sentry.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+sentry.lib(sentry_logger.obj) : warning LNK4099: PDB 'sentry.pdb' não foi encontrado 'sentry.lib(sentry_logger.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\sentry.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+sentry.lib(sentry_string.obj) : warning LNK4099: PDB 'sentry.pdb' não foi encontrado 'sentry.lib(sentry_string.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\sentry.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+sentry.lib(sentry_json.obj) : warning LNK4099: PDB 'sentry.pdb' não foi encontrado 'sentry.lib(sentry_json.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\sentry.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+sentry.lib(sentry_slice.obj) : warning LNK4099: PDB 'sentry.pdb' não foi encontrado 'sentry.lib(sentry_slice.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\sentry.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+sentry.lib(sentry_os.obj) : warning LNK4099: PDB 'sentry.pdb' não foi encontrado 'sentry.lib(sentry_os.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\sentry.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+sentry.lib(sentry_utils.obj) : warning LNK4099: PDB 'sentry.pdb' não foi encontrado 'sentry.lib(sentry_utils.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\sentry.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+sentry.lib(sentry_random.obj) : warning LNK4099: PDB 'sentry.pdb' não foi encontrado 'sentry.lib(sentry_random.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\sentry.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+sentry.lib(sentry_transport.obj) : warning LNK4099: PDB 'sentry.pdb' não foi encontrado 'sentry.lib(sentry_transport.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\sentry.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+sentry.lib(sentry_path.obj) : warning LNK4099: PDB 'sentry.pdb' não foi encontrado 'sentry.lib(sentry_path.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\sentry.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+sentry.lib(sentry_path_windows.obj) : warning LNK4099: PDB 'sentry.pdb' não foi encontrado 'sentry.lib(sentry_path_windows.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\sentry.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+sentry.lib(sentry_attachment.obj) : warning LNK4099: PDB 'sentry.pdb' não foi encontrado 'sentry.lib(sentry_attachment.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\sentry.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+sentry.lib(sentry_database.obj) : warning LNK4099: PDB 'sentry.pdb' não foi encontrado 'sentry.lib(sentry_database.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\sentry.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+sentry.lib(sentry_backend.obj) : warning LNK4099: PDB 'sentry.pdb' não foi encontrado 'sentry.lib(sentry_backend.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\sentry.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+sentry.lib(sentry_backend_crashpad.obj) : warning LNK4099: PDB 'sentry.pdb' não foi encontrado 'sentry.lib(sentry_backend_crashpad.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\sentry.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+sentry.lib(sentry_http_transport_winhttp.obj) : warning LNK4099: PDB 'sentry.pdb' não foi encontrado 'sentry.lib(sentry_http_transport_winhttp.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\sentry.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+sentry.lib(sentry_envelope.obj) : warning LNK4099: PDB 'sentry.pdb' não foi encontrado 'sentry.lib(sentry_envelope.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\sentry.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+sentry.lib(sentry_modulefinder_windows.obj) : warning LNK4099: PDB 'sentry.pdb' não foi encontrado 'sentry.lib(sentry_modulefinder_windows.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\sentry.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+sentry.lib(sentry_session.obj) : warning LNK4099: PDB 'sentry.pdb' não foi encontrado 'sentry.lib(sentry_session.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\sentry.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+sentry.lib(sentry_info.obj) : warning LNK4099: PDB 'sentry.pdb' não foi encontrado 'sentry.lib(sentry_info.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\sentry.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+sentry.lib(sentry_app_hang_latch.obj) : warning LNK4099: PDB 'sentry.pdb' não foi encontrado 'sentry.lib(sentry_app_hang_latch.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\sentry.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+sentry.lib(sentry_app_hang_monitor.obj) : warning LNK4099: PDB 'sentry.pdb' não foi encontrado 'sentry.lib(sentry_app_hang_monitor.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\sentry.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+sentry.lib(sentry_ringbuffer.obj) : warning LNK4099: PDB 'sentry.pdb' não foi encontrado 'sentry.lib(sentry_ringbuffer.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\sentry.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+sentry.lib(sentry_client_report.obj) : warning LNK4099: PDB 'sentry.pdb' não foi encontrado 'sentry.lib(sentry_client_report.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\sentry.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+sentry.lib(sentry_hint.obj) : warning LNK4099: PDB 'sentry.pdb' não foi encontrado 'sentry.lib(sentry_hint.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\sentry.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+sentry.lib(sentry_logs.obj) : warning LNK4099: PDB 'sentry.pdb' não foi encontrado 'sentry.lib(sentry_logs.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\sentry.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+sentry.lib(sentry_metrics.obj) : warning LNK4099: PDB 'sentry.pdb' não foi encontrado 'sentry.lib(sentry_metrics.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\sentry.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+sentry.lib(sentry_process_windows.obj) : warning LNK4099: PDB 'sentry.pdb' não foi encontrado 'sentry.lib(sentry_process_windows.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\sentry.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+sentry.lib(sentry_disk_transport.obj) : warning LNK4099: PDB 'sentry.pdb' não foi encontrado 'sentry.lib(sentry_disk_transport.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\sentry.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+sentry.lib(sentry_symbolizer_windows.obj) : warning LNK4099: PDB 'sentry.pdb' não foi encontrado 'sentry.lib(sentry_symbolizer_windows.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\sentry.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+sentry.lib(sentry_unwinder_dbghelp.obj) : warning LNK4099: PDB 'sentry.pdb' não foi encontrado 'sentry.lib(sentry_unwinder_dbghelp.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\sentry.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+sentry.lib(sentry_writer.obj) : warning LNK4099: PDB 'sentry.pdb' não foi encontrado 'sentry.lib(sentry_writer.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\sentry.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+sentry.lib(sentry_screenshot.obj) : warning LNK4099: PDB 'sentry.pdb' não foi encontrado 'sentry.lib(sentry_screenshot.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\sentry.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+sentry.lib(sentry_session_replay.obj) : warning LNK4099: PDB 'sentry.pdb' não foi encontrado 'sentry.lib(sentry_session_replay.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\sentry.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+sentry.lib(sentry_http_transport.obj) : warning LNK4099: PDB 'sentry.pdb' não foi encontrado 'sentry.lib(sentry_http_transport.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\sentry.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+sentry.lib(sentry_ratelimiter.obj) : warning LNK4099: PDB 'sentry.pdb' não foi encontrado 'sentry.lib(sentry_ratelimiter.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\sentry.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+sentry.lib(sentry_thread_stackwalk_windows.obj) : warning LNK4099: PDB 'sentry.pdb' não foi encontrado 'sentry.lib(sentry_thread_stackwalk_windows.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\sentry.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+sentry.lib(sentry_batcher.obj) : warning LNK4099: PDB 'sentry.pdb' não foi encontrado 'sentry.lib(sentry_batcher.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\sentry.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+sentry.lib(sentry_windows_dbghelp.obj) : warning LNK4099: PDB 'sentry.pdb' não foi encontrado 'sentry.lib(sentry_windows_dbghelp.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\sentry.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+sentry.lib(sentry_sync.obj) : warning LNK4099: PDB 'sentry.pdb' não foi encontrado 'sentry.lib(sentry_sync.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\sentry.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+sentry.lib(sentry_retry.obj) : warning LNK4099: PDB 'sentry.pdb' não foi encontrado 'sentry.lib(sentry_retry.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\sentry.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+crashpad_client.lib(crash_report_database_win.obj) : warning LNK4099: PDB 'crashpad_client.pdb' não foi encontrado 'crashpad_client.lib(crash_report_database_win.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\crashpad_client.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+crashpad_client.lib(crashpad_client_win.obj) : warning LNK4099: PDB 'crashpad_client.pdb' não foi encontrado 'crashpad_client.lib(crashpad_client_win.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\crashpad_client.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+crashpad_client.lib(crashpad_info.obj) : warning LNK4099: PDB 'crashpad_client.pdb' não foi encontrado 'crashpad_client.lib(crashpad_info.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\crashpad_client.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+crashpad_client.lib(prune_crash_reports.obj) : warning LNK4099: PDB 'crashpad_client.pdb' não foi encontrado 'crashpad_client.lib(prune_crash_reports.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\crashpad_client.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+crashpad_client.lib(settings.obj) : warning LNK4099: PDB 'crashpad_client.pdb' não foi encontrado 'crashpad_client.lib(settings.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\crashpad_client.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+crashpad_client.lib(crash_report_database.obj) : warning LNK4099: PDB 'crashpad_client.pdb' não foi encontrado 'crashpad_client.lib(crash_report_database.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\crashpad_client.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+crashpad_mpack.lib(mpack.obj) : warning LNK4099: PDB 'crashpad_mpack.pdb' não foi encontrado 'crashpad_mpack.lib(mpack.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\crashpad_mpack.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+crashpad_util.lib(uuid.obj) : warning LNK4099: PDB 'crashpad_util.pdb' não foi encontrado 'crashpad_util.lib(uuid.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\crashpad_util.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+crashpad_util.lib(scoped_handle.obj) : warning LNK4099: PDB 'crashpad_util.pdb' não foi encontrado 'crashpad_util.lib(scoped_handle.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\crashpad_util.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+crashpad_util.lib(file_io.obj) : warning LNK4099: PDB 'crashpad_util.pdb' não foi encontrado 'crashpad_util.lib(file_io.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\crashpad_util.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+crashpad_util.lib(file_io_win.obj) : warning LNK4099: PDB 'crashpad_util.pdb' não foi encontrado 'crashpad_util.lib(file_io_win.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\crashpad_util.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+crashpad_util.lib(file_writer.obj) : warning LNK4099: PDB 'crashpad_util.pdb' não foi encontrado 'crashpad_util.lib(file_writer.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\crashpad_util.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+crashpad_util.lib(metrics.obj) : warning LNK4099: PDB 'crashpad_util.pdb' não foi encontrado 'crashpad_util.lib(metrics.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\crashpad_util.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+crashpad_util.lib(directory_reader_win.obj) : warning LNK4099: PDB 'crashpad_util.pdb' não foi encontrado 'crashpad_util.lib(directory_reader_win.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\crashpad_util.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+crashpad_util.lib(filesystem_win.obj) : warning LNK4099: PDB 'crashpad_util.pdb' não foi encontrado 'crashpad_util.lib(filesystem_win.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\crashpad_util.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+crashpad_util.lib(command_line.obj) : warning LNK4099: PDB 'crashpad_util.pdb' não foi encontrado 'crashpad_util.lib(command_line.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\crashpad_util.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+crashpad_util.lib(random_string.obj) : warning LNK4099: PDB 'crashpad_util.pdb' não foi encontrado 'crashpad_util.lib(random_string.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\crashpad_util.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+crashpad_util.lib(critical_section_with_debug_info.obj) : warning LNK4099: PDB 'crashpad_util.pdb' não foi encontrado 'crashpad_util.lib(critical_section_with_debug_info.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\crashpad_util.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+crashpad_util.lib(get_function.obj) : warning LNK4099: PDB 'crashpad_util.pdb' não foi encontrado 'crashpad_util.lib(get_function.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\crashpad_util.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+crashpad_util.lib(handle.obj) : warning LNK4099: PDB 'crashpad_util.pdb' não foi encontrado 'crashpad_util.lib(handle.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\crashpad_util.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+crashpad_util.lib(initial_client_data.obj) : warning LNK4099: PDB 'crashpad_util.pdb' não foi encontrado 'crashpad_util.lib(initial_client_data.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\crashpad_util.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+crashpad_util.lib(loader_lock.obj) : warning LNK4099: PDB 'crashpad_util.pdb' não foi encontrado 'crashpad_util.lib(loader_lock.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\crashpad_util.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+crashpad_util.lib(nt_internals.obj) : warning LNK4099: PDB 'crashpad_util.pdb' não foi encontrado 'crashpad_util.lib(nt_internals.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\crashpad_util.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+crashpad_util.lib(ntstatus_logging.obj) : warning LNK4099: PDB 'crashpad_util.pdb' não foi encontrado 'crashpad_util.lib(ntstatus_logging.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\crashpad_util.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+crashpad_util.lib(process_info.obj) : warning LNK4099: PDB 'crashpad_util.pdb' não foi encontrado 'crashpad_util.lib(process_info.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\crashpad_util.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+crashpad_util.lib(registration_protocol_win.obj) : warning LNK4099: PDB 'crashpad_util.pdb' não foi encontrado 'crashpad_util.lib(registration_protocol_win.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\crashpad_util.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+crashpad_util.lib(scoped_process_suspend.obj) : warning LNK4099: PDB 'crashpad_util.pdb' não foi encontrado 'crashpad_util.lib(scoped_process_suspend.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\crashpad_util.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+crashpad_util.lib(file_reader.obj) : warning LNK4099: PDB 'crashpad_util.pdb' não foi encontrado 'crashpad_util.lib(file_reader.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\crashpad_util.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+crashpad_util.lib(scoped_remove_file.obj) : warning LNK4099: PDB 'crashpad_util.pdb' não foi encontrado 'crashpad_util.lib(scoped_remove_file.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\crashpad_util.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+crashpad_util.lib(file_helper.obj) : warning LNK4099: PDB 'crashpad_util.pdb' não foi encontrado 'crashpad_util.lib(file_helper.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\crashpad_util.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+crashpad_util.lib(time_win.obj) : warning LNK4099: PDB 'crashpad_util.pdb' não foi encontrado 'crashpad_util.lib(time_win.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\crashpad_util.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+crashpad_util.lib(string_number_conversion.obj) : warning LNK4099: PDB 'crashpad_util.pdb' não foi encontrado 'crashpad_util.lib(string_number_conversion.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\crashpad_util.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+crashpad_util.lib(split_string.obj) : warning LNK4099: PDB 'crashpad_util.pdb' não foi encontrado 'crashpad_util.lib(split_string.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\crashpad_util.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+crashpad_util.lib(aligned_allocator.obj) : warning LNK4099: PDB 'crashpad_util.pdb' não foi encontrado 'crashpad_util.lib(aligned_allocator.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\crashpad_util.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+crashpad_util.lib(scoped_local_alloc.obj) : warning LNK4099: PDB 'crashpad_util.pdb' não foi encontrado 'crashpad_util.lib(scoped_local_alloc.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\crashpad_util.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+mini_chromium.lib(file_path.obj) : warning LNK4099: PDB 'mini_chromium.pdb' não foi encontrado 'mini_chromium.lib(file_path.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\mini_chromium.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+mini_chromium.lib(logging.obj) : warning LNK4099: PDB 'mini_chromium.pdb' não foi encontrado 'mini_chromium.lib(logging.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\mini_chromium.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+mini_chromium.lib(utf_string_conversions.obj) : warning LNK4099: PDB 'mini_chromium.pdb' não foi encontrado 'mini_chromium.lib(utf_string_conversions.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\mini_chromium.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+mini_chromium.lib(stringprintf.obj) : warning LNK4099: PDB 'mini_chromium.pdb' não foi encontrado 'mini_chromium.lib(stringprintf.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\mini_chromium.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+mini_chromium.lib(lock_impl_win.obj) : warning LNK4099: PDB 'mini_chromium.pdb' não foi encontrado 'mini_chromium.lib(lock_impl_win.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\mini_chromium.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+mini_chromium.lib(rand_util.obj) : warning LNK4099: PDB 'mini_chromium.pdb' não foi encontrado 'mini_chromium.lib(rand_util.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\mini_chromium.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+mini_chromium.lib(scoped_clear_last_error_win.obj) : warning LNK4099: PDB 'mini_chromium.pdb' não foi encontrado 'mini_chromium.lib(scoped_clear_last_error_win.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\mini_chromium.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+mini_chromium.lib(memory.obj) : warning LNK4099: PDB 'mini_chromium.pdb' não foi encontrado 'mini_chromium.lib(memory.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\mini_chromium.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+mini_chromium.lib(file_util.obj) : warning LNK4099: PDB 'mini_chromium.pdb' não foi encontrado 'mini_chromium.lib(file_util.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\mini_chromium.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+mini_chromium.lib(utf_string_conversion_utils.obj) : warning LNK4099: PDB 'mini_chromium.pdb' não foi encontrado 'mini_chromium.lib(utf_string_conversion_utils.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\mini_chromium.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+mini_chromium.lib(string_util_win.obj) : warning LNK4099: PDB 'mini_chromium.pdb' não foi encontrado 'mini_chromium.lib(string_util_win.obj)' ou no 'D:\EDF IA RTX REMIX\runtime\_CompDebugOptimized_x64\src\d3d9\mini_chromium.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+   Criando biblioteca src\d3d9\d3d9.lib e objeto src\d3d9\d3d9.exp
+Activating VS 17.14.41 (September 2026)
+INFO: automatically activated MSVC compiler environment
+INFO: autodetecting backend as ninja
+INFO: calculating backend command to run: "D:\EDF IA RTX REMIX\.tools\build-python\Scripts\ninja.exe" -C "D:/EDF IA RTX REMIX/runtime/_CompDebugOptimized_x64" -j 4 src\d3d9\d3d9.dll

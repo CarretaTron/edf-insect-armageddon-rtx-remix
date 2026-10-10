@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "checks": 1584,
+  "errors": [],
+  "capture": "D:\\EDF IA RTX REMIX\\captures\\probe-queue64\\1791398185114-9236-0\\records.jsonl",
+  "expectedFrames": 3,
+  "observedDraws": 24,
+  "expectedShaderHashes": {
+    "vs": "323f637a1f73c22affc054a4d8951877495f0bca",
+    "ps": "fc6b9b569e322f7756630d9e67f4eadd4c0e9a91"
+  },
+  "limitations": [
+    "Controlled probe inputs only; this does not establish EDF compatibility, camera reconstruction or path tracing.",
+    "Texture descriptor is checked; texture pixels are not captured by this recorder."
+  ]
+}

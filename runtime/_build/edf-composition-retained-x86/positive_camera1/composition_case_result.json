@@ -1,0 +1,48 @@
+{
+  "schema": 1,
+  "case": "positive_camera1",
+  "architecture": "x86",
+  "status": "executed_and_verified",
+  "notGpuEvidence": false,
+  "notEdfGameplay": true,
+  "directory": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x86\\positive_camera1",
+  "profile": "D:\\EDF IA RTX REMIX\\profiles\\edf-composition-preview\\rtx.conf",
+  "profileSha256": "b11c8368244fe53e860515bcd0748919df03b9f27fb10556d9df27af6f78c88b",
+  "arguments": [
+    "--frames",
+    "4",
+    "--no-control",
+    "--presentation-pattern",
+    "--source-camera",
+    "0"
+  ],
+  "executableSha1": "900afbd27e848be839876f7e660915757f01eb4f",
+  "runtimeBinary": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x86\\positive_camera1\\.trex\\d3d9.dll",
+  "runtimeSha256Before": "b051fe14b0965c7a45d3a2370d8dc68fc7a18e6ae8ba43ef4a5c4e0d7d745f9e",
+  "expected": {
+    "sourceCamera": 0,
+    "expectedFrame": 1,
+    "expectedComposition": true
+  },
+  "activeGameInstallTouched": false,
+  "passed": true,
+  "errors": [],
+  "evidenceKind": "controlled_native_fixture_with_synthetic_textures",
+  "presentationDisplayVerified": false,
+  "realtimePathTracingProven": false,
+  "validationLayerRequested": false,
+  "exitCode": 0,
+  "probeVerification": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x86\\positive_camera1\\probe_verification.json",
+  "compositionVerification": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x86\\positive_camera1\\composition_verification.json",
+  "callbackCompletion": {
+    "event": "callbacks_completed",
+    "probeRecorded": 1,
+    "probeCompleted": 1,
+    "compositionRecorded": 1,
+    "compositionCompleted": 1,
+    "complete": true
+  },
+  "runtimeLog": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x86\\positive_camera1\\rtx-remix\\logs\\remix-dxvk.log",
+  "runtimeLogSha256": "e83af879be4b101756f3a01126048926304c1d04aa7b97e9258c6146d4903e21",
+  "runtimeSha256After": "b051fe14b0965c7a45d3a2370d8dc68fc7a18e6ae8ba43ef4a5c4e0d7d745f9e"
+}

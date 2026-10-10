@@ -1,0 +1,48 @@
+{
+  "schema": 1,
+  "case": "disabled",
+  "architecture": "x86",
+  "status": "executed_and_verified",
+  "notGpuEvidence": false,
+  "notEdfGameplay": true,
+  "directory": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x86\\disabled",
+  "profile": "D:\\EDF IA RTX REMIX\\profiles\\edf-composition-preview\\rtx.conf",
+  "profileSha256": "b11c8368244fe53e860515bcd0748919df03b9f27fb10556d9df27af6f78c88b",
+  "arguments": [
+    "--frames",
+    "4",
+    "--no-control",
+    "--presentation-pattern",
+    "--source-camera",
+    "2"
+  ],
+  "executableSha1": "900afbd27e848be839876f7e660915757f01eb4f",
+  "runtimeBinary": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x86\\disabled\\.trex\\d3d9.dll",
+  "runtimeSha256Before": "b051fe14b0965c7a45d3a2370d8dc68fc7a18e6ae8ba43ef4a5c4e0d7d745f9e",
+  "expected": {
+    "sourceCamera": 2,
+    "expectedFrame": 1,
+    "expectedComposition": false,
+    "enabled": false
+  },
+  "activeGameInstallTouched": false,
+  "passed": true,
+  "errors": [],
+  "evidenceKind": "controlled_native_fixture_with_synthetic_textures",
+  "presentationDisplayVerified": false,
+  "realtimePathTracingProven": false,
+  "validationLayerRequested": false,
+  "exitCode": 0,
+  "probeVerification": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x86\\disabled\\probe_verification.json",
+  "callbackCompletion": {
+    "event": "callbacks_completed",
+    "probeRecorded": 1,
+    "probeCompleted": 1,
+    "compositionRecorded": 0,
+    "compositionCompleted": 0,
+    "complete": true
+  },
+  "runtimeLog": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x86\\disabled\\rtx-remix\\logs\\remix-dxvk.log",
+  "runtimeLogSha256": "5b8d0e4a90b0c20a16d8f6cc3881d0e997006e3779fc318f23936b528c8a0fc5",
+  "runtimeSha256After": "b051fe14b0965c7a45d3a2370d8dc68fc7a18e6ae8ba43ef4a5c4e0d7d745f9e"
+}

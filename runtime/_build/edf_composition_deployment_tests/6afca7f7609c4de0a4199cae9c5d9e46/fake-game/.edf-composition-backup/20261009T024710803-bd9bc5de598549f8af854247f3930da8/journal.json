@@ -1,0 +1,51 @@
+{
+  "schema": 1,
+  "hashAlgorithm": "SHA256",
+  "gameRoot": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf_composition_deployment_tests\\6afca7f7609c4de0a4199cae9c5d9e46\\fake-game",
+  "session": "20261009T024710803-bd9bc5de598549f8af854247f3930da8",
+  "status": "restored",
+  "entries": [
+    {
+      "relativePath": "d3d9.dll",
+      "installedSha256": "A347B5453E05BCE77EA63ED4385E0E96DDEDA71F9DA8AD294C4A1AA9321900F3",
+      "originalExists": true,
+      "originalSha256": "C0AF8324CA72A7451D8A4FC2F0B694FE9891711F2F47114FE338E0420C0E1BE6",
+      "backupRelativePath": "original\\d3d9.dll"
+    },
+    {
+      "relativePath": ".trex\\d3d9.dll",
+      "installedSha256": "B53FB9E7327E93326B75B49B26728BAE7EC23A3095192C29E6A30A392B5A6095",
+      "originalExists": false,
+      "originalSha256": null,
+      "backupRelativePath": "original\\.trex\\d3d9.dll"
+    },
+    {
+      "relativePath": ".trex\\NvRemixBridge.exe",
+      "installedSha256": "AED6C76F2501648F3F751DD4B57FF248C0EB0A0FD150F11808C4AC75BAA5A90E",
+      "originalExists": false,
+      "originalSha256": null,
+      "backupRelativePath": "original\\.trex\\NvRemixBridge.exe"
+    },
+    {
+      "relativePath": ".trex\\nested\\plugin.dll",
+      "installedSha256": "8847BF4E07770D8798A7030DCBB2D526178F334BEEA50446F6DC5186ADB0F2FA",
+      "originalExists": false,
+      "originalSha256": null,
+      "backupRelativePath": "original\\.trex\\nested\\plugin.dll"
+    },
+    {
+      "relativePath": "rtx.conf",
+      "installedSha256": "6A3FE926DB464F03C9B7E7BB7A46E86D2B794A6FE1F4E9A02EDC449FA18B2669",
+      "originalExists": true,
+      "originalSha256": "7150A432D479076647414B8A44A4A3F990143ED615706962B9E956BA530A0AE0",
+      "backupRelativePath": "original\\rtx.conf",
+      "allowedInstalledSha256": [
+        "6A3FE926DB464F03C9B7E7BB7A46E86D2B794A6FE1F4E9A02EDC449FA18B2669",
+        "A85D2093753EC27FFDEBA89BE577A0881337D64C62CFD714BCCFECEA32E1126C"
+      ]
+    }
+  ],
+  "createdDirectories": [
+    ".trex\\nested"
+  ]
+}

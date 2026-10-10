@@ -1,0 +1,158 @@
+{
+  "schema": 1,
+  "passed": true,
+  "evidenceKind": "controlled_wsi_runtime_execution",
+  "fixtureOnly": false,
+  "notGpuEvidence": false,
+  "errors": [],
+  "samples": [
+    {
+      "passed": true,
+      "metadata": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x64\\mutated_initial\\probe-output\\session_1791550652632328_10392\\edf_pt_request_1_frame_2_composition.json",
+      "metadataSha256": "0d9dee66333fd5fa86561775fbad9bf04bc8201922a27199d274d990c2543473",
+      "frameId": 2,
+      "requestId": 1,
+      "roi": [
+        1040,
+        800,
+        820,
+        200
+      ],
+      "crop": [
+        523,
+        525,
+        502,
+        63
+      ],
+      "fit": [
+        4,
+        49,
+        812,
+        101
+      ],
+      "gpuCompleted": true,
+      "compositionPerformed": true,
+      "presentationQueued": true,
+      "presentationDisplayVerified": false,
+      "outsideRoiChangedPixels": 0,
+      "insideRoiChangedPixels": 164000,
+      "cpuPanelMaximumByteDifference": 1,
+      "images": [
+        {
+          "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x64\\mutated_initial\\probe-output\\session_1791550652632328_10392\\edf_pt_request_1_frame_2_composition_wsi_before.bin",
+          "byteCount": 8294400,
+          "sha256": "d3143e10c6532b06daf6c88bf44569cd704012126d22091c6fc8b7dec40271c5",
+          "fnv1a64": "0x1d589772b822bfd6",
+          "name": "wsi_before"
+        },
+        {
+          "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x64\\mutated_initial\\probe-output\\session_1791550652632328_10392\\edf_pt_request_1_frame_2_composition_wsi_after.bin",
+          "byteCount": 8294400,
+          "sha256": "2ef7331a81cb8d7d0c21efd92433fa19ca2062ce57c5ea01a5c8a8ad8095c5c9",
+          "fnv1a64": "0xa33b486783570f7e",
+          "name": "wsi_after"
+        },
+        {
+          "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x64\\mutated_initial\\probe-output\\session_1791550652632328_10392\\edf_pt_request_1_frame_2_composition_expected_panel.bin",
+          "byteCount": 656000,
+          "sha256": "2c02544b2d1cbd91edb57dba04739a3582c5a0d794823c912abc0e083b2cbcdc",
+          "fnv1a64": "0x174c8b425977cad1",
+          "name": "expected_panel"
+        },
+        {
+          "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x64\\mutated_initial\\probe-output\\session_1791550652632328_10392\\edf_pt_request_1_frame_2_composition_scratch_before.bin",
+          "byteCount": 656000,
+          "sha256": "accc6a1df811fd4e64eba918d0fce1d2f95a46ec10e4fed1d78bfe9a7e6287f2",
+          "fnv1a64": "0xd6315355f7085c25",
+          "name": "scratch_before"
+        }
+      ],
+      "preservedTargets": [
+        {
+          "slot": 0,
+          "sessionId": 2403901294432,
+          "unchanged": true,
+          "before": {
+            "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x64\\mutated_initial\\probe-output\\session_1791550652632328_10392\\edf_pt_request_1_frame_2_composition_original_target_0_before.bin",
+            "byteCount": 8294400,
+            "sha256": "2bc0c20b5305c82522ad8e5911ca5a60219fef51db5ae452ab402daa958d795e",
+            "fnv1a64": "0x5b1407680addffe8"
+          },
+          "after": {
+            "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x64\\mutated_initial\\probe-output\\session_1791550652632328_10392\\edf_pt_request_1_frame_2_composition_original_target_0_after.bin",
+            "byteCount": 8294400,
+            "sha256": "2bc0c20b5305c82522ad8e5911ca5a60219fef51db5ae452ab402daa958d795e",
+            "fnv1a64": "0x5b1407680addffe8"
+          }
+        },
+        {
+          "slot": 1,
+          "sessionId": 2403901300432,
+          "unchanged": true,
+          "before": {
+            "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x64\\mutated_initial\\probe-output\\session_1791550652632328_10392\\edf_pt_request_1_frame_2_composition_original_target_1_before.bin",
+            "byteCount": 8294400,
+            "sha256": "fa3ac80ed178e062b435585a45e7bfafd2048fc797de6c128182255b5de4ff78",
+            "fnv1a64": "0x928dc9d784d91fe8"
+          },
+          "after": {
+            "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x64\\mutated_initial\\probe-output\\session_1791550652632328_10392\\edf_pt_request_1_frame_2_composition_original_target_1_after.bin",
+            "byteCount": 8294400,
+            "sha256": "fa3ac80ed178e062b435585a45e7bfafd2048fc797de6c128182255b5de4ff78",
+            "fnv1a64": "0x928dc9d784d91fe8"
+          }
+        },
+        {
+          "slot": 2,
+          "sessionId": 2403901298032,
+          "unchanged": true,
+          "before": {
+            "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x64\\mutated_initial\\probe-output\\session_1791550652632328_10392\\edf_pt_request_1_frame_2_composition_original_target_2_before.bin",
+            "byteCount": 8294400,
+            "sha256": "3dc70f11a6c92892dfc06db7ed6e1dba385c086d037badfd8d74c8764cec3613",
+            "fnv1a64": "0x4a14d766f4cdf02f"
+          },
+          "after": {
+            "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x64\\mutated_initial\\probe-output\\session_1791550652632328_10392\\edf_pt_request_1_frame_2_composition_original_target_2_after.bin",
+            "byteCount": 8294400,
+            "sha256": "3dc70f11a6c92892dfc06db7ed6e1dba385c086d037badfd8d74c8764cec3613",
+            "fnv1a64": "0x4a14d766f4cdf02f"
+          }
+        },
+        {
+          "slot": 3,
+          "sessionId": 2403901298432,
+          "unchanged": true,
+          "before": {
+            "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x64\\mutated_initial\\probe-output\\session_1791550652632328_10392\\edf_pt_request_1_frame_2_composition_original_target_3_before.bin",
+            "byteCount": 8294400,
+            "sha256": "fdb31a8a6d0ed8800c1892861160e3897aa41b2e0eb59f4205e86d51fa919d86",
+            "fnv1a64": "0xebe78639d069c76f"
+          },
+          "after": {
+            "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x64\\mutated_initial\\probe-output\\session_1791550652632328_10392\\edf_pt_request_1_frame_2_composition_original_target_3_after.bin",
+            "byteCount": 8294400,
+            "sha256": "fdb31a8a6d0ed8800c1892861160e3897aa41b2e0eb59f4205e86d51fa919d86",
+            "fnv1a64": "0xebe78639d069c76f"
+          }
+        }
+      ],
+      "originalTargetsUnchanged": true
+    }
+  ],
+  "realtimePathTracingProven": false,
+  "spatialObjectReplacementProven": false,
+  "runtimeLogFailures": [],
+  "runtimeLog": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x64\\mutated_initial\\rtx-remix\\logs\\remix-dxvk.log",
+  "runtimeLogSha256": "cb4eb1cc8f9ec0aa36c0c2386e8c4c9554f70ff6fa5c5fe16f4e4f79792484de",
+  "probeVerification": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x64\\mutated_initial\\probe_verification.json",
+  "probeVerificationSha256": "13342e51cd7722d15ad1d87d0a20e2016286a347ae5a39396daad948f3419bc0",
+  "runtimeBinary": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x64\\mutated_initial\\d3d9.dll",
+  "runtimeSha256": "b051fe14b0965c7a45d3a2370d8dc68fc7a18e6ae8ba43ef4a5c4e0d7d745f9e",
+  "limits": [
+    "A successful result verifies GPU-completed current-frame WSI pixels and original target readbacks.",
+    "Readbacks do not independently prove semaphore ordering; inspect native submission source and GPU validation output.",
+    "The panel is a diagnostic preview, not an occlusion-correct object replacement or a continuous performance test.",
+    "Synthetic fixtures exercise the verifier and are never reported as GPU or EDF gameplay evidence."
+  ]
+}

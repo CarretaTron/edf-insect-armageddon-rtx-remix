@@ -1,0 +1,257 @@
+{
+  "schema": 1,
+  "passed": true,
+  "evidenceKind": "actual_edf_gameplay_offscreen_gpu",
+  "session": "D:\\EDF IA RTX REMIX\\captures\\edf-pt-probe\\session_1791490947848472_12776",
+  "sampleCount": 3,
+  "errors": [],
+  "samples": [
+    {
+      "frameId": 1043,
+      "requestId": 1,
+      "metadata": "D:\\EDF IA RTX REMIX\\captures\\edf-pt-probe\\session_1791490947848472_12776\\edf_pt_request_1_frame_1043.json",
+      "metadataSha256": "4205e5874645ad823320066042c3e86f5645729d00c0660ff56e3c20c585d709",
+      "gpuCompleted": true,
+      "compositionPerformed": false,
+      "radianceNonzeroObserved": true,
+      "radianceNonzeroPixelCount": 8703,
+      "gpuHitCount": 8705,
+      "hitBounds": [
+        1352,
+        562,
+        1916,
+        616
+      ],
+      "cpuGpuSilhouetteIoU": 1.0,
+      "cpuGpuDepth": {
+        "passed": true,
+        "cpuHitCount": 8705,
+        "gpuHitCount": 8705,
+        "cpuBounds": [
+          1352,
+          562,
+          1916,
+          616
+        ],
+        "gpuBounds": [
+          1352,
+          562,
+          1916,
+          616
+        ],
+        "silhouetteIoU": 1.0,
+        "allowedSilhouetteEdgePixels": 1,
+        "interiorDepthSamples": 7965,
+        "maximumInteriorDepthError": 0.0006702542011680634,
+        "depthTolerance": "0.0005 + abs(cpuLinearZ) * 2e-5",
+        "nearestTrianglesTwoSided": true
+      },
+      "originalColorTargetsUnchanged": true,
+      "originalColorTargetCount": 4,
+      "originalDepthReadbackVerified": false,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "cameraLastUpdateFrame": 1043,
+      "sourceViewMaxError": 0,
+      "sourceProjectionMaxError": 0,
+      "directRadianceMaximumRgb": [
+        1.4013671875,
+        1.6123046875,
+        1.7626953125
+      ],
+      "directRadianceRgbValuesAboveOne": 5373,
+      "finalMaximumRgb": [
+        0.8046875,
+        0.83642578125,
+        0.86376953125
+      ]
+    },
+    {
+      "frameId": 1112,
+      "requestId": 2,
+      "metadata": "D:\\EDF IA RTX REMIX\\captures\\edf-pt-probe\\session_1791490947848472_12776\\edf_pt_request_2_frame_1112.json",
+      "metadataSha256": "a850675a194803486eb2870d62161ba5cd3a16a128538d453d3d757e28cfb5ac",
+      "gpuCompleted": true,
+      "compositionPerformed": false,
+      "radianceNonzeroObserved": true,
+      "radianceNonzeroPixelCount": 8596,
+      "gpuHitCount": 8602,
+      "hitBounds": [
+        1335,
+        562,
+        1894,
+        616
+      ],
+      "cpuGpuSilhouetteIoU": 0.9989548252235513,
+      "cpuGpuDepth": {
+        "passed": true,
+        "cpuHitCount": 8611,
+        "gpuHitCount": 8602,
+        "cpuBounds": [
+          1335,
+          562,
+          1894,
+          616
+        ],
+        "gpuBounds": [
+          1335,
+          562,
+          1894,
+          616
+        ],
+        "silhouetteIoU": 0.9989548252235513,
+        "allowedSilhouetteEdgePixels": 1,
+        "interiorDepthSamples": 7879,
+        "maximumInteriorDepthError": 0.0004423536779540882,
+        "depthTolerance": "0.0005 + abs(cpuLinearZ) * 2e-5",
+        "nearestTrianglesTwoSided": true
+      },
+      "originalColorTargetsUnchanged": true,
+      "originalColorTargetCount": 4,
+      "originalDepthReadbackVerified": false,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "cameraLastUpdateFrame": 1112,
+      "sourceViewMaxError": 0,
+      "sourceProjectionMaxError": 0,
+      "directRadianceMaximumRgb": [
+        1.396484375,
+        1.611328125,
+        1.755859375
+      ],
+      "directRadianceRgbValuesAboveOne": 5347,
+      "finalMaximumRgb": [
+        0.85009765625,
+        0.875,
+        0.89892578125
+      ]
+    },
+    {
+      "frameId": 1171,
+      "requestId": 3,
+      "metadata": "D:\\EDF IA RTX REMIX\\captures\\edf-pt-probe\\session_1791490947848472_12776\\edf_pt_request_3_frame_1171.json",
+      "metadataSha256": "0050ac232bae0b3476dfb774ed72c2dcf931c76dee21e9d8cc4d5708ce4dfebc",
+      "gpuCompleted": true,
+      "compositionPerformed": false,
+      "radianceNonzeroObserved": true,
+      "radianceNonzeroPixelCount": 7577,
+      "gpuHitCount": 7581,
+      "hitBounds": [
+        1143,
+        635,
+        1663,
+        686
+      ],
+      "cpuGpuSilhouetteIoU": 1.0,
+      "cpuGpuDepth": {
+        "passed": true,
+        "cpuHitCount": 7581,
+        "gpuHitCount": 7581,
+        "cpuBounds": [
+          1143,
+          635,
+          1663,
+          686
+        ],
+        "gpuBounds": [
+          1143,
+          635,
+          1663,
+          686
+        ],
+        "silhouetteIoU": 1.0,
+        "allowedSilhouetteEdgePixels": 1,
+        "interiorDepthSamples": 6891,
+        "maximumInteriorDepthError": 0.00037281372976849525,
+        "depthTolerance": "0.0005 + abs(cpuLinearZ) * 2e-5",
+        "nearestTrianglesTwoSided": true
+      },
+      "originalColorTargetsUnchanged": true,
+      "originalColorTargetCount": 4,
+      "originalDepthReadbackVerified": false,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "cameraLastUpdateFrame": 1171,
+      "sourceViewMaxError": 0,
+      "sourceProjectionMaxError": 0,
+      "directRadianceMaximumRgb": [
+        1.40234375,
+        1.611328125,
+        1.7626953125
+      ],
+      "directRadianceRgbValuesAboveOne": 4709,
+      "finalMaximumRgb": [
+        0.88671875,
+        0.89892578125,
+        0.919921875
+      ]
+    }
+  ],
+  "verifiedRuntime": {
+    "path": "D:\\SteamLibrary\\steamapps\\common\\Earth Defense Force Insect Armageddon\\.trex\\d3d9.dll",
+    "sha256": "93b265b00cb55b51b25c5b7f0495d72a9e0cf76d55abe1462f932501843b4641",
+    "provenance": "Read-only binary measured after execution; not an in-process build fingerprint."
+  },
+  "runtimeLog": "D:\\EDF IA RTX REMIX\\captures\\edf-pt-probe\\session_1791490947848472_12776\\remix-dxvk.log",
+  "runtimeLogSha256": "5bb9098241bf185ef13d1f75e34115db67a983939b2b5f2c61ccf0115b676f89",
+  "verification": "D:\\EDF IA RTX REMIX\\analysis\\edf\\visualization\\actual_edf_verification.json",
+  "verificationSha256": "08329255375ca94e10a397e18c23ce6fe0213c0c5c5e89474bd303a03c77f7e4",
+  "legacyVerificationEvidenceKind": "controlled_offscreen_runtime_replay",
+  "originEvidence": "User supplied actual gameplay session; log identifies EDF-IA.exe; current renderer matches delivered SHA256.",
+  "viewer": "D:\\EDF IA RTX REMIX\\analysis\\edf\\visualization\\images\\viewer_manifest.json",
+  "viewerManifestSha256": "c18e42c52ba0e4a43f02c616aa7f1504b4521830cd50f878a0a5d0a0015333a1",
+  "pngCount": 42,
+  "originalInputFileCount": 50,
+  "viewerUnitTestCount": 40,
+  "viewerUnitTestLog": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf_probe_viewer_unit_tests.log",
+  "independentReview": {
+    "completePNGsComparedPixelByPixel": 18,
+    "differingPixels": 0,
+    "rawHashesChecked": 50,
+    "outputHashesChecked": 42,
+    "preservedBackbufferChecksumGapCorrected": true
+  },
+  "originalInputBytes": 404467728,
+  "originalInputsPreserved": true,
+  "beforeManifestSha256": "4683c3d925a22d953992c9bd1812bd8104c034f6c34567b80ffce528fee8655f",
+  "compositionPerformed": false,
+  "realTimePathTracingProven": false,
+  "finalEncoding": "display",
+  "runtimeTransferFlagsMeasured": false,
+  "finalEncodingBasis": "Normal source path performs tonemapping and approximate gamma 2.2; explicit display mode preserves stored RGB; per-frame transfer/debug flags not exported.",
+  "originalDepthReadbackVerified": false,
+  "lighting": "Controlled diagnostic fallback light, not recovered EDF lighting.",
+  "offlineMockup": "D:\\EDF IA RTX REMIX\\analysis\\edf\\visualization\\mockup\\mockup_verification.json",
+  "offlineMockupSha256": "30b8f60ded9f4d036c38ed3d75fdf13152f4d321447f445676b6320dfacce706",
+  "cameraLifecycle": {
+    "missingFrame": 867,
+    "missingSnapshots": [
+      "[17:22:21.975] info:  [EDF-Static-Probe] stage=injection_snapshot frame=867 serial=95 source=present_fallback last_injected_frame=866 latest_draw_frame=866 current_frame_draw_count=0 camera_last_update_frame=866 camera_valid=0 duplicate=0 target_session_id=2759820366320 source_target_session_id=2760144055616 target_hash=2760323028160007304 target_format=44 target_width=1920 target_height=1080 renderer_view_error=-1 renderer_projection_error=-1"
+    ],
+    "recoveryFrame": 910,
+    "recoverySnapshots": [
+      "[17:22:23.409] info:  [EDF-Static-Probe] stage=injection_snapshot frame=910 serial=138 source=present_fallback last_injected_frame=866 latest_draw_frame=910 current_frame_draw_count=1 camera_last_update_frame=910 camera_valid=1 duplicate=0 target_session_id=2759820365920 source_target_session_id=2760144055616 target_hash=2094001132311158761 target_format=44 target_width=1920 target_height=1080 renderer_view_error=0 renderer_projection_error=0"
+    ]
+  },
+  "activeInstallationWritesPerformed": false,
+  "activeFilesReadOnlyMeasured": [
+    {
+      "path": "D:\\SteamLibrary\\steamapps\\common\\Earth Defense Force Insect Armageddon\\.trex\\d3d9.dll",
+      "sha256": "93b265b00cb55b51b25c5b7f0495d72a9e0cf76d55abe1462f932501843b4641"
+    },
+    {
+      "path": "D:\\SteamLibrary\\steamapps\\common\\Earth Defense Force Insect Armageddon\\rtx.conf",
+      "sha256": "a8172da073255f356d4f13b419c5782b4c19969cf7b84250182d08aef574b1fc"
+    },
+    {
+      "path": "D:\\SteamLibrary\\steamapps\\common\\Earth Defense Force Insect Armageddon\\rtx-remix\\logs\\remix-dxvk.log",
+      "sha256": "5bb9098241bf185ef13d1f75e34115db67a983939b2b5f2c61ccf0115b676f89"
+    }
+  ]
+}

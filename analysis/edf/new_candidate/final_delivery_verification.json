@@ -1,0 +1,11 @@
+{
+  "result": "passed",
+  "implementation": "compiled_controlled_replay_passed_game_test_pending",
+  "runtimeSha256": "7b8ab28eee0838ee2e9e018663e7f911df6d311d7b25437587fb5cffc7cdb98d",
+  "gpuTransports": [
+    "direct_x64",
+    "x86_bridge_x64_runtime"
+  ],
+  "rasterComparisons": 2,
+  "actualEdfRunStillRequired": true
+}

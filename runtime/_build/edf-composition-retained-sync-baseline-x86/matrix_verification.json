@@ -1,0 +1,74 @@
+{
+  "schema": 1,
+  "architecture": "x86",
+  "executed": true,
+  "passed": false,
+  "notGpuEvidence": false,
+  "notEdfGameplay": true,
+  "cases": [
+    {
+      "schema": 1,
+      "case": "disabled",
+      "architecture": "x86",
+      "status": "executed_failed",
+      "notGpuEvidence": false,
+      "notEdfGameplay": true,
+      "directory": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-sync-baseline-x86\\disabled",
+      "profile": "D:\\EDF IA RTX REMIX\\profiles\\edf-composition-preview\\rtx.conf",
+      "profileSha256": "b11c8368244fe53e860515bcd0748919df03b9f27fb10556d9df27af6f78c88b",
+      "arguments": [
+        "--frames",
+        "4",
+        "--no-control",
+        "--presentation-pattern",
+        "--source-camera",
+        "2"
+      ],
+      "executableSha1": "900afbd27e848be839876f7e660915757f01eb4f",
+      "runtimeBinary": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-sync-baseline-x86\\disabled\\.trex\\d3d9.dll",
+      "runtimeSha256Before": "b051fe14b0965c7a45d3a2370d8dc68fc7a18e6ae8ba43ef4a5c4e0d7d745f9e",
+      "expected": {
+        "sourceCamera": 2,
+        "expectedFrame": 1,
+        "expectedComposition": false,
+        "enabled": false
+      },
+      "activeGameInstallTouched": false,
+      "passed": false,
+      "errors": [
+        "Native replay failed with exit code 1."
+      ],
+      "evidenceKind": "controlled_native_fixture_with_synthetic_textures",
+      "presentationDisplayVerified": false,
+      "realtimePathTracingProven": false,
+      "validationLayerRequested": true,
+      "validation": {
+        "requested": true,
+        "syncRequested": true,
+        "childEnvironment": {
+          "VK_LAYER_PATH": "C:\\VulkanSDK\\1.4.363.0\\Bin",
+          "VK_INSTANCE_LAYERS": "VK_LAYER_KHRONOS_validation",
+          "VK_LAYER_ENABLES": "VK_VALIDATION_FEATURE_ENABLE_SYNCHRONIZATION_VALIDATION_EXT",
+          "VK_LAYER_SETTINGS_PATH": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-sync-baseline-x86\\disabled\\vk_layer_settings.txt",
+          "DXVK_ENABLE_VALIDATION_LAYERS": "1",
+          "DXVK_ENABLE_VALIDATION_LAYER_EXTENDED_VALIDATION": "0",
+          "DXVK_LOG_CALLSTACKS_ON_VALIDATION_LAYER_ERRORS": "0"
+        },
+        "sdkManifest": "C:\\VulkanSDK\\1.4.363.0\\Bin\\VkLayer_khronos_validation.json",
+        "sdkManifestSha256": "672a281330703083230ff02cabdd1afd524b600e0a11ae8610119e06e4183b02",
+        "sdkLayer": "C:\\VulkanSDK\\1.4.363.0\\Bin\\VkLayer_khronos_validation.dll",
+        "sdkLayerSha256": "2acc317ef880f73a9862f23a964694c03f531b866fab6d70f1412fcbae60caac",
+        "apiVersion": "1.4.363",
+        "settingsFile": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-sync-baseline-x86\\disabled\\vk_layer_settings.txt",
+        "settingsSha256": "d64d550f5016b75401cced28e2fa649aa42ad46e10930f5e750f5bae252b98ff",
+        "globalSettingsModified": false,
+        "gpuAssistedValidationRequested": false,
+        "bestPracticesRequested": false
+      },
+      "exitCode": 1
+    }
+  ],
+  "activeGameInstallTouched": false,
+  "presentationDisplayVerified": false,
+  "realtimePathTracingProven": false
+}

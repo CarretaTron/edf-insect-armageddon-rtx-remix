@@ -1,0 +1,19 @@
+{
+  "result": "passed",
+  "targetEnvironment": "vulkan1.3",
+  "runtimeSha256": "7b8ab28eee0838ee2e9e018663e7f911df6d311d7b25437587fb5cffc7cdb98d",
+  "shaders": [
+    {
+      "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-static-gpu-x64-positive\\shader_dump\\FS_44b92a29eb3e5f2ee6d53f02e14fb11a01511da8.spv",
+      "exitCode": 0,
+      "diagnostic": [],
+      "sha256": "153758364f032efcc8b4d1fa6ea37ae2c8df1cde29beaf01bc5d4c3fd05b0ff5"
+    },
+    {
+      "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-static-gpu-x64-positive\\shader_dump\\VS_f098f457d9ae603bea5f84ec985d473c29cfb0c9.spv",
+      "exitCode": 0,
+      "diagnostic": [],
+      "sha256": "fee28b1c2e449660b317da51dc24df742caa1a2d1947eb74081985eba818ecba"
+    }
+  ]
+}

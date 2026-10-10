@@ -1,0 +1,5 @@
+{"event":"startup","architecture":"x86","frames":3,"syntheticTextures":true,"originalShaderBytecode":true,"negativeControl":true}
+{"event":"frame","replayFrame":0,"sourceFrame":755,"draws":2,"hresultChecks":524}
+{"event":"frame","replayFrame":1,"sourceFrame":1182,"draws":2,"hresultChecks":683}
+{"event":"frame","replayFrame":2,"sourceFrame":1292,"draws":2,"hresultChecks":842}
+{"event":"success","hresultChecks":842}

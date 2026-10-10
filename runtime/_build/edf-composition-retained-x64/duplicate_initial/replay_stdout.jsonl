@@ -1,0 +1,7 @@
+{"event":"startup","architecture":"x64","frames":4,"syntheticTextures":true,"originalShaderBytecode":true,"negativeControl":false}
+{"event":"frame","replayFrame":0,"sourceFrame":1292,"draws":1,"hresultChecks":530,"targetMutated":false,"targetDuplicated":false,"presentationPattern":true,"nonidentityGamma":false,"partialPresent":false}
+{"event":"frame","replayFrame":1,"sourceFrame":755,"draws":2,"hresultChecks":696,"targetMutated":false,"targetDuplicated":true,"presentationPattern":true,"nonidentityGamma":false,"partialPresent":false}
+{"event":"frame","replayFrame":2,"sourceFrame":1182,"draws":1,"hresultChecks":861,"targetMutated":false,"targetDuplicated":false,"presentationPattern":true,"nonidentityGamma":false,"partialPresent":false}
+{"event":"frame","replayFrame":3,"sourceFrame":1292,"draws":1,"hresultChecks":1021,"targetMutated":false,"targetDuplicated":false,"presentationPattern":true,"nonidentityGamma":false,"partialPresent":false}
+{"event":"callbacks_completed","probeRecorded":1,"probeCompleted":1,"compositionRecorded":1,"compositionCompleted":1,"complete":true}
+{"event":"success","hresultChecks":1077}

@@ -1,0 +1,9 @@
+# Controlled native fixture; no global vkconfig changes.
+khronos_validation.validate_sync = true
+khronos_validation.syncval_full_validation = true
+khronos_validation.syncval_record_time_validation = true
+khronos_validation.gpuav_enable = false
+khronos_validation.validate_best_practices = false
+khronos_validation.report_flags = error,warn,info
+khronos_validation.debug_action = VK_DBG_LAYER_ACTION_LOG_MSG,VK_DBG_LAYER_ACTION_DEBUG_OUTPUT
+khronos_validation.enable_message_limit = false

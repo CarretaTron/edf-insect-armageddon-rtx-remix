@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "passed": true,
+  "assertionCount": 34,
+  "fixtureRoot": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf_composition_deployment_tests\\6afca7f7609c4de0a4199cae9c5d9e46",
+  "activeInstallationTouched": false,
+  "backupNamespace": ".edf-composition-backup",
+  "legacyNamespacePreserved": true,
+  "controlledProfileCRLFValidated": true
+}

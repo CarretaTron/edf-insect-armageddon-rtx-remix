@@ -1,0 +1,38 @@
+{
+  "schema": 1,
+  "kind": "offline_png_mockup_only",
+  "compositionPerformedInGame": false,
+  "rendererChanged": false,
+  "roiXYWH": [
+    1040,
+    800,
+    820,
+    200
+  ],
+  "samples": [
+    {
+      "frameId": 1043,
+      "file": "request_1_frame_1043_offline_preview_mockup.png",
+      "sha256": "0f837ab4ef596d05efc9e54466b755838b84a2cfcc50678aa60a617f46fc2491",
+      "changedPixelsOutsideROI": 0,
+      "changedPixelsInsideROI": 164000
+    },
+    {
+      "frameId": 1112,
+      "file": "request_2_frame_1112_offline_preview_mockup.png",
+      "sha256": "130aa150f9940520eb5eafb69450a0f5a5ab1ea425b29f61711086fe37b31c51",
+      "changedPixelsOutsideROI": 0,
+      "changedPixelsInsideROI": 164000
+    },
+    {
+      "frameId": 1171,
+      "file": "request_3_frame_1171_offline_preview_mockup.png",
+      "sha256": "9e38584f4c85048b021f41c75049cc31f603397328cb20c711a9a3bee9105aae",
+      "changedPixelsOutsideROI": 0,
+      "changedPixelsInsideROI": 164000
+    }
+  ],
+  "viewerManifestSha256": "c18e42c52ba0e4a43f02c616aa7f1504b4521830cd50f878a0a5d0a0015333a1",
+  "passed": true,
+  "sourcePNGsPreserved": true
+}

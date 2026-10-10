@@ -1,0 +1,5 @@
+{
+  "runtimeSha256": "fb09512c505e1dcf35042474bac46f5edd3f7e0162130328969e4596c7b4b382",
+  "result": "not_final",
+  "reason": "Raster equality passed, but trace separators/frame correlation and pre-existing normal SPIR-V store needed correction."
+}

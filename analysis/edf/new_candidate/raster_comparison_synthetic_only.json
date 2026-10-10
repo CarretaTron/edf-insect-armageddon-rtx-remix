@@ -1,0 +1,214 @@
+{
+  "schema": 1,
+  "result": "passed",
+  "errors": [],
+  "evidenceKind": "synthetic_verifier_fixture",
+  "controlledReplay": true,
+  "syntheticTextures": true,
+  "fixtureOnly": true,
+  "notGpuEvidence": true,
+  "baselineDirectory": "D:\\EDF IA RTX REMIX\\runtime\\_build\\compare_raster_unit\\baseline",
+  "profileDirectory": "D:\\EDF IA RTX REMIX\\runtime\\_build\\compare_raster_unit\\profile",
+  "frames": [
+    {
+      "sourceFrame": 755,
+      "result": "passed",
+      "baseline": {
+        "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\compare_raster_unit\\baseline\\original_mrt0_755.bmp",
+        "fileBytes": 102,
+        "width": 4,
+        "height": 3,
+        "bitsPerPixel": 32,
+        "topDown": true,
+        "fileSha256": "cb47f3eb26c816d6d1667760c3bef66b3ed39466a2000ffe9ef31969956b3112",
+        "pixelBgraSha256": "84846234aaf30680b18ce994f7cf13554a6948819397c1a3d583628cbf209059",
+        "visibleRgbSha256": "4dc4df09f8d9d367336ddc917bc870fc63a3d1c33ad62eb71b89b89a47981f31",
+        "uniformVisibleRgb": false,
+        "referencePixel": {
+          "x": 0,
+          "y": 0,
+          "rgb": [
+            16,
+            16,
+            16
+          ]
+        },
+        "nonUniformPixels": 4,
+        "nonUniformBounds": {
+          "xMin": 1,
+          "yMin": 1,
+          "xMaxInclusive": 2,
+          "yMaxInclusive": 2
+        }
+      },
+      "profile": {
+        "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\compare_raster_unit\\profile\\original_mrt0_755.bmp",
+        "fileBytes": 102,
+        "width": 4,
+        "height": 3,
+        "bitsPerPixel": 32,
+        "topDown": true,
+        "fileSha256": "cb47f3eb26c816d6d1667760c3bef66b3ed39466a2000ffe9ef31969956b3112",
+        "pixelBgraSha256": "84846234aaf30680b18ce994f7cf13554a6948819397c1a3d583628cbf209059",
+        "visibleRgbSha256": "4dc4df09f8d9d367336ddc917bc870fc63a3d1c33ad62eb71b89b89a47981f31",
+        "uniformVisibleRgb": false,
+        "referencePixel": {
+          "x": 0,
+          "y": 0,
+          "rgb": [
+            16,
+            16,
+            16
+          ]
+        },
+        "nonUniformPixels": 4,
+        "nonUniformBounds": {
+          "xMin": 1,
+          "yMin": 1,
+          "xMaxInclusive": 2,
+          "yMaxInclusive": 2
+        }
+      },
+      "dimensionsEqual": true,
+      "fileBytesEqual": true,
+      "decodedBgraPixelsEqual": true,
+      "visibleRgbPixelsEqual": true,
+      "errors": []
+    },
+    {
+      "sourceFrame": 1182,
+      "result": "passed",
+      "baseline": {
+        "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\compare_raster_unit\\baseline\\original_mrt0_1182.bmp",
+        "fileBytes": 102,
+        "width": 4,
+        "height": 3,
+        "bitsPerPixel": 32,
+        "topDown": true,
+        "fileSha256": "cb47f3eb26c816d6d1667760c3bef66b3ed39466a2000ffe9ef31969956b3112",
+        "pixelBgraSha256": "84846234aaf30680b18ce994f7cf13554a6948819397c1a3d583628cbf209059",
+        "visibleRgbSha256": "4dc4df09f8d9d367336ddc917bc870fc63a3d1c33ad62eb71b89b89a47981f31",
+        "uniformVisibleRgb": false,
+        "referencePixel": {
+          "x": 0,
+          "y": 0,
+          "rgb": [
+            16,
+            16,
+            16
+          ]
+        },
+        "nonUniformPixels": 4,
+        "nonUniformBounds": {
+          "xMin": 1,
+          "yMin": 1,
+          "xMaxInclusive": 2,
+          "yMaxInclusive": 2
+        }
+      },
+      "profile": {
+        "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\compare_raster_unit\\profile\\original_mrt0_1182.bmp",
+        "fileBytes": 102,
+        "width": 4,
+        "height": 3,
+        "bitsPerPixel": 32,
+        "topDown": true,
+        "fileSha256": "cb47f3eb26c816d6d1667760c3bef66b3ed39466a2000ffe9ef31969956b3112",
+        "pixelBgraSha256": "84846234aaf30680b18ce994f7cf13554a6948819397c1a3d583628cbf209059",
+        "visibleRgbSha256": "4dc4df09f8d9d367336ddc917bc870fc63a3d1c33ad62eb71b89b89a47981f31",
+        "uniformVisibleRgb": false,
+        "referencePixel": {
+          "x": 0,
+          "y": 0,
+          "rgb": [
+            16,
+            16,
+            16
+          ]
+        },
+        "nonUniformPixels": 4,
+        "nonUniformBounds": {
+          "xMin": 1,
+          "yMin": 1,
+          "xMaxInclusive": 2,
+          "yMaxInclusive": 2
+        }
+      },
+      "dimensionsEqual": true,
+      "fileBytesEqual": true,
+      "decodedBgraPixelsEqual": true,
+      "visibleRgbPixelsEqual": true,
+      "errors": []
+    },
+    {
+      "sourceFrame": 1292,
+      "result": "passed",
+      "baseline": {
+        "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\compare_raster_unit\\baseline\\original_mrt0_1292.bmp",
+        "fileBytes": 102,
+        "width": 4,
+        "height": 3,
+        "bitsPerPixel": 32,
+        "topDown": true,
+        "fileSha256": "cb47f3eb26c816d6d1667760c3bef66b3ed39466a2000ffe9ef31969956b3112",
+        "pixelBgraSha256": "84846234aaf30680b18ce994f7cf13554a6948819397c1a3d583628cbf209059",
+        "visibleRgbSha256": "4dc4df09f8d9d367336ddc917bc870fc63a3d1c33ad62eb71b89b89a47981f31",
+        "uniformVisibleRgb": false,
+        "referencePixel": {
+          "x": 0,
+          "y": 0,
+          "rgb": [
+            16,
+            16,
+            16
+          ]
+        },
+        "nonUniformPixels": 4,
+        "nonUniformBounds": {
+          "xMin": 1,
+          "yMin": 1,
+          "xMaxInclusive": 2,
+          "yMaxInclusive": 2
+        }
+      },
+      "profile": {
+        "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\compare_raster_unit\\profile\\original_mrt0_1292.bmp",
+        "fileBytes": 102,
+        "width": 4,
+        "height": 3,
+        "bitsPerPixel": 32,
+        "topDown": true,
+        "fileSha256": "cb47f3eb26c816d6d1667760c3bef66b3ed39466a2000ffe9ef31969956b3112",
+        "pixelBgraSha256": "84846234aaf30680b18ce994f7cf13554a6948819397c1a3d583628cbf209059",
+        "visibleRgbSha256": "4dc4df09f8d9d367336ddc917bc870fc63a3d1c33ad62eb71b89b89a47981f31",
+        "uniformVisibleRgb": false,
+        "referencePixel": {
+          "x": 0,
+          "y": 0,
+          "rgb": [
+            16,
+            16,
+            16
+          ]
+        },
+        "nonUniformPixels": 4,
+        "nonUniformBounds": {
+          "xMin": 1,
+          "yMin": 1,
+          "xMaxInclusive": 2,
+          "yMaxInclusive": 2
+        }
+      },
+      "dimensionsEqual": true,
+      "fileBytesEqual": true,
+      "decodedBgraPixelsEqual": true,
+      "visibleRgbPixelsEqual": true,
+      "errors": []
+    }
+  ],
+  "limitations": [
+    "Replay textures are synthetic; these are not original EDF texture pixels.",
+    "BMP readbacks precede Present; scene-only and AS execution require the separate Runtime verification.",
+    "Nonuniform bounds compare visible RGB with the top-left pixel, not an inferred object segmentation."
+  ]
+}

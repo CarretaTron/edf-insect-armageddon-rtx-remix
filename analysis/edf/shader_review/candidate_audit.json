@@ -1,0 +1,644 @@
+{
+  "sourceCapture": "D:\\EDF IA RTX REMIX\\captures\\edf\\1791384430306-28796-6",
+  "frame": 7572,
+  "drawIndex": 284,
+  "vertexShaderHash": "f098f457d9ae603bea5f84ec985d473c29cfb0c9",
+  "pixelShaderHash": "44b92a29eb3e5f2ee6d53f02e14fb11a01511da8",
+  "vertexDeclaration": {
+    "hash": "6ff4217f660b280ef21cd86f83889aa93219aaa6",
+    "elements": [
+      {
+        "stream": 0,
+        "offset": 0,
+        "type": 5,
+        "method": 0,
+        "usage": 7,
+        "usageIndex": 0
+      },
+      {
+        "stream": 1,
+        "offset": 0,
+        "type": 5,
+        "method": 0,
+        "usage": 3,
+        "usageIndex": 0
+      },
+      {
+        "stream": 2,
+        "offset": 0,
+        "type": 7,
+        "method": 0,
+        "usage": 0,
+        "usageIndex": 0
+      },
+      {
+        "stream": 3,
+        "offset": 0,
+        "type": 5,
+        "method": 0,
+        "usage": 6,
+        "usageIndex": 0
+      },
+      {
+        "stream": 4,
+        "offset": 0,
+        "type": 6,
+        "method": 0,
+        "usage": 5,
+        "usageIndex": 0
+      }
+    ]
+  },
+  "draw": {
+    "type": "draw",
+    "frame": 7572,
+    "draw": 284,
+    "api": "DrawIndexedPrimitive",
+    "stateId": "b17beea8a234b8cd4bb032696983af188a30dbc2",
+    "args": {
+      "primitiveType": 4,
+      "primitiveCount": 56,
+      "baseVertexIndex": 0,
+      "startVertex": 0,
+      "minVertexIndex": 0,
+      "numVertices": 84,
+      "startIndex": 4728,
+      "indexed": true,
+      "elementCount": 168
+    },
+    "inputRangeValid": true
+  },
+  "indices": {
+    "resource": 2402,
+    "version": 1,
+    "format": 101,
+    "count": 168,
+    "blob": {
+      "hash": "8b4a8e527b38456f60762c5abf062efc37a2f6a3",
+      "path": "blobs/8b4a8e527b38456f60762c5abf062efc37a2f6a3.bin",
+      "size": 336,
+      "byteOffset": 9456,
+      "available": true
+    }
+  },
+  "activeLayoutStreams": [
+    {
+      "stream": 0,
+      "offset": 8988,
+      "stride": 4,
+      "frequency": 1,
+      "source": "buffer",
+      "resource": 2400,
+      "version": 1,
+      "blob": {
+        "hash": "99cdf8282ab7ce1d9770323ccd438e5ce8cd0fe7",
+        "path": "blobs/99cdf8282ab7ce1d9770323ccd438e5ce8cd0fe7.bin",
+        "size": 336,
+        "byteOffset": 8988,
+        "available": true
+      }
+    },
+    {
+      "stream": 1,
+      "offset": 8988,
+      "stride": 4,
+      "frequency": 1,
+      "source": "buffer",
+      "resource": 2396,
+      "version": 1,
+      "blob": {
+        "hash": "67c15464bdee9ea5647ca2f7df0fd694c57e7769",
+        "path": "blobs/67c15464bdee9ea5647ca2f7df0fd694c57e7769.bin",
+        "size": 336,
+        "byteOffset": 8988,
+        "available": true
+      }
+    },
+    {
+      "stream": 2,
+      "offset": 17976,
+      "stride": 8,
+      "frequency": 1,
+      "source": "buffer",
+      "resource": 2395,
+      "version": 1,
+      "blob": {
+        "hash": "c494580e5b4cd375e416dcd0c807a23344ac3c74",
+        "path": "blobs/c494580e5b4cd375e416dcd0c807a23344ac3c74.bin",
+        "size": 672,
+        "byteOffset": 17976,
+        "available": true
+      }
+    },
+    {
+      "stream": 3,
+      "offset": 8988,
+      "stride": 4,
+      "frequency": 1,
+      "source": "buffer",
+      "resource": 2399,
+      "version": 1,
+      "blob": {
+        "hash": "6e09fb570a1a7d35ca9087e983c26ecc68e7dc51",
+        "path": "blobs/6e09fb570a1a7d35ca9087e983c26ecc68e7dc51.bin",
+        "size": 336,
+        "byteOffset": 8988,
+        "available": true
+      }
+    },
+    {
+      "stream": 4,
+      "offset": 8988,
+      "stride": 4,
+      "frequency": 1,
+      "source": "buffer",
+      "resource": 2398,
+      "version": 1,
+      "blob": {
+        "hash": "132df6203bfddc1c41fbee3e81a43645d04f8d66",
+        "path": "blobs/132df6203bfddc1c41fbee3e81a43645d04f8d66.bin",
+        "size": 336,
+        "byteOffset": 8988,
+        "available": true
+      }
+    }
+  ],
+  "unusedButBoundStreams": [
+    {
+      "stream": 5,
+      "offset": 16952,
+      "stride": 4,
+      "frequency": 1,
+      "source": "buffer",
+      "resource": 4495,
+      "version": 1,
+      "blob": {
+        "hash": "5799af68846c9ef3305c0af2221699e664e1cece",
+        "path": "blobs/5799af68846c9ef3305c0af2221699e664e1cece.bin",
+        "size": 336,
+        "byteOffset": 16952,
+        "available": true
+      }
+    },
+    {
+      "stream": 6,
+      "offset": 0,
+      "stride": 4,
+      "frequency": 1,
+      "source": "buffer",
+      "resource": 186,
+      "version": 1,
+      "blob": {
+        "hash": "3430ebfd39f3035e1ea878c816e69b4360199b61",
+        "path": "blobs/3430ebfd39f3035e1ea878c816e69b4360199b61.bin",
+        "size": 336,
+        "byteOffset": 0,
+        "available": true
+      }
+    }
+  ],
+  "vsRegisters0through9": [
+    [
+      -1.6107497215270996,
+      -0.003746323985978961,
+      -0.36765608191490173,
+      -0.3676336407661438
+    ],
+    [
+      0.6367615461349487,
+      -0.009476687759160995,
+      -0.9300215244293213,
+      -0.9299647808074951
+    ],
+    [
+      0.0,
+      3.079174757003784,
+      -0.0033096151892095804,
+      -0.003309413092210889
+    ],
+    [
+      146.291748046875,
+      -12.140815734863281,
+      301.5628662109375,
+      301.7944030761719
+    ],
+    [
+      0.8191520571708679,
+      -0.5735764503479004,
+      0.0,
+      0.0
+    ],
+    [
+      0.5735764503479004,
+      0.8191520571708679,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      189.49200439453125,
+      249.59487915039062,
+      4.941598892211914,
+      0.0
+    ],
+    [
+      64.0,
+      0.0010683761211112142,
+      0.0,
+      0.0
+    ],
+    [
+      0.0009765625,
+      0.00048828125,
+      0.007874015718698502,
+      1.0
+    ]
+  ],
+  "psRegisters0through3": [
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    [
+      1.25,
+      0.7352941632270813,
+      0.29411765933036804,
+      1.25
+    ],
+    [
+      -0.9041000604629517,
+      0.06322086602449417,
+      -0.4226182699203491,
+      0.0
+    ]
+  ],
+  "positionBounds": [
+    [
+      -9.94921875,
+      9.951171875
+    ],
+    [
+      -4.580078125,
+      6.2138671875
+    ],
+    [
+      0.0,
+      24.845703125
+    ]
+  ],
+  "uvBounds": [
+    [
+      0.0068359375,
+      0.9931640625
+    ],
+    [
+      0.00634765625,
+      0.9931640625
+    ]
+  ],
+  "normalLengthBounds": [
+    0.9950587790907046,
+    1.0037439999675082
+  ],
+  "firstPositions": [
+    [
+      -3.9658203125,
+      -4.580078125,
+      0.0
+    ],
+    [
+      -3.9658203125,
+      -4.580078125,
+      15.4052734375
+    ],
+    [
+      -9.94921875,
+      -4.580078125,
+      24.845703125
+    ],
+    [
+      -9.94921875,
+      -4.580078125,
+      0.0
+    ]
+  ],
+  "firstUvs": [
+    [
+      0.18017578125,
+      0.736328125
+    ],
+    [
+      0.18017578125,
+      0.2841796875
+    ],
+    [
+      0.0068359375,
+      0.00634765625
+    ],
+    [
+      0.0068359375,
+      0.736328125
+    ]
+  ],
+  "firstNormals": [
+    [
+      -3.725290298461914e-09,
+      -1.0,
+      -3.725290298461914e-09
+    ],
+    [
+      -3.725290298461914e-09,
+      -1.0,
+      -3.725290298461914e-09
+    ],
+    [
+      -3.725290298461914e-09,
+      -1.0,
+      -3.725290298461914e-09
+    ],
+    [
+      -3.725290298461914e-09,
+      -1.0,
+      -3.725290298461914e-09
+    ]
+  ],
+  "renderStates": {
+    "7": 1,
+    "14": 1,
+    "15": 0,
+    "22": 2,
+    "23": 4,
+    "27": 0,
+    "52": 0,
+    "168": 15
+  },
+  "renderTargets": [
+    {
+      "resource": 4831,
+      "descriptorHash": "0b63c9c87db08fb3",
+      "width": 1920,
+      "height": 1080,
+      "depth": 1,
+      "format": 21,
+      "usage": 1,
+      "pool": 0,
+      "mipLevels": 1,
+      "arraySize": 1,
+      "backBuffer": false,
+      "content": {
+        "available": false,
+        "reason": "gpu_texture_readback_not_implemented"
+      },
+      "mipLevel": 0,
+      "face": 0,
+      "surfaceWidth": 1920,
+      "surfaceHeight": 1080
+    },
+    {
+      "resource": 4832,
+      "descriptorHash": "0b63c9c87db08fb3",
+      "width": 1920,
+      "height": 1080,
+      "depth": 1,
+      "format": 21,
+      "usage": 1,
+      "pool": 0,
+      "mipLevels": 1,
+      "arraySize": 1,
+      "backBuffer": false,
+      "content": {
+        "available": false,
+        "reason": "gpu_texture_readback_not_implemented"
+      },
+      "mipLevel": 0,
+      "face": 0,
+      "surfaceWidth": 1920,
+      "surfaceHeight": 1080
+    },
+    {
+      "resource": 4833,
+      "descriptorHash": "0b63c9c87db08fb3",
+      "width": 1920,
+      "height": 1080,
+      "depth": 1,
+      "format": 21,
+      "usage": 1,
+      "pool": 0,
+      "mipLevels": 1,
+      "arraySize": 1,
+      "backBuffer": false,
+      "content": {
+        "available": false,
+        "reason": "gpu_texture_readback_not_implemented"
+      },
+      "mipLevel": 0,
+      "face": 0,
+      "surfaceWidth": 1920,
+      "surfaceHeight": 1080
+    },
+    null
+  ],
+  "depthStencil": {
+    "resource": 628,
+    "descriptorHash": "d1227abeeab60c35",
+    "width": 1920,
+    "height": 1080,
+    "depth": 1,
+    "format": 75,
+    "usage": 2,
+    "pool": 0,
+    "mipLevels": 1,
+    "arraySize": 1,
+    "backBuffer": false,
+    "content": {
+      "available": false,
+      "reason": "gpu_texture_readback_not_implemented"
+    },
+    "mipLevel": 0,
+    "face": 0,
+    "surfaceWidth": 1920,
+    "surfaceHeight": 1080
+  },
+  "textures": [
+    {
+      "resource": 5078,
+      "descriptorHash": "93ac652188094ebb",
+      "width": 128,
+      "height": 128,
+      "depth": 1,
+      "format": 827611204,
+      "usage": 0,
+      "pool": 0,
+      "mipLevels": 8,
+      "arraySize": 1,
+      "backBuffer": false,
+      "content": {
+        "available": false,
+        "reason": "gpu_texture_readback_not_implemented"
+      }
+    },
+    {
+      "resource": 4835,
+      "descriptorHash": "d9df0d34732ad105",
+      "width": 64,
+      "height": 64,
+      "depth": 1,
+      "format": 827611204,
+      "usage": 0,
+      "pool": 0,
+      "mipLevels": 7,
+      "arraySize": 6,
+      "backBuffer": false,
+      "content": {
+        "available": false,
+        "reason": "gpu_texture_readback_not_implemented"
+      }
+    },
+    {
+      "resource": 4836,
+      "descriptorHash": "b81bdcbddec6a864",
+      "width": 256,
+      "height": 256,
+      "depth": 1,
+      "format": 827611204,
+      "usage": 0,
+      "pool": 0,
+      "mipLevels": 9,
+      "arraySize": 6,
+      "backBuffer": false,
+      "content": {
+        "available": false,
+        "reason": "gpu_texture_readback_not_implemented"
+      }
+    }
+  ],
+  "samplerStates": [
+    [
+      0,
+      3,
+      3,
+      1,
+      0,
+      2,
+      3,
+      2,
+      0,
+      0,
+      2,
+      0,
+      0,
+      256
+    ],
+    [
+      0,
+      3,
+      3,
+      1,
+      0,
+      2,
+      2,
+      2,
+      0,
+      0,
+      1,
+      0,
+      0,
+      256
+    ],
+    [
+      0,
+      3,
+      3,
+      1,
+      0,
+      2,
+      2,
+      2,
+      0,
+      0,
+      1,
+      0,
+      0,
+      256
+    ]
+  ],
+  "transforms": {
+    "storage": "column_major_float32",
+    "all": {
+      "hash": "c5bbad4b3e7e7c5da5dc9d91530fb1d4d88d05cd",
+      "path": "blobs/c5bbad4b3e7e7c5da5dc9d91530fb1d4d88d05cd.bin",
+      "size": 17024,
+      "byteOffset": 0,
+      "available": true
+    },
+    "world": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "view": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "projection": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  "classification": "unskinned_opaque_candidate; static entity status requires cross-frame evidence",
+  "textureContentCaptured": false
+}

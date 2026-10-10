@@ -1,0 +1,183 @@
+{
+  "schema": 1,
+  "passed": true,
+  "errors": [],
+  "evidenceKind": "controlled_offscreen_runtime_replay",
+  "fixtureOnly": false,
+  "notGpuEvidence": false,
+  "compositionVerified": false,
+  "visualReplacementAllowed": false,
+  "originalGameMaterialsVisuallyVerified": false,
+  "runtimeLog": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x64\\duplicate_initial\\rtx-remix\\logs\\remix-dxvk.log",
+  "samples": [
+    {
+      "passed": true,
+      "metadata": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x64\\duplicate_initial\\probe-output\\session_1791550684111079_43300\\edf_pt_request_1_frame_2.json",
+      "metadataSha256": "f58182714073d6462d6b87d9ba47d988e63638d394651de705eb8421589282a8",
+      "frameId": 2,
+      "requestId": 1,
+      "matrices": {
+        "sourceViewMaxError": 0.0,
+        "sourceProjectionMaxError": 0.0,
+        "algebraMaxErrors": {
+          "viewInverse": 8.257472103423424e-06,
+          "projectionInverse": 2.7886239317709283e-08,
+          "worldProjectionInverse": 0.0001590554175936667,
+          "composition": 8.697992825545953e-06,
+          "jitterProjection": 0.0
+        }
+      },
+      "images": [
+        {
+          "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x64\\duplicate_initial\\probe-output\\session_1791550684111079_43300\\edf_pt_request_1_frame_2_linear_z.bin",
+          "byteCount": 8294400,
+          "sha256": "d80d251c6e6b9c7b9c9479be79e662427f224a4b7dc9cc33de1b05ec93057e4d",
+          "fnv1a64": "0x5d1635b2fad2b27f",
+          "name": "linear_z",
+          "format": 100
+        },
+        {
+          "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x64\\duplicate_initial\\probe-output\\session_1791550684111079_43300\\edf_pt_request_1_frame_2_albedo.bin",
+          "byteCount": 8294400,
+          "sha256": "de4e986446cd7df4312284759614a78e80560ff8d3a6a17e74d4bf6c13e95e86",
+          "fnv1a64": "0x7bfe41a57f3938d0",
+          "name": "albedo",
+          "format": 64
+        },
+        {
+          "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x64\\duplicate_initial\\probe-output\\session_1791550684111079_43300\\edf_pt_request_1_frame_2_direct_diffuse_radiance.bin",
+          "byteCount": 16588800,
+          "sha256": "4e4cb80ee7c97ede31d737acfa37ec45c5ef68273cad59d96f60e09deda658df",
+          "fnv1a64": "0xc5e734320c75a34d",
+          "name": "direct_diffuse_radiance",
+          "format": 97
+        },
+        {
+          "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x64\\duplicate_initial\\probe-output\\session_1791550684111079_43300\\edf_pt_request_1_frame_2_final_offscreen.bin",
+          "byteCount": 16588800,
+          "sha256": "938b3019c3c60502a6bd39d9b428e072c6109feaea073d859ad7f33f01dadc97",
+          "fnv1a64": "0x1a4684ba012aa934",
+          "name": "final_offscreen",
+          "format": 97
+        }
+      ],
+      "preservedTargets": [
+        {
+          "slot": 0,
+          "sessionId": 2418354908736,
+          "unchanged": true,
+          "before": {
+            "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x64\\duplicate_initial\\probe-output\\session_1791550684111079_43300\\edf_pt_request_1_frame_2_original_target_0_before.bin",
+            "byteCount": 8294400,
+            "sha256": "2bc0c20b5305c82522ad8e5911ca5a60219fef51db5ae452ab402daa958d795e",
+            "fnv1a64": "0x5b1407680addffe8"
+          },
+          "after": {
+            "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x64\\duplicate_initial\\probe-output\\session_1791550684111079_43300\\edf_pt_request_1_frame_2_original_target_0_after.bin",
+            "byteCount": 8294400,
+            "sha256": "2bc0c20b5305c82522ad8e5911ca5a60219fef51db5ae452ab402daa958d795e",
+            "fnv1a64": "0x5b1407680addffe8"
+          }
+        },
+        {
+          "slot": 1,
+          "sessionId": 2418354911936,
+          "unchanged": true,
+          "before": {
+            "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x64\\duplicate_initial\\probe-output\\session_1791550684111079_43300\\edf_pt_request_1_frame_2_original_target_1_before.bin",
+            "byteCount": 8294400,
+            "sha256": "fa3ac80ed178e062b435585a45e7bfafd2048fc797de6c128182255b5de4ff78",
+            "fnv1a64": "0x928dc9d784d91fe8"
+          },
+          "after": {
+            "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x64\\duplicate_initial\\probe-output\\session_1791550684111079_43300\\edf_pt_request_1_frame_2_original_target_1_after.bin",
+            "byteCount": 8294400,
+            "sha256": "fa3ac80ed178e062b435585a45e7bfafd2048fc797de6c128182255b5de4ff78",
+            "fnv1a64": "0x928dc9d784d91fe8"
+          }
+        },
+        {
+          "slot": 2,
+          "sessionId": 2418354912336,
+          "unchanged": true,
+          "before": {
+            "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x64\\duplicate_initial\\probe-output\\session_1791550684111079_43300\\edf_pt_request_1_frame_2_original_target_2_before.bin",
+            "byteCount": 8294400,
+            "sha256": "3dc70f11a6c92892dfc06db7ed6e1dba385c086d037badfd8d74c8764cec3613",
+            "fnv1a64": "0x4a14d766f4cdf02f"
+          },
+          "after": {
+            "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x64\\duplicate_initial\\probe-output\\session_1791550684111079_43300\\edf_pt_request_1_frame_2_original_target_2_after.bin",
+            "byteCount": 8294400,
+            "sha256": "3dc70f11a6c92892dfc06db7ed6e1dba385c086d037badfd8d74c8764cec3613",
+            "fnv1a64": "0x4a14d766f4cdf02f"
+          }
+        },
+        {
+          "slot": 3,
+          "sessionId": 2418354913536,
+          "unchanged": true,
+          "before": {
+            "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x64\\duplicate_initial\\probe-output\\session_1791550684111079_43300\\edf_pt_request_1_frame_2_original_target_3_before.bin",
+            "byteCount": 8294400,
+            "sha256": "fdb31a8a6d0ed8800c1892861160e3897aa41b2e0eb59f4205e86d51fa919d86",
+            "fnv1a64": "0xebe78639d069c76f"
+          },
+          "after": {
+            "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x64\\duplicate_initial\\probe-output\\session_1791550684111079_43300\\edf_pt_request_1_frame_2_original_target_3_after.bin",
+            "byteCount": 8294400,
+            "sha256": "fdb31a8a6d0ed8800c1892861160e3897aa41b2e0eb59f4205e86d51fa919d86",
+            "fnv1a64": "0xebe78639d069c76f"
+          }
+        }
+      ],
+      "independentCpuRayTriangles": {
+        "passed": true,
+        "cpuHitCount": 6449,
+        "gpuHitCount": 6438,
+        "cpuBounds": [
+          531,
+          533,
+          1016,
+          579
+        ],
+        "gpuBounds": [
+          531,
+          533,
+          1016,
+          579
+        ],
+        "silhouetteIoU": 0.9982943091952241,
+        "allowedSilhouetteEdgePixels": 1,
+        "interiorDepthSamples": 5810,
+        "maximumInteriorDepthError": 0.0003979244106631086,
+        "depthTolerance": "0.0005 + abs(cpuLinearZ) * 2e-5",
+        "nearestTrianglesTwoSided": true
+      },
+      "radianceNonzeroCount": 6438,
+      "radianceNonzeroObserved": true,
+      "radianceNonzeroRequired": false,
+      "lightCount": 1,
+      "compositionPerformed": false,
+      "gpuCompleted": true
+    }
+  ],
+  "referenceGeometry": {
+    "vertexCount": 252,
+    "triangleCount": 144,
+    "positionSha1": "f3ddbe4c53df3aea29e2cad8d305844c95c7dc4c",
+    "indicesSha1": "2ecc0d2d1046f418d56ea51bbcca29579a04a937",
+    "objSha256": "def5923e99c1c3c864c330432210639b232dca75de6c3ea7ff560266379e2579",
+    "manifestSha256": "67e731a8505416b338ad540b6c50fac053b6798b59a88310f09e1d308d1ec335"
+  },
+  "runtimeLogSha256": "0b450544209fe120807aa471e45ff36763597de1f41a7c2c9bc62e76c948e77a",
+  "runtimeBinary": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x64\\duplicate_initial\\d3d9.dll",
+  "runtimeSha256": "b051fe14b0965c7a45d3a2370d8dc68fc7a18e6ae8ba43ef4a5c4e0d7d745f9e",
+  "runtimeProvenance": "Renderer binary measured after execution; x86 proxy excluded.",
+  "limits": [
+    "Verifies offscreen GPU-completed buffers and immediate before/after targets; it does not authorize visual composition.",
+    "CPU ray comparison uses the validated anchored static mesh, original index topology and actual renderer camera.",
+    "The CPU reference uses nearest two-sided closed surfaces and permits only one-pixel silhouette precision differences.",
+    "Nonzero radiance is reported, not required, because the game lighting has not been reconstructed."
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "game": "Earth Defense Force: Insect Armageddon (PC)",
+  "executable": "EDF-IA.exe",
+  "observedExecutableSha256": "87ba53c92c1377ba50b98cae00860afe23e6cdcad7f95850166c1b83bf83082d",
+  "architecture": "x86",
+  "runtimeBaseRevision": "0e18e55c04309c08e6206e768bc72b24ac83f853",
+  "status": "instrumentation_only",
+  "shaderRules": [],
+  "matrixRules": [],
+  "materialRules": [],
+  "note": "Fingerprint observed on the installed executable. This manifest documents evidence; no rendering decoder consumes it yet."
+}

@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "architecture": "x86-bridge-client + x64-server/runtime",
+  "files": [
+    {
+      "path": "d3d9.dll",
+      "size": 17,
+      "sha256": "A347B5453E05BCE77EA63ED4385E0E96DDEDA71F9DA8AD294C4A1AA9321900F3"
+    },
+    {
+      "path": ".trex/d3d9.dll",
+      "size": 17,
+      "sha256": "B53FB9E7327E93326B75B49B26728BAE7EC23A3095192C29E6A30A392B5A6095"
+    },
+    {
+      "path": ".trex/NvRemixBridge.exe",
+      "size": 17,
+      "sha256": "AED6C76F2501648F3F751DD4B57FF248C0EB0A0FD150F11808C4AC75BAA5A90E"
+    },
+    {
+      "path": ".trex/nested/plugin.dll",
+      "size": 17,
+      "sha256": "8847BF4E07770D8798A7030DCBB2D526178F334BEEA50446F6DC5186ADB0F2FA"
+    }
+  ]
+}

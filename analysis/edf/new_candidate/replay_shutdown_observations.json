@@ -1,0 +1,30 @@
+[
+  {
+    "architecture": "x64",
+    "variant": "baseline",
+    "aliveAtExit": 40,
+    "ngxLoadFailure": 2,
+    "vulkanValidationErrors": 0
+  },
+  {
+    "architecture": "x64",
+    "variant": "positive",
+    "aliveAtExit": 43,
+    "ngxLoadFailure": 2,
+    "vulkanValidationErrors": 0
+  },
+  {
+    "architecture": "x86",
+    "variant": "baseline",
+    "aliveAtExit": 40,
+    "ngxLoadFailure": 2,
+    "vulkanValidationErrors": 0
+  },
+  {
+    "architecture": "x86",
+    "variant": "positive",
+    "aliveAtExit": 43,
+    "ngxLoadFailure": 2,
+    "vulkanValidationErrors": 0
+  }
+]

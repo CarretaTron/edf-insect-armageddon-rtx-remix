@@ -1,0 +1,114 @@
+{
+  "fixtureOnly": true,
+  "notGpuEvidence": true,
+  "result": "passed",
+  "checks": [
+    {
+      "name": "valid synthetic fixture accepted and explicitly labeled",
+      "passed": true
+    },
+    {
+      "name": "missing camera rejected",
+      "passed": true,
+      "expectedError": "expected one camera_accepted"
+    },
+    {
+      "name": "negative recognition rejected",
+      "passed": true,
+      "expectedError": "negative control was recognized"
+    },
+    {
+      "name": "unstable instance rejected",
+      "passed": true,
+      "expectedError": "instance ID is not stable"
+    },
+    {
+      "name": "wrong UV format rejected",
+      "passed": true,
+      "expectedError": "counts/float formats are invalid"
+    },
+    {
+      "name": "missing BLAS command rejected",
+      "passed": true,
+      "expectedError": "No actual selected BLAS"
+    },
+    {
+      "name": "missing source-frame scene-only evidence rejected",
+      "passed": true,
+      "expectedError": "expected one scene_only_frame"
+    },
+    {
+      "name": "wrong stride rejected",
+      "passed": true,
+      "expectedError": "stride/index rebasing"
+    },
+    {
+      "name": "wrong rebased indices rejected",
+      "passed": true,
+      "expectedError": "stride/index rebasing"
+    },
+    {
+      "name": "negative reprojection error rejected",
+      "passed": true,
+      "expectedError": "invalid decoder reprojection error"
+    },
+    {
+      "name": "TLAS instance mismatch rejected",
+      "passed": true,
+      "expectedError": "tlas_recorded refers to a different instance"
+    },
+    {
+      "name": "BLAS instance mismatch rejected",
+      "passed": true,
+      "expectedError": "BLAS command does not match"
+    },
+    {
+      "name": "recognized shader mismatch rejected",
+      "passed": true,
+      "expectedError": "recognized shader/raster preservation"
+    },
+    {
+      "name": "truncated capture rejected",
+      "passed": true,
+      "expectedError": "truncated capture"
+    },
+    {
+      "name": "missing queue counter rejected",
+      "passed": true,
+      "expectedError": "missing or invalid queue/budget counters"
+    },
+    {
+      "name": "valid wrong source-frame constants rejected",
+      "passed": true,
+      "expectedError": "float constant banks from source frame 1292"
+    },
+    {
+      "name": "duplicate stdout frame rejected",
+      "passed": true,
+      "expectedError": "Duplicate replay stdout frame"
+    },
+    {
+      "name": "stdout nonterminal success rejected",
+      "passed": true,
+      "expectedError": "stdout lacks terminal success"
+    },
+    {
+      "name": "explicit renderer rejection rejected",
+      "passed": true,
+      "expectedError": "Runtime rejected a prototype stage"
+    },
+    {
+      "name": "unknown trace stage rejected",
+      "passed": true,
+      "expectedError": "Unknown compatibility trace stage"
+    },
+    {
+      "name": "explicit Runtime offset keeps independent observer mapping",
+      "passed": true
+    },
+    {
+      "name": "explicit observer offset keeps independent Runtime mapping",
+      "passed": true
+    }
+  ]
+}

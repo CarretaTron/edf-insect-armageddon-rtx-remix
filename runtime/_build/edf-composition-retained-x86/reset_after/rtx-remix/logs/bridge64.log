@@ -1,0 +1,38 @@
+[10:03:00.934] debug: [Pre-Init Message] Emitting...
+[10:03:00.934] info:  [10:03:00.934] info:  No default config found for: D:\EDF IA RTX REMIX\runtime\_build\edf-composition-retained-x86\reset_after\edf_static_gpu_replay.exe
+[10:03:00.934] info:  [10:03:00.934] info:  Trying to open config file: D:\EDF IA RTX REMIX\runtime\_build\edf-composition-retained-x86\reset_after\.trex\bridge.conf
+[10:03:00.934] debug: [Pre-Init Message] Done!
+[10:03:00.934] info:  ==================
+[10:03:00.934] info:  NVIDIA RTX Remix Bridge Server
+[10:03:00.934] info:  ==================
+[10:03:00.934] info:  Version: remix-main+0e18e55c
+[10:03:00.934] info:  Running in x64 mode!
+[10:03:00.934] info:  Launched server with GUID 43eff91a-d5fd-436d-a1f7-dcf0e1136c76
+[10:03:00.935] debug: Shared memory: [ModuleServer2ClientChannel_43eff91a-d5fd-436d-a1f7-dcf0e1136c76] created and initialized successfully!
+[10:03:00.935] debug: CreateSemaphore returned existing semaphore by the same name ModuleServer2ClientSemaphore.
+[10:03:00.935] debug: Shared memory: [ModuleClient2ServerChannel_43eff91a-d5fd-436d-a1f7-dcf0e1136c76] created and initialized successfully!
+[10:03:00.935] debug: CreateSemaphore returned existing semaphore by the same name ModuleClient2ServerSemaphore.
+[10:03:00.935] debug: Shared memory: [DeviceServer2ClientChannel_43eff91a-d5fd-436d-a1f7-dcf0e1136c76] created and initialized successfully!
+[10:03:00.935] debug: CreateSemaphore returned existing semaphore by the same name DeviceServer2ClientSemaphore.
+[10:03:00.935] debug: Shared memory: [DeviceClient2ServerChannel_43eff91a-d5fd-436d-a1f7-dcf0e1136c76] created and initialized successfully!
+[10:03:00.935] debug: CreateSemaphore returned existing semaphore by the same name DeviceClient2ServerSemaphore.
+[10:03:00.935] debug: CreateSemaphore returned existing semaphore by the same name Present.
+[10:03:00.935] info:  Server started up, waiting for connection from client...
+[10:03:00.935] info:  Registering exit callback in case client exits unexpectedly.
+[10:03:00.935] info:  Registering message channel for asynchronous message handling.
+[10:03:00.935] info:  Initializing D3D9...
+[10:03:03.982] info:  Message channel MessageChannelServer established.
+[10:03:04.332] info:  D3D9 interface object creation succeeded!
+[10:03:04.332] info:  Loaded D3D9 from D:\EDF IA RTX REMIX\runtime\_build\edf-composition-retained-x86\reset_after\.trex\d3d9.dll
+[10:03:04.332] info:  Version of d3d9 loaded is DXVK
+[10:03:04.332] info:  Feature version parity confirmed!
+[10:03:04.332] info:  Sync request received, sending ACK response...
+[10:03:04.332] info:  Done! Now waiting for client to consume the response...
+[10:03:04.333] info:  Handshake completed! Now waiting for incoming commands...
+[10:03:07.190] info:  Server side D3D9 Device created successfully!
+[10:03:07.190] debug: Sending CreateDevice ack response back to client.
+[10:03:08.754] info:  D3D9 Module destroyed.
+[10:03:08.830] debug: No leaked objects dicovered at Direct3D module eviction.
+[10:03:08.830] info:  Command processing loop finished, cleaning up and exiting...
+[10:03:08.830] info:  Shutdown cleanup successful, exiting now!
+[10:03:08.830] info:  [Uptime]: 7s

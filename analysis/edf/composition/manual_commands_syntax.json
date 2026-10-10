@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "generatedUtc": "2026-10-09T13:09:41.4170944Z",
+  "passed": true,
+  "blockCount": 6,
+  "document": "D:\\EDF IA RTX REMIX\\profiles\\edf-composition-preview\\TESTAR.md",
+  "documentSha256": "9046544bb9aa49abdb43582ed2ef93176e553b0747909fc6c0b9de87a1909c18",
+  "runtimeInstallReady": true,
+  "deliveryStatus": "experimental_manual_test_package_not_global_vulkan_or_edf_gameplay_approval",
+  "runtimeSha256": "b051fe14b0965c7a45d3a2370d8dc68fc7a18e6ae8ba43ef4a5c4e0d7d745f9e",
+  "codeExecuted": false,
+  "activeInstallationTouched": false,
+  "blocks": [
+    {
+      "block": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "block": 2,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "block": 3,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "block": 4,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "block": 5,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "block": 6,
+      "passed": true,
+      "errors": []
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+[10:00:43.501] debug: [Pre-Init Message] Emitting...
+[10:00:44.041] debug: [10:00:43.494] debug: Creating dir: "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x86\\positive_camera0\\rtx-remix"
+[10:00:44.041] debug: [10:00:43.494] debug: Creating dir: "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x86\\positive_camera0\\rtx-remix\\mods"
+[10:00:44.041] debug: [10:00:43.494] debug: Creating dir: "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x86\\positive_camera0\\rtx-remix\\captures"
+[10:00:44.041] debug: [10:00:43.495] debug: Creating dir: "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x86\\positive_camera0\\rtx-remix\\logs"
+[10:00:44.712] info:  [10:00:43.494] info:  No default config found for: D:\EDF IA RTX REMIX\runtime\_build\edf-composition-retained-x86\positive_camera0\edf_static_gpu_replay.exe
+[10:00:44.712] info:  [10:00:43.494] info:  Trying to open config file: D:\EDF IA RTX REMIX\runtime\_build\edf-composition-retained-x86\positive_camera0\.trex\bridge.conf
+[10:00:44.723] debug: [Pre-Init Message] Done!
+[10:00:44.728] info:  ==================
+[10:00:44.728] info:  NVIDIA RTX Remix Bridge Client
+[10:00:44.728] info:  ==================
+[10:00:44.775] info:  Version: remix-main+0e18e55c
+[10:00:44.781] info:  Loaded d3d9.dll from D
+[10:00:44.862] info:  DirectInput8 hook attached.
+[10:00:44.890] info:  DirectInput hook attached.
+[10:00:44.906] info:  Initializing new shared memory object.
+[10:00:44.919] debug: Shared memory: [ModuleClient2ServerChannel_3bd5f40e-70f4-452e-a915-af372295ed41] created and initialized successfully!
+[10:00:44.932] info:  Initializing new shared memory object.
+[10:00:44.946] debug: Shared memory: [ModuleServer2ClientChannel_3bd5f40e-70f4-452e-a915-af372295ed41] created and initialized successfully!
+[10:00:45.039] info:  Initializing new shared memory object.
+[10:00:45.248] debug: Shared memory: [DeviceClient2ServerChannel_3bd5f40e-70f4-452e-a915-af372295ed41] created and initialized successfully!
+[10:00:45.261] info:  Initializing new shared memory object.
+[10:00:45.281] debug: Shared memory: [DeviceServer2ClientChannel_3bd5f40e-70f4-452e-a915-af372295ed41] created and initialized successfully!
+[10:00:45.619] info:  Launching server with GUID 3bd5f40e-70f4-452e-a915-af372295ed41
+[10:00:45.629] info:  Native arch: x64
+[10:00:45.854] info:  Process set as DPI aware
+[10:00:45.905] info:  Sending SYN command, waiting for ACK from server...
+[10:00:49.892] info:  Ack received! Handshake completed! Telling server to continue waiting for commands...
+[10:00:49.893] info:  Creating a NON thread-safe D3D9 device.
+[10:00:49.893] debug: Creating Device...
+[10:00:49.893] debug: [WndProc][set] Setting RemixWndProc=71D093A0, GameWndProc=FFFF0FD7
+[10:00:49.894] debug: ...server-side D3D9 device creation command sent...
+[10:00:49.894] debug: ...waiting for create device ack response from server...
+[10:00:52.103] debug: ...create device response received from server...
+[10:00:52.103] debug: ...server-side D3D9 device successfully created...
+[10:00:52.104] debug: ...Device successfully created!
+[10:00:52.110] info:  Message channel UWM_REMIX_BRIDGE_REGISTER_THREADPROC_MSG handshake complete.
+[10:00:52.124] info:  Remix UI deactivated.
+[10:00:52.507] info:  Remix UI activated.
+[10:00:53.608] err:   Missing function call intercepted: Direct3DQuery9_LSS::Release::<lambda>::operator ()
+[10:00:53.629] info:  About to unload bridge client.
+[10:00:53.630] info:  Sending Terminate command to server...
+[10:00:53.698] info:  Server notified that it has cleanly terminated. Cleaning up.
+[10:00:54.392] info:  Most recent Device Queue commands sent from Client
+[10:00:54.937] info:  Command sent: Terminate
+[10:00:54.947] info:  Command sent: IDirect3DDevice9Ex_Destroy
+[10:00:54.948] info:  Command sent: IDirect3DVertexDeclaration9_Destroy
+[10:00:54.952] info:  Command sent: IDirect3DPixelShader9_Destroy
+[10:00:54.955] info:  Command sent: IDirect3DVertexShader9_Destroy
+[10:00:54.958] info:  Command sent: IDirect3DIndexBuffer9_Destroy
+[10:00:54.960] info:  Command sent: IDirect3DVertexBuffer9_Destroy
+[10:00:54.966] info:  Command sent: IDirect3DVertexBuffer9_Destroy
+[10:00:54.968] info:  Command sent: IDirect3DVertexBuffer9_Destroy
+[10:00:54.981] info:  Command sent: IDirect3DVertexBuffer9_Destroy
+[10:00:54.984] info:  Most recent Device Queue commands received by Server
+[10:00:54.987] info:  Command received: Terminate
+[10:00:54.992] info:  Command received: IDirect3DDevice9Ex_Destroy
+[10:00:54.996] info:  Command received: IDirect3DVertexDeclaration9_Destroy
+[10:00:54.999] info:  Command received: IDirect3DPixelShader9_Destroy
+[10:00:55.002] info:  Command received: IDirect3DVertexShader9_Destroy
+[10:00:55.004] info:  Command received: IDirect3DIndexBuffer9_Destroy
+[10:00:55.004] info:  Command received: IDirect3DVertexBuffer9_Destroy
+[10:00:55.004] info:  Command received: IDirect3DVertexBuffer9_Destroy
+[10:00:55.004] info:  Command received: IDirect3DVertexBuffer9_Destroy
+[10:00:55.005] info:  Command received: IDirect3DVertexBuffer9_Destroy
+[10:00:55.005] info:  Most recent Module Queue commands sent from Client
+[10:00:55.005] info:  Command sent: IDirect3D9Ex_Destroy
+[10:00:55.005] info:  Most recent Module Queue commands received by Server
+[10:00:55.005] info:  Command received: IDirect3D9Ex_Destroy
+[10:00:55.006] info:  Shutdown cleanup successful, exiting now!
+[10:00:55.006] info:  DirectInput8 hook detached.
+[10:00:55.006] info:  DirectInput hook detached.
+[10:00:55.007] info:  [Uptime]: 9s

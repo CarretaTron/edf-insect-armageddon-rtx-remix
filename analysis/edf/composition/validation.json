@@ -1,0 +1,1161 @@
+{
+  "schema": 1,
+  "generatedUtc": "2026-10-09T13:11:47.863016+00:00",
+  "scope": "one_current_frame_diagnostic_panel_exact_static_mesh",
+  "runtimeSha256": "b051fe14b0965c7a45d3a2370d8dc68fc7a18e6ae8ba43ef4a5c4e0d7d745f9e",
+  "runtimeBytes": 189184512,
+  "build": {
+    "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf_composition_build_lifetime_fix.log",
+    "sha256": "9031607cd9ee856e4fac7c15592ed870e872a8f13c37e183e875916765d76918"
+  },
+  "defaultEnabled": false,
+  "controlledNativeChecksPassed": true,
+  "controlledNativeCaseCount": 18,
+  "native": [
+    {
+      "architecture": "x64",
+      "passed": true,
+      "caseCount": 12,
+      "matrix": {
+        "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x64\\matrix_verification.json",
+        "sha256": "3ed7053daaac2acb1ee79ebb4c804b180bbd39a6311f9ef440948e48a2e58460"
+      },
+      "cases": [
+        {
+          "name": "positive_camera0",
+          "passed": true,
+          "probe": {
+            "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x64\\positive_camera0\\probe_verification.json",
+            "sha256": "7ea687d3af3cf1b80dc7e7fef0ae8f210ef54577d3430897486fbdab33565809"
+          },
+          "runtimeLog": {
+            "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x64\\positive_camera0\\rtx-remix\\logs\\remix-dxvk.log",
+            "sha256": "8ad0bd2ed005c93227f5e3edda3f5353b420027c056106e76fbf3468e3bb7ea9"
+          },
+          "callbackCompletion": {
+            "event": "callbacks_completed",
+            "probeRecorded": 1,
+            "probeCompleted": 1,
+            "compositionRecorded": 1,
+            "compositionCompleted": 1,
+            "complete": true
+          },
+          "frame": 1,
+          "cpuGeometry": {
+            "passed": true,
+            "cpuHitCount": 6452,
+            "gpuHitCount": 6435,
+            "cpuBounds": [
+              531,
+              533,
+              1016,
+              579
+            ],
+            "gpuBounds": [
+              531,
+              533,
+              1016,
+              579
+            ],
+            "silhouetteIoU": 0.9973651580905145,
+            "allowedSilhouetteEdgePixels": 1,
+            "interiorDepthSamples": 5812,
+            "maximumInteriorDepthError": 0.00034822397992684273,
+            "depthTolerance": "0.0005 + abs(cpuLinearZ) * 2e-5",
+            "nearestTrianglesTwoSided": true
+          },
+          "radianceNonzeroObserved": true,
+          "composition": {
+            "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x64\\positive_camera0\\composition_verification.json",
+            "sha256": "54380694aad229b2d0b2a78cdca6411a41bce25563aae8232f8155b476d48195"
+          },
+          "outsideRoiChangedPixels": 0,
+          "insideRoiChangedPixels": 164000,
+          "cpuPanelMaximumByteDifference": 1,
+          "originalsPreserved": 4,
+          "gpuCompleted": true,
+          "currentFrameComposition": true
+        },
+        {
+          "name": "positive_camera1",
+          "passed": true,
+          "probe": {
+            "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x64\\positive_camera1\\probe_verification.json",
+            "sha256": "262e91d9f84e3fdda2dd41710da0d2aaa17a038eb3be3345306c49782333d9f4"
+          },
+          "runtimeLog": {
+            "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x64\\positive_camera1\\rtx-remix\\logs\\remix-dxvk.log",
+            "sha256": "84b7eb244d9777d96311bce99310b95169a9e6295f9e5a3e1666389890d893ca"
+          },
+          "callbackCompletion": {
+            "event": "callbacks_completed",
+            "probeRecorded": 1,
+            "probeCompleted": 1,
+            "compositionRecorded": 1,
+            "compositionCompleted": 1,
+            "complete": true
+          },
+          "frame": 1,
+          "cpuGeometry": {
+            "passed": true,
+            "cpuHitCount": 6449,
+            "gpuHitCount": 6438,
+            "cpuBounds": [
+              531,
+              533,
+              1016,
+              579
+            ],
+            "gpuBounds": [
+              531,
+              533,
+              1016,
+              579
+            ],
+            "silhouetteIoU": 0.9982943091952241,
+            "allowedSilhouetteEdgePixels": 1,
+            "interiorDepthSamples": 5810,
+            "maximumInteriorDepthError": 0.0003979244106631086,
+            "depthTolerance": "0.0005 + abs(cpuLinearZ) * 2e-5",
+            "nearestTrianglesTwoSided": true
+          },
+          "radianceNonzeroObserved": true,
+          "composition": {
+            "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x64\\positive_camera1\\composition_verification.json",
+            "sha256": "94ddfe6fb732066a7e00107e91641ae064ea70070e39a94e930ea436693fc5a7"
+          },
+          "outsideRoiChangedPixels": 0,
+          "insideRoiChangedPixels": 164000,
+          "cpuPanelMaximumByteDifference": 1,
+          "originalsPreserved": 4,
+          "gpuCompleted": true,
+          "currentFrameComposition": true
+        },
+        {
+          "name": "positive_camera2",
+          "passed": true,
+          "probe": {
+            "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x64\\positive_camera2\\probe_verification.json",
+            "sha256": "b971dbed6b0fd11556a590e063a94efb04ef8bafdb71f23eed1613c0feaa014f"
+          },
+          "runtimeLog": {
+            "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x64\\positive_camera2\\rtx-remix\\logs\\remix-dxvk.log",
+            "sha256": "e04d41e552d8ce348aeb62c79205e0e685c1934ca00e7624a35c957e42244a86"
+          },
+          "callbackCompletion": {
+            "event": "callbacks_completed",
+            "probeRecorded": 1,
+            "probeCompleted": 1,
+            "compositionRecorded": 1,
+            "compositionCompleted": 1,
+            "complete": true
+          },
+          "frame": 1,
+          "cpuGeometry": {
+            "passed": true,
+            "cpuHitCount": 6924,
+            "gpuHitCount": 6895,
+            "cpuBounds": [
+              278,
+              597,
+              789,
+              644
+            ],
+            "gpuBounds": [
+              278,
+              597,
+              789,
+              644
+            ],
+            "silhouetteIoU": 0.9958116695551704,
+            "allowedSilhouetteEdgePixels": 1,
+            "interiorDepthSamples": 6254,
+            "maximumInteriorDepthError": 0.00036644926080953155,
+            "depthTolerance": "0.0005 + abs(cpuLinearZ) * 2e-5",
+            "nearestTrianglesTwoSided": true
+          },
+          "radianceNonzeroObserved": true,
+          "composition": {
+            "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x64\\positive_camera2\\composition_verification.json",
+            "sha256": "c6b08b93b5af8674875b5c6dedc8cbaf7d4b7c4ff9022a548552021b4cae4c06"
+          },
+          "outsideRoiChangedPixels": 0,
+          "insideRoiChangedPixels": 164000,
+          "cpuPanelMaximumByteDifference": 1,
+          "originalsPreserved": 4,
+          "gpuCompleted": true,
+          "currentFrameComposition": true
+        },
+        {
+          "name": "disabled",
+          "passed": true,
+          "probe": {
+            "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x64\\disabled\\probe_verification.json",
+            "sha256": "0ec4e3e1888885115cba6d9c1c6a35d11d7c40a0bd4081affb3c1fbdde02a5e7"
+          },
+          "runtimeLog": {
+            "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x64\\disabled\\rtx-remix\\logs\\remix-dxvk.log",
+            "sha256": "f715ebbfffad464c3b0c73681cda4fadacb0eb76a329724cc26440eefe983d60"
+          },
+          "callbackCompletion": {
+            "event": "callbacks_completed",
+            "probeRecorded": 1,
+            "probeCompleted": 1,
+            "compositionRecorded": 0,
+            "compositionCompleted": 0,
+            "complete": true
+          },
+          "frame": 1,
+          "cpuGeometry": {
+            "passed": true,
+            "cpuHitCount": 6452,
+            "gpuHitCount": 6435,
+            "cpuBounds": [
+              531,
+              533,
+              1016,
+              579
+            ],
+            "gpuBounds": [
+              531,
+              533,
+              1016,
+              579
+            ],
+            "silhouetteIoU": 0.9973651580905145,
+            "allowedSilhouetteEdgePixels": 1,
+            "interiorDepthSamples": 5812,
+            "maximumInteriorDepthError": 0.00034822397992684273,
+            "depthTolerance": "0.0005 + abs(cpuLinearZ) * 2e-5",
+            "nearestTrianglesTwoSided": true
+          },
+          "radianceNonzeroObserved": true,
+          "currentFrameComposition": false
+        },
+        {
+          "name": "invalid_roi",
+          "passed": true,
+          "probe": {
+            "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x64\\invalid_roi\\probe_verification.json",
+            "sha256": "e48848e900e4c9bd61498f6f2068406adbd447f83be95bc55e30d17dbf11c924"
+          },
+          "runtimeLog": {
+            "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x64\\invalid_roi\\rtx-remix\\logs\\remix-dxvk.log",
+            "sha256": "2270677b01d70d278f68a7b0b1802e0a63e8207b22682b98316bd36427638816"
+          },
+          "callbackCompletion": {
+            "event": "callbacks_completed",
+            "probeRecorded": 1,
+            "probeCompleted": 1,
+            "compositionRecorded": 0,
+            "compositionCompleted": 0,
+            "complete": true
+          },
+          "frame": 1,
+          "cpuGeometry": {
+            "passed": true,
+            "cpuHitCount": 6452,
+            "gpuHitCount": 6435,
+            "cpuBounds": [
+              531,
+              533,
+              1016,
+              579
+            ],
+            "gpuBounds": [
+              531,
+              533,
+              1016,
+              579
+            ],
+            "silhouetteIoU": 0.9973651580905145,
+            "allowedSilhouetteEdgePixels": 1,
+            "interiorDepthSamples": 5812,
+            "maximumInteriorDepthError": 0.00034822397992684273,
+            "depthTolerance": "0.0005 + abs(cpuLinearZ) * 2e-5",
+            "nearestTrianglesTwoSided": true
+          },
+          "radianceNonzeroObserved": true,
+          "currentFrameComposition": false
+        },
+        {
+          "name": "absent_initial",
+          "passed": true,
+          "probe": {
+            "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x64\\absent_initial\\probe_verification.json",
+            "sha256": "7fb419246132f03d74c09de97007f9593b8a39df435c225e62c4b96b4b64d8ac"
+          },
+          "runtimeLog": {
+            "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x64\\absent_initial\\rtx-remix\\logs\\remix-dxvk.log",
+            "sha256": "da9eab51d9358f37a5fffa02d3254b3187412b093e1604e3f5b8ddf9a36d9271"
+          },
+          "callbackCompletion": {
+            "event": "callbacks_completed",
+            "probeRecorded": 1,
+            "probeCompleted": 1,
+            "compositionRecorded": 1,
+            "compositionCompleted": 1,
+            "complete": true
+          },
+          "frame": 2,
+          "cpuGeometry": {
+            "passed": true,
+            "cpuHitCount": 6449,
+            "gpuHitCount": 6438,
+            "cpuBounds": [
+              531,
+              533,
+              1016,
+              579
+            ],
+            "gpuBounds": [
+              531,
+              533,
+              1016,
+              579
+            ],
+            "silhouetteIoU": 0.9982943091952241,
+            "allowedSilhouetteEdgePixels": 1,
+            "interiorDepthSamples": 5810,
+            "maximumInteriorDepthError": 0.0003979244106631086,
+            "depthTolerance": "0.0005 + abs(cpuLinearZ) * 2e-5",
+            "nearestTrianglesTwoSided": true
+          },
+          "radianceNonzeroObserved": true,
+          "composition": {
+            "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x64\\absent_initial\\composition_verification.json",
+            "sha256": "07163f0b2af6d3c32c595aa8e25ab04e36af2e8d6634775f2acca80ebd272143"
+          },
+          "outsideRoiChangedPixels": 0,
+          "insideRoiChangedPixels": 164000,
+          "cpuPanelMaximumByteDifference": 1,
+          "originalsPreserved": 4,
+          "gpuCompleted": true,
+          "currentFrameComposition": true
+        },
+        {
+          "name": "mutated_initial",
+          "passed": true,
+          "probe": {
+            "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x64\\mutated_initial\\probe_verification.json",
+            "sha256": "13342e51cd7722d15ad1d87d0a20e2016286a347ae5a39396daad948f3419bc0"
+          },
+          "runtimeLog": {
+            "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x64\\mutated_initial\\rtx-remix\\logs\\remix-dxvk.log",
+            "sha256": "cb4eb1cc8f9ec0aa36c0c2386e8c4c9554f70ff6fa5c5fe16f4e4f79792484de"
+          },
+          "callbackCompletion": {
+            "event": "callbacks_completed",
+            "probeRecorded": 1,
+            "probeCompleted": 1,
+            "compositionRecorded": 1,
+            "compositionCompleted": 1,
+            "complete": true
+          },
+          "frame": 2,
+          "cpuGeometry": {
+            "passed": true,
+            "cpuHitCount": 6449,
+            "gpuHitCount": 6438,
+            "cpuBounds": [
+              531,
+              533,
+              1016,
+              579
+            ],
+            "gpuBounds": [
+              531,
+              533,
+              1016,
+              579
+            ],
+            "silhouetteIoU": 0.9982943091952241,
+            "allowedSilhouetteEdgePixels": 1,
+            "interiorDepthSamples": 5810,
+            "maximumInteriorDepthError": 0.0003979244106631086,
+            "depthTolerance": "0.0005 + abs(cpuLinearZ) * 2e-5",
+            "nearestTrianglesTwoSided": true
+          },
+          "radianceNonzeroObserved": true,
+          "composition": {
+            "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x64\\mutated_initial\\composition_verification.json",
+            "sha256": "7144b638b338f28b7416efbd38c09837950e9f653e29c45335b3c78d64ffde67"
+          },
+          "outsideRoiChangedPixels": 0,
+          "insideRoiChangedPixels": 164000,
+          "cpuPanelMaximumByteDifference": 1,
+          "originalsPreserved": 4,
+          "gpuCompleted": true,
+          "currentFrameComposition": true
+        },
+        {
+          "name": "duplicate_initial",
+          "passed": true,
+          "probe": {
+            "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x64\\duplicate_initial\\probe_verification.json",
+            "sha256": "e5c891fcffffe1c4c9f02e9cbfa1b80a0277580259ff9c1b84b31a605e5cf05a"
+          },
+          "runtimeLog": {
+            "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x64\\duplicate_initial\\rtx-remix\\logs\\remix-dxvk.log",
+            "sha256": "0b450544209fe120807aa471e45ff36763597de1f41a7c2c9bc62e76c948e77a"
+          },
+          "callbackCompletion": {
+            "event": "callbacks_completed",
+            "probeRecorded": 1,
+            "probeCompleted": 1,
+            "compositionRecorded": 1,
+            "compositionCompleted": 1,
+            "complete": true
+          },
+          "frame": 2,
+          "cpuGeometry": {
+            "passed": true,
+            "cpuHitCount": 6449,
+            "gpuHitCount": 6438,
+            "cpuBounds": [
+              531,
+              533,
+              1016,
+              579
+            ],
+            "gpuBounds": [
+              531,
+              533,
+              1016,
+              579
+            ],
+            "silhouetteIoU": 0.9982943091952241,
+            "allowedSilhouetteEdgePixels": 1,
+            "interiorDepthSamples": 5810,
+            "maximumInteriorDepthError": 0.0003979244106631086,
+            "depthTolerance": "0.0005 + abs(cpuLinearZ) * 2e-5",
+            "nearestTrianglesTwoSided": true
+          },
+          "radianceNonzeroObserved": true,
+          "composition": {
+            "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x64\\duplicate_initial\\composition_verification.json",
+            "sha256": "7d3ea71da47a28fa0edf9fa290d8de8cb558bd143e26ac691dc578fae26ff2f1"
+          },
+          "outsideRoiChangedPixels": 0,
+          "insideRoiChangedPixels": 164000,
+          "cpuPanelMaximumByteDifference": 1,
+          "originalsPreserved": 4,
+          "gpuCompleted": true,
+          "currentFrameComposition": true
+        },
+        {
+          "name": "absent_after",
+          "passed": true,
+          "probe": {
+            "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x64\\absent_after\\probe_verification.json",
+            "sha256": "b0c93b9313ff64af87053c47a4a6e036cf3589a8197dfafa01bdfaac98f42cd0"
+          },
+          "runtimeLog": {
+            "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x64\\absent_after\\rtx-remix\\logs\\remix-dxvk.log",
+            "sha256": "9ac8d182cb106b622968ac17a7b7b8caf640e0de8ad768ace9435d1b2fe9180f"
+          },
+          "callbackCompletion": {
+            "event": "callbacks_completed",
+            "probeRecorded": 1,
+            "probeCompleted": 1,
+            "compositionRecorded": 1,
+            "compositionCompleted": 1,
+            "complete": true
+          },
+          "frame": 1,
+          "cpuGeometry": {
+            "passed": true,
+            "cpuHitCount": 6452,
+            "gpuHitCount": 6435,
+            "cpuBounds": [
+              531,
+              533,
+              1016,
+              579
+            ],
+            "gpuBounds": [
+              531,
+              533,
+              1016,
+              579
+            ],
+            "silhouetteIoU": 0.9973651580905145,
+            "allowedSilhouetteEdgePixels": 1,
+            "interiorDepthSamples": 5812,
+            "maximumInteriorDepthError": 0.00034822397992684273,
+            "depthTolerance": "0.0005 + abs(cpuLinearZ) * 2e-5",
+            "nearestTrianglesTwoSided": true
+          },
+          "radianceNonzeroObserved": true,
+          "composition": {
+            "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x64\\absent_after\\composition_verification.json",
+            "sha256": "5c2dfc1563fa066939cda82f9584ceb1ceef01c0aed5d267c8728f5f89821014"
+          },
+          "outsideRoiChangedPixels": 0,
+          "insideRoiChangedPixels": 164000,
+          "cpuPanelMaximumByteDifference": 1,
+          "originalsPreserved": 4,
+          "gpuCompleted": true,
+          "currentFrameComposition": true
+        },
+        {
+          "name": "reset_after",
+          "passed": true,
+          "probe": {
+            "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x64\\reset_after\\probe_verification.json",
+            "sha256": "46e18b8132ee70817f09eb18d852ac52fe49662384c86f63ef6a84fbe05e1930"
+          },
+          "runtimeLog": {
+            "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x64\\reset_after\\rtx-remix\\logs\\remix-dxvk.log",
+            "sha256": "b253422b57f70075ed2b97816a299d93bc9d432cfb3f5a0ec7186194dd81636e"
+          },
+          "callbackCompletion": {
+            "event": "callbacks_completed",
+            "probeRecorded": 1,
+            "probeCompleted": 1,
+            "compositionRecorded": 1,
+            "compositionCompleted": 1,
+            "complete": true
+          },
+          "frame": 1,
+          "cpuGeometry": {
+            "passed": true,
+            "cpuHitCount": 6452,
+            "gpuHitCount": 6435,
+            "cpuBounds": [
+              531,
+              533,
+              1016,
+              579
+            ],
+            "gpuBounds": [
+              531,
+              533,
+              1016,
+              579
+            ],
+            "silhouetteIoU": 0.9973651580905145,
+            "allowedSilhouetteEdgePixels": 1,
+            "interiorDepthSamples": 5812,
+            "maximumInteriorDepthError": 0.00034822397992684273,
+            "depthTolerance": "0.0005 + abs(cpuLinearZ) * 2e-5",
+            "nearestTrianglesTwoSided": true
+          },
+          "radianceNonzeroObserved": true,
+          "composition": {
+            "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x64\\reset_after\\composition_verification.json",
+            "sha256": "530a09b29c780ea64f5142f2443b139a686d47e06dd48b3fc12e1359dcd65fec"
+          },
+          "outsideRoiChangedPixels": 0,
+          "insideRoiChangedPixels": 164000,
+          "cpuPanelMaximumByteDifference": 1,
+          "originalsPreserved": 4,
+          "gpuCompleted": true,
+          "currentFrameComposition": true
+        },
+        {
+          "name": "nonidentity_gamma",
+          "passed": true,
+          "probe": {
+            "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x64\\nonidentity_gamma\\probe_verification.json",
+            "sha256": "1b0bcea215e90271ab3fd479ec18c483d200c41fe734993c837c5eb1bb2d9b17"
+          },
+          "runtimeLog": {
+            "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x64\\nonidentity_gamma\\rtx-remix\\logs\\remix-dxvk.log",
+            "sha256": "6ed958301f60449dce448bad9ba0b2b5054f76eb610114515184781b2ecf190e"
+          },
+          "callbackCompletion": {
+            "event": "callbacks_completed",
+            "probeRecorded": 1,
+            "probeCompleted": 1,
+            "compositionRecorded": 0,
+            "compositionCompleted": 0,
+            "complete": true
+          },
+          "frame": 1,
+          "cpuGeometry": {
+            "passed": true,
+            "cpuHitCount": 6452,
+            "gpuHitCount": 6435,
+            "cpuBounds": [
+              531,
+              533,
+              1016,
+              579
+            ],
+            "gpuBounds": [
+              531,
+              533,
+              1016,
+              579
+            ],
+            "silhouetteIoU": 0.9973651580905145,
+            "allowedSilhouetteEdgePixels": 1,
+            "interiorDepthSamples": 5812,
+            "maximumInteriorDepthError": 0.00034822397992684273,
+            "depthTolerance": "0.0005 + abs(cpuLinearZ) * 2e-5",
+            "nearestTrianglesTwoSided": true
+          },
+          "radianceNonzeroObserved": true,
+          "currentFrameComposition": false
+        },
+        {
+          "name": "partial_present",
+          "passed": true,
+          "probe": {
+            "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x64\\partial_present\\probe_verification.json",
+            "sha256": "c33335798fd4a1c3a01daba6f5225226818db19d5b03ba383c230041f9486c08"
+          },
+          "runtimeLog": {
+            "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x64\\partial_present\\rtx-remix\\logs\\remix-dxvk.log",
+            "sha256": "93b1e21b8a190ad8ef3b79f6a6a204ee03fc7c5cb5fb5ee3c4aa005ebaa77450"
+          },
+          "callbackCompletion": {
+            "event": "callbacks_completed",
+            "probeRecorded": 1,
+            "probeCompleted": 1,
+            "compositionRecorded": 0,
+            "compositionCompleted": 0,
+            "complete": true
+          },
+          "frame": 1,
+          "cpuGeometry": {
+            "passed": true,
+            "cpuHitCount": 6452,
+            "gpuHitCount": 6435,
+            "cpuBounds": [
+              531,
+              533,
+              1016,
+              579
+            ],
+            "gpuBounds": [
+              531,
+              533,
+              1016,
+              579
+            ],
+            "silhouetteIoU": 0.9973651580905145,
+            "allowedSilhouetteEdgePixels": 1,
+            "interiorDepthSamples": 5812,
+            "maximumInteriorDepthError": 0.00034822397992684273,
+            "depthTolerance": "0.0005 + abs(cpuLinearZ) * 2e-5",
+            "nearestTrianglesTwoSided": true
+          },
+          "radianceNonzeroObserved": true,
+          "currentFrameComposition": false
+        }
+      ]
+    },
+    {
+      "architecture": "x86",
+      "passed": true,
+      "caseCount": 6,
+      "matrix": {
+        "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x86\\matrix_verification.json",
+        "sha256": "db6404bbb7b4fb089e4f0faa6fb813ccaedb87840decee56f0b0b601bc6e360e"
+      },
+      "cases": [
+        {
+          "name": "positive_camera0",
+          "passed": true,
+          "probe": {
+            "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x86\\positive_camera0\\probe_verification.json",
+            "sha256": "b23a584e80b0ae744bf8794d78a2f5ad32b3d172df0921b92e2e27617a5e7779"
+          },
+          "runtimeLog": {
+            "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x86\\positive_camera0\\rtx-remix\\logs\\remix-dxvk.log",
+            "sha256": "752419ec61de89adb4f128d09fd1597bfde2bd8bcaf0c141d56f7001128afa3e"
+          },
+          "callbackCompletion": {
+            "event": "callbacks_completed",
+            "probeRecorded": 1,
+            "probeCompleted": 1,
+            "compositionRecorded": 1,
+            "compositionCompleted": 1,
+            "complete": true
+          },
+          "frame": 1,
+          "cpuGeometry": {
+            "passed": true,
+            "cpuHitCount": 6452,
+            "gpuHitCount": 6435,
+            "cpuBounds": [
+              531,
+              533,
+              1016,
+              579
+            ],
+            "gpuBounds": [
+              531,
+              533,
+              1016,
+              579
+            ],
+            "silhouetteIoU": 0.9973651580905145,
+            "allowedSilhouetteEdgePixels": 1,
+            "interiorDepthSamples": 5812,
+            "maximumInteriorDepthError": 0.00034822397992684273,
+            "depthTolerance": "0.0005 + abs(cpuLinearZ) * 2e-5",
+            "nearestTrianglesTwoSided": true
+          },
+          "radianceNonzeroObserved": true,
+          "composition": {
+            "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x86\\positive_camera0\\composition_verification.json",
+            "sha256": "136d9d2e36b8d7d0a55bb07f51394868cd51ae69e67d813802daaaddb9a07539"
+          },
+          "outsideRoiChangedPixels": 0,
+          "insideRoiChangedPixels": 164000,
+          "cpuPanelMaximumByteDifference": 1,
+          "originalsPreserved": 4,
+          "gpuCompleted": true,
+          "currentFrameComposition": true
+        },
+        {
+          "name": "positive_camera1",
+          "passed": true,
+          "probe": {
+            "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x86\\positive_camera1\\probe_verification.json",
+            "sha256": "7bc105d9045834d4c5e33988894f4ba80cc6d668dd2e0b0439135c55034b3d6f"
+          },
+          "runtimeLog": {
+            "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x86\\positive_camera1\\rtx-remix\\logs\\remix-dxvk.log",
+            "sha256": "e83af879be4b101756f3a01126048926304c1d04aa7b97e9258c6146d4903e21"
+          },
+          "callbackCompletion": {
+            "event": "callbacks_completed",
+            "probeRecorded": 1,
+            "probeCompleted": 1,
+            "compositionRecorded": 1,
+            "compositionCompleted": 1,
+            "complete": true
+          },
+          "frame": 1,
+          "cpuGeometry": {
+            "passed": true,
+            "cpuHitCount": 6449,
+            "gpuHitCount": 6438,
+            "cpuBounds": [
+              531,
+              533,
+              1016,
+              579
+            ],
+            "gpuBounds": [
+              531,
+              533,
+              1016,
+              579
+            ],
+            "silhouetteIoU": 0.9982943091952241,
+            "allowedSilhouetteEdgePixels": 1,
+            "interiorDepthSamples": 5810,
+            "maximumInteriorDepthError": 0.0003979244106631086,
+            "depthTolerance": "0.0005 + abs(cpuLinearZ) * 2e-5",
+            "nearestTrianglesTwoSided": true
+          },
+          "radianceNonzeroObserved": true,
+          "composition": {
+            "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x86\\positive_camera1\\composition_verification.json",
+            "sha256": "974cbfcf4cf95022c62ac2c98bf64b765d811b4d6029fce243cc41a842f406c3"
+          },
+          "outsideRoiChangedPixels": 0,
+          "insideRoiChangedPixels": 164000,
+          "cpuPanelMaximumByteDifference": 1,
+          "originalsPreserved": 4,
+          "gpuCompleted": true,
+          "currentFrameComposition": true
+        },
+        {
+          "name": "positive_camera2",
+          "passed": true,
+          "probe": {
+            "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x86\\positive_camera2\\probe_verification.json",
+            "sha256": "ed6671b944a006084d0562102a19203e2550a77fffa5cad7aec841844824b39c"
+          },
+          "runtimeLog": {
+            "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x86\\positive_camera2\\rtx-remix\\logs\\remix-dxvk.log",
+            "sha256": "d513ef3fa7c49a9949bfc43be9c624c8001a896863baf2475196d2abd528499a"
+          },
+          "callbackCompletion": {
+            "event": "callbacks_completed",
+            "probeRecorded": 1,
+            "probeCompleted": 1,
+            "compositionRecorded": 1,
+            "compositionCompleted": 1,
+            "complete": true
+          },
+          "frame": 1,
+          "cpuGeometry": {
+            "passed": true,
+            "cpuHitCount": 6924,
+            "gpuHitCount": 6895,
+            "cpuBounds": [
+              278,
+              597,
+              789,
+              644
+            ],
+            "gpuBounds": [
+              278,
+              597,
+              789,
+              644
+            ],
+            "silhouetteIoU": 0.9958116695551704,
+            "allowedSilhouetteEdgePixels": 1,
+            "interiorDepthSamples": 6254,
+            "maximumInteriorDepthError": 0.00036644926080953155,
+            "depthTolerance": "0.0005 + abs(cpuLinearZ) * 2e-5",
+            "nearestTrianglesTwoSided": true
+          },
+          "radianceNonzeroObserved": true,
+          "composition": {
+            "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x86\\positive_camera2\\composition_verification.json",
+            "sha256": "1c3f107540bb176c4d1b91c822f23596a41f21a76ccbf17501ccf061103a885a"
+          },
+          "outsideRoiChangedPixels": 0,
+          "insideRoiChangedPixels": 164000,
+          "cpuPanelMaximumByteDifference": 1,
+          "originalsPreserved": 4,
+          "gpuCompleted": true,
+          "currentFrameComposition": true
+        },
+        {
+          "name": "disabled",
+          "passed": true,
+          "probe": {
+            "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x86\\disabled\\probe_verification.json",
+            "sha256": "c0def64c65c7663aee74f7a0d14c55d8c278c5770e85efb0c7a921cc7c5e642e"
+          },
+          "runtimeLog": {
+            "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x86\\disabled\\rtx-remix\\logs\\remix-dxvk.log",
+            "sha256": "5b8d0e4a90b0c20a16d8f6cc3881d0e997006e3779fc318f23936b528c8a0fc5"
+          },
+          "callbackCompletion": {
+            "event": "callbacks_completed",
+            "probeRecorded": 1,
+            "probeCompleted": 1,
+            "compositionRecorded": 0,
+            "compositionCompleted": 0,
+            "complete": true
+          },
+          "frame": 1,
+          "cpuGeometry": {
+            "passed": true,
+            "cpuHitCount": 6452,
+            "gpuHitCount": 6435,
+            "cpuBounds": [
+              531,
+              533,
+              1016,
+              579
+            ],
+            "gpuBounds": [
+              531,
+              533,
+              1016,
+              579
+            ],
+            "silhouetteIoU": 0.9973651580905145,
+            "allowedSilhouetteEdgePixels": 1,
+            "interiorDepthSamples": 5812,
+            "maximumInteriorDepthError": 0.00034822397992684273,
+            "depthTolerance": "0.0005 + abs(cpuLinearZ) * 2e-5",
+            "nearestTrianglesTwoSided": true
+          },
+          "radianceNonzeroObserved": true,
+          "currentFrameComposition": false
+        },
+        {
+          "name": "absent_initial",
+          "passed": true,
+          "probe": {
+            "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x86\\absent_initial\\probe_verification.json",
+            "sha256": "380f7b11dee4b9e50952bf9bd72eaece5ed682005fe8fdf8b06e5a790e48e7df"
+          },
+          "runtimeLog": {
+            "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x86\\absent_initial\\rtx-remix\\logs\\remix-dxvk.log",
+            "sha256": "e6f8c77eccd9382e5a6019fe5f4c38acf4ce770e238402299a424afac4f23b56"
+          },
+          "callbackCompletion": {
+            "event": "callbacks_completed",
+            "probeRecorded": 1,
+            "probeCompleted": 1,
+            "compositionRecorded": 1,
+            "compositionCompleted": 1,
+            "complete": true
+          },
+          "frame": 2,
+          "cpuGeometry": {
+            "passed": true,
+            "cpuHitCount": 6449,
+            "gpuHitCount": 6438,
+            "cpuBounds": [
+              531,
+              533,
+              1016,
+              579
+            ],
+            "gpuBounds": [
+              531,
+              533,
+              1016,
+              579
+            ],
+            "silhouetteIoU": 0.9982943091952241,
+            "allowedSilhouetteEdgePixels": 1,
+            "interiorDepthSamples": 5810,
+            "maximumInteriorDepthError": 0.0003979244106631086,
+            "depthTolerance": "0.0005 + abs(cpuLinearZ) * 2e-5",
+            "nearestTrianglesTwoSided": true
+          },
+          "radianceNonzeroObserved": true,
+          "composition": {
+            "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x86\\absent_initial\\composition_verification.json",
+            "sha256": "dd06a4cc8c7c32da4be4f605e02fb1f6af574c39c8d5336bbd10d4f5c0f3d380"
+          },
+          "outsideRoiChangedPixels": 0,
+          "insideRoiChangedPixels": 164000,
+          "cpuPanelMaximumByteDifference": 1,
+          "originalsPreserved": 4,
+          "gpuCompleted": true,
+          "currentFrameComposition": true
+        },
+        {
+          "name": "reset_after",
+          "passed": true,
+          "probe": {
+            "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x86\\reset_after\\probe_verification.json",
+            "sha256": "fdabd8cd5229b99aae03bbb6c72e5b0b914dc1e9793d0ea8f235a80ef2beccbc"
+          },
+          "runtimeLog": {
+            "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x86\\reset_after\\rtx-remix\\logs\\remix-dxvk.log",
+            "sha256": "89c910d4b9fbe7016ffb2986084c861fc897e06fd99bc99b9b9cf461b6da187f"
+          },
+          "callbackCompletion": {
+            "event": "callbacks_completed",
+            "probeRecorded": 1,
+            "probeCompleted": 1,
+            "compositionRecorded": 1,
+            "compositionCompleted": 1,
+            "complete": true
+          },
+          "frame": 1,
+          "cpuGeometry": {
+            "passed": true,
+            "cpuHitCount": 6452,
+            "gpuHitCount": 6435,
+            "cpuBounds": [
+              531,
+              533,
+              1016,
+              579
+            ],
+            "gpuBounds": [
+              531,
+              533,
+              1016,
+              579
+            ],
+            "silhouetteIoU": 0.9973651580905145,
+            "allowedSilhouetteEdgePixels": 1,
+            "interiorDepthSamples": 5812,
+            "maximumInteriorDepthError": 0.00034822397992684273,
+            "depthTolerance": "0.0005 + abs(cpuLinearZ) * 2e-5",
+            "nearestTrianglesTwoSided": true
+          },
+          "radianceNonzeroObserved": true,
+          "composition": {
+            "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x86\\reset_after\\composition_verification.json",
+            "sha256": "3ee6c2469b5fcd6787040cf0de3d384c24e48f32099e43fc484bc01492ad8e38"
+          },
+          "outsideRoiChangedPixels": 0,
+          "insideRoiChangedPixels": 164000,
+          "cpuPanelMaximumByteDifference": 1,
+          "originalsPreserved": 4,
+          "gpuCompleted": true,
+          "currentFrameComposition": true
+        }
+      ]
+    }
+  ],
+  "syncValidation": {
+    "globalPassed": false,
+    "baseline": {
+      "name": "disabled",
+      "result": {
+        "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-sync-baseline-x86\\disabled\\composition_case_result.json",
+        "sha256": "b813792b4ea3cd86d20bc8bdfbcc068231b2a8d92b379baeecbf98fbec85aae3"
+      },
+      "passed": false,
+      "runtimeLog": {
+        "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-sync-baseline-x86\\disabled\\rtx-remix\\logs\\remix-dxvk.log",
+        "sha256": "986677e43ad99d892a33b1ba435479ac2af9ed74f3af137f6bbdf4983dd21eb9"
+      },
+      "layerEnabled": true,
+      "syncDiagnosticsObserved": true,
+      "activationBannerObserved": false,
+      "errorCodes": [
+        "-1777306431",
+        "-1934215230",
+        "1349015333",
+        "1397510317",
+        "1544472022",
+        "861854874"
+      ],
+      "errorHeaderCount": 40,
+      "hazards": [
+        "vkCmdBuildAccelerationStructuresKHR(): WRITE_AFTER_WRITE hazard detected. vkCmdBuildAccelerationStructuresKHR writes to scratch buffer VkBuffer <handle>[BVH Scratch], which was previously written by another vkCmdBuildAccelerationStructuresKHR[InjectRTX::Build Scene] command. ",
+        "vkCmdPipelineBarrier(): WRITE_AFTER_WRITE hazard detected. vkCmdPipelineBarrier performs image layout transition on the VkImage <handle>[shadow terminator fix], which was previously written by vkCmdClearColorImage[InjectRTX]. ",
+        "vkCmdPipelineBarrier(): WRITE_AFTER_WRITE hazard detected. vkCmdPipelineBarrier performs image layout transition on the VkImage <handle>[shadow terminator fix], which was previously written by vkCmdClearColorImage[InjectRTX]. ",
+        "vkCmdPipelineBarrier(): WRITE_AFTER_WRITE hazard detected. vkCmdPipelineBarrier performs image layout transition on the VkImage <handle>[final output], which was previously written by vkCmdCopyImage[InjectRTX::PostFx Motion Blur]. "
+      ],
+      "queueSubmitInvalidationCount": 0,
+      "globalAuditFailureCount": 76
+    },
+    "postFix": [
+      {
+        "name": "positive_camera0",
+        "result": {
+          "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-sync-positive-x86\\positive_camera0\\composition_case_result.json",
+          "sha256": "9c41180c8dc8916f7dc8891169a57a65db96f97d33eff8379230e6443a5285f1"
+        },
+        "passed": false,
+        "runtimeLog": {
+          "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-sync-positive-x86\\positive_camera0\\rtx-remix\\logs\\remix-dxvk.log",
+          "sha256": "898c23068843b4346e4792633fcde3031bb6582cac306a2280653e41e4dd3403"
+        },
+        "layerEnabled": true,
+        "syncDiagnosticsObserved": true,
+        "activationBannerObserved": false,
+        "errorCodes": [
+          "-1777306431",
+          "-1934215230",
+          "1349015333",
+          "1397510317",
+          "1544472022",
+          "861854874"
+        ],
+        "errorHeaderCount": 41,
+        "hazards": [
+          "vkCmdBuildAccelerationStructuresKHR(): WRITE_AFTER_WRITE hazard detected. vkCmdBuildAccelerationStructuresKHR writes to scratch buffer VkBuffer <handle>[BVH Scratch], which was previously written by another vkCmdBuildAccelerationStructuresKHR[InjectRTX::Build Scene] command. ",
+          "vkCmdPipelineBarrier(): WRITE_AFTER_WRITE hazard detected. vkCmdPipelineBarrier performs image layout transition on the VkImage <handle>[shadow terminator fix], which was previously written by vkCmdClearColorImage[InjectRTX]. ",
+          "vkCmdPipelineBarrier(): WRITE_AFTER_WRITE hazard detected. vkCmdPipelineBarrier performs image layout transition on the VkImage <handle>[shadow terminator fix], which was previously written by vkCmdClearColorImage[InjectRTX]. ",
+          "vkCmdPipelineBarrier(): WRITE_AFTER_WRITE hazard detected. vkCmdPipelineBarrier performs image layout transition on the VkImage <handle>[final output], which was previously written by vkCmdCopyImage[InjectRTX::PostFx Motion Blur]. "
+        ],
+        "queueSubmitInvalidationCount": 0,
+        "globalAuditFailureCount": 78,
+        "errorCodesAbsentFromBaseline": [],
+        "hazardsAbsentFromBaseline": []
+      },
+      {
+        "name": "reset_after",
+        "result": {
+          "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-sync-reset-x86\\reset_after\\composition_case_result.json",
+          "sha256": "69e88396c67af6cc8fa05f034cfeb15791ae37616d11eba52d7bfd40de48712a"
+        },
+        "passed": false,
+        "runtimeLog": {
+          "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-sync-reset-x86\\reset_after\\rtx-remix\\logs\\remix-dxvk.log",
+          "sha256": "c9d85690039cae6040cdfc4c492476c644f8e2d5dc9450a4a458dac748589f48"
+        },
+        "layerEnabled": true,
+        "syncDiagnosticsObserved": true,
+        "activationBannerObserved": false,
+        "errorCodes": [
+          "-1777306431",
+          "-1934215230",
+          "1349015333",
+          "1397510317",
+          "1544472022",
+          "861854874"
+        ],
+        "errorHeaderCount": 54,
+        "hazards": [
+          "vkCmdBuildAccelerationStructuresKHR(): WRITE_AFTER_WRITE hazard detected. vkCmdBuildAccelerationStructuresKHR writes to scratch buffer VkBuffer <handle>[BVH Scratch], which was previously written by another vkCmdBuildAccelerationStructuresKHR[InjectRTX::Build Scene] command. ",
+          "vkCmdPipelineBarrier(): WRITE_AFTER_WRITE hazard detected. vkCmdPipelineBarrier performs image layout transition on the VkImage <handle>[shadow terminator fix], which was previously written by vkCmdClearColorImage[InjectRTX]. ",
+          "vkCmdPipelineBarrier(): WRITE_AFTER_WRITE hazard detected. vkCmdPipelineBarrier performs image layout transition on the VkImage <handle>[shadow terminator fix], which was previously written by vkCmdClearColorImage[InjectRTX]. ",
+          "vkCmdPipelineBarrier(): WRITE_AFTER_WRITE hazard detected. vkCmdPipelineBarrier performs image layout transition on the VkImage <handle>[final output], which was previously written by vkCmdCopyImage[InjectRTX::PostFx Motion Blur]. "
+        ],
+        "queueSubmitInvalidationCount": 0,
+        "globalAuditFailureCount": 104,
+        "errorCodesAbsentFromBaseline": [],
+        "hazardsAbsentFromBaseline": []
+      }
+    ],
+    "newDescriptorPoolLifetimeErrorRemoved": true,
+    "existingBaselineErrorsNotSuppressed": true
+  },
+  "automatedPythonTests": {
+    "passed": true,
+    "count": 115,
+    "log": {
+      "path": "D:\\EDF IA RTX REMIX\\analysis\\edf\\composition\\python_tests_postfix.log",
+      "sha256": "193d4d1bd8bd40dc744e656ffde4ad4dfcbe8f3b0f9fedb6550048964c128737"
+    }
+  },
+  "staticSourceContracts": {
+    "passed": true,
+    "count": 15,
+    "report": {
+      "path": "D:\\EDF IA RTX REMIX\\analysis\\edf\\composition\\source_audit.json",
+      "sha256": "e049113bba33ca3ac264771cfb5d21b663241261afbf4f492435aef85275d78e"
+    }
+  },
+  "deploymentAssertions": {
+    "passed": true,
+    "count": 34,
+    "report": {
+      "path": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf_composition_deployment_tests\\6afca7f7609c4de0a4199cae9c5d9e46\\deployment_verification.json",
+      "sha256": "2bf378fc78c90b974ae189ec30be406deb297d0cd5ed069e0edbf372ae95ce2c"
+    }
+  },
+  "integrity": {
+    "path": "D:\\EDF IA RTX REMIX\\analysis\\edf\\composition\\integrity.json",
+    "sha256": "12278bd0d49a308608ab3bf260750daf60b7dc7d5ed08f2223df0f561f7763b1"
+  },
+  "experimentalPackagePrepared": true,
+  "compositionExperimentApproved": false,
+  "actualEdfCompositionPending": true,
+  "presentationDisplayVerified": false,
+  "realtimePathTracingProven": false,
+  "spatialObjectReplacementProven": false,
+  "activeGameInstallTouched": false,
+  "syntheticReplayTextures": true,
+  "originalEdfShadersGeometryCamera": true,
+  "limits": [
+    "Khronos validation also rejects the composition-disabled baseline; no global Vulkan approval.",
+    "Readbacks verify completed GPU pixels, not physical display or EDF gameplay composition.",
+    "Depth/stencil is not bound or written by the compositor; full binary comparison is not implemented.",
+    "Only the exact mesh and one manually requested frame are supported."
+  ],
+  "rasterComparisons": [
+    {
+      "path": "D:\\EDF IA RTX REMIX\\analysis\\edf\\composition\\raster_comparison_retained_x64.json",
+      "sha256": "269bef37e5b67a497c653421bce5c30e24c9dfa6e4a3516b1bbe6456f9f4b8ac"
+    },
+    {
+      "path": "D:\\EDF IA RTX REMIX\\analysis\\edf\\composition\\raster_comparison_retained_x86.json",
+      "sha256": "029f8bb7272f55002714ecbd2dd833ac6eec86e80247c69d0eb52e823d1599f0"
+    }
+  ],
+  "previewImages": [
+    {
+      "path": "D:\\EDF IA RTX REMIX\\analysis\\edf\\composition\\images\\native_x64_camera0_panel.png",
+      "sha256": "1d6922511c88bf99a52100aa708a29dbdf92bc4f7de9da65fbb68986374dedfd"
+    },
+    {
+      "path": "D:\\EDF IA RTX REMIX\\analysis\\edf\\composition\\images\\native_x64_camera1_panel.png",
+      "sha256": "f0ccfaee0be552068f1d84a4721d7d25264f94c749268a0b632e6c261c6479c6"
+    },
+    {
+      "path": "D:\\EDF IA RTX REMIX\\analysis\\edf\\composition\\images\\native_x64_camera1_wsi_after.png",
+      "sha256": "23e5fe6bf26c0469ff470e27b7814002949e906051c2fdbdb0089dfcd8c42289"
+    },
+    {
+      "path": "D:\\EDF IA RTX REMIX\\analysis\\edf\\composition\\images\\native_x64_camera2_panel.png",
+      "sha256": "12ab4d5ffea0c07c406614811568cde6b2ca7431c5c495c55ffedb0fa428aa05"
+    }
+  ]
+}

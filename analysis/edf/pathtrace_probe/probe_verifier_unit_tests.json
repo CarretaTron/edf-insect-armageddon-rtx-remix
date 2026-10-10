@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "evidenceKind": "synthetic_verifier_tests",
+  "fixtureOnly": true,
+  "notGpuEvidence": true,
+  "passed": true,
+  "testsRun": 30,
+  "failed": 0,
+  "errors": 0,
+  "log": "D:/EDF IA RTX REMIX/analysis/edf/pathtrace_probe/probe_verifier_unit_tests.log",
+  "verifierSha256": "2dc1765278b358e67f87b570dfbaf9667df0045fd7fa77f5840e0f90090dd52d",
+  "testsSha256": "cb38cbcef57d1c5b5a2fd27e2c15b1c460e42d5bb14e068aab59d644c5da01ee"
+}

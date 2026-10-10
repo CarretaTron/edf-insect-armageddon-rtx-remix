@@ -1,0 +1,37 @@
+{
+  "schema": 1,
+  "files": [
+    {
+      "file": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x64\\absent_after\\verified-images\\request_1_frame_1_wsi_before.png",
+      "sha256": "d1dcdf1717d0da97c40fee306351128986c62f316a152a861cc026b3087edab8",
+      "source": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x64\\absent_after\\probe-output\\session_1791550718368955_35956\\edf_pt_request_1_frame_1_composition_wsi_before.bin",
+      "sourceSha256": "c18c9b5444af10d8824ca97230472dcd04d703a6d3358be2a4040bfc0980a63a"
+    },
+    {
+      "file": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x64\\absent_after\\verified-images\\request_1_frame_1_wsi_after.png",
+      "sha256": "4be41a2ea401e374e30ff29059c9de800d61ab4d093074b920ea0d37dfa7b946",
+      "source": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x64\\absent_after\\probe-output\\session_1791550718368955_35956\\edf_pt_request_1_frame_1_composition_wsi_after.bin",
+      "sourceSha256": "9d5d336bbe4b737d4734244d677a8cc4121a67378105c3c03875b3209583105e"
+    },
+    {
+      "file": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x64\\absent_after\\verified-images\\request_1_frame_1_expected_panel.png",
+      "sha256": "875c9d20e0246cd40e1da11ad31d39fe3e956dcb5c623266d4b2ee02e21491c6",
+      "source": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x64\\absent_after\\probe-output\\session_1791550718368955_35956\\edf_pt_request_1_frame_1_composition_expected_panel.bin",
+      "sourceSha256": "1c1af7926e8d383661864bd1e66e9e8424cd2292bf9f63c64e63eab430da3fe4"
+    },
+    {
+      "file": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x64\\absent_after\\verified-images\\request_1_frame_1_scratch_before.png",
+      "sha256": "aa83d9f1108cac86149b6341feeb414bd134206ff810993770070663def07d9c",
+      "source": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x64\\absent_after\\probe-output\\session_1791550718368955_35956\\edf_pt_request_1_frame_1_composition_scratch_before.bin",
+      "sourceSha256": "accc6a1df811fd4e64eba918d0fce1d2f95a46ec10e4fed1d78bfe9a7e6287f2"
+    },
+    {
+      "file": "D:\\EDF IA RTX REMIX\\runtime\\_build\\edf-composition-retained-x64\\absent_after\\verified-images\\request_1_frame_1_changed_pixels.png",
+      "sha256": "eb6152045fac00c6ef4f14b62161b1f829962220726c0f3794da49eec2381bd1",
+      "meaning": "Orange pixels have at least one different RGBA byte; black pixels are identical."
+    }
+  ],
+  "sourceInputsModified": false,
+  "presentationDisplayVerified": false,
+  "interpretation": "Raw GPU WSI readbacks, not desktop screenshots or scanout evidence."
+}
